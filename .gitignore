@@ -1,5 +1,6 @@
 # Secrets
 secrets.yaml
+.env
 
 # Home Assistant intern data
 .storage/

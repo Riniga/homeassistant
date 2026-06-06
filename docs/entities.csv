@@ -1,0 +1,413 @@
+entity_id,domain,friendly_name,state,unit,device_class,state_class
+alarm_control_panel.verisure_alarm,alarm_control_panel,Kök.Hub.Controller.Verisure,disarmed,,,
+automation.helg_natt,automation,Helg natt,on,,,
+automation.solnedgang,automation,Solnedgång,on,,,
+automation.soluppgang,automation,Soluppgång,on,,,
+automation.stang_av_fontanen,automation,Stäng av fontänen,off,,,
+automation.starta_fontanen,automation,Starta fontänen,off,,,
+automation.tand_led_vid_rorelse_i_matkallaren,automation,Tänd LED vid rörelse i matkällaren,on,,,
+automation.temperaturplan_felix_rum,automation,Temperaturplan Felix rum,on,,,
+automation.turn_led_strip_off_if_no_motion_for_1_minut,automation,Släck LED om ingen rörelse i en minut i matkällaren,on,,,
+automation.tvattstuga_ventilation_absolut_fuktighet,automation,Tvättstuga ventilation absolut fuktighet,on,,,
+automation.vardag_morgon,automation,Vardag morgon,on,,,
+automation.vardag_natt,automation,Vardag natt,on,,,
+binary_sensor.altandorr_tv_rum_oppning,binary_sensor,Tv-rum.BinarySensor.Altandörr.Verisure Öppning,on,,opening,
+binary_sensor.altandorr_vardagsrum_oppning,binary_sensor,Vardagsrum.BinarySensor.Altandörr.Verisure Öppning,off,,opening,
+binary_sensor.chanti,binary_sensor,Chanti,on,,presence,
+binary_sensor.dorr_mediaskap_oppning,binary_sensor,Kök.BinarySensor.Mediaskåp.Verisure Öppning,off,,opening,
+binary_sensor.entre_oppning,binary_sensor,Groventre.BinarySensor.Ytterdörr.Verisure Öppning,off,,opening,
+binary_sensor.faret_shaun_online,binary_sensor,Fåret Shaun Online,on,,,
+binary_sensor.finentre_oppning,binary_sensor,Hall.BinarySensor.Ytterdörr.Verisure Öppning,off,,opening,
+binary_sensor.frys_dorr,binary_sensor,Kök.Vitvara.Frys.SmartThings Dörr,off,,door,
+binary_sensor.gardena_smart_system_connection,binary_sensor,Gardena Smart System connection,unavailable,,connectivity,
+binary_sensor.groventre_dorr,binary_sensor,Groventre.Lock.Ytterdörren.Yale Dörr,off,,door,
+binary_sensor.groventre_dorrklockan_ringer,binary_sensor,Groventre.Lock.Ytterdörren.Yale Dörrklockan ringer,off,,occupancy,
+binary_sensor.ipad_dmpf10mlntgr_focus,binary_sensor,iPad-DMPF10MLNTGR Focus,off,,,
+binary_sensor.irrigation_control_online,binary_sensor,Irrigation Control Online,unavailable,,,
+binary_sensor.katthub,binary_sensor,Kontor.Hub.SurePetcare,on,,connectivity,
+binary_sensor.kattlucka_connectivity,binary_sensor,Groventre.Lucka.SurePetcare Kattlucka  Connectivity,off,,connectivity,
+binary_sensor.kyl_dorr,binary_sensor,Kök.Vitvara.Kyl.SmartThings Dörr,off,,door,
+binary_sensor.mo_laddning,binary_sensor,Hall.Robot.Damsugaren.Roborock Laddning,on,,battery_charging,
+binary_sensor.mo_mopp_monterad,binary_sensor,Hall.Robot.Damsugaren.Roborock Mopp monterad,off,,connectivity,
+binary_sensor.mo_stadar,binary_sensor,Hall.Robot.Damsugaren.Roborock Städar,off,,running,
+binary_sensor.mo_vattenbehallare_monterad,binary_sensor,Hall.Robot.Damsugaren.Roborock Vattenbehållare monterad,on,,connectivity,
+binary_sensor.mo_vattenbrist,binary_sensor,Hall.Robot.Damsugaren.Roborock Vattenbrist,off,,problem,
+binary_sensor.netatamo_indoor_uppkoppling,binary_sensor,Tv-rum.Sensor.Klimat.Netatmo Anslutning,on,,connectivity,
+binary_sensor.panel_is_charging,binary_sensor,Panel Is Charging,off,,plug,
+binary_sensor.remote_ui,binary_sensor,Remote UI,on,,connectivity,
+binary_sensor.rpi_power_status,binary_sensor,RPi Power status,off,,problem,
+binary_sensor.semilon,binary_sensor,Semilon,on,,presence,
+binary_sensor.sensor_matkallaren_multisensor_rorelse,binary_sensor,Matkällaren.Sensor.Multisensor.SmartThings Rörelse,off,,motion,
+binary_sensor.sensor_matkallaren_multisensor_sabotage,binary_sensor,Matkällaren.Sensor.Multisensor.SmartThings Sabotage,off,,tamper,
+binary_sensor.sensor_sovrum_multisensor_rorelse,binary_sensor,Sovrum.Sensor.Multisensor.SmartThings Rörelse,off,,motion,
+binary_sensor.sensor_sovrum_multisensor_sabotage,binary_sensor,Sovrum.Sensor.Multisensor.SmartThings Sabotage,off,,tamper,
+binary_sensor.shiraz,binary_sensor,Shiraz,on,,presence,
+binary_sensor.unknown_70_ee_50_74_46_84_regnmatare_uppkoppling,binary_sensor,Utomhus.Sensor.Regnmätare.Netatmo Anslutning,on,,connectivity,
+binary_sensor.unknown_70_ee_50_74_46_84_utetemp_uppkoppling,binary_sensor,Utomhus.Sensor.Klimat.Netatmo Anslutning,on,,connectivity,
+binary_sensor.unknown_70_ee_50_74_46_84_vindmatare_uppkoppling,binary_sensor,Utomhus.Sensor.Vindmätare.Netatmo Anslutning,on,,connectivity,
+binary_sensor.ventilation_gynnsam,binary_sensor,Ventilation gynnsam,on,,,
+binary_sensor.verisure_alarm_ethernet_tillstand,binary_sensor,Kök.Hub.Controller.Verisure Ethernet tillstånd,on,,connectivity,
+binary_sensor.volvo_c40_backljus,binary_sensor,Utomhus.Car.VolovC40 Backljus,unknown,,problem,
+binary_sensor.volvo_c40_baklucka,binary_sensor,Utomhus.Car.VolovC40 Baklucka,off,,door,
+binary_sensor.volvo_c40_belysning_for_registreringsskylt,binary_sensor,Utomhus.Car.VolovC40 Belysning för registreringsskylt,off,,problem,
+binary_sensor.volvo_c40_blinker_bak_vanster,binary_sensor,Utomhus.Car.VolovC40 Blinker bak vänster,off,,problem,
+binary_sensor.volvo_c40_blinker_fram_hoger,binary_sensor,Utomhus.Car.VolovC40 Blinker fram höger,off,,problem,
+binary_sensor.volvo_c40_blinker_fram_vanster,binary_sensor,Utomhus.Car.VolovC40 Blinker fram vänster,off,,problem,
+binary_sensor.volvo_c40_blinkers_bak_hoger,binary_sensor,Utomhus.Car.VolovC40 Blinkers bak höger,off,,problem,
+binary_sensor.volvo_c40_bromsljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Bromsljus höger,off,,problem,
+binary_sensor.volvo_c40_bromsljus_mitten,binary_sensor,Utomhus.Car.VolovC40 Bromsljus mitten,off,,problem,
+binary_sensor.volvo_c40_bromsljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Bromsljus vänster,off,,problem,
+binary_sensor.volvo_c40_bromsvatska,binary_sensor,Utomhus.Car.VolovC40 Bromsvätska,off,,problem,
+binary_sensor.volvo_c40_dack_hoger_bak,binary_sensor,Utomhus.Car.VolovC40 Däck höger bak,unknown,,problem,
+binary_sensor.volvo_c40_dack_hoger_fram,binary_sensor,Utomhus.Car.VolovC40 Däck höger fram,unknown,,problem,
+binary_sensor.volvo_c40_dack_vanster_bak,binary_sensor,Utomhus.Car.VolovC40 Däck vänster bak,unknown,,problem,
+binary_sensor.volvo_c40_dack_vanster_fram,binary_sensor,Utomhus.Car.VolovC40 Däck vänster fram,unknown,,problem,
+binary_sensor.volvo_c40_dimljus_bak,binary_sensor,Utomhus.Car.VolovC40 Dimljus bak,off,,problem,
+binary_sensor.volvo_c40_dimljus_fram,binary_sensor,Utomhus.Car.VolovC40 Dimljus fram,off,,problem,
+binary_sensor.volvo_c40_dorr_hoger_bak,binary_sensor,Utomhus.Car.VolovC40 Dörr höger bak,off,,door,
+binary_sensor.volvo_c40_dorr_hoger_fram,binary_sensor,Utomhus.Car.VolovC40 Dörr höger fram,off,,door,
+binary_sensor.volvo_c40_dorr_vanster_bak,binary_sensor,Utomhus.Car.VolovC40 Dörr vänster bak,off,,door,
+binary_sensor.volvo_c40_dorr_vanster_fram,binary_sensor,Utomhus.Car.VolovC40 Dörr vänster fram,off,,door,
+binary_sensor.volvo_c40_fonster_hoger_bakdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster höger bakdörr,off,,window,
+binary_sensor.volvo_c40_fonster_hoger_framdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster höger framdörr,off,,window,
+binary_sensor.volvo_c40_fonster_vanster_bakdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster vänster bakdörr,off,,window,
+binary_sensor.volvo_c40_fonster_vanster_framdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster vänster framdörr,off,,window,
+binary_sensor.volvo_c40_halvljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Halvljus höger,off,,problem,
+binary_sensor.volvo_c40_halvljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Halvljus vänster,off,,problem,
+binary_sensor.volvo_c40_helljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Helljus höger,off,,problem,
+binary_sensor.volvo_c40_helljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Helljus vänster,off,,problem,
+binary_sensor.volvo_c40_kylvatskeniva,binary_sensor,Utomhus.Car.VolovC40 Kylvätskenivå,off,,problem,
+binary_sensor.volvo_c40_motorhuv,binary_sensor,Utomhus.Car.VolovC40 Motorhuv,off,,door,
+binary_sensor.volvo_c40_motorstatus,binary_sensor,Utomhus.Car.VolovC40 Motorstatus,off,,running,
+binary_sensor.volvo_c40_oljeniva,binary_sensor,Utomhus.Car.VolovC40 Oljenivå,off,,problem,
+binary_sensor.volvo_c40_positionsljus_bak_hoger,binary_sensor,Utomhus.Car.VolovC40 Positionsljus bak höger,off,,problem,
+binary_sensor.volvo_c40_positionsljus_bak_vanster,binary_sensor,Utomhus.Car.VolovC40 Positionsljus bak vänster,off,,problem,
+binary_sensor.volvo_c40_positionsljus_fram_hoger,binary_sensor,Utomhus.Car.VolovC40 Positionsljus fram höger,off,,problem,
+binary_sensor.volvo_c40_positionsljus_fram_vanster,binary_sensor,Utomhus.Car.VolovC40 Positionsljus fram vänster,off,,problem,
+binary_sensor.volvo_c40_sidomarkeringsljus,binary_sensor,Utomhus.Car.VolovC40 Sidomarkeringsljus,off,,problem,
+binary_sensor.volvo_c40_spolarvatska,binary_sensor,Utomhus.Car.VolovC40 Spolarvätska,off,,problem,
+binary_sensor.volvo_c40_taklucka,binary_sensor,Utomhus.Car.VolovC40 Taklucka,unknown,,window,
+binary_sensor.volvo_c40_tanklock,binary_sensor,Utomhus.Car.VolovC40 Tanklock,off,,door,
+binary_sensor.volvo_c40_varningsblinkers,binary_sensor,Utomhus.Car.VolovC40 Varningsblinkers,unknown,,problem,
+binary_sensor.volvo_c40_varselljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Varselljus höger,off,,problem,
+binary_sensor.volvo_c40_varselljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Varselljus vänster,off,,problem,
+binary_sensor.websocket_status_gardena_websocket_connected,binary_sensor,WebSocket Status Gardena WebSocket Connected,on,,connectivity,
+binary_sensor.zelda,binary_sensor,Zelda,off,,presence,
+button.faret_shaun_return_to_dock,button,Fåret Shaun Return to Dock,unavailable,,,
+button.faret_shaun_return_to_dock_2,button,Fåret Shaun Return to Dock,unknown,,,
+button.faret_shaun_start_mowing_now,button,Fåret Shaun Start Mowing Now,unknown,,,
+button.faret_shaun_start_override,button,Fåret Shaun Start Override,unavailable,,,
+button.groventre_vack,button,Groventre.Lock.Ytterdörren.Yale Väck,unknown,,,
+button.mo_full_cleaning,button,Hall.Robot.Damsugaren.Roborock Full Cleaning,unknown,,,
+button.utomhus_car_volovc40_blinka,button,Utomhus.Car.VolovC40 Blinka,unknown,,,
+button.utomhus_car_volovc40_tuta,button,Utomhus.Car.VolovC40 Tuta,unknown,,,
+button.utomhus_car_volovc40_tuta_och_blixtra,button,Utomhus.Car.VolovC40 Tuta och blixtra,unknown,,,
+button.volvo_c40_lock_reduced_guard,button,Utomhus.Car.VolovC40 Lock reduced guard,unknown,,,
+button.volvo_c40_starta_klimatiseringen,button,Utomhus.Car.VolovC40 Starta klimatiseringen,unknown,,,
+button.volvo_c40_stoppa_klimatiseringen,button,Utomhus.Car.VolovC40 Stoppa klimatiseringen,unknown,,,
+camera.camera_garage,camera,camera.garage,idle,,,
+camera.camera_garden,camera,camera.garden,idle,,,
+camera.hall_kallare,camera,Källarhall.Sensor.Camera.Verisure,idle,,,
+camera.tv_rum,camera,Tv-rum.Sensor.Camera.Verisure,idle,,,
+camera.vardagsrum,camera,Vardagsrum.Sensor.Camera.Verisure,idle,,,
+climate.termostat,climate,felix.climate.radiator.adax Felix radiator,heat,,,
+conversation.home_assistant,conversation,Home Assistant,unknown,,,
+device_tracker.ipad_dmpf10mlntgr,device_tracker,iPad-DMPF10MLNTGR,Hem,,,
+device_tracker.panel,device_tracker,Panel,unknown,,,
+device_tracker.rickard,device_tracker,Rickard,unknown,,,
+device_tracker.rickards_mobil,device_tracker,Rickard,Hem,,,
+device_tracker.volvo_c40_plats,device_tracker,Utomhus.Car.VolovC40 Plats,Hem,,,
+event.backup_automatisk_sakerhetskopiering,event,Backup Automatisk säkerhetskopiering,2026-06-01T03:24:05.360+00:00,,,
+event.groventre_dorrklocka,event,Groventre.Lock.Ytterdörren.Yale Dörrklocka,2026-05-22T21:53:37.478+00:00,,doorbell,
+event.hue_dimmer_switch_1_knapp_1,event,Hue dimmer switch 1 Knapp 1,2026-03-16T13:28:26.785+00:00,,button,
+event.hue_dimmer_switch_1_knapp_2,event,Hue dimmer switch 1 Knapp 2,2025-09-25T04:52:35.240+00:00,,button,
+event.hue_dimmer_switch_1_knapp_3,event,Hue dimmer switch 1 Knapp 3,unknown,,button,
+event.hue_dimmer_switch_1_knapp_4,event,Hue dimmer switch 1 Knapp 4,2025-09-25T04:52:36.267+00:00,,button,
+image.mo_badrum_kallaren,image,Hall.Robot.Damsugaren.Roborock Badrum källaren,2026-06-06T05:14:59.709971+00:00,,,
+image.mo_entreplan,image,Entreplan,unavailable,,,
+image.mo_ovanvaning,image,Hall.Robot.Damsugaren.Roborock Ovanvåning,2026-06-06T05:14:59.709971+00:00,,,
+lawn_mower.faret_shaun,lawn_mower,Utomhus.Robot.Gräsklippare.Gardena,unavailable,,,
+lawn_mower.faret_shaun_lawn_mower,lawn_mower,Fåret Shaun Lawn Mower,docked,,,
+light.hall,light,Hall.Lamp.Byrålampa.Hue,off,,,
+light.hallampa,light,Hall.Light.Byrolampa.Hue,off,,,
+light.hue_ambiance_lamp_1,light,Hue ambiance lamp 1,unavailable,,,
+light.hue_ambiance_lamp_2,light,Hue ambiance lamp 2,unavailable,,,
+light.konorslampa2,light,konorslampa2,unavailable,,,
+light.kontor,light,Kontor,on,,,
+light.kontorslampa,light,Kontorslampa,unavailable,,,
+light.ute,light,Ute,on,,,
+light.vagguttag_kattrum_tretakt,light,Kattrum.Outlet.Badrumsfläkt.SmartThings,off,,,
+light.vagguttag_vardagsrum_inspelning,light,Vardagsrum.Outlet.Skänklampa.SmartThings,on,,,
+lock.groventre,lock,Groventre.Lock.Ytterdörren.Yale,unlocked,,,
+lock.kattlucka_locked_all,lock,Groventre.Lucka.SurePetcare Kattlucka  locked all,unavailable,,,
+lock.kattlucka_locked_in,lock,Groventre.Lucka.SurePetcare Kattlucka  locked in,unavailable,,,
+lock.kattlucka_locked_out,lock,Groventre.Lucka.SurePetcare Kattlucka  locked out,unavailable,,,
+lock.volvo_c40_las,lock,Utomhus.Car.VolovC40 Lås,unlocked,,,
+media_player.badrum,media_player,,unavailable,,speaker,
+media_player.chromecast,media_player,Chromecast,off,,,
+media_player.familjerum,media_player,,unavailable,,,
+media_player.kok,media_player,Kök.MediaPlayer.Sonos,idle,,speaker,
+media_player.kontoret,media_player,,unavailable,,speaker,
+media_player.lg_webos_tv_oled55g36la,media_player,Tv-rum.Mediaspelare.TV.LGWebOS,unavailable,,tv,
+media_player.lg_webos_tv_oled55g36la_2,media_player,,unavailable,,,
+media_player.nestaudio8737,media_player,Vardagsrum,off,,speaker,
+media_player.nestmini0328,media_player,,unavailable,,speaker,
+media_player.nestmini2476,media_player,,unavailable,,speaker,
+media_player.nestmini3910,media_player,,unavailable,,speaker,
+media_player.nestmini7852,media_player,Bastun,off,,speaker,
+media_player.nestmini8159,media_player,,unavailable,,speaker,
+media_player.nestmini9141,media_player,,unavailable,,speaker,
+media_player.nestmini9941,media_player,,unavailable,,speaker,
+media_player.sovrum,media_player,Sovrum,paused,,,
+media_player.spotify_rickard_nisses_gagner,media_player,Cloud.MediaPlayer.Spotify,idle,,,
+media_player.tv,media_player,tv,unavailable,,,
+notify.ipad_dmpf10mlntgr,notify,iPad-DMPF10MLNTGR,unknown,,,
+notify.panel,notify,Panel,unknown,,,
+notify.rickard,notify,Rickard,unknown,,,
+notify.rickard_2,notify,Rickard,unknown,,,
+number.frys_maltemperatur,number,Kök.Vitvara.Frys.SmartThings Måltemperatur,-18,°C,temperature,
+number.irrigation_control_valve_1_watering_duration,number,Irrigation Control Valve 1 Watering Duration,unavailable,min,,
+number.irrigation_control_valve_2_watering_duration,number,Irrigation Control Valve 2 Watering Duration,unavailable,min,,
+number.irrigation_control_valve_3_watering_duration,number,Irrigation Control Valve 3 Watering Duration,unavailable,min,,
+number.irrigation_control_valve_4_watering_duration,number,Irrigation Control Valve 4 Watering Duration,unavailable,min,,
+number.irrigation_control_valve_5_watering_duration,number,Irrigation Control Valve 5 Watering Duration,unavailable,min,,
+number.irrigation_control_valve_6_watering_duration,number,Irrigation Control Valve 6 Watering Duration,unavailable,min,,
+number.kok_balance,number,Kök.MediaPlayer.Sonos Balans,0,,,
+number.kok_bass,number,Kök.MediaPlayer.Sonos Bas,0,,,
+number.kok_treble,number,Kök.MediaPlayer.Sonos Diskant,0,,,
+number.kyl_maltemperatur,number,Kök.Vitvara.Kyl.SmartThings Måltemperatur,4,°C,temperature,
+number.mo_volym,number,Hall.Robot.Damsugaren.Roborock Volym,90.0,%,,
+person.dashboard,person,Dashboard,unknown,,,
+person.mosquitto,person,Mosquitto,unknown,,,
+person.rickard,person,Rickard,Hem,,,
+scene.julbelysning,scene,Tänd skymningsbelysning,2026-06-05T19:48:51.235490+00:00,,,
+scene.kontor_glowing_grins,scene,Kontor Glowing grins,unknown,,,
+scene.kontor_gnistrande_sno,scene,Kontor Gnistrande snö,unknown,,,
+scene.slack_julbelysning_duplicera,scene,Släck skymningsbelysning,2026-06-06T02:25:44.934092+00:00,,,
+select.mo_moppintensitet,select,Hall.Robot.Damsugaren.Roborock Moppintensitet,custom,,,
+select.mo_mopplage,select,Hall.Robot.Damsugaren.Roborock Moppläge,custom,,,
+select.mo_vald_karta,select,Hall.Robot.Damsugaren.Roborock Vald karta,Ovanvåning,,,
+sensor.absolut_fuktighet_tvattstuga,sensor,Absolut fuktighet tvättstuga,12.3,g/m³,,
+sensor.absolut_fuktighet_ute,sensor,Absolut fuktighet ute,10.8,g/m³,,
+sensor.backup_nasta_schemalagda_automatiska_sakerhetskopiering,sensor,Backup Nästa schemalagda automatiska säkerhetskopiering,2026-06-08T02:45:28+00:00,,timestamp,
+sensor.backup_senaste_forsok_till_automatisk_sakerhetskopiering,sensor,Backup Senaste försök till automatisk säkerhetskopiering,2026-06-01T03:23:37+00:00,,timestamp,
+sensor.backup_senaste_lyckade_automatiska_sakerhetskopiering,sensor,Backup Senaste lyckade automatiska säkerhetskopiering,2026-06-01T03:24:05+00:00,,timestamp,
+sensor.backup_tillstand_for_sakerhetskopieringshanterare,sensor,Backup Tillstånd för säkerhetskopieringshanterare,idle,,enum,
+sensor.faret_shaun,sensor,Fåret Shaun,no_message,,enum,
+sensor.faret_shaun_battery_level,sensor,Fåret Shaun battery level,unavailable,%,battery,
+sensor.faret_shaun_battery_level_2,sensor,Fåret Shaun Battery Level,100,%,battery,measurement
+sensor.faret_shaun_operating_hours,sensor,Fåret Shaun Operating Hours,1873,h,duration,total_increasing
+sensor.faret_shaun_rf_link_quality,sensor,Fåret Shaun RF Link Quality,100,%,,measurement
+sensor.felix_luftfuktighet,sensor,Felix.Sensor.Klimat.Telldus Luftfuktighet,61,%,humidity,measurement
+sensor.felix_radiator_adax_energi,sensor,felix.climate.radiator.adax Energi,0.0,kWh,energy,total_increasing
+sensor.felix_radiator_adax_temperatur,sensor,felix.climate.radiator.adax Temperatur,20.41,°C,temperature,measurement
+sensor.felix_temperatur,sensor,Felix.Sensor.Klimat.Telldus Temperatur,23.3,°C,temperature,measurement
+sensor.frys_effekt,sensor,Kök.Vitvara.Frys.SmartThings Effekt,49,W,power,measurement
+sensor.frys_energi,sensor,Kök.Vitvara.Frys.SmartThings Energi,54.469,kWh,energy,total_increasing
+sensor.frys_energi_2,sensor,Kök.Vitvara.Frys.SmartThings Energi,0.0123399741655588,kWh,energy,total
+sensor.frys_energi_sparad,sensor,Kök.Vitvara.Frys.SmartThings Energi sparad,0.0,kWh,energy,total_increasing
+sensor.frys_energiskillnad,sensor,Kök.Vitvara.Frys.SmartThings Energiskillnad,0.013,kWh,energy,total
+sensor.frys_temperatur,sensor,Kök.Vitvara.Frys.SmartThings Temperatur,-18,°C,temperature,measurement
+sensor.groventre_batteri,sensor,Groventre.Lock.Ytterdörren.Yale Batteri,62,%,battery,measurement
+sensor.groventre_operator,sensor,Groventre.Lock.Ytterdörren.Yale Operatör,Jenny Lundberg ,,,
+sensor.hall_temperatur,sensor,Hall.Speaker.Röstenhet.Verisure Temperatur,22.5,°C,temperature,measurement
+sensor.hp_color_laser_mfp_178nw,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol,idle,,enum,
+sensor.hp_color_laser_mfp_178nw_black_toner_s_n_crum_190520a264b,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Black Toner_S/N_:CRUM-190520A264B,80,%,,measurement
+sensor.hp_color_laser_mfp_178nw_cyan_toner_s_n_crum_250819a581c,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Cyan Toner_S/N_:CRUM-250819A581C,90,%,,measurement
+sensor.hp_color_laser_mfp_178nw_magenta_toner_s_n_crum_250919a547c,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Magenta Toner_S/N_:CRUM-250919A547C,90,%,,measurement
+sensor.hp_color_laser_mfp_178nw_yellow_toner_s_n_crum_241218a6b03,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Yellow Toner_S/N_:CRUM-241218A6B03,70,%,,measurement
+sensor.hue_dimmer_switch_1_batteri,sensor,Hue dimmer switch 1 Batteri,4,%,battery,measurement
+sensor.ipad_dmpf10mlntgr_app_version,sensor,iPad-DMPF10MLNTGR App Version,2026.5.0,,,
+sensor.ipad_dmpf10mlntgr_audio_output,sensor,iPad-DMPF10MLNTGR Audio Output,Built-in Speaker,,,
+sensor.ipad_dmpf10mlntgr_battery_level,sensor,iPad-DMPF10MLNTGR Battery Level,45,%,battery,
+sensor.ipad_dmpf10mlntgr_battery_state,sensor,iPad-DMPF10MLNTGR Battery State,Charging,,,
+sensor.ipad_dmpf10mlntgr_bssid,sensor,iPad-DMPF10MLNTGR BSSID,f6:e2:c6:ee:2b:f5,,,
+sensor.ipad_dmpf10mlntgr_connection_type,sensor,iPad-DMPF10MLNTGR Connection Type,Wi-Fi,,,
+sensor.ipad_dmpf10mlntgr_geocoded_location,sensor,iPad-DMPF10MLNTGR Geocoded Location,"Siversgatan 13
+262 63 Ängelholm
+Sverige",,,
+sensor.ipad_dmpf10mlntgr_last_update_trigger,sensor,iPad-DMPF10MLNTGR Last Update Trigger,Background Fetch,,,
+sensor.ipad_dmpf10mlntgr_location_permission,sensor,iPad-DMPF10MLNTGR Location permission,Authorized Always,,,
+sensor.ipad_dmpf10mlntgr_sim_1,sensor,iPad-DMPF10MLNTGR SIM 1,--,,,
+sensor.ipad_dmpf10mlntgr_ssid,sensor,iPad-DMPF10MLNTGR SSID,Aether,,,
+sensor.ipad_dmpf10mlntgr_storage,sensor,iPad-DMPF10MLNTGR Storage,25.23,% available,,
+sensor.irrigation_control_rf_link_quality,sensor,Irrigation Control RF Link Quality,unavailable,%,,measurement
+sensor.irrigation_control_valve_1_watering_end,sensor,Irrigation Control Valve 1 Watering End,unavailable,,timestamp,
+sensor.irrigation_control_valve_2_watering_end,sensor,Irrigation Control Valve 2 Watering End,unavailable,,timestamp,
+sensor.irrigation_control_valve_3_watering_end,sensor,Irrigation Control Valve 3 Watering End,unavailable,,timestamp,
+sensor.irrigation_control_valve_4_watering_end,sensor,Irrigation Control Valve 4 Watering End,unavailable,,timestamp,
+sensor.irrigation_control_valve_5_watering_end,sensor,Irrigation Control Valve 5 Watering End,unavailable,,timestamp,
+sensor.irrigation_control_valve_6_watering_end,sensor,Irrigation Control Valve 6 Watering End,unavailable,,timestamp,
+sensor.kattlucka_battery_level,sensor,Groventre.Lucka.SurePetcare Kattlucka  Battery Level,0,%,battery,
+sensor.kyl_effekt,sensor,Kök.Vitvara.Kyl.SmartThings Effekt,1,W,power,measurement
+sensor.kyl_energi,sensor,Kök.Vitvara.Kyl.SmartThings Energi,24.927,kWh,energy,total_increasing
+sensor.kyl_energi_2,sensor,Kök.Vitvara.Kyl.SmartThings Energi,0.000260748333334923,kWh,energy,total
+sensor.kyl_energi_sparad,sensor,Kök.Vitvara.Kyl.SmartThings Energi sparad,0.0,kWh,energy,total_increasing
+sensor.kyl_energiskillnad,sensor,Kök.Vitvara.Kyl.SmartThings Energiskillnad,0.0,kWh,energy,total
+sensor.kyl_temperatur,sensor,Kök.Vitvara.Kyl.SmartThings Temperatur,4,°C,temperature,measurement
+sensor.mo_batteri,sensor,Hall.Robot.Damsugaren.Roborock Batteri,100,%,battery,
+sensor.mo_dock_tid_kvar_for_silen,sensor,Hall.Dockingstation.Damsugaren.Roborock Tid kvar för silen,150,h,duration,
+sensor.mo_dock_underhallsborste_tid_kvar,sensor,Hall.Dockingstation.Damsugaren.Roborock Underhållsborste tid kvar,300,h,duration,
+sensor.mo_fel_pa_dammsugaren,sensor,Hall.Robot.Damsugaren.Roborock Fel på dammsugaren,none,,enum,
+sensor.mo_filtertid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Filtertid kvar,-671605,s,duration,
+sensor.mo_huvudborste_tid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Huvudborste tid kvar,-131605,s,duration,
+sensor.mo_nuvarande_rum,sensor,Hall.Robot.Damsugaren.Roborock Nuvarande rum,Finentré,,enum,
+sensor.mo_sensortid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Sensortid kvar,-19709,s,duration,
+sensor.mo_sidoborste_tid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Sidoborste tid kvar,-491605,s,duration,
+sensor.mo_sluttid_for_senaste_stadningen,sensor,Hall.Robot.Damsugaren.Roborock Sluttid för senaste städningen,2026-06-04T13:33:39+00:00,,timestamp,
+sensor.mo_stadad_area,sensor,Hall.Robot.Damsugaren.Roborock Städad area,80.1,m²,,
+sensor.mo_stadning_status,sensor,Hall.Robot.Damsugaren.Roborock Städning status,0,%,,
+sensor.mo_stadtid,sensor,Hall.Robot.Damsugaren.Roborock Städtid,5537,s,duration,
+sensor.mo_starttid_for_senaste_stadningen,sensor,Hall.Robot.Damsugaren.Roborock Starttid för senaste städningen,2026-06-04T08:23:09+00:00,,timestamp,
+sensor.mo_status,sensor,Hall.Robot.Damsugaren.Roborock Status,charging,,enum,
+sensor.mo_total_stadtid,sensor,Hall.Robot.Damsugaren.Roborock Total städtid,1211212,s,duration,
+sensor.mo_totalt_antal_stadningar,sensor,Hall.Robot.Damsugaren.Roborock Totalt antal städningar,567,,,total_increasing
+sensor.mo_totalt_stadad_area,sensor,Hall.Robot.Damsugaren.Roborock Totalt städad area,16946.9,m²,,
+sensor.netatamo_indoor_co2,sensor,Tv-rum.Sensor.Klimat.Netatmo Koldioxid,628,ppm,carbon_dioxide,measurement
+sensor.netatamo_indoor_humidity,sensor,Tv-rum.Sensor.Klimat.Netatmo Luftfuktighet,56,%,humidity,measurement
+sensor.netatamo_indoor_noise,sensor,Tv-rum.Sensor.Klimat.Netatmo Buller,45,dB,sound_pressure,measurement
+sensor.netatamo_indoor_pressure,sensor,Tv-rum.Sensor.Klimat.Netatmo Lufttryck,1015.5,hPa,atmospheric_pressure,measurement
+sensor.netatamo_indoor_temperature,sensor,Tv-rum.Sensor.Klimat.Netatmo Temperatur,22.8,°C,temperature,measurement
+sensor.panel_battery_health,sensor,Panel Battery Health,good,,,
+sensor.panel_battery_level,sensor,Panel Battery Level,44,%,battery,measurement
+sensor.panel_battery_state,sensor,Panel Battery State,discharging,,,
+sensor.panel_battery_temperature,sensor,Panel Battery Temperature,23.0,°C,temperature,measurement
+sensor.panel_bluetooth_connection,sensor,Panel Bluetooth Connection,0,connection(s),,measurement
+sensor.panel_charger_type,sensor,Panel Charger Type,none,,,
+sensor.panel_detected_activity,sensor,Panel Detected Activity,still,,,
+sensor.panel_do_not_disturb_sensor,sensor,Panel Do Not Disturb Sensor,off,,,
+sensor.panel_internal_storage,sensor,Panel Internal Storage,3,%,,measurement
+sensor.panel_last_reboot,sensor,Panel Last Reboot,2023-11-07T12:16:05+00:00,,timestamp,
+sensor.panel_next_alarm,sensor,Panel Next Alarm,unavailable,,timestamp,
+sensor.panel_ringer_mode,sensor,Panel Ringer Mode,vibrate,,,
+sensor.rickard_battery_level,sensor,Rickard Battery level,94,%,battery,measurement
+sensor.rickard_battery_level_2,sensor,Rickard Battery level,91,%,battery,measurement
+sensor.rickard_battery_state,sensor,Rickard Battery state,discharging,,enum,
+sensor.rickard_battery_state_2,sensor,Rickard Battery state,discharging,,enum,
+sensor.rickard_charger_type,sensor,Rickard Charger type,none,,enum,
+sensor.rickard_charger_type_2,sensor,Rickard Charger type,none,,enum,
+sensor.sensor_kallarhall_rokdetektor_batteri,sensor,Källarhall.BinarySensor.Rök.SmartThings Batteri,75,%,battery,
+sensor.sensor_kallarhall_rokdetektor_rokdetektor,sensor,Källarhall.BinarySensor.Rök.SmartThings Rökdetektor,clear,,enum,
+sensor.sensor_kontor_luftkvalitet_luftfuktighet,sensor,Vardagsrum.Sensor.Klimat.Smarthings Luftfuktighet,56.0,%,humidity,measurement
+sensor.sensor_kontor_luftkvalitet_temperatur,sensor,Vardagsrum.Sensor.Klimat.Smarthings Temperatur,23.0,°C,temperature,measurement
+sensor.sensor_matkallaren_multisensor_batteri,sensor,Matkällaren.Sensor.Multisensor.SmartThings Batteri,100,%,battery,
+sensor.sensor_matkallaren_multisensor_belysningsstyrka,sensor,Matkällaren.Sensor.Multisensor.SmartThings Belysningsstyrka,0,lx,illuminance,measurement
+sensor.sensor_matkallaren_multisensor_luftfuktighet,sensor,Matkällaren.Sensor.Multisensor.SmartThings Luftfuktighet,67.0,%,humidity,measurement
+sensor.sensor_matkallaren_multisensor_stromkalla,sensor,Matkällaren.Sensor.Multisensor.SmartThings Strömkälla,dc,,,
+sensor.sensor_matkallaren_multisensor_temperatur,sensor,Matkällaren.Sensor.Multisensor.SmartThings Temperatur,18.8,°C,temperature,measurement
+sensor.sensor_matkallaren_multisensor_uv_index,sensor,Matkällaren.Sensor.Multisensor.SmartThings UV-index,0,,,measurement
+sensor.sensor_sovrum_multisensor_batteri,sensor,Sovrum.Sensor.Multisensor.SmartThings Batteri,100,%,battery,
+sensor.sensor_sovrum_multisensor_belysningsstyrka,sensor,Sovrum.Sensor.Multisensor.SmartThings Belysningsstyrka,21,lx,illuminance,measurement
+sensor.sensor_sovrum_multisensor_luftfuktighet,sensor,Sovrum.Sensor.Multisensor.SmartThings Luftfuktighet,54.0,%,humidity,measurement
+sensor.sensor_sovrum_multisensor_stromkalla,sensor,Sovrum.Sensor.Multisensor.SmartThings Strömkälla,dc,,,
+sensor.sensor_sovrum_multisensor_temperatur,sensor,Sovrum.Sensor.Multisensor.SmartThings Temperatur,22.7,°C,temperature,measurement
+sensor.sensor_sovrum_multisensor_uv_index,sensor,Sovrum.Sensor.Multisensor.SmartThings UV-index,0,,,measurement
+sensor.sun_next_dawn,sensor,Utomhus.Sensor.Sun Nästa gryning,2026-06-07T01:23:16+00:00,,timestamp,
+sensor.sun_next_dusk,sensor,Utomhus.Sensor.Sun Nästa skymning,2026-06-06T20:51:43+00:00,,timestamp,
+sensor.sun_next_midnight,sensor,Utomhus.Sensor.Sun Nästa midnatt,2026-06-06T23:07:44+00:00,,timestamp,
+sensor.sun_next_noon,sensor,Utomhus.Sensor.Sun Nästa middag,2026-06-06T11:07:26+00:00,,timestamp,
+sensor.sun_next_rising,sensor,Utomhus.Sensor.Sun Nästa soluppgång,2026-06-07T02:25:00+00:00,,timestamp,
+sensor.sun_next_setting,sensor,Utomhus.Sensor.Sun Nästa solnedgång,2026-06-06T19:49:59+00:00,,timestamp,
+sensor.tv_rum_luftfuktighet,sensor,Tv-rum.BinarySensor.Rök.Verisure Luftfuktighet,71,%,humidity,measurement
+sensor.tv_rum_temperatur,sensor,Tv-rum.BinarySensor.Rök.Verisure Temperatur,22.7,°C,temperature,measurement
+sensor.tvattstuga_luftfuktighet,sensor,Tvättstuga.Sensor.Klimat.Telldus Luftfuktighet,69,%,humidity,measurement
+sensor.tvattstuga_luftfuktighet_2,sensor,Tvättstuga.BinarySensor.Rök.Verisure Luftfuktighet,72,%,humidity,measurement
+sensor.tvattstuga_temperatur,sensor,Tvättstuga.Sensor.Klimat.Telldus Temperatur,20.5,°C,temperature,measurement
+sensor.tvattstuga_temperatur_2,sensor,Tvättstuga.BinarySensor.Rök.Verisure Temperatur,21.5,°C,temperature,measurement
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_battery_percent,sensor,Utomhus.Sensor.Regnmätare.Netatmo Batteri,45,%,battery,measurement
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain,sensor,Utomhus.Sensor.Regnmätare.Netatmo Nederbörd,0,mm,precipitation,measurement
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain_today,sensor,Utomhus.Sensor.Regnmätare.Netatmo Nederbörd i dag,0,mm,precipitation,total_increasing
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_battery_percent,sensor,Utomhus.Sensor.Vindmätare.Netatmo Batteri,81,%,battery,measurement
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_direction,sensor,Utomhus.Sensor.Vindmätare.Netatmo Vindriktning,s,,enum,
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength,sensor,Utomhus.Sensor.Vindmätare.Netatmo Vindhastighet,2,km/h,wind_speed,measurement
+sensor.unknown_70_ee_50_74_46_84_utetemp_batteri,sensor,Utomhus.Sensor.Klimat.Netatmo Batteri,29,%,battery,measurement
+sensor.utetemp_luftfuktighet,sensor,Utomhus.Sensor.Klimat.Netatmo Luftfuktighet,68,%,humidity,measurement
+sensor.utetemp_temperatur,sensor,Utomhus.Sensor.Klimat.Netatmo Temperatur,18.5,°C,temperature,measurement
+sensor.vagguttag_vardagsrum_inspelning_effekt,sensor,Vardagsrum.Outlet.Skänklampa.SmartThings Effekt,1.6,W,power,measurement
+sensor.vagguttag_vardagsrum_inspelning_energi,sensor,Vardagsrum.Outlet.Skänklampa.SmartThings Energi,2.543,kWh,energy,total_increasing
+sensor.vind_luftfuktighet,sensor,Vind.Sensor.Klimat.Telldus Luftfuktighet,63,%,humidity,measurement
+sensor.vind_temperatur,sensor,Vind.Sensor.Klimat.Telldus Temperatur,16.7,°C,temperature,measurement
+sensor.volvo_c40_automat_avstand,sensor,Utomhus.Car.VolovC40 Automat - Avstånd,79.1,km,distance,total_increasing
+sensor.volvo_c40_automat_medelhastighet_for_resan,sensor,Utomhus.Car.VolovC40 Automat - Medelhastighet för resan,65,km/h,speed,measurement
+sensor.volvo_c40_avstand_till_service,sensor,Utomhus.Car.VolovC40 Avstånd till service,2252,km,distance,measurement
+sensor.volvo_c40_avstand_till_tomt_batteri,sensor,Utomhus.Car.VolovC40 Avstånd till tomt batteri,430,km,distance,measurement
+sensor.volvo_c40_batteri,sensor,Utomhus.Car.VolovC40 Batteri,100.0,%,battery,measurement
+sensor.volvo_c40_batterikapacitet,sensor,Utomhus.Car.VolovC40 Batterikapacitet,81.608,kWh,energy_storage,
+sensor.volvo_c40_beraknad_laddningstid,sensor,Utomhus.Car.VolovC40 Beräknad laddningstid,0,min,duration,measurement
+sensor.volvo_c40_bilanslutning,sensor,Utomhus.Car.VolovC40 Bilanslutning,available,,enum,
+sensor.volvo_c40_laddningseffekt,sensor,Utomhus.Car.VolovC40 Laddningseffekt,0,W,power,measurement
+sensor.volvo_c40_laddningsgrans,sensor,Utomhus.Car.VolovC40 Laddningsgräns,32,A,current,measurement
+sensor.volvo_c40_laddningsstatus,sensor,Utomhus.Car.VolovC40 Laddningsstatus,done,,enum,
+sensor.volvo_c40_malbatteriets_laddningsniva,sensor,Utomhus.Car.VolovC40 Målbatteriets laddningsnivå,100,%,,
+sensor.volvo_c40_manuell_avstand,sensor,Utomhus.Car.VolovC40 Manuell - Avstånd,6398.0,km,distance,total_increasing
+sensor.volvo_c40_manuell_medelhastighet_for_resan,sensor,Utomhus.Car.VolovC40 Manuell - Medelhastighet för resan,73,km/h,speed,measurement
+sensor.volvo_c40_matarstallning,sensor,Utomhus.Car.VolovC40 Mätarställning,44180,km,distance,total_increasing
+sensor.volvo_c40_riktning,sensor,Utomhus.Car.VolovC40 Riktning,53,°,,
+sensor.volvo_c40_service,sensor,Utomhus.Car.VolovC40 Service,no_warning,,enum,
+sensor.volvo_c40_status_for_laddningsanslutning,sensor,Utomhus.Car.VolovC40 Status för laddningsanslutning,connected,,enum,
+sensor.volvo_c40_status_for_laddningseffekt,sensor,Utomhus.Car.VolovC40 Status för laddningseffekt,no_power_available,,enum,
+sensor.volvo_c40_tid_till_motorservice,sensor,Utomhus.Car.VolovC40 Tid till motorservice,857,h,duration,measurement
+sensor.volvo_c40_tid_till_service,sensor,Utomhus.Car.VolovC40 Tid till service,420,d,duration,measurement
+sensor.volvo_c40_trip_manual_average_energy_consumption,sensor,Utomhus.Car.VolovC40 Trip manual average energy consumption,21.8,kWh/100km,,measurement
+sensor.volvo_c40_typ_av_laddning,sensor,Utomhus.Car.VolovC40 Typ av laddning,ac,,enum,
+sensor.windspeed_meters_per_second,sensor,Wind Speed (m/s),0.56,m/s,,
+stt.home_assistant_cloud,stt,Home Assistant Cloud,unknown,,,
+sun.sun,sun,Sun,above_horizon,,,
+switch.altanen,switch,Utomhus.Outlet.Trädbelysning.Verisure,off,,,
+switch.cleveriq03,switch,cleveriq03,off,,,
+switch.cleveriq04,switch,cleveriq04,off,,,
+switch.frys_snabbfrysning,switch,Kök.Vitvara.Frys.SmartThings Snabbfrysning,off,,,
+switch.granen,switch,Tv-rum.Outlet.Myslampa.Verisure,off,,,
+switch.groventre,switch,Groventre.Outlet.Fönsterlampa.Verisure,off,,,
+switch.irrigation_control_valve_1,switch,Irrigation Control - Valve 1,unavailable,,,
+switch.irrigation_control_valve_2,switch,Irrigation Control - Valve 2,unavailable,,,
+switch.irrigation_control_valve_3,switch,Irrigation Control - Valve 3,unavailable,,,
+switch.irrigation_control_valve_4,switch,Irrigation Control - Valve 4,unavailable,,,
+switch.irrigation_control_valve_5,switch,Irrigation Control - Valve 5,unavailable,,,
+switch.irrigation_control_valve_6,switch,Irrigation Control - Valve 6,unavailable,,,
+switch.kok_crossfade,switch,Kök.MediaPlayer.Sonos Övertoning,off,,,
+switch.kok_loudness,switch,Kök.MediaPlayer.Sonos Ljudstyrka,on,,,
+switch.kok_mediaplayer_sonos_avgruppera_vid_autouppspelning,switch,Kök.MediaPlayer.Sonos Avgruppera vid autouppspelning,on,,,
+switch.kok_mediaplayer_sonos_tv_autouppspelning,switch,Kök.MediaPlayer.Sonos TV-autouppspelning,off,,,
+switch.kontorslampa_cleveriq01,switch,Utomhus.Switch.Fontän.Telldus,on,,,
+switch.kyl_snabbkylning,switch,Kök.Vitvara.Kyl.SmartThings Snabbkylning,off,,,
+switch.matkallare,switch,Matkällare.Outlet.Ledbelysning.VerisureLED Verisure,off,,,
+switch.matkallare_cleveriq02,switch,Switch.02.Telldus,off,,,
+switch.mo_dock_barnlas,switch,Hall.Dockingstation.Damsugaren.Roborock Barnlås,off,,,
+switch.mo_dock_indikatorlampa_for_status,switch,Hall.Dockingstation.Damsugaren.Roborock Indikatorlampa för status,on,,,
+switch.mo_stor_inte,switch,Hall.Robot.Damsugaren.Roborock Stör inte,on,,,
+time.mo_sluttid_stor_ej_lage,time,Hall.Robot.Damsugaren.Roborock Sluttid Stör ej-läge,08:00:00,,,
+time.mo_starttid_stor_ej_lage,time,Hall.Robot.Damsugaren.Roborock Starttid Stör ej-läge,22:00:00,,,
+todo.inkopslista,todo,Inköpslista,0,,,
+tts.google_en_com,tts,Google Translate en com,unknown,,,
+tts.home_assistant_cloud,tts,Home Assistant Cloud,unknown,,,
+update.file_editor_update,update,File editor Uppdatering,off,,,
+update.gardena_smart_system_update,update,Gardena Smart System Update,on,,,
+update.ha_floorplan_update,update,ha-floorplan 🖌🎨 | Your imagination (almost) defines the limits Update,off,,,
+update.hacs_update,update,HACS Update,off,,,
+update.home_assistant_core_update,update,Home Assistant Core Uppdatering,off,,,
+update.home_assistant_operating_system_update,update,Home Assistant Operating System Uppdatering,off,,,
+update.home_assistant_supervisor_update,update,Home Assistant Supervisor Uppdatering,off,,,
+update.hub_smartthings_larm_firmware,update,Kök.Hub.SmartThings-Security Firmware,on,,firmware,
+update.kiosk_mode_update,update,Kiosk Mode Update,on,,,
+update.matter_server_uppdatering,update,Matter Server Uppdatering,off,,,
+update.midea_air_appliances_lan_update,update,Midea Air Appliances (LAN) Update,off,,,
+update.midea_smart_ac_update,update,Midea Smart AC Update,off,,,
+update.mosquitto_broker_update,update,Mosquitto broker Uppdatering,off,,,
+update.plejd_update,update,Plejd Update,on,,,
+update.sensor_kallarhall_rokdetektor_firmware,update,Källarhall.BinarySensor.Rök.SmartThings Firmware,unknown,,firmware,
+update.sensor_kontor_luftkvalitet_firmware,update,Vardagsrum.Sensor.Klimat.Smarthings Firmware,off,,firmware,
+update.sigenergy_ess_update,update,Sigenergy ESS Update,on,,,
+update.terminal_ssh_update,update,Terminal & SSH Uppdatering,off,,,
+update.vagguttag_kontor_tretakt_firmware,update,Kattrum.Outlet.Badrumsfläkt.SmartThings Firmware,off,,firmware,
+update.vagguttag_vardagsrum_inspelning_firmware,update,Vardagsrum.Outlet.Skänklampa.SmartThings Firmware,off,,firmware,
+vacuum.mo,vacuum,Hall.Robot.Damsugaren.Roborock,docked,,,
+valve.irrigation_control_valve_1,valve,Irrigation Control Valve 1,unavailable,,,
+valve.irrigation_control_valve_2,valve,Irrigation Control Valve 2,unavailable,,,
+valve.irrigation_control_valve_3,valve,Irrigation Control Valve 3,unavailable,,,
+valve.irrigation_control_valve_4,valve,Irrigation Control Valve 4,unavailable,,,
+valve.irrigation_control_valve_5,valve,Irrigation Control Valve 5,unavailable,,,
+valve.irrigation_control_valve_6,valve,Irrigation Control Valve 6,unavailable,,,
+weather.forecast_hem,weather,Utomhus.Sensor.Forcast Hem,partlycloudy,,,
+zone.hem,zone,Hem,1,,,
+zone.home,zone,Hem,1,,,
