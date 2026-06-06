@@ -1,0 +1,3957 @@
+[
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "a9c0618f053fc25a2603ff7124ac3f5f",
+    "identifiers": [
+      [
+        "hassio",
+        "core"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Home Assistant",
+    "model": "Home Assistant Core",
+    "model_id": null,
+    "modified_at": 1780722861.15856,
+    "name_by_user": null,
+    "name": "Home Assistant Core",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "2026.6.0",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "a21cd24648b133f61f940e987a3a82e3",
+    "identifiers": [
+      [
+        "hassio",
+        "supervisor"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Home Assistant",
+    "model": "Home Assistant Supervisor",
+    "model_id": null,
+    "modified_at": 1780133239.390532,
+    "name_by_user": null,
+    "name": "Home Assistant Supervisor",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "2026.05.1",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "486611c38a7e592db32aa8b72722413d",
+    "identifiers": [
+      [
+        "hassio",
+        "host"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Home Assistant",
+    "model": "Home Assistant Host",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Home Assistant Host",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "db71368b511c0878d992ba4f7b2389de",
+    "identifiers": [
+      [
+        "hassio",
+        "OS"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Home Assistant",
+    "model": "Home Assistant Operating System",
+    "model_id": null,
+    "modified_at": 1780237749.685203,
+    "name_by_user": null,
+    "name": "Home Assistant Operating System",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "17.3",
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "a6c8377662b86526cd6e7435b9a7f291"
+    ],
+    "config_entries_subentries": {
+      "a6c8377662b86526cd6e7435b9a7f291": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "ff2fb24dbb10795d9891d24fae405c37",
+    "identifiers": [
+      [
+        "sun",
+        "a6c8377662b86526cd6e7435b9a7f291"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1772365080.143075,
+    "name_by_user": "Utomhus.Sensor.Sun",
+    "name": "Sun",
+    "primary_config_entry": "a6c8377662b86526cd6e7435b9a7f291",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "fe1a84dfddd8cda98c6ec58e06916ef9",
+    "identifiers": [
+      [
+        "cast",
+        "7f3993ff0c47b8606d559abaeaee2621"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Badrum",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a0a98c6429333934833c06830a42d8a8",
+    "identifiers": [
+      [
+        "cast",
+        "75d521c3b5eb97da29c6c4e67122b5db"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Chromecast",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Familjerum",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "5ddaa2806853b0ab93fc1990927d410b",
+    "identifiers": [
+      [
+        "cast",
+        "204b4ca67c7d0b0b04e8fe5263cf8505"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Unknown manufacturer",
+    "model": "Marshall Acton II",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Sovrum",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "b5a7a5c342779b43aff4ed06aab2b362"
+    ],
+    "config_entries_subentries": {
+      "b5a7a5c342779b43aff4ed06aab2b362": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "bluetooth",
+        "DC:A6:32:40:31:3A"
+      ]
+    ],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "usb:v1D6Bp0246d0555",
+    "id": "a4a41b9167e7c11c6bf1ebf4c319a362",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Raspberry Pi Trading Ltd",
+    "model": "bcm43438-bt",
+    "model_id": null,
+    "modified_at": 1780722866.358885,
+    "name_by_user": null,
+    "name": "hci0 (DC:A6:32:40:31:3A)",
+    "primary_config_entry": "b5a7a5c342779b43aff4ed06aab2b362",
+    "serial_number": null,
+    "sw_version": "6.12.75-haos-raspi",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": "http://192.168.10.112:1400/support/review",
+    "config_entries": [
+      "1f2d6972fa333f9432211973fde11662"
+    ],
+    "config_entries_subentries": {
+      "1f2d6972fa333f9432211973fde11662": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "54:2a:1b:5e:b4:3c"
+      ],
+      [
+        "upnp",
+        "uuid:RINCON_542A1B5EB43C01400"
+      ]
+    ],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d8de3c30a32bb0fad62c4d73200c8a14",
+    "identifiers": [
+      [
+        "sonos",
+        "RINCON_542A1B5EB43C01400"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sonos",
+    "model": "SYMFONISK Bookshelf",
+    "model_id": "S33",
+    "modified_at": 1780133289.041052,
+    "name_by_user": "Kök.MediaPlayer.Sonos",
+    "name": "Kök",
+    "primary_config_entry": "1f2d6972fa333f9432211973fde11662",
+    "serial_number": null,
+    "sw_version": "18.4",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01J2S6MX6VAQ5RSYMP133863TZ"
+    ],
+    "config_entries_subentries": {
+      "01J2S6MX6VAQ5RSYMP133863TZ": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "48df2ffd85ef9a9490139fd22cc34a0f",
+    "identifiers": [
+      [
+        "mobile_app",
+        "12ee9a6ee0db9c54"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "samsung",
+    "model": "SM-G991B",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Rickard",
+    "primary_config_entry": "01J2S6MX6VAQ5RSYMP133863TZ",
+    "serial_number": null,
+    "sw_version": "34",
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": "https://www.met.no/en",
+    "config_entries": [
+      "e0c3831fb8771a3099c4abbe952c0c5a"
+    ],
+    "config_entries_subentries": {
+      "e0c3831fb8771a3099c4abbe952c0c5a": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "6b542e6a649e9679e9555d4652535565",
+    "identifiers": [
+      [
+        "met",
+        "e0c3831fb8771a3099c4abbe952c0c5a"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Met.no",
+    "model": "Forecast",
+    "model_id": null,
+    "modified_at": 1772365117.471405,
+    "name_by_user": "Utomhus.Sensor.Forcast",
+    "name": "Forecast",
+    "primary_config_entry": "e0c3831fb8771a3099c4abbe952c0c5a",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": "https://my.netatmo.com/app/weather",
+    "config_entries": [
+      "cacebd0434067cbfffadb169d107a73e"
+    ],
+    "config_entries_subentries": {
+      "cacebd0434067cbfffadb169d107a73e": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b379c937bfbefdac70538f474ff04e66",
+    "identifiers": [
+      [
+        "netatmo",
+        "70:ee:50:74:46:84"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Netatmo",
+    "model": "Smart Home Weather station",
+    "model_id": null,
+    "modified_at": 1772365366.139628,
+    "name_by_user": "Tv-rum.Sensor.Klimat.Netatmo",
+    "name": "Unknown 70:ee:50:74:46:84",
+    "primary_config_entry": "cacebd0434067cbfffadb169d107a73e",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": "https://my.netatmo.com/app/weather",
+    "config_entries": [
+      "cacebd0434067cbfffadb169d107a73e"
+    ],
+    "config_entries_subentries": {
+      "cacebd0434067cbfffadb169d107a73e": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "3d0b9319d588f2caf02697bd86aebda4",
+    "identifiers": [
+      [
+        "netatmo",
+        "02:00:00:74:64:3c"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Netatmo",
+    "model": "Smart Outdoor Module",
+    "model_id": null,
+    "modified_at": 1772365250.976604,
+    "name_by_user": "Utomhus.Sensor.Klimat.Netatmo",
+    "name": "Unknown 70:ee:50:74:46:84 utetemp",
+    "primary_config_entry": "cacebd0434067cbfffadb169d107a73e",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": "https://my.netatmo.com/app/weather",
+    "config_entries": [
+      "cacebd0434067cbfffadb169d107a73e"
+    ],
+    "config_entries_subentries": {
+      "cacebd0434067cbfffadb169d107a73e": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8155aa47a76cb7f987f0b519a9dc7fec",
+    "identifiers": [
+      [
+        "netatmo",
+        "05:00:00:08:b9:9c"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Netatmo",
+    "model": "Smart Rain Gauge",
+    "model_id": null,
+    "modified_at": 1772365262.991696,
+    "name_by_user": "Utomhus.Sensor.Regnmätare.Netatmo",
+    "name": "Unknown 70:ee:50:74:46:84 Regnmätare",
+    "primary_config_entry": "cacebd0434067cbfffadb169d107a73e",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": "https://my.netatmo.com/app/weather",
+    "config_entries": [
+      "cacebd0434067cbfffadb169d107a73e"
+    ],
+    "config_entries_subentries": {
+      "cacebd0434067cbfffadb169d107a73e": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "671baed6a8dae38ff6ad7c4c951ce839",
+    "identifiers": [
+      [
+        "netatmo",
+        "06:00:00:05:71:26"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Netatmo",
+    "model": "Smart Anemometer",
+    "model_id": null,
+    "modified_at": 1772365231.356357,
+    "name_by_user": "Utomhus.Sensor.Vindmätare.Netatmo",
+    "name": "Unknown 70:ee:50:74:46:84 Vindmätare",
+    "primary_config_entry": "cacebd0434067cbfffadb169d107a73e",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "4518cf82781f4d243c0661d01e63160f"
+    ],
+    "config_entries_subentries": {
+      "4518cf82781f4d243c0661d01e63160f": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "269b2401de6663070e5bf00ff429ae6e",
+    "identifiers": [
+      [
+        "mobile_app",
+        "ba85bb45dc4a5b11"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "HUAWEI",
+    "model": "AGS2-W09",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Panel",
+    "primary_config_entry": "4518cf82781f4d243c0661d01e63160f",
+    "serial_number": null,
+    "sw_version": "26",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hassio/addon/core_ssh",
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "2d151814c0d9d36aa5b5d37f5551f938",
+    "identifiers": [
+      [
+        "hassio",
+        "core_ssh"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Official apps",
+    "model": "Home Assistant App",
+    "model_id": null,
+    "modified_at": 1780722861.198552,
+    "name_by_user": null,
+    "name": "Terminal & SSH",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "10.2.0",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "298c2970fe0d2fee62b96974fb5d56b0",
+    "identifiers": [
+      [
+        "hacs",
+        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "hacs.xyz",
+    "model": "",
+    "model_id": null,
+    "modified_at": 1741584106.396471,
+    "name_by_user": null,
+    "name": "HACS",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": "2.0.5",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/497319128",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "36a7889ddad289bb56b0ac39f43ef9b6",
+    "identifiers": [
+      [
+        "hacs",
+        "497319128"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "NemesisRE",
+    "model": "plugin",
+    "model_id": null,
+    "modified_at": 1725864331.954161,
+    "name_by_user": null,
+    "name": "Kiosk Mode",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hassio/addon/core_configurator",
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "44e99633d4f022620b5cf845d5666c22",
+    "identifiers": [
+      [
+        "hassio",
+        "core_configurator"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Official apps",
+    "model": "Home Assistant App",
+    "model_id": null,
+    "modified_at": 1778042407.427435,
+    "name_by_user": null,
+    "name": "File editor",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "6.0.0",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/188323494",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "1b5f86b6261e4e42f0aab2a6651c9ad0",
+    "identifiers": [
+      [
+        "hacs",
+        "188323494"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "ExperienceLovelace",
+    "model": "plugin",
+    "model_id": null,
+    "modified_at": 1745505514.391576,
+    "name_by_user": null,
+    "name": "ha-floorplan 🖌🎨 | Your imagination (almost) defines the limits",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01J2HP6R4S8V3TMDZHN29D3X5D"
+    ],
+    "config_entries_subentries": {
+      "01J2HP6R4S8V3TMDZHN29D3X5D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e9761b5d1a40f81050bd78aaed89426e",
+    "identifiers": [
+      [
+        "mobile_app",
+        "DA8467B7-12FA-47B4-8C39-FAD5FABF44A3"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Apple",
+    "model": "iPad8,12",
+    "model_id": null,
+    "modified_at": 1779110769.781738,
+    "name_by_user": null,
+    "name": "iPad-DMPF10MLNTGR",
+    "primary_config_entry": "01J2HP6R4S8V3TMDZHN29D3X5D",
+    "serial_number": null,
+    "sw_version": "26.5",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hassio/addon/core_mosquitto",
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "a7cb57edb4d7ccf15753d7a6f7ec5ffe",
+    "identifiers": [
+      [
+        "hassio",
+        "core_mosquitto"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Official apps",
+    "model": "Home Assistant App",
+    "model_id": null,
+    "modified_at": 1780238823.546211,
+    "name_by_user": null,
+    "name": "Mosquitto broker",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "7.1.0",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0548e24eaea0601169464b9d0e8d61b9",
+    "identifiers": [
+      [
+        "cast",
+        "7763fb4ae26f98373b876c38e88041ec"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Kontoret",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "888e5653734bf410db68c3052ca96c3b",
+    "identifiers": [
+      [
+        "cast",
+        "20869ee8390277bbee619feefd4ce9fd"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Växthus",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": "https://surepetcare.io/dashboard/",
+    "config_entries": [
+      "01J2RX1QT638ZQ5QAW9S51D63Z"
+    ],
+    "config_entries_subentries": {
+      "01J2RX1QT638ZQ5QAW9S51D63Z": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c30b1f66226ccb1cc72387533b15a414",
+    "identifiers": [
+      [
+        "surepetcare",
+        "240714-873963"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sure Petcare",
+    "model": "Hub",
+    "model_id": null,
+    "modified_at": 1772365526.244842,
+    "name_by_user": "Kontor.Hub.SurePetcare",
+    "name": "Katthub",
+    "primary_config_entry": "01J2RX1QT638ZQ5QAW9S51D63Z",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "groventre",
+    "configuration_url": "https://surepetcare.io/dashboard/",
+    "config_entries": [
+      "01J2RX1QT638ZQ5QAW9S51D63Z"
+    ],
+    "config_entries_subentries": {
+      "01J2RX1QT638ZQ5QAW9S51D63Z": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d3de70fa20cbc066cfe5045237a736ba",
+    "identifiers": [
+      [
+        "surepetcare",
+        "240714-1001974"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sure Petcare",
+    "model": "Cat flap",
+    "model_id": null,
+    "modified_at": 1772365829.581286,
+    "name_by_user": "Groventre.Lucka.SurePetcare",
+    "name": "Kattlucka ",
+    "primary_config_entry": "01J2RX1QT638ZQ5QAW9S51D63Z",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "https://surepetcare.io/dashboard/",
+    "config_entries": [
+      "01J2RX1QT638ZQ5QAW9S51D63Z"
+    ],
+    "config_entries_subentries": {
+      "01J2RX1QT638ZQ5QAW9S51D63Z": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "3d8db654ff9ff97c5618491242e6465a",
+    "identifiers": [
+      [
+        "surepetcare",
+        "240714-520027"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sure Petcare",
+    "model": "Pet",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Zelda",
+    "primary_config_entry": "01J2RX1QT638ZQ5QAW9S51D63Z",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "https://surepetcare.io/dashboard/",
+    "config_entries": [
+      "01J2RX1QT638ZQ5QAW9S51D63Z"
+    ],
+    "config_entries_subentries": {
+      "01J2RX1QT638ZQ5QAW9S51D63Z": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a85bd682b861897fac5b6980ba714ab0",
+    "identifiers": [
+      [
+        "surepetcare",
+        "240714-525801"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sure Petcare",
+    "model": "Pet",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Shiraz",
+    "primary_config_entry": "01J2RX1QT638ZQ5QAW9S51D63Z",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "https://surepetcare.io/dashboard/",
+    "config_entries": [
+      "01J2RX1QT638ZQ5QAW9S51D63Z"
+    ],
+    "config_entries_subentries": {
+      "01J2RX1QT638ZQ5QAW9S51D63Z": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c3db8051159416c7ac77f0d70d6924db",
+    "identifiers": [
+      [
+        "surepetcare",
+        "240714-525839"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sure Petcare",
+    "model": "Pet",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Semilon",
+    "primary_config_entry": "01J2RX1QT638ZQ5QAW9S51D63Z",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "https://surepetcare.io/dashboard/",
+    "config_entries": [
+      "01J2RX1QT638ZQ5QAW9S51D63Z"
+    ],
+    "config_entries_subentries": {
+      "01J2RX1QT638ZQ5QAW9S51D63Z": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4bf827df0a4f241c585491e8eb2c5776",
+    "identifiers": [
+      [
+        "surepetcare",
+        "240714-526719"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Sure Petcare",
+    "model": "Pet",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Chanti",
+    "primary_config_entry": "01J2RX1QT638ZQ5QAW9S51D63Z",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4d5c35d2a4467fcc55c27de1974360c1",
+    "identifiers": [
+      [
+        "verisure",
+        "84187545714"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "VBox",
+    "model_id": null,
+    "modified_at": 1772352194.024634,
+    "name_by_user": "Kök.Hub.Controller.Verisure",
+    "name": "Verisure Alarm",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "groventre",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "31a877528a69f01719a9ed54f4a12426",
+    "identifiers": [
+      [
+        "verisure",
+        "2JNP EZA8"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Shock Sensor Detector",
+    "model_id": null,
+    "modified_at": 1772351374.655369,
+    "name_by_user": "Groventre.BinarySensor.Ytterdörr.Verisure",
+    "name": null,
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "12e9a8b988c399d8936ad38af6851cfc",
+    "identifiers": [
+      [
+        "verisure",
+        "2JNS MN5N"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Shock Sensor Detector",
+    "model_id": null,
+    "modified_at": 1772350931.096631,
+    "name_by_user": "Tv-rum.BinarySensor.Altandörr.Verisure",
+    "name": null,
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "ac4fc4c62d690e2388237d55a662ae60",
+    "identifiers": [
+      [
+        "verisure",
+        "2JNS MMDB"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Shock Sensor Detector",
+    "model_id": null,
+    "modified_at": 1772350953.193593,
+    "name_by_user": "Kök.BinarySensor.Mediaskåp.Verisure",
+    "name": null,
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "vardagsrum",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0cd0abbf67096882328c178166bbab88",
+    "identifiers": [
+      [
+        "verisure",
+        "2BCV JXNT"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Shock Sensor Detector",
+    "model_id": null,
+    "modified_at": 1772350969.516922,
+    "name_by_user": "Vardagsrum.BinarySensor.Altandörr.Verisure",
+    "name": null,
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "hall",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "be4d9e51a476241f35529ee4b9f482fd",
+    "identifiers": [
+      [
+        "verisure",
+        "2JNU ERGQ"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Shock Sensor Detector",
+    "model_id": null,
+    "modified_at": 1772351346.778056,
+    "name_by_user": "Hall.BinarySensor.Ytterdörr.Verisure",
+    "name": null,
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "kallarhall",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c55241c09e2b2f9af27eb12c7abfade5",
+    "identifiers": [
+      [
+        "verisure",
+        "2AQL X3E6"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartCam",
+    "model_id": null,
+    "modified_at": 1772350700.840244,
+    "name_by_user": "Källarhall.Sensor.Camera.Verisure",
+    "name": "Hall källare",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4eadf2c8fda0b39fba265365e9ee7d20",
+    "identifiers": [
+      [
+        "verisure",
+        "2AQM 4ZM2"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartCam",
+    "model_id": null,
+    "modified_at": 1772350670.296998,
+    "name_by_user": "Tv-rum.Sensor.Camera.Verisure",
+    "name": "Tv-rum",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "vardagsrum",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "52212e99e1bdf148e84550fb53812466",
+    "identifiers": [
+      [
+        "verisure",
+        "2AQM 5E7G"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartCam",
+    "model_id": null,
+    "modified_at": 1772350630.30186,
+    "name_by_user": "Vardagsrum.Sensor.Camera.Verisure",
+    "name": "Vardagsrum",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4a361ab9e4dad8720f851d8f1ff41bc2",
+    "identifiers": [
+      [
+        "verisure",
+        "2ATG YUFQ"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Smoke detector",
+    "model_id": null,
+    "modified_at": 1772351536.939518,
+    "name_by_user": "Tv-rum.BinarySensor.Rök.Verisure",
+    "name": "Tv-rum",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "tvattstuga",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d8821cdcf2d46bdf60a1e459ec3c9f39",
+    "identifiers": [
+      [
+        "verisure",
+        "2ATG YYF8"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "Smoke detector",
+    "model_id": null,
+    "modified_at": 1772351510.467692,
+    "name_by_user": "Tvättstuga.BinarySensor.Rök.Verisure",
+    "name": "Tvättstuga",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "hall",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "92ed4f9fa0d9598a52387d6a73ff3125",
+    "identifiers": [
+      [
+        "verisure",
+        "2ARU MA36"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "VoiceBox",
+    "model_id": null,
+    "modified_at": 1772365694.219966,
+    "name_by_user": "Hall.Speaker.Röstenhet.Verisure",
+    "name": "Hall",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/504935480",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "e0e5058373fd83b54bb2b909e071c9fa",
+    "identifiers": [
+      [
+        "hacs",
+        "504935480"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "mill1000",
+    "model": "integration",
+    "model_id": null,
+    "modified_at": 1725864331.958888,
+    "name_by_user": null,
+    "name": "Midea Smart AC",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "83809284c22bbcba09f0a1fa5b721412",
+    "identifiers": [
+      [
+        "cast",
+        "f3ebfbbfd46aaaf683963e87e950d67a"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "NestMini8159",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01J3T7MT6MK3P47Y7W8J0C2E1G"
+    ],
+    "config_entries_subentries": {
+      "01J3T7MT6MK3P47Y7W8J0C2E1G": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a9dab37e71da1a2f5468b7cc32332ae4",
+    "identifiers": [
+      [
+        "webostv",
+        "7bb52987-1f4f-db69-53f0-7751f22981c3"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "LG",
+    "model": "OLED55G36LA",
+    "model_id": null,
+    "modified_at": 1772365432.193378,
+    "name_by_user": "Tv-rum.Mediaspelare.TV.LGWebOS",
+    "name": "[LG] webOS TV OLED55G36LA",
+    "primary_config_entry": "01J3T7MT6MK3P47Y7W8J0C2E1G",
+    "serial_number": "401MACEFS131",
+    "sw_version": "23.25.55",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "16afaef531c9841443438ef917fd4dbc",
+    "identifiers": [
+      [
+        "cast",
+        "31a618f8eb163b0b6e408e4690407e32"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Växthus",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "227a344bedafc0c956730a6f2cdc917a",
+    "identifiers": [
+      [
+        "cast",
+        "c208d49321455665bd4793484463611a"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 0.0,
+    "name_by_user": null,
+    "name": "Uterum",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "matkallare",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1726212234.161596,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0fc1548d9a156875fef4d08d3bc30ea2",
+    "identifiers": [
+      [
+        "verisure",
+        "2B3H MCSL"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartPlug",
+    "model_id": null,
+    "modified_at": 1772354355.274658,
+    "name_by_user": "Matkällare.Outlet.Ledbelysning.Verisure",
+    "name": "Matkällare ",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "groventre",
+    "configuration_url": "https://account.aaecosystem.com",
+    "config_entries": [
+      "01J91TVMPNZMTV7CXFNSWVYDR6"
+    ],
+    "config_entries_subentries": {
+      "01J91TVMPNZMTV7CXFNSWVYDR6": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "bluetooth",
+        "98:1B:B5:6C:A5:00"
+      ]
+    ],
+    "created_at": 1727712320.066278,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "13413a4a944e37fd1cd11e0d33277c18",
+    "identifiers": [
+      [
+        "yale",
+        "421CFF63F8514547BC6ECCA772C7A3FC"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Yale Home Inc.",
+    "model": "IRVN210623",
+    "model_id": null,
+    "modified_at": 1772364917.894836,
+    "name_by_user": "Groventre.Lock.Ytterdörren.Yale",
+    "name": "Groventre",
+    "primary_config_entry": "01J91TVMPNZMTV7CXFNSWVYDR6",
+    "serial_number": null,
+    "sw_version": "3.2.1-4.6.0-2.1.2",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1730747297.764,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "2a8625abfdaa9522a58cba2c3236149a",
+    "identifiers": [
+      [
+        "cast",
+        "46f075d93fc0a15ee52846ccbf34f29e"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Unknown manufacturer",
+    "model": "OLED55G36LA",
+    "model_id": null,
+    "modified_at": 1763535374.409427,
+    "name_by_user": null,
+    "name": "tv",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1732952349.893378,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d7faaa4fe78349adfffc84012bb0baa2",
+    "identifiers": [
+      [
+        "verisure",
+        "2AW4 PHXH"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartPlug",
+    "model_id": null,
+    "modified_at": 1772872089.016701,
+    "name_by_user": "Utomhus.Outlet.Trädbelysning.Verisure",
+    "name": "Trädet",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01JDY12G6TRK24FBMT4A6QB14G"
+    ],
+    "config_entries_subentries": {
+      "01JDY12G6TRK24FBMT4A6QB14G": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1732953325.786952,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e2c5fd1d69003d579fe7a3d9f108bf11",
+    "identifiers": [
+      [
+        "mobile_app",
+        "a329baad0fe6d433"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "samsung",
+    "model": "SM-S921B",
+    "model_id": null,
+    "modified_at": 1759508879.35105,
+    "name_by_user": null,
+    "name": "Rickard",
+    "primary_config_entry": "01JDY12G6TRK24FBMT4A6QB14G",
+    "serial_number": null,
+    "sw_version": "36",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1732980217.422166,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "382ac60ce473035a8ce7c5dde24ba58e",
+    "identifiers": [
+      [
+        "cast",
+        "f85a00f02b0805555d78404823a05e90"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Nest Audio",
+    "model_id": null,
+    "modified_at": 1733142241.767319,
+    "name_by_user": null,
+    "name": "Vardagsrum",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1733509053.933743,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "d86a2aff814dc40b81e60c0c3415844a",
+    "identifiers": [
+      [
+        "cast",
+        "066766b083e35825753603cd7bff6888"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Chromecast",
+    "model_id": null,
+    "modified_at": 1733509053.933923,
+    "name_by_user": null,
+    "name": "Chromecast",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1733730031.220775,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "27f5a517f7e21b6655071589c7c61972",
+    "identifiers": [
+      [
+        "verisure",
+        "2B3H MJ5T"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartPlug",
+    "model_id": null,
+    "modified_at": 1772872089.01889,
+    "name_by_user": "Tv-rum.Outlet.Myslampa.Verisure",
+    "name": "Tv-rum",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/439467929",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1735467535.96592,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "58d0881ffc86af4e284412281d4da98f",
+    "identifiers": [
+      [
+        "hacs",
+        "439467929"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "nbogojevic",
+    "model": "integration",
+    "model_id": null,
+    "modified_at": 1735467535.966032,
+    "name_by_user": null,
+    "name": "Midea Air Appliances (LAN)",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/552115509",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1735977953.579122,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "fcf2970ab523d53efb8f98683a0ad61b",
+    "identifiers": [
+      [
+        "hacs",
+        "552115509"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "thomasloven",
+    "model": "integration",
+    "model_id": null,
+    "modified_at": 1735977953.579242,
+    "name_by_user": null,
+    "name": "Plejd",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:17:88:01:0b:dd:64:c4"
+      ]
+    ],
+    "created_at": 1736262603.862228,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "1103c2ae3c1bd95e56b7c9f56abc1150",
+    "identifiers": [
+      [
+        "hue",
+        "0f5a78fb-c59b-4d8c-8829-a0617c5bc546"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Hue dimmer switch",
+    "model_id": "RWL022",
+    "modified_at": 1770904420.451636,
+    "name_by_user": null,
+    "name": "Hue dimmer switch 1",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": "2.85.1",
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:17:88:01:05:57:86:07"
+      ],
+      [
+        "mac",
+        "ec:b5:fa:97:86:07"
+      ]
+    ],
+    "created_at": 1736262603.87738,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "69ddcb383086c09c60cbc5f9066e068c",
+    "identifiers": [
+      [
+        "hue",
+        "ecb5fafffe978607"
+      ],
+      [
+        "hue",
+        "38aabed7-ec8f-4d02-ac6c-d83f6dbf10ac"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Hue Bridge",
+    "model_id": "BSB002",
+    "modified_at": 1778588135.927818,
+    "name_by_user": null,
+    "name": "Hue Bridge",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": "1.77.1977090000",
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:17:88:01:04:73:14:23"
+      ]
+    ],
+    "created_at": 1736262603.878046,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "45b4c0ef258411a280d36ba8d67075e6",
+    "identifiers": [
+      [
+        "hue",
+        "4dbfed7d-cfd1-4386-9c03-eab60c7d26b5"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Hue ambiance lamp",
+    "model_id": "LTW010",
+    "modified_at": 1759735399.052098,
+    "name_by_user": null,
+    "name": "Hue ambiance lamp 1",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": "1.29.0",
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:17:88:01:04:aa:ba:7d"
+      ]
+    ],
+    "created_at": 1736262603.879121,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "80984bd02edf0a397100926bf232fc71",
+    "identifiers": [
+      [
+        "hue",
+        "6c6a03b9-b575-45ff-a344-549c75b886de"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Hue ambiance lamp",
+    "model_id": "LTW010",
+    "modified_at": 1776356624.563375,
+    "name_by_user": null,
+    "name": "Hue ambiance lamp 2",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": "1.116.12",
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:17:88:01:0c:83:d8:70"
+      ]
+    ],
+    "created_at": 1736262603.879703,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "1fcc19fe03994295de94d3982c7de372",
+    "identifiers": [
+      [
+        "hue",
+        "c8f2aa49-3d6d-41b3-abaa-556804dbcf37"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Hue color lamp",
+    "model_id": "LCA006",
+    "modified_at": 1772378026.095142,
+    "name_by_user": null,
+    "name": "Kontorslampa",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": "1.145.1",
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "hall",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:17:88:01:0c:84:09:1c"
+      ]
+    ],
+    "created_at": 1736262603.880847,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a0123e7f51e0b8c9033cac43a4ceead1",
+    "identifiers": [
+      [
+        "hue",
+        "d9a2b1cb-f776-4bc9-9491-41684c3e5bac"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Hue color lamp",
+    "model_id": "LCA006",
+    "modified_at": 1772365754.431464,
+    "name_by_user": "Hall.Light.Byrolampa.Hue",
+    "name": "Hallampa",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": "1.145.1",
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1736262603.88148,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "c33ab582b0c992fbbc09e6b650a2e7d4",
+    "identifiers": [
+      [
+        "hue",
+        "09e0c59b-1a65-40f4-afd5-c8094502247e"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Room",
+    "model_id": null,
+    "modified_at": 1743871074.625255,
+    "name_by_user": null,
+    "name": "Ute",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1736262603.881995,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "4e5b2698fff0fb59132d99f986775738",
+    "identifiers": [
+      [
+        "hue",
+        "2889fbe3-0779-4f94-883a-5221a9875699"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Room",
+    "model_id": null,
+    "modified_at": 1736262603.882077,
+    "name_by_user": null,
+    "name": "Kontor",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": "hall",
+    "configuration_url": null,
+    "config_entries": [
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+    ],
+    "config_entries_subentries": {
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1736262603.883807,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "d99d073e2a10408d1b6ebc8cb2f10b18",
+    "identifiers": [
+      [
+        "hue",
+        "8bfd2bd4-1404-472e-b316-b6acd23aa01f"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Signify Netherlands B.V.",
+    "model": "Room",
+    "model_id": null,
+    "modified_at": 1772872364.786553,
+    "name_by_user": "Hall.Lamp.Byrålampa.Hue",
+    "name": "Hall",
+    "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/268118148",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1743580741.661266,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "00112bc1319ceeeb3f972149e466d13b",
+    "identifiers": [
+      [
+        "hacs",
+        "268118148"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "py-smart-gardena",
+    "model": "integration",
+    "model_id": null,
+    "modified_at": 1743580741.661371,
+    "name_by_user": null,
+    "name": "Gardena Smart System",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://config/backup",
+    "config_entries": [
+      "01JR28JQ63M5RPEGQEHSRGXD2F"
+    ],
+    "config_entries_subentries": {
+      "01JR28JQ63M5RPEGQEHSRGXD2F": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1743832833.826856,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "fc551fb7805173270d825bfcd1372990",
+    "identifiers": [
+      [
+        "backup",
+        "backup_manager"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Home Assistant",
+    "model": "Home Assistant Backup",
+    "model_id": null,
+    "modified_at": 1780722866.419477,
+    "name_by_user": null,
+    "name": "Backup",
+    "primary_config_entry": "01JR28JQ63M5RPEGQEHSRGXD2F",
+    "serial_number": null,
+    "sw_version": "2026.6.0",
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01JR28KHST02F6NKSEVTPKVHMJ"
+    ],
+    "config_entries_subentries": {
+      "01JR28KHST02F6NKSEVTPKVHMJ": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1743832861.444015,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "35e5a43dd2b50bb1c1b5a6560042c65c",
+    "identifiers": [
+      [
+        "gardena_smart_system",
+        "223205327"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Gardena",
+    "model": "GARDENA smart Mower",
+    "model_id": null,
+    "modified_at": 1772355000.368778,
+    "name_by_user": "Utomhus.Robot.Gräsklippare.Gardena",
+    "name": "Fåret Shaun",
+    "primary_config_entry": "01JR28KHST02F6NKSEVTPKVHMJ",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "hall",
+    "configuration_url": null,
+    "config_entries": [
+      "01JR2BVZEEZJV9SBV27K4ZY087"
+    ],
+    "config_entries_subentries": {
+      "01JR2BVZEEZJV9SBV27K4ZY087": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "b0:4a:39:47:bd:3f"
+      ]
+    ],
+    "created_at": 1743842666.104955,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "39596380b0a23a5e2d580011667b0545",
+    "identifiers": [
+      [
+        "roborock",
+        "16zqOWDPa3pei6vO7OW87a"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Roborock",
+    "model": "roborock.vacuum.a27",
+    "model_id": "roborock.vacuum.a27",
+    "modified_at": 1772355127.697311,
+    "name_by_user": "Hall.Robot.Damsugaren.Roborock",
+    "name": "Mo",
+    "primary_config_entry": "01JR2BVZEEZJV9SBV27K4ZY087",
+    "serial_number": null,
+    "sw_version": "02.58.40",
+    "via_device_id": null
+  },
+  {
+    "area_id": "hall",
+    "configuration_url": null,
+    "config_entries": [
+      "01JR2BVZEEZJV9SBV27K4ZY087"
+    ],
+    "config_entries_subentries": {
+      "01JR2BVZEEZJV9SBV27K4ZY087": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1743842666.375111,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8d314fd87b1ddda771cd4ab80543aa3d",
+    "identifiers": [
+      [
+        "roborock",
+        "16zqOWDPa3pei6vO7OW87a_dock"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Roborock",
+    "model": "roborock.vacuum.a27 Dock",
+    "model_id": "0",
+    "modified_at": 1772355112.801975,
+    "name_by_user": "Hall.Dockingstation.Damsugaren.Roborock",
+    "name": "Mo Dock",
+    "primary_config_entry": "01JR2BVZEEZJV9SBV27K4ZY087",
+    "serial_number": null,
+    "sw_version": "02.58.40",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01JR78ABH1A5V4SKYE0TH34W4Y"
+    ],
+    "config_entries_subentries": {
+      "01JR78ABH1A5V4SKYE0TH34W4Y": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1744000331.622601,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8c1e72e48756798a89b76040ecd157dc",
+    "identifiers": [
+      [
+        "tuya",
+        "15682055d8f15bbd4fbe"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Tuya",
+    "model": "Cleverio RGB+CCT 9W E27",
+    "model_id": "pzzkvsdiu8tpeqkh",
+    "modified_at": 1780722906.374387,
+    "name_by_user": null,
+    "name": "konorslampa2",
+    "primary_config_entry": "01JR78ABH1A5V4SKYE0TH34W4Y",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1744467732.270038,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "69d4a783f4393f8912dcb81f6fe51c65",
+    "identifiers": [
+      [
+        "cast",
+        "a20c141e6d495115d34c2d780c69447e"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 1745498902.276345,
+    "name_by_user": null,
+    "name": "Växthuset",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1745000274.77801,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "6e37365db06f46e2d680d6fee6acb1c1",
+    "identifiers": [
+      [
+        "cast",
+        "843802379c51b709226b1fadd50053ce"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 1745498902.297546,
+    "name_by_user": null,
+    "name": "Bastun",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "cloud",
+    "configuration_url": "https://open.spotify.com",
+    "config_entries": [
+      "01JSNKEZVSRJQ1JYHKWWC9W5GD"
+    ],
+    "config_entries_subentries": {
+      "01JSNKEZVSRJQ1JYHKWWC9W5GD": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1745555521.92686,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "2fd1a01d3c037f68ae3be8844d482653",
+    "identifiers": [
+      [
+        "spotify",
+        "riniga"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Spotify AB",
+    "model": "Spotify premium",
+    "model_id": null,
+    "modified_at": 1772365581.077703,
+    "name_by_user": "Cloud.MediaPlayer.Spotify",
+    "name": "Spotify Rickard Nisses-Gagnér",
+    "primary_config_entry": "01JSNKEZVSRJQ1JYHKWWC9W5GD",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01JR28KHST02F6NKSEVTPKVHMJ"
+    ],
+    "config_entries_subentries": {
+      "01JR28KHST02F6NKSEVTPKVHMJ": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1745650021.004982,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "98e8a287f54c852fa83a76d1741c0f3f",
+    "identifiers": [
+      [
+        "gardena_smart_system",
+        "00016929"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Gardena",
+    "model": "GARDENA smart Irrigation Control",
+    "model_id": null,
+    "modified_at": 1772355028.211694,
+    "name_by_user": "Utomhus.Irrigation.Bevattning.Gardena",
+    "name": "Irrigation Control",
+    "primary_config_entry": "01JR28KHST02F6NKSEVTPKVHMJ",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hacs/repository/939531992",
+    "config_entries": [
+      "f0619c78193b499a86ebc65c485efda2"
+    ],
+    "config_entries_subentries": {
+      "f0619c78193b499a86ebc65c485efda2": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1745650146.254932,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "8fb84ae433827071eea4c8c4f79acf96",
+    "identifiers": [
+      [
+        "hacs",
+        "939531992"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "TypQxQ",
+    "model": "integration",
+    "model_id": null,
+    "modified_at": 1745650146.255055,
+    "name_by_user": null,
+    "name": "Sigenergy ESS",
+    "primary_config_entry": "f0619c78193b499a86ebc65c485efda2",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": "homeassistant://hassio/addon/core_matter_server",
+    "config_entries": [
+      "366ce4a3e803ba540765edfeae350526"
+    ],
+    "config_entries_subentries": {
+      "366ce4a3e803ba540765edfeae350526": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1752647505.028384,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "152899b9ee49ba19cf84815acc2e97fa",
+    "identifiers": [
+      [
+        "hassio",
+        "core_matter_server"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Official apps",
+    "model": "Home Assistant App",
+    "model_id": null,
+    "modified_at": 1780238823.546768,
+    "name_by_user": null,
+    "name": "Matter Server",
+    "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
+    "serial_number": null,
+    "sw_version": "8.5.0",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1753686912.419839,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "01cfb9510678dd86df9825a1dc38cad2",
+    "identifiers": [
+      [
+        "cast",
+        "8b485c117e581668780ab724e2d39cbf"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google Inc.",
+    "model": "Google Nest Mini",
+    "model_id": null,
+    "modified_at": 1754138824.490925,
+    "name_by_user": null,
+    "name": "Kontor",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "zigbee",
+        "d0:52:a8:bc:7a:a6:00:01"
+      ],
+      [
+        "mac",
+        "28:6d:97:a0:e8:18"
+      ]
+    ],
+    "created_at": 1743832829.666822,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0b77fff46b69617d597ccd0ed34e9a7a",
+    "identifiers": [
+      [
+        "smartthings",
+        "fdcb3925-8e98-460b-b4d8-100160bdee26"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": "V3_HUB",
+    "model_id": null,
+    "modified_at": 1776922542.110287,
+    "name_by_user": "Kontor.Hub.SmartThings-IoT",
+    "name": "Hub - SmartThings - IoT",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": "000.060.00012",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "bluetooth",
+        "68:3a:48:50:14:87"
+      ],
+      [
+        "mac",
+        "68:3a:48:50:14:86"
+      ],
+      [
+        "mac",
+        "68:3a:48:50:14:84"
+      ],
+      [
+        "zigbee",
+        "d0:52:a8:fe:62:aa:00:01"
+      ]
+    ],
+    "created_at": 1764913944.608942,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "6d44caf1100d24f84eba9ead37b20965",
+    "identifiers": [
+      [
+        "smartthings",
+        "bcb9abb5-82ed-47f2-b0b9-3187a51a3438"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": "V4_HUB",
+    "model_id": null,
+    "modified_at": 1776922542.111365,
+    "name_by_user": "Kök.Hub.SmartThings-Security",
+    "name": "Hub - SmartThings - Larm",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": "000.060.00012",
+    "via_device_id": null
+  },
+  {
+    "area_id": "sovrum",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1764917751.057978,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "92a2624ee540dafc1b552b7943553225",
+    "identifiers": [
+      [
+        "smartthings",
+        "1e9664c6-eede-41b7-ae2d-72ad31588cd5"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1772355254.339589,
+    "name_by_user": "Sovrum.Sensor.Multisensor.SmartThings",
+    "name": "Sensor - Sovrum - Multisensor",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "0b77fff46b69617d597ccd0ed34e9a7a"
+  },
+  {
+    "area_id": "matkallare",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1764917751.059461,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e2846d4c3d7d3c63bb481316ee4439df",
+    "identifiers": [
+      [
+        "smartthings",
+        "d8738c55-cfc0-4f6f-ad28-ec855ce7fefd"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1772355240.693117,
+    "name_by_user": "Matkällaren.Sensor.Multisensor.SmartThings",
+    "name": "Sensor - Matkällaren - Multisensor",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "0b77fff46b69617d597ccd0ed34e9a7a"
+  },
+  {
+    "area_id": "kallarhall",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "zigbee",
+        "54:ef:44:10:00:e6:77:a8"
+      ]
+    ],
+    "created_at": 1764923154.731346,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "478c4ddd25726ba256b6844c5385c29d",
+    "identifiers": [
+      [
+        "smartthings",
+        "5ef10020-1a67-49f8-96c6-2e1cc6890dae"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1776922542.112345,
+    "name_by_user": "Källarhall.BinarySensor.Rök.SmartThings",
+    "name": "Sensor  - Källarhall - Rökdetektor",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "6d44caf1100d24f84eba9ead37b20965"
+  },
+  {
+    "area_id": "kattrum",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "zigbee",
+        "18:0d:f9:ff:fe:c1:f7:e1"
+      ]
+    ],
+    "created_at": 1764925774.230032,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "47d7f0482e58d1b6d5bd6edf1530218c",
+    "identifiers": [
+      [
+        "smartthings",
+        "df55558b-4336-441c-a2b3-3501b16b4072"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780638707.061337,
+    "name_by_user": "Kattrum.Outlet.Badrumsfläkt.SmartThings",
+    "name": "Vägguttag - Kontor - Tretakt",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "0b77fff46b69617d597ccd0ed34e9a7a"
+  },
+  {
+    "area_id": "vardagsrum",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "zigbee",
+        "34:8d:13:ff:fe:2a:e0:3a"
+      ]
+    ],
+    "created_at": 1764925774.231462,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "12bb0e782212c8130498badd2542771f",
+    "identifiers": [
+      [
+        "smartthings",
+        "9d648add-5faf-45d5-8a37-0f271012daf7"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1776922542.113943,
+    "name_by_user": "Vardagsrum.Sensor.Klimat.Smarthings",
+    "name": "Sensor - Kontor - Luftkvalitet",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "0b77fff46b69617d597ccd0ed34e9a7a"
+  },
+  {
+    "area_id": "vardagsrum",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "zigbee",
+        "04:e3:e5:ff:fe:0a:f0:4e"
+      ]
+    ],
+    "created_at": 1764925774.23251,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "04033cd907d16b1ae2ddcbeb39ce4efe",
+    "identifiers": [
+      [
+        "smartthings",
+        "fddc6788-f6f1-4a79-b177-8cff44b3ab7e"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": null,
+    "model": null,
+    "model_id": null,
+    "modified_at": 1776922542.115014,
+    "name_by_user": "Vardagsrum.Outlet.Skänklampa.SmartThings",
+    "name": "Vägguttag - Vardagsrum - Inspelning",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "0b77fff46b69617d597ccd0ed34e9a7a"
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01KBPWZTD5S2YFN6AKAB9389DG"
+    ],
+    "config_entries_subentries": {
+      "01KBPWZTD5S2YFN6AKAB9389DG": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1735990342.786388,
+    "disabled_by": "config_entry",
+    "entry_type": null,
+    "hw_version": null,
+    "id": "73192775411568542446392ff43adbcf",
+    "identifiers": [
+      [
+        "plejd",
+        "C27166176C80",
+        "WRkHYZD1SQ"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Plejd",
+    "model": "DIM-01",
+    "model_id": null,
+    "modified_at": 1765112920.268936,
+    "name_by_user": null,
+    "name": "Dimmer - Tvrum - Taklampa",
+    "primary_config_entry": "01KBPWZTD5S2YFN6AKAB9389DG",
+    "serial_number": null,
+    "sw_version": "1.0.7",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KBPWZTD5S2YFN6AKAB9389DG"
+    ],
+    "config_entries_subentries": {
+      "01KBPWZTD5S2YFN6AKAB9389DG": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1761670160.436503,
+    "disabled_by": "config_entry",
+    "entry_type": null,
+    "hw_version": null,
+    "id": "2b21993456a43c536baaf2a905ed5e9f",
+    "identifiers": [
+      [
+        "plejd",
+        "D0D71493DFF0",
+        "KIVxzmamJM"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Plejd",
+    "model": "DIM-01",
+    "model_id": null,
+    "modified_at": 1765112920.270354,
+    "name_by_user": null,
+    "name": "Dimmer - Kontor - Taklampa",
+    "primary_config_entry": "01KBPWZTD5S2YFN6AKAB9389DG",
+    "serial_number": null,
+    "sw_version": "1.0.7",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "89fa95060d18df7ed3398d2f8daa5d15"
+    ],
+    "config_entries_subentries": {
+      "89fa95060d18df7ed3398d2f8daa5d15": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1768055582.413006,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "7597ebdad1d7cfd86cba027797b5c392",
+    "identifiers": [
+      [
+        "cast",
+        "8d842b62412e4173b5a7d2f3a32eb449"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Unknown manufacturer",
+    "model": "OLED55G36LA",
+    "model_id": null,
+    "modified_at": 1768055582.413195,
+    "name_by_user": null,
+    "name": "tv",
+    "primary_config_entry": "89fa95060d18df7ed3398d2f8daa5d15",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": "http://192.168.1.91:631/sws/index.html?link=/sws/app/settings/network/AirPrint/AirPrint.html",
+    "config_entries": [
+      "01KJMADNQXD16Z9X6A4TQEQRPT"
+    ],
+    "config_entries_subentries": {
+      "01KJMADNQXD16Z9X6A4TQEQRPT": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1772356032.383808,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "dec4be677b02529af5e37923bd26ae45",
+    "identifiers": [
+      [
+        "ipp",
+        "16a65700-007c-1000-bb49-7c4d8f707149"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "HP",
+    "model": "HP Color Laser MFP 178 179",
+    "model_id": null,
+    "modified_at": 1780722905.805338,
+    "name_by_user": "Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol",
+    "name": "HP Color Laser MFP 178nw",
+    "primary_config_entry": "01KJMADNQXD16Z9X6A4TQEQRPT",
+    "serial_number": null,
+    "sw_version": "['V3.82.01.14', '1.0,1.1,2.0', '1.02', '1.4']",
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01KJQ5XJE6ECTVZXGAYA21QRQ0"
+    ],
+    "config_entries_subentries": {
+      "01KJQ5XJE6ECTVZXGAYA21QRQ0": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1772451974.293421,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "7f298614e8ac9e5430b2d6c7ceff3169",
+    "identifiers": [
+      [
+        "volvo",
+        "YV1XKEHR2R2092667"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Volvo",
+    "model": "C40 ELECTRIC (2024)",
+    "model_id": "C40 (2024)",
+    "modified_at": 1772452023.181151,
+    "name_by_user": "Utomhus.Car.VolovC40",
+    "name": "Volvo C40",
+    "primary_config_entry": "01KJQ5XJE6ECTVZXGAYA21QRQ0",
+    "serial_number": "YV1XKEHR2R2092667",
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "groventre",
+    "configuration_url": "https://mypages.verisure.com",
+    "config_entries": [
+      "01J2RXK9E64YXCKK1GBTZJ5C8D"
+    ],
+    "config_entries_subentries": {
+      "01J2RXK9E64YXCKK1GBTZJ5C8D": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1772872089.02368,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "2a53504bdf80313ef44e6754e8ba9e12",
+    "identifiers": [
+      [
+        "verisure",
+        "2AU5 72E7"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Verisure",
+    "model": "SmartPlug",
+    "model_id": null,
+    "modified_at": 1772872180.959959,
+    "name_by_user": "Groventre.Outlet.Fönsterlampa.Verisure",
+    "name": "Groventre",
+    "primary_config_entry": "01J2RXK9E64YXCKK1GBTZJ5C8D",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "4d5c35d2a4467fcc55c27de1974360c1"
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1772893275.279888,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "Realtek",
+    "id": "fb963ea7b8615fe86c63c2b00d492027",
+    "identifiers": [
+      [
+        "smartthings",
+        "9b8581da-cc35-7f69-5de0-33cd21ab6c01"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Samsung Electronics",
+    "model": "TP1X_REF_21K",
+    "model_id": "RR39C7BG6S9/EF",
+    "modified_at": 1773147556.42346,
+    "name_by_user": "Kök.Vitvara.Kyl.SmartThings",
+    "name": "Kyl",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": "A-RFWW-TP1-24-T4-COM_20250706",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": "https://account.smartthings.com",
+    "config_entries": [
+      "ecf14981bbdf7572bace3990a85373a7"
+    ],
+    "config_entries_subentries": {
+      "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1772893275.281502,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "Realtek",
+    "id": "81bed6809bbdc636e8833ca499a181bb",
+    "identifiers": [
+      [
+        "smartthings",
+        "22666d57-6553-f524-f43e-ab6590d07dc3"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Samsung Electronics",
+    "model": "TP1X_REF_21K",
+    "model_id": "RZ32C7BH6S9/EF",
+    "modified_at": 1773147556.42431,
+    "name_by_user": "Kök.Vitvara.Frys.SmartThings",
+    "name": "Frys",
+    "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
+    "serial_number": null,
+    "sw_version": "A-RFWW-TP1-24-T4-COM_20250706",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "0bdf181036d739e809f99cfea60bcf91"
+    ],
+    "config_entries_subentries": {
+      "0bdf181036d739e809f99cfea60bcf91": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1773147508.786756,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "dcaf6c21f1c7baa315cfa1c9854023e7",
+    "identifiers": [
+      [
+        "google_translate",
+        "0bdf181036d739e809f99cfea60bcf91"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Google",
+    "model": "Google Translate TTS",
+    "model_id": null,
+    "modified_at": 1773147508.786919,
+    "name_by_user": null,
+    "name": "Google Translate en com",
+    "primary_config_entry": "0bdf181036d739e809f99cfea60bcf91",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "2ff164427d5adfe0ac700e8f181b6876",
+    "identifiers": [
+      [
+        "tellduslive",
+        "556495"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Telldus",
+    "model": "TellStick ZNet Lite v2",
+    "model_id": null,
+    "modified_at": 1773671659.781855,
+    "name_by_user": "Kontor.Hub.Telldus",
+    "name": "Hemma",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": "1.3.2",
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1726210634.370531,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0cbddff2e31da5b976afe10e6affd44e",
+    "identifiers": [
+      [
+        "tellduslive",
+        "14103444"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Kangtai",
+    "model": "Selflearning:Cleverio",
+    "model_id": null,
+    "modified_at": 1773681442.723184,
+    "name_by_user": "Utomhus.Switch.Fontän.Telldus",
+    "name": "cleveriq01",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": "felix_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a70fe5a1d5af41a960c4b1493a55c486",
+    "identifiers": [
+      [
+        "tellduslive",
+        "_1540407931"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Fineoffset",
+    "model": "Temperaturehumidity",
+    "model_id": null,
+    "modified_at": 1773681442.761454,
+    "name_by_user": "Felix.Sensor.Klimat.Telldus",
+    "name": "Felix",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1725866214.268516,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e1dd40b32470a11f55f2d86fd32c5b87",
+    "identifiers": [
+      [
+        "tellduslive",
+        "14099874"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Kangtai",
+    "model": "Selflearning:Cleverio",
+    "model_id": null,
+    "modified_at": 1773681443.028727,
+    "name_by_user": "Switch.02.Telldus",
+    "name": "cleveriq02",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1773681443.270195,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "e193d862b24bbabdcc473d7a68cdfb80",
+    "identifiers": [
+      [
+        "tellduslive",
+        "16873141"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Kangtai",
+    "model": "Selflearning:Cleverio",
+    "model_id": null,
+    "modified_at": 1773681443.270389,
+    "name_by_user": null,
+    "name": "cleveriq04",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": "tvattstuga",
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "caf7b0fe0b2031f80ab63f7eabeebe98",
+    "identifiers": [
+      [
+        "tellduslive",
+        "_1553067567"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Fineoffset",
+    "model": "Temperaturehumidity",
+    "model_id": null,
+    "modified_at": 1773681443.284827,
+    "name_by_user": "Tvättstuga.Sensor.Klimat.Telldus",
+    "name": "Tvättstuga",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1773681443.565348,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "6e19bb312b4da6e625d9668463f3f5d6",
+    "identifiers": [
+      [
+        "tellduslive",
+        "16873135"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Kangtai",
+    "model": "Selflearning:Cleverio",
+    "model_id": null,
+    "modified_at": 1773681443.565583,
+    "name_by_user": null,
+    "name": "cleveriq03",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": "vind",
+    "configuration_url": null,
+    "config_entries": [
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3"
+    ],
+    "config_entries_subentries": {
+      "01KKVH3E0QCZT0F4D0R6XAAZJ3": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 0.0,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "90684d696feabefa429d5f5be305055b",
+    "identifiers": [
+      [
+        "tellduslive",
+        "_1540407921"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Fineoffset",
+    "model": "Temperaturehumidity",
+    "model_id": null,
+    "modified_at": 1773681443.594763,
+    "name_by_user": "Vind.Sensor.Klimat.Telldus",
+    "name": "Vind",
+    "primary_config_entry": "01KKVH3E0QCZT0F4D0R6XAAZJ3",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": "2ff164427d5adfe0ac700e8f181b6876"
+  },
+  {
+    "area_id": "felix_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01KPWB3AM2A62VMR0Y90S1SSW1"
+    ],
+    "config_entries_subentries": {
+      "01KPWB3AM2A62VMR0Y90S1SSW1": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1776920144.63606,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "578b1e1ba66827682198f0b08345521d",
+    "identifiers": [
+      [
+        "adax",
+        1326121
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Adax",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1776923181.598298,
+    "name_by_user": "felix.climate.radiator.adax",
+    "name": "Felix radiator",
+    "primary_config_entry": "01KPWB3AM2A62VMR0Y90S1SSW1",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01JR28KHST02F6NKSEVTPKVHMJ"
+    ],
+    "config_entries_subentries": {
+      "01JR28KHST02F6NKSEVTPKVHMJ": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780238843.735601,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "1bbc7d661ba26c7648d0d4063dd1f65e",
+    "identifiers": [
+      [
+        "gardena_smart_system",
+        "19d7439b-fba7-495b-bb81-607f295ee05f"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Gardena",
+    "model": "GARDENA smart Mower",
+    "model_id": null,
+    "modified_at": 1780238843.735709,
+    "name_by_user": null,
+    "name": "Fåret Shaun",
+    "primary_config_entry": "01JR28KHST02F6NKSEVTPKVHMJ",
+    "serial_number": "223205327",
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01JR28KHST02F6NKSEVTPKVHMJ"
+    ],
+    "config_entries_subentries": {
+      "01JR28KHST02F6NKSEVTPKVHMJ": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780238843.747865,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "4b780fd7dfd42da3f456a10a5eaeba93",
+    "identifiers": [
+      [
+        "gardena_smart_system",
+        "9aa2d0ef-1abd-44d9-9b6d-b4c81f5927d8"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Gardena",
+    "model": "GARDENA smart Irrigation Control",
+    "model_id": null,
+    "modified_at": 1780238843.74797,
+    "name_by_user": null,
+    "name": "Irrigation Control",
+    "primary_config_entry": "01JR28KHST02F6NKSEVTPKVHMJ",
+    "serial_number": "00016929",
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01JR28KHST02F6NKSEVTPKVHMJ"
+    ],
+    "config_entries_subentries": {
+      "01JR28KHST02F6NKSEVTPKVHMJ": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780238843.79817,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8880feae73711308c654eaec69687464",
+    "identifiers": [
+      [
+        "gardena_smart_system",
+        "websocket_status_01JR28KHST02F6NKSEVTPKVHMJ"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Gardena",
+    "model": "Unknown Model",
+    "model_id": null,
+    "modified_at": 1780238843.798259,
+    "name_by_user": null,
+    "name": "WebSocket Status",
+    "primary_config_entry": "01JR28KHST02F6NKSEVTPKVHMJ",
+    "serial_number": "websocket",
+    "sw_version": null,
+    "via_device_id": null
+  }
+]

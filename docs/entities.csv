@@ -1,413 +1,784 @@
-entity_id,domain,friendly_name,state,unit,device_class,state_class
-alarm_control_panel.verisure_alarm,alarm_control_panel,Kök.Hub.Controller.Verisure,disarmed,,,
-automation.helg_natt,automation,Helg natt,on,,,
-automation.solnedgang,automation,Solnedgång,on,,,
-automation.soluppgang,automation,Soluppgång,on,,,
-automation.stang_av_fontanen,automation,Stäng av fontänen,off,,,
-automation.starta_fontanen,automation,Starta fontänen,off,,,
-automation.tand_led_vid_rorelse_i_matkallaren,automation,Tänd LED vid rörelse i matkällaren,on,,,
-automation.temperaturplan_felix_rum,automation,Temperaturplan Felix rum,on,,,
-automation.turn_led_strip_off_if_no_motion_for_1_minut,automation,Släck LED om ingen rörelse i en minut i matkällaren,on,,,
-automation.tvattstuga_ventilation_absolut_fuktighet,automation,Tvättstuga ventilation absolut fuktighet,on,,,
-automation.vardag_morgon,automation,Vardag morgon,on,,,
-automation.vardag_natt,automation,Vardag natt,on,,,
-binary_sensor.altandorr_tv_rum_oppning,binary_sensor,Tv-rum.BinarySensor.Altandörr.Verisure Öppning,on,,opening,
-binary_sensor.altandorr_vardagsrum_oppning,binary_sensor,Vardagsrum.BinarySensor.Altandörr.Verisure Öppning,off,,opening,
-binary_sensor.chanti,binary_sensor,Chanti,on,,presence,
-binary_sensor.dorr_mediaskap_oppning,binary_sensor,Kök.BinarySensor.Mediaskåp.Verisure Öppning,off,,opening,
-binary_sensor.entre_oppning,binary_sensor,Groventre.BinarySensor.Ytterdörr.Verisure Öppning,off,,opening,
-binary_sensor.faret_shaun_online,binary_sensor,Fåret Shaun Online,on,,,
-binary_sensor.finentre_oppning,binary_sensor,Hall.BinarySensor.Ytterdörr.Verisure Öppning,off,,opening,
-binary_sensor.frys_dorr,binary_sensor,Kök.Vitvara.Frys.SmartThings Dörr,off,,door,
-binary_sensor.gardena_smart_system_connection,binary_sensor,Gardena Smart System connection,unavailable,,connectivity,
-binary_sensor.groventre_dorr,binary_sensor,Groventre.Lock.Ytterdörren.Yale Dörr,off,,door,
-binary_sensor.groventre_dorrklockan_ringer,binary_sensor,Groventre.Lock.Ytterdörren.Yale Dörrklockan ringer,off,,occupancy,
-binary_sensor.ipad_dmpf10mlntgr_focus,binary_sensor,iPad-DMPF10MLNTGR Focus,off,,,
-binary_sensor.irrigation_control_online,binary_sensor,Irrigation Control Online,unavailable,,,
-binary_sensor.katthub,binary_sensor,Kontor.Hub.SurePetcare,on,,connectivity,
-binary_sensor.kattlucka_connectivity,binary_sensor,Groventre.Lucka.SurePetcare Kattlucka  Connectivity,off,,connectivity,
-binary_sensor.kyl_dorr,binary_sensor,Kök.Vitvara.Kyl.SmartThings Dörr,off,,door,
-binary_sensor.mo_laddning,binary_sensor,Hall.Robot.Damsugaren.Roborock Laddning,on,,battery_charging,
-binary_sensor.mo_mopp_monterad,binary_sensor,Hall.Robot.Damsugaren.Roborock Mopp monterad,off,,connectivity,
-binary_sensor.mo_stadar,binary_sensor,Hall.Robot.Damsugaren.Roborock Städar,off,,running,
-binary_sensor.mo_vattenbehallare_monterad,binary_sensor,Hall.Robot.Damsugaren.Roborock Vattenbehållare monterad,on,,connectivity,
-binary_sensor.mo_vattenbrist,binary_sensor,Hall.Robot.Damsugaren.Roborock Vattenbrist,off,,problem,
-binary_sensor.netatamo_indoor_uppkoppling,binary_sensor,Tv-rum.Sensor.Klimat.Netatmo Anslutning,on,,connectivity,
-binary_sensor.panel_is_charging,binary_sensor,Panel Is Charging,off,,plug,
-binary_sensor.remote_ui,binary_sensor,Remote UI,on,,connectivity,
-binary_sensor.rpi_power_status,binary_sensor,RPi Power status,off,,problem,
-binary_sensor.semilon,binary_sensor,Semilon,on,,presence,
-binary_sensor.sensor_matkallaren_multisensor_rorelse,binary_sensor,Matkällaren.Sensor.Multisensor.SmartThings Rörelse,off,,motion,
-binary_sensor.sensor_matkallaren_multisensor_sabotage,binary_sensor,Matkällaren.Sensor.Multisensor.SmartThings Sabotage,off,,tamper,
-binary_sensor.sensor_sovrum_multisensor_rorelse,binary_sensor,Sovrum.Sensor.Multisensor.SmartThings Rörelse,off,,motion,
-binary_sensor.sensor_sovrum_multisensor_sabotage,binary_sensor,Sovrum.Sensor.Multisensor.SmartThings Sabotage,off,,tamper,
-binary_sensor.shiraz,binary_sensor,Shiraz,on,,presence,
-binary_sensor.unknown_70_ee_50_74_46_84_regnmatare_uppkoppling,binary_sensor,Utomhus.Sensor.Regnmätare.Netatmo Anslutning,on,,connectivity,
-binary_sensor.unknown_70_ee_50_74_46_84_utetemp_uppkoppling,binary_sensor,Utomhus.Sensor.Klimat.Netatmo Anslutning,on,,connectivity,
-binary_sensor.unknown_70_ee_50_74_46_84_vindmatare_uppkoppling,binary_sensor,Utomhus.Sensor.Vindmätare.Netatmo Anslutning,on,,connectivity,
-binary_sensor.ventilation_gynnsam,binary_sensor,Ventilation gynnsam,on,,,
-binary_sensor.verisure_alarm_ethernet_tillstand,binary_sensor,Kök.Hub.Controller.Verisure Ethernet tillstånd,on,,connectivity,
-binary_sensor.volvo_c40_backljus,binary_sensor,Utomhus.Car.VolovC40 Backljus,unknown,,problem,
-binary_sensor.volvo_c40_baklucka,binary_sensor,Utomhus.Car.VolovC40 Baklucka,off,,door,
-binary_sensor.volvo_c40_belysning_for_registreringsskylt,binary_sensor,Utomhus.Car.VolovC40 Belysning för registreringsskylt,off,,problem,
-binary_sensor.volvo_c40_blinker_bak_vanster,binary_sensor,Utomhus.Car.VolovC40 Blinker bak vänster,off,,problem,
-binary_sensor.volvo_c40_blinker_fram_hoger,binary_sensor,Utomhus.Car.VolovC40 Blinker fram höger,off,,problem,
-binary_sensor.volvo_c40_blinker_fram_vanster,binary_sensor,Utomhus.Car.VolovC40 Blinker fram vänster,off,,problem,
-binary_sensor.volvo_c40_blinkers_bak_hoger,binary_sensor,Utomhus.Car.VolovC40 Blinkers bak höger,off,,problem,
-binary_sensor.volvo_c40_bromsljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Bromsljus höger,off,,problem,
-binary_sensor.volvo_c40_bromsljus_mitten,binary_sensor,Utomhus.Car.VolovC40 Bromsljus mitten,off,,problem,
-binary_sensor.volvo_c40_bromsljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Bromsljus vänster,off,,problem,
-binary_sensor.volvo_c40_bromsvatska,binary_sensor,Utomhus.Car.VolovC40 Bromsvätska,off,,problem,
-binary_sensor.volvo_c40_dack_hoger_bak,binary_sensor,Utomhus.Car.VolovC40 Däck höger bak,unknown,,problem,
-binary_sensor.volvo_c40_dack_hoger_fram,binary_sensor,Utomhus.Car.VolovC40 Däck höger fram,unknown,,problem,
-binary_sensor.volvo_c40_dack_vanster_bak,binary_sensor,Utomhus.Car.VolovC40 Däck vänster bak,unknown,,problem,
-binary_sensor.volvo_c40_dack_vanster_fram,binary_sensor,Utomhus.Car.VolovC40 Däck vänster fram,unknown,,problem,
-binary_sensor.volvo_c40_dimljus_bak,binary_sensor,Utomhus.Car.VolovC40 Dimljus bak,off,,problem,
-binary_sensor.volvo_c40_dimljus_fram,binary_sensor,Utomhus.Car.VolovC40 Dimljus fram,off,,problem,
-binary_sensor.volvo_c40_dorr_hoger_bak,binary_sensor,Utomhus.Car.VolovC40 Dörr höger bak,off,,door,
-binary_sensor.volvo_c40_dorr_hoger_fram,binary_sensor,Utomhus.Car.VolovC40 Dörr höger fram,off,,door,
-binary_sensor.volvo_c40_dorr_vanster_bak,binary_sensor,Utomhus.Car.VolovC40 Dörr vänster bak,off,,door,
-binary_sensor.volvo_c40_dorr_vanster_fram,binary_sensor,Utomhus.Car.VolovC40 Dörr vänster fram,off,,door,
-binary_sensor.volvo_c40_fonster_hoger_bakdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster höger bakdörr,off,,window,
-binary_sensor.volvo_c40_fonster_hoger_framdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster höger framdörr,off,,window,
-binary_sensor.volvo_c40_fonster_vanster_bakdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster vänster bakdörr,off,,window,
-binary_sensor.volvo_c40_fonster_vanster_framdorr,binary_sensor,Utomhus.Car.VolovC40 Fönster vänster framdörr,off,,window,
-binary_sensor.volvo_c40_halvljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Halvljus höger,off,,problem,
-binary_sensor.volvo_c40_halvljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Halvljus vänster,off,,problem,
-binary_sensor.volvo_c40_helljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Helljus höger,off,,problem,
-binary_sensor.volvo_c40_helljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Helljus vänster,off,,problem,
-binary_sensor.volvo_c40_kylvatskeniva,binary_sensor,Utomhus.Car.VolovC40 Kylvätskenivå,off,,problem,
-binary_sensor.volvo_c40_motorhuv,binary_sensor,Utomhus.Car.VolovC40 Motorhuv,off,,door,
-binary_sensor.volvo_c40_motorstatus,binary_sensor,Utomhus.Car.VolovC40 Motorstatus,off,,running,
-binary_sensor.volvo_c40_oljeniva,binary_sensor,Utomhus.Car.VolovC40 Oljenivå,off,,problem,
-binary_sensor.volvo_c40_positionsljus_bak_hoger,binary_sensor,Utomhus.Car.VolovC40 Positionsljus bak höger,off,,problem,
-binary_sensor.volvo_c40_positionsljus_bak_vanster,binary_sensor,Utomhus.Car.VolovC40 Positionsljus bak vänster,off,,problem,
-binary_sensor.volvo_c40_positionsljus_fram_hoger,binary_sensor,Utomhus.Car.VolovC40 Positionsljus fram höger,off,,problem,
-binary_sensor.volvo_c40_positionsljus_fram_vanster,binary_sensor,Utomhus.Car.VolovC40 Positionsljus fram vänster,off,,problem,
-binary_sensor.volvo_c40_sidomarkeringsljus,binary_sensor,Utomhus.Car.VolovC40 Sidomarkeringsljus,off,,problem,
-binary_sensor.volvo_c40_spolarvatska,binary_sensor,Utomhus.Car.VolovC40 Spolarvätska,off,,problem,
-binary_sensor.volvo_c40_taklucka,binary_sensor,Utomhus.Car.VolovC40 Taklucka,unknown,,window,
-binary_sensor.volvo_c40_tanklock,binary_sensor,Utomhus.Car.VolovC40 Tanklock,off,,door,
-binary_sensor.volvo_c40_varningsblinkers,binary_sensor,Utomhus.Car.VolovC40 Varningsblinkers,unknown,,problem,
-binary_sensor.volvo_c40_varselljus_hoger,binary_sensor,Utomhus.Car.VolovC40 Varselljus höger,off,,problem,
-binary_sensor.volvo_c40_varselljus_vanster,binary_sensor,Utomhus.Car.VolovC40 Varselljus vänster,off,,problem,
-binary_sensor.websocket_status_gardena_websocket_connected,binary_sensor,WebSocket Status Gardena WebSocket Connected,on,,connectivity,
-binary_sensor.zelda,binary_sensor,Zelda,off,,presence,
-button.faret_shaun_return_to_dock,button,Fåret Shaun Return to Dock,unavailable,,,
-button.faret_shaun_return_to_dock_2,button,Fåret Shaun Return to Dock,unknown,,,
-button.faret_shaun_start_mowing_now,button,Fåret Shaun Start Mowing Now,unknown,,,
-button.faret_shaun_start_override,button,Fåret Shaun Start Override,unavailable,,,
-button.groventre_vack,button,Groventre.Lock.Ytterdörren.Yale Väck,unknown,,,
-button.mo_full_cleaning,button,Hall.Robot.Damsugaren.Roborock Full Cleaning,unknown,,,
-button.utomhus_car_volovc40_blinka,button,Utomhus.Car.VolovC40 Blinka,unknown,,,
-button.utomhus_car_volovc40_tuta,button,Utomhus.Car.VolovC40 Tuta,unknown,,,
-button.utomhus_car_volovc40_tuta_och_blixtra,button,Utomhus.Car.VolovC40 Tuta och blixtra,unknown,,,
-button.volvo_c40_lock_reduced_guard,button,Utomhus.Car.VolovC40 Lock reduced guard,unknown,,,
-button.volvo_c40_starta_klimatiseringen,button,Utomhus.Car.VolovC40 Starta klimatiseringen,unknown,,,
-button.volvo_c40_stoppa_klimatiseringen,button,Utomhus.Car.VolovC40 Stoppa klimatiseringen,unknown,,,
-camera.camera_garage,camera,camera.garage,idle,,,
-camera.camera_garden,camera,camera.garden,idle,,,
-camera.hall_kallare,camera,Källarhall.Sensor.Camera.Verisure,idle,,,
-camera.tv_rum,camera,Tv-rum.Sensor.Camera.Verisure,idle,,,
-camera.vardagsrum,camera,Vardagsrum.Sensor.Camera.Verisure,idle,,,
-climate.termostat,climate,felix.climate.radiator.adax Felix radiator,heat,,,
-conversation.home_assistant,conversation,Home Assistant,unknown,,,
-device_tracker.ipad_dmpf10mlntgr,device_tracker,iPad-DMPF10MLNTGR,Hem,,,
-device_tracker.panel,device_tracker,Panel,unknown,,,
-device_tracker.rickard,device_tracker,Rickard,unknown,,,
-device_tracker.rickards_mobil,device_tracker,Rickard,Hem,,,
-device_tracker.volvo_c40_plats,device_tracker,Utomhus.Car.VolovC40 Plats,Hem,,,
-event.backup_automatisk_sakerhetskopiering,event,Backup Automatisk säkerhetskopiering,2026-06-01T03:24:05.360+00:00,,,
-event.groventre_dorrklocka,event,Groventre.Lock.Ytterdörren.Yale Dörrklocka,2026-05-22T21:53:37.478+00:00,,doorbell,
-event.hue_dimmer_switch_1_knapp_1,event,Hue dimmer switch 1 Knapp 1,2026-03-16T13:28:26.785+00:00,,button,
-event.hue_dimmer_switch_1_knapp_2,event,Hue dimmer switch 1 Knapp 2,2025-09-25T04:52:35.240+00:00,,button,
-event.hue_dimmer_switch_1_knapp_3,event,Hue dimmer switch 1 Knapp 3,unknown,,button,
-event.hue_dimmer_switch_1_knapp_4,event,Hue dimmer switch 1 Knapp 4,2025-09-25T04:52:36.267+00:00,,button,
-image.mo_badrum_kallaren,image,Hall.Robot.Damsugaren.Roborock Badrum källaren,2026-06-06T05:14:59.709971+00:00,,,
-image.mo_entreplan,image,Entreplan,unavailable,,,
-image.mo_ovanvaning,image,Hall.Robot.Damsugaren.Roborock Ovanvåning,2026-06-06T05:14:59.709971+00:00,,,
-lawn_mower.faret_shaun,lawn_mower,Utomhus.Robot.Gräsklippare.Gardena,unavailable,,,
-lawn_mower.faret_shaun_lawn_mower,lawn_mower,Fåret Shaun Lawn Mower,docked,,,
-light.hall,light,Hall.Lamp.Byrålampa.Hue,off,,,
-light.hallampa,light,Hall.Light.Byrolampa.Hue,off,,,
-light.hue_ambiance_lamp_1,light,Hue ambiance lamp 1,unavailable,,,
-light.hue_ambiance_lamp_2,light,Hue ambiance lamp 2,unavailable,,,
-light.konorslampa2,light,konorslampa2,unavailable,,,
-light.kontor,light,Kontor,on,,,
-light.kontorslampa,light,Kontorslampa,unavailable,,,
-light.ute,light,Ute,on,,,
-light.vagguttag_kattrum_tretakt,light,Kattrum.Outlet.Badrumsfläkt.SmartThings,off,,,
-light.vagguttag_vardagsrum_inspelning,light,Vardagsrum.Outlet.Skänklampa.SmartThings,on,,,
-lock.groventre,lock,Groventre.Lock.Ytterdörren.Yale,unlocked,,,
-lock.kattlucka_locked_all,lock,Groventre.Lucka.SurePetcare Kattlucka  locked all,unavailable,,,
-lock.kattlucka_locked_in,lock,Groventre.Lucka.SurePetcare Kattlucka  locked in,unavailable,,,
-lock.kattlucka_locked_out,lock,Groventre.Lucka.SurePetcare Kattlucka  locked out,unavailable,,,
-lock.volvo_c40_las,lock,Utomhus.Car.VolovC40 Lås,unlocked,,,
-media_player.badrum,media_player,,unavailable,,speaker,
-media_player.chromecast,media_player,Chromecast,off,,,
-media_player.familjerum,media_player,,unavailable,,,
-media_player.kok,media_player,Kök.MediaPlayer.Sonos,idle,,speaker,
-media_player.kontoret,media_player,,unavailable,,speaker,
-media_player.lg_webos_tv_oled55g36la,media_player,Tv-rum.Mediaspelare.TV.LGWebOS,unavailable,,tv,
-media_player.lg_webos_tv_oled55g36la_2,media_player,,unavailable,,,
-media_player.nestaudio8737,media_player,Vardagsrum,off,,speaker,
-media_player.nestmini0328,media_player,,unavailable,,speaker,
-media_player.nestmini2476,media_player,,unavailable,,speaker,
-media_player.nestmini3910,media_player,,unavailable,,speaker,
-media_player.nestmini7852,media_player,Bastun,off,,speaker,
-media_player.nestmini8159,media_player,,unavailable,,speaker,
-media_player.nestmini9141,media_player,,unavailable,,speaker,
-media_player.nestmini9941,media_player,,unavailable,,speaker,
-media_player.sovrum,media_player,Sovrum,paused,,,
-media_player.spotify_rickard_nisses_gagner,media_player,Cloud.MediaPlayer.Spotify,idle,,,
-media_player.tv,media_player,tv,unavailable,,,
-notify.ipad_dmpf10mlntgr,notify,iPad-DMPF10MLNTGR,unknown,,,
-notify.panel,notify,Panel,unknown,,,
-notify.rickard,notify,Rickard,unknown,,,
-notify.rickard_2,notify,Rickard,unknown,,,
-number.frys_maltemperatur,number,Kök.Vitvara.Frys.SmartThings Måltemperatur,-18,°C,temperature,
-number.irrigation_control_valve_1_watering_duration,number,Irrigation Control Valve 1 Watering Duration,unavailable,min,,
-number.irrigation_control_valve_2_watering_duration,number,Irrigation Control Valve 2 Watering Duration,unavailable,min,,
-number.irrigation_control_valve_3_watering_duration,number,Irrigation Control Valve 3 Watering Duration,unavailable,min,,
-number.irrigation_control_valve_4_watering_duration,number,Irrigation Control Valve 4 Watering Duration,unavailable,min,,
-number.irrigation_control_valve_5_watering_duration,number,Irrigation Control Valve 5 Watering Duration,unavailable,min,,
-number.irrigation_control_valve_6_watering_duration,number,Irrigation Control Valve 6 Watering Duration,unavailable,min,,
-number.kok_balance,number,Kök.MediaPlayer.Sonos Balans,0,,,
-number.kok_bass,number,Kök.MediaPlayer.Sonos Bas,0,,,
-number.kok_treble,number,Kök.MediaPlayer.Sonos Diskant,0,,,
-number.kyl_maltemperatur,number,Kök.Vitvara.Kyl.SmartThings Måltemperatur,4,°C,temperature,
-number.mo_volym,number,Hall.Robot.Damsugaren.Roborock Volym,90.0,%,,
-person.dashboard,person,Dashboard,unknown,,,
-person.mosquitto,person,Mosquitto,unknown,,,
-person.rickard,person,Rickard,Hem,,,
-scene.julbelysning,scene,Tänd skymningsbelysning,2026-06-05T19:48:51.235490+00:00,,,
-scene.kontor_glowing_grins,scene,Kontor Glowing grins,unknown,,,
-scene.kontor_gnistrande_sno,scene,Kontor Gnistrande snö,unknown,,,
-scene.slack_julbelysning_duplicera,scene,Släck skymningsbelysning,2026-06-06T02:25:44.934092+00:00,,,
-select.mo_moppintensitet,select,Hall.Robot.Damsugaren.Roborock Moppintensitet,custom,,,
-select.mo_mopplage,select,Hall.Robot.Damsugaren.Roborock Moppläge,custom,,,
-select.mo_vald_karta,select,Hall.Robot.Damsugaren.Roborock Vald karta,Ovanvåning,,,
-sensor.absolut_fuktighet_tvattstuga,sensor,Absolut fuktighet tvättstuga,12.3,g/m³,,
-sensor.absolut_fuktighet_ute,sensor,Absolut fuktighet ute,10.8,g/m³,,
-sensor.backup_nasta_schemalagda_automatiska_sakerhetskopiering,sensor,Backup Nästa schemalagda automatiska säkerhetskopiering,2026-06-08T02:45:28+00:00,,timestamp,
-sensor.backup_senaste_forsok_till_automatisk_sakerhetskopiering,sensor,Backup Senaste försök till automatisk säkerhetskopiering,2026-06-01T03:23:37+00:00,,timestamp,
-sensor.backup_senaste_lyckade_automatiska_sakerhetskopiering,sensor,Backup Senaste lyckade automatiska säkerhetskopiering,2026-06-01T03:24:05+00:00,,timestamp,
-sensor.backup_tillstand_for_sakerhetskopieringshanterare,sensor,Backup Tillstånd för säkerhetskopieringshanterare,idle,,enum,
-sensor.faret_shaun,sensor,Fåret Shaun,no_message,,enum,
-sensor.faret_shaun_battery_level,sensor,Fåret Shaun battery level,unavailable,%,battery,
-sensor.faret_shaun_battery_level_2,sensor,Fåret Shaun Battery Level,100,%,battery,measurement
-sensor.faret_shaun_operating_hours,sensor,Fåret Shaun Operating Hours,1873,h,duration,total_increasing
-sensor.faret_shaun_rf_link_quality,sensor,Fåret Shaun RF Link Quality,100,%,,measurement
-sensor.felix_luftfuktighet,sensor,Felix.Sensor.Klimat.Telldus Luftfuktighet,61,%,humidity,measurement
-sensor.felix_radiator_adax_energi,sensor,felix.climate.radiator.adax Energi,0.0,kWh,energy,total_increasing
-sensor.felix_radiator_adax_temperatur,sensor,felix.climate.radiator.adax Temperatur,20.41,°C,temperature,measurement
-sensor.felix_temperatur,sensor,Felix.Sensor.Klimat.Telldus Temperatur,23.3,°C,temperature,measurement
-sensor.frys_effekt,sensor,Kök.Vitvara.Frys.SmartThings Effekt,49,W,power,measurement
-sensor.frys_energi,sensor,Kök.Vitvara.Frys.SmartThings Energi,54.469,kWh,energy,total_increasing
-sensor.frys_energi_2,sensor,Kök.Vitvara.Frys.SmartThings Energi,0.0123399741655588,kWh,energy,total
-sensor.frys_energi_sparad,sensor,Kök.Vitvara.Frys.SmartThings Energi sparad,0.0,kWh,energy,total_increasing
-sensor.frys_energiskillnad,sensor,Kök.Vitvara.Frys.SmartThings Energiskillnad,0.013,kWh,energy,total
-sensor.frys_temperatur,sensor,Kök.Vitvara.Frys.SmartThings Temperatur,-18,°C,temperature,measurement
-sensor.groventre_batteri,sensor,Groventre.Lock.Ytterdörren.Yale Batteri,62,%,battery,measurement
-sensor.groventre_operator,sensor,Groventre.Lock.Ytterdörren.Yale Operatör,Jenny Lundberg ,,,
-sensor.hall_temperatur,sensor,Hall.Speaker.Röstenhet.Verisure Temperatur,22.5,°C,temperature,measurement
-sensor.hp_color_laser_mfp_178nw,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol,idle,,enum,
-sensor.hp_color_laser_mfp_178nw_black_toner_s_n_crum_190520a264b,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Black Toner_S/N_:CRUM-190520A264B,80,%,,measurement
-sensor.hp_color_laser_mfp_178nw_cyan_toner_s_n_crum_250819a581c,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Cyan Toner_S/N_:CRUM-250819A581C,90,%,,measurement
-sensor.hp_color_laser_mfp_178nw_magenta_toner_s_n_crum_250919a547c,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Magenta Toner_S/N_:CRUM-250919A547C,90,%,,measurement
-sensor.hp_color_laser_mfp_178nw_yellow_toner_s_n_crum_241218a6b03,sensor,Kontor.Printer.HPColorLaserMFP178.InternetPrintingProtocol Yellow Toner_S/N_:CRUM-241218A6B03,70,%,,measurement
-sensor.hue_dimmer_switch_1_batteri,sensor,Hue dimmer switch 1 Batteri,4,%,battery,measurement
-sensor.ipad_dmpf10mlntgr_app_version,sensor,iPad-DMPF10MLNTGR App Version,2026.5.0,,,
-sensor.ipad_dmpf10mlntgr_audio_output,sensor,iPad-DMPF10MLNTGR Audio Output,Built-in Speaker,,,
-sensor.ipad_dmpf10mlntgr_battery_level,sensor,iPad-DMPF10MLNTGR Battery Level,45,%,battery,
-sensor.ipad_dmpf10mlntgr_battery_state,sensor,iPad-DMPF10MLNTGR Battery State,Charging,,,
-sensor.ipad_dmpf10mlntgr_bssid,sensor,iPad-DMPF10MLNTGR BSSID,f6:e2:c6:ee:2b:f5,,,
-sensor.ipad_dmpf10mlntgr_connection_type,sensor,iPad-DMPF10MLNTGR Connection Type,Wi-Fi,,,
-sensor.ipad_dmpf10mlntgr_geocoded_location,sensor,iPad-DMPF10MLNTGR Geocoded Location,"Siversgatan 13
-262 63 Ängelholm
-Sverige",,,
-sensor.ipad_dmpf10mlntgr_last_update_trigger,sensor,iPad-DMPF10MLNTGR Last Update Trigger,Background Fetch,,,
-sensor.ipad_dmpf10mlntgr_location_permission,sensor,iPad-DMPF10MLNTGR Location permission,Authorized Always,,,
-sensor.ipad_dmpf10mlntgr_sim_1,sensor,iPad-DMPF10MLNTGR SIM 1,--,,,
-sensor.ipad_dmpf10mlntgr_ssid,sensor,iPad-DMPF10MLNTGR SSID,Aether,,,
-sensor.ipad_dmpf10mlntgr_storage,sensor,iPad-DMPF10MLNTGR Storage,25.23,% available,,
-sensor.irrigation_control_rf_link_quality,sensor,Irrigation Control RF Link Quality,unavailable,%,,measurement
-sensor.irrigation_control_valve_1_watering_end,sensor,Irrigation Control Valve 1 Watering End,unavailable,,timestamp,
-sensor.irrigation_control_valve_2_watering_end,sensor,Irrigation Control Valve 2 Watering End,unavailable,,timestamp,
-sensor.irrigation_control_valve_3_watering_end,sensor,Irrigation Control Valve 3 Watering End,unavailable,,timestamp,
-sensor.irrigation_control_valve_4_watering_end,sensor,Irrigation Control Valve 4 Watering End,unavailable,,timestamp,
-sensor.irrigation_control_valve_5_watering_end,sensor,Irrigation Control Valve 5 Watering End,unavailable,,timestamp,
-sensor.irrigation_control_valve_6_watering_end,sensor,Irrigation Control Valve 6 Watering End,unavailable,,timestamp,
-sensor.kattlucka_battery_level,sensor,Groventre.Lucka.SurePetcare Kattlucka  Battery Level,0,%,battery,
-sensor.kyl_effekt,sensor,Kök.Vitvara.Kyl.SmartThings Effekt,1,W,power,measurement
-sensor.kyl_energi,sensor,Kök.Vitvara.Kyl.SmartThings Energi,24.927,kWh,energy,total_increasing
-sensor.kyl_energi_2,sensor,Kök.Vitvara.Kyl.SmartThings Energi,0.000260748333334923,kWh,energy,total
-sensor.kyl_energi_sparad,sensor,Kök.Vitvara.Kyl.SmartThings Energi sparad,0.0,kWh,energy,total_increasing
-sensor.kyl_energiskillnad,sensor,Kök.Vitvara.Kyl.SmartThings Energiskillnad,0.0,kWh,energy,total
-sensor.kyl_temperatur,sensor,Kök.Vitvara.Kyl.SmartThings Temperatur,4,°C,temperature,measurement
-sensor.mo_batteri,sensor,Hall.Robot.Damsugaren.Roborock Batteri,100,%,battery,
-sensor.mo_dock_tid_kvar_for_silen,sensor,Hall.Dockingstation.Damsugaren.Roborock Tid kvar för silen,150,h,duration,
-sensor.mo_dock_underhallsborste_tid_kvar,sensor,Hall.Dockingstation.Damsugaren.Roborock Underhållsborste tid kvar,300,h,duration,
-sensor.mo_fel_pa_dammsugaren,sensor,Hall.Robot.Damsugaren.Roborock Fel på dammsugaren,none,,enum,
-sensor.mo_filtertid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Filtertid kvar,-671605,s,duration,
-sensor.mo_huvudborste_tid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Huvudborste tid kvar,-131605,s,duration,
-sensor.mo_nuvarande_rum,sensor,Hall.Robot.Damsugaren.Roborock Nuvarande rum,Finentré,,enum,
-sensor.mo_sensortid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Sensortid kvar,-19709,s,duration,
-sensor.mo_sidoborste_tid_kvar,sensor,Hall.Robot.Damsugaren.Roborock Sidoborste tid kvar,-491605,s,duration,
-sensor.mo_sluttid_for_senaste_stadningen,sensor,Hall.Robot.Damsugaren.Roborock Sluttid för senaste städningen,2026-06-04T13:33:39+00:00,,timestamp,
-sensor.mo_stadad_area,sensor,Hall.Robot.Damsugaren.Roborock Städad area,80.1,m²,,
-sensor.mo_stadning_status,sensor,Hall.Robot.Damsugaren.Roborock Städning status,0,%,,
-sensor.mo_stadtid,sensor,Hall.Robot.Damsugaren.Roborock Städtid,5537,s,duration,
-sensor.mo_starttid_for_senaste_stadningen,sensor,Hall.Robot.Damsugaren.Roborock Starttid för senaste städningen,2026-06-04T08:23:09+00:00,,timestamp,
-sensor.mo_status,sensor,Hall.Robot.Damsugaren.Roborock Status,charging,,enum,
-sensor.mo_total_stadtid,sensor,Hall.Robot.Damsugaren.Roborock Total städtid,1211212,s,duration,
-sensor.mo_totalt_antal_stadningar,sensor,Hall.Robot.Damsugaren.Roborock Totalt antal städningar,567,,,total_increasing
-sensor.mo_totalt_stadad_area,sensor,Hall.Robot.Damsugaren.Roborock Totalt städad area,16946.9,m²,,
-sensor.netatamo_indoor_co2,sensor,Tv-rum.Sensor.Klimat.Netatmo Koldioxid,628,ppm,carbon_dioxide,measurement
-sensor.netatamo_indoor_humidity,sensor,Tv-rum.Sensor.Klimat.Netatmo Luftfuktighet,56,%,humidity,measurement
-sensor.netatamo_indoor_noise,sensor,Tv-rum.Sensor.Klimat.Netatmo Buller,45,dB,sound_pressure,measurement
-sensor.netatamo_indoor_pressure,sensor,Tv-rum.Sensor.Klimat.Netatmo Lufttryck,1015.5,hPa,atmospheric_pressure,measurement
-sensor.netatamo_indoor_temperature,sensor,Tv-rum.Sensor.Klimat.Netatmo Temperatur,22.8,°C,temperature,measurement
-sensor.panel_battery_health,sensor,Panel Battery Health,good,,,
-sensor.panel_battery_level,sensor,Panel Battery Level,44,%,battery,measurement
-sensor.panel_battery_state,sensor,Panel Battery State,discharging,,,
-sensor.panel_battery_temperature,sensor,Panel Battery Temperature,23.0,°C,temperature,measurement
-sensor.panel_bluetooth_connection,sensor,Panel Bluetooth Connection,0,connection(s),,measurement
-sensor.panel_charger_type,sensor,Panel Charger Type,none,,,
-sensor.panel_detected_activity,sensor,Panel Detected Activity,still,,,
-sensor.panel_do_not_disturb_sensor,sensor,Panel Do Not Disturb Sensor,off,,,
-sensor.panel_internal_storage,sensor,Panel Internal Storage,3,%,,measurement
-sensor.panel_last_reboot,sensor,Panel Last Reboot,2023-11-07T12:16:05+00:00,,timestamp,
-sensor.panel_next_alarm,sensor,Panel Next Alarm,unavailable,,timestamp,
-sensor.panel_ringer_mode,sensor,Panel Ringer Mode,vibrate,,,
-sensor.rickard_battery_level,sensor,Rickard Battery level,94,%,battery,measurement
-sensor.rickard_battery_level_2,sensor,Rickard Battery level,91,%,battery,measurement
-sensor.rickard_battery_state,sensor,Rickard Battery state,discharging,,enum,
-sensor.rickard_battery_state_2,sensor,Rickard Battery state,discharging,,enum,
-sensor.rickard_charger_type,sensor,Rickard Charger type,none,,enum,
-sensor.rickard_charger_type_2,sensor,Rickard Charger type,none,,enum,
-sensor.sensor_kallarhall_rokdetektor_batteri,sensor,Källarhall.BinarySensor.Rök.SmartThings Batteri,75,%,battery,
-sensor.sensor_kallarhall_rokdetektor_rokdetektor,sensor,Källarhall.BinarySensor.Rök.SmartThings Rökdetektor,clear,,enum,
-sensor.sensor_kontor_luftkvalitet_luftfuktighet,sensor,Vardagsrum.Sensor.Klimat.Smarthings Luftfuktighet,56.0,%,humidity,measurement
-sensor.sensor_kontor_luftkvalitet_temperatur,sensor,Vardagsrum.Sensor.Klimat.Smarthings Temperatur,23.0,°C,temperature,measurement
-sensor.sensor_matkallaren_multisensor_batteri,sensor,Matkällaren.Sensor.Multisensor.SmartThings Batteri,100,%,battery,
-sensor.sensor_matkallaren_multisensor_belysningsstyrka,sensor,Matkällaren.Sensor.Multisensor.SmartThings Belysningsstyrka,0,lx,illuminance,measurement
-sensor.sensor_matkallaren_multisensor_luftfuktighet,sensor,Matkällaren.Sensor.Multisensor.SmartThings Luftfuktighet,67.0,%,humidity,measurement
-sensor.sensor_matkallaren_multisensor_stromkalla,sensor,Matkällaren.Sensor.Multisensor.SmartThings Strömkälla,dc,,,
-sensor.sensor_matkallaren_multisensor_temperatur,sensor,Matkällaren.Sensor.Multisensor.SmartThings Temperatur,18.8,°C,temperature,measurement
-sensor.sensor_matkallaren_multisensor_uv_index,sensor,Matkällaren.Sensor.Multisensor.SmartThings UV-index,0,,,measurement
-sensor.sensor_sovrum_multisensor_batteri,sensor,Sovrum.Sensor.Multisensor.SmartThings Batteri,100,%,battery,
-sensor.sensor_sovrum_multisensor_belysningsstyrka,sensor,Sovrum.Sensor.Multisensor.SmartThings Belysningsstyrka,21,lx,illuminance,measurement
-sensor.sensor_sovrum_multisensor_luftfuktighet,sensor,Sovrum.Sensor.Multisensor.SmartThings Luftfuktighet,54.0,%,humidity,measurement
-sensor.sensor_sovrum_multisensor_stromkalla,sensor,Sovrum.Sensor.Multisensor.SmartThings Strömkälla,dc,,,
-sensor.sensor_sovrum_multisensor_temperatur,sensor,Sovrum.Sensor.Multisensor.SmartThings Temperatur,22.7,°C,temperature,measurement
-sensor.sensor_sovrum_multisensor_uv_index,sensor,Sovrum.Sensor.Multisensor.SmartThings UV-index,0,,,measurement
-sensor.sun_next_dawn,sensor,Utomhus.Sensor.Sun Nästa gryning,2026-06-07T01:23:16+00:00,,timestamp,
-sensor.sun_next_dusk,sensor,Utomhus.Sensor.Sun Nästa skymning,2026-06-06T20:51:43+00:00,,timestamp,
-sensor.sun_next_midnight,sensor,Utomhus.Sensor.Sun Nästa midnatt,2026-06-06T23:07:44+00:00,,timestamp,
-sensor.sun_next_noon,sensor,Utomhus.Sensor.Sun Nästa middag,2026-06-06T11:07:26+00:00,,timestamp,
-sensor.sun_next_rising,sensor,Utomhus.Sensor.Sun Nästa soluppgång,2026-06-07T02:25:00+00:00,,timestamp,
-sensor.sun_next_setting,sensor,Utomhus.Sensor.Sun Nästa solnedgång,2026-06-06T19:49:59+00:00,,timestamp,
-sensor.tv_rum_luftfuktighet,sensor,Tv-rum.BinarySensor.Rök.Verisure Luftfuktighet,71,%,humidity,measurement
-sensor.tv_rum_temperatur,sensor,Tv-rum.BinarySensor.Rök.Verisure Temperatur,22.7,°C,temperature,measurement
-sensor.tvattstuga_luftfuktighet,sensor,Tvättstuga.Sensor.Klimat.Telldus Luftfuktighet,69,%,humidity,measurement
-sensor.tvattstuga_luftfuktighet_2,sensor,Tvättstuga.BinarySensor.Rök.Verisure Luftfuktighet,72,%,humidity,measurement
-sensor.tvattstuga_temperatur,sensor,Tvättstuga.Sensor.Klimat.Telldus Temperatur,20.5,°C,temperature,measurement
-sensor.tvattstuga_temperatur_2,sensor,Tvättstuga.BinarySensor.Rök.Verisure Temperatur,21.5,°C,temperature,measurement
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_battery_percent,sensor,Utomhus.Sensor.Regnmätare.Netatmo Batteri,45,%,battery,measurement
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain,sensor,Utomhus.Sensor.Regnmätare.Netatmo Nederbörd,0,mm,precipitation,measurement
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain_today,sensor,Utomhus.Sensor.Regnmätare.Netatmo Nederbörd i dag,0,mm,precipitation,total_increasing
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_battery_percent,sensor,Utomhus.Sensor.Vindmätare.Netatmo Batteri,81,%,battery,measurement
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_direction,sensor,Utomhus.Sensor.Vindmätare.Netatmo Vindriktning,s,,enum,
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength,sensor,Utomhus.Sensor.Vindmätare.Netatmo Vindhastighet,2,km/h,wind_speed,measurement
-sensor.unknown_70_ee_50_74_46_84_utetemp_batteri,sensor,Utomhus.Sensor.Klimat.Netatmo Batteri,29,%,battery,measurement
-sensor.utetemp_luftfuktighet,sensor,Utomhus.Sensor.Klimat.Netatmo Luftfuktighet,68,%,humidity,measurement
-sensor.utetemp_temperatur,sensor,Utomhus.Sensor.Klimat.Netatmo Temperatur,18.5,°C,temperature,measurement
-sensor.vagguttag_vardagsrum_inspelning_effekt,sensor,Vardagsrum.Outlet.Skänklampa.SmartThings Effekt,1.6,W,power,measurement
-sensor.vagguttag_vardagsrum_inspelning_energi,sensor,Vardagsrum.Outlet.Skänklampa.SmartThings Energi,2.543,kWh,energy,total_increasing
-sensor.vind_luftfuktighet,sensor,Vind.Sensor.Klimat.Telldus Luftfuktighet,63,%,humidity,measurement
-sensor.vind_temperatur,sensor,Vind.Sensor.Klimat.Telldus Temperatur,16.7,°C,temperature,measurement
-sensor.volvo_c40_automat_avstand,sensor,Utomhus.Car.VolovC40 Automat - Avstånd,79.1,km,distance,total_increasing
-sensor.volvo_c40_automat_medelhastighet_for_resan,sensor,Utomhus.Car.VolovC40 Automat - Medelhastighet för resan,65,km/h,speed,measurement
-sensor.volvo_c40_avstand_till_service,sensor,Utomhus.Car.VolovC40 Avstånd till service,2252,km,distance,measurement
-sensor.volvo_c40_avstand_till_tomt_batteri,sensor,Utomhus.Car.VolovC40 Avstånd till tomt batteri,430,km,distance,measurement
-sensor.volvo_c40_batteri,sensor,Utomhus.Car.VolovC40 Batteri,100.0,%,battery,measurement
-sensor.volvo_c40_batterikapacitet,sensor,Utomhus.Car.VolovC40 Batterikapacitet,81.608,kWh,energy_storage,
-sensor.volvo_c40_beraknad_laddningstid,sensor,Utomhus.Car.VolovC40 Beräknad laddningstid,0,min,duration,measurement
-sensor.volvo_c40_bilanslutning,sensor,Utomhus.Car.VolovC40 Bilanslutning,available,,enum,
-sensor.volvo_c40_laddningseffekt,sensor,Utomhus.Car.VolovC40 Laddningseffekt,0,W,power,measurement
-sensor.volvo_c40_laddningsgrans,sensor,Utomhus.Car.VolovC40 Laddningsgräns,32,A,current,measurement
-sensor.volvo_c40_laddningsstatus,sensor,Utomhus.Car.VolovC40 Laddningsstatus,done,,enum,
-sensor.volvo_c40_malbatteriets_laddningsniva,sensor,Utomhus.Car.VolovC40 Målbatteriets laddningsnivå,100,%,,
-sensor.volvo_c40_manuell_avstand,sensor,Utomhus.Car.VolovC40 Manuell - Avstånd,6398.0,km,distance,total_increasing
-sensor.volvo_c40_manuell_medelhastighet_for_resan,sensor,Utomhus.Car.VolovC40 Manuell - Medelhastighet för resan,73,km/h,speed,measurement
-sensor.volvo_c40_matarstallning,sensor,Utomhus.Car.VolovC40 Mätarställning,44180,km,distance,total_increasing
-sensor.volvo_c40_riktning,sensor,Utomhus.Car.VolovC40 Riktning,53,°,,
-sensor.volvo_c40_service,sensor,Utomhus.Car.VolovC40 Service,no_warning,,enum,
-sensor.volvo_c40_status_for_laddningsanslutning,sensor,Utomhus.Car.VolovC40 Status för laddningsanslutning,connected,,enum,
-sensor.volvo_c40_status_for_laddningseffekt,sensor,Utomhus.Car.VolovC40 Status för laddningseffekt,no_power_available,,enum,
-sensor.volvo_c40_tid_till_motorservice,sensor,Utomhus.Car.VolovC40 Tid till motorservice,857,h,duration,measurement
-sensor.volvo_c40_tid_till_service,sensor,Utomhus.Car.VolovC40 Tid till service,420,d,duration,measurement
-sensor.volvo_c40_trip_manual_average_energy_consumption,sensor,Utomhus.Car.VolovC40 Trip manual average energy consumption,21.8,kWh/100km,,measurement
-sensor.volvo_c40_typ_av_laddning,sensor,Utomhus.Car.VolovC40 Typ av laddning,ac,,enum,
-sensor.windspeed_meters_per_second,sensor,Wind Speed (m/s),0.56,m/s,,
-stt.home_assistant_cloud,stt,Home Assistant Cloud,unknown,,,
-sun.sun,sun,Sun,above_horizon,,,
-switch.altanen,switch,Utomhus.Outlet.Trädbelysning.Verisure,off,,,
-switch.cleveriq03,switch,cleveriq03,off,,,
-switch.cleveriq04,switch,cleveriq04,off,,,
-switch.frys_snabbfrysning,switch,Kök.Vitvara.Frys.SmartThings Snabbfrysning,off,,,
-switch.granen,switch,Tv-rum.Outlet.Myslampa.Verisure,off,,,
-switch.groventre,switch,Groventre.Outlet.Fönsterlampa.Verisure,off,,,
-switch.irrigation_control_valve_1,switch,Irrigation Control - Valve 1,unavailable,,,
-switch.irrigation_control_valve_2,switch,Irrigation Control - Valve 2,unavailable,,,
-switch.irrigation_control_valve_3,switch,Irrigation Control - Valve 3,unavailable,,,
-switch.irrigation_control_valve_4,switch,Irrigation Control - Valve 4,unavailable,,,
-switch.irrigation_control_valve_5,switch,Irrigation Control - Valve 5,unavailable,,,
-switch.irrigation_control_valve_6,switch,Irrigation Control - Valve 6,unavailable,,,
-switch.kok_crossfade,switch,Kök.MediaPlayer.Sonos Övertoning,off,,,
-switch.kok_loudness,switch,Kök.MediaPlayer.Sonos Ljudstyrka,on,,,
-switch.kok_mediaplayer_sonos_avgruppera_vid_autouppspelning,switch,Kök.MediaPlayer.Sonos Avgruppera vid autouppspelning,on,,,
-switch.kok_mediaplayer_sonos_tv_autouppspelning,switch,Kök.MediaPlayer.Sonos TV-autouppspelning,off,,,
-switch.kontorslampa_cleveriq01,switch,Utomhus.Switch.Fontän.Telldus,on,,,
-switch.kyl_snabbkylning,switch,Kök.Vitvara.Kyl.SmartThings Snabbkylning,off,,,
-switch.matkallare,switch,Matkällare.Outlet.Ledbelysning.VerisureLED Verisure,off,,,
-switch.matkallare_cleveriq02,switch,Switch.02.Telldus,off,,,
-switch.mo_dock_barnlas,switch,Hall.Dockingstation.Damsugaren.Roborock Barnlås,off,,,
-switch.mo_dock_indikatorlampa_for_status,switch,Hall.Dockingstation.Damsugaren.Roborock Indikatorlampa för status,on,,,
-switch.mo_stor_inte,switch,Hall.Robot.Damsugaren.Roborock Stör inte,on,,,
-time.mo_sluttid_stor_ej_lage,time,Hall.Robot.Damsugaren.Roborock Sluttid Stör ej-läge,08:00:00,,,
-time.mo_starttid_stor_ej_lage,time,Hall.Robot.Damsugaren.Roborock Starttid Stör ej-läge,22:00:00,,,
-todo.inkopslista,todo,Inköpslista,0,,,
-tts.google_en_com,tts,Google Translate en com,unknown,,,
-tts.home_assistant_cloud,tts,Home Assistant Cloud,unknown,,,
-update.file_editor_update,update,File editor Uppdatering,off,,,
-update.gardena_smart_system_update,update,Gardena Smart System Update,on,,,
-update.ha_floorplan_update,update,ha-floorplan 🖌🎨 | Your imagination (almost) defines the limits Update,off,,,
-update.hacs_update,update,HACS Update,off,,,
-update.home_assistant_core_update,update,Home Assistant Core Uppdatering,off,,,
-update.home_assistant_operating_system_update,update,Home Assistant Operating System Uppdatering,off,,,
-update.home_assistant_supervisor_update,update,Home Assistant Supervisor Uppdatering,off,,,
-update.hub_smartthings_larm_firmware,update,Kök.Hub.SmartThings-Security Firmware,on,,firmware,
-update.kiosk_mode_update,update,Kiosk Mode Update,on,,,
-update.matter_server_uppdatering,update,Matter Server Uppdatering,off,,,
-update.midea_air_appliances_lan_update,update,Midea Air Appliances (LAN) Update,off,,,
-update.midea_smart_ac_update,update,Midea Smart AC Update,off,,,
-update.mosquitto_broker_update,update,Mosquitto broker Uppdatering,off,,,
-update.plejd_update,update,Plejd Update,on,,,
-update.sensor_kallarhall_rokdetektor_firmware,update,Källarhall.BinarySensor.Rök.SmartThings Firmware,unknown,,firmware,
-update.sensor_kontor_luftkvalitet_firmware,update,Vardagsrum.Sensor.Klimat.Smarthings Firmware,off,,firmware,
-update.sigenergy_ess_update,update,Sigenergy ESS Update,on,,,
-update.terminal_ssh_update,update,Terminal & SSH Uppdatering,off,,,
-update.vagguttag_kontor_tretakt_firmware,update,Kattrum.Outlet.Badrumsfläkt.SmartThings Firmware,off,,firmware,
-update.vagguttag_vardagsrum_inspelning_firmware,update,Vardagsrum.Outlet.Skänklampa.SmartThings Firmware,off,,firmware,
-vacuum.mo,vacuum,Hall.Robot.Damsugaren.Roborock,docked,,,
-valve.irrigation_control_valve_1,valve,Irrigation Control Valve 1,unavailable,,,
-valve.irrigation_control_valve_2,valve,Irrigation Control Valve 2,unavailable,,,
-valve.irrigation_control_valve_3,valve,Irrigation Control Valve 3,unavailable,,,
-valve.irrigation_control_valve_4,valve,Irrigation Control Valve 4,unavailable,,,
-valve.irrigation_control_valve_5,valve,Irrigation Control Valve 5,unavailable,,,
-valve.irrigation_control_valve_6,valve,Irrigation Control Valve 6,unavailable,,,
-weather.forecast_hem,weather,Utomhus.Sensor.Forcast Hem,partlycloudy,,,
-zone.hem,zone,Hem,1,,,
-zone.home,zone,Hem,1,,,
+entity_id,device_id,area_id,original_name,platform
+update.home_assistant_supervisor_update,a21cd24648b133f61f940e987a3a82e3,,Uppdatering,hassio
+update.home_assistant_core_update,a9c0618f053fc25a2603ff7124ac3f5f,,Uppdatering,hassio
+update.home_assistant_operating_system_update,db71368b511c0878d992ba4f7b2389de,,Uppdatering,hassio
+sensor.home_assistant_core_cpu_percent,a9c0618f053fc25a2603ff7124ac3f5f,,Processoranvändning,hassio
+sensor.home_assistant_core_memory_percent,a9c0618f053fc25a2603ff7124ac3f5f,,Minnesanvändning,hassio
+sensor.home_assistant_supervisor_cpu_percent,a21cd24648b133f61f940e987a3a82e3,,Processoranvändning,hassio
+sensor.home_assistant_supervisor_memory_percent,a21cd24648b133f61f940e987a3a82e3,,Minnesanvändning,hassio
+sensor.home_assistant_host_os_agent_version,486611c38a7e592db32aa8b72722413d,,OS Agent-version,hassio
+sensor.home_assistant_host_apparmor_version,486611c38a7e592db32aa8b72722413d,,AppArmor-version,hassio
+sensor.home_assistant_host_disk_total,486611c38a7e592db32aa8b72722413d,,Totalt diskutrymme,hassio
+sensor.home_assistant_host_disk_used,486611c38a7e592db32aa8b72722413d,,Använt diskutrymme,hassio
+sensor.home_assistant_host_disk_free,486611c38a7e592db32aa8b72722413d,,Ledigt diskutrymme,hassio
+sensor.home_assistant_operating_system_version,db71368b511c0878d992ba4f7b2389de,,Version,hassio
+sensor.home_assistant_operating_system_newest_version,db71368b511c0878d992ba4f7b2389de,,Nyaste versionen,hassio
+sensor.sun_next_dawn,ff2fb24dbb10795d9891d24fae405c37,,Nästa gryning,sun
+sensor.sun_next_dusk,ff2fb24dbb10795d9891d24fae405c37,,Nästa skymning,sun
+sensor.sun_next_midnight,ff2fb24dbb10795d9891d24fae405c37,,Nästa midnatt,sun
+sensor.sun_next_noon,ff2fb24dbb10795d9891d24fae405c37,,Nästa middag,sun
+sensor.sun_next_rising,ff2fb24dbb10795d9891d24fae405c37,,Nästa soluppgång,sun
+sensor.sun_next_setting,ff2fb24dbb10795d9891d24fae405c37,,Nästa solnedgång,sun
+sensor.sun_solar_elevation,ff2fb24dbb10795d9891d24fae405c37,,Solhöjd,sun
+sensor.sun_solar_azimuth,ff2fb24dbb10795d9891d24fae405c37,,Solens azimut,sun
+binary_sensor.rpi_power_status,,,RPi Power status,rpi_power
+media_player.badrum,fe1a84dfddd8cda98c6ec58e06916ef9,,,cast
+media_player.familjerum,a0a98c6429333934833c06830a42d8a8,,,cast
+media_player.sovrum,5ddaa2806853b0ab93fc1990927d410b,,,cast
+sensor.sonos_favorites,,,Sonos favorites,sonos
+media_player.kok,d8de3c30a32bb0fad62c4d73200c8a14,,,sonos
+number.kok_bass,d8de3c30a32bb0fad62c4d73200c8a14,,Bas,sonos
+number.kok_balance,d8de3c30a32bb0fad62c4d73200c8a14,,Balans,sonos
+number.kok_treble,d8de3c30a32bb0fad62c4d73200c8a14,,Diskant,sonos
+switch.kok_touch_controls,d8de3c30a32bb0fad62c4d73200c8a14,,Touch-kontroller,sonos
+switch.kok_crossfade,d8de3c30a32bb0fad62c4d73200c8a14,,Övertoning,sonos
+switch.kok_loudness,d8de3c30a32bb0fad62c4d73200c8a14,,Ljudstyrka,sonos
+switch.kok_status_light,d8de3c30a32bb0fad62c4d73200c8a14,,Statuslampa,sonos
+person.rickard,,,Rickard,person
+tts.google_en_com,dcaf6c21f1c7baa315cfa1c9854023e7,,,google_translate
+weather.forecast_hem,6b542e6a649e9679e9555d4652535565,,Hem,met
+binary_sensor.remote_ui,,,Remote UI,cloud
+device_tracker.rickards_mobil,48df2ffd85ef9a9490139fd22cc34a0f,,,mobile_app
+sensor.sun_solar_rising,ff2fb24dbb10795d9891d24fae405c37,,Stigande sol,sun
+todo.inkopslista,,,Inköpslista,shopping_list
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_outdoor_temperature_trend,3d0b9319d588f2caf02697bd86aebda4,,Temperaturtrend,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_outdoor_reachability,3d0b9319d588f2caf02697bd86aebda4,,Nåbarhet,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_outdoor_radio,3d0b9319d588f2caf02697bd86aebda4,,RF-styrka,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain,8155aa47a76cb7f987f0b519a9dc7fec,,Nederbörd,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain_last_hour,8155aa47a76cb7f987f0b519a9dc7fec,,Nederbörd senaste timmen,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_rain_today,8155aa47a76cb7f987f0b519a9dc7fec,,Nederbörd i dag,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_battery_percent,8155aa47a76cb7f987f0b519a9dc7fec,,Batteri,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_reachability,8155aa47a76cb7f987f0b519a9dc7fec,,Nåbarhet,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_regnmatare_radio,8155aa47a76cb7f987f0b519a9dc7fec,,RF-styrka,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_battery_percent,671baed6a8dae38ff6ad7c4c951ce839,,Batteri,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_direction,671baed6a8dae38ff6ad7c4c951ce839,,Vindriktning,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_angle,671baed6a8dae38ff6ad7c4c951ce839,,Vindvinkel,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength,671baed6a8dae38ff6ad7c4c951ce839,,Vindhastighet,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_gust_direction,671baed6a8dae38ff6ad7c4c951ce839,,Riktning vindbyar,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_gust_angle,671baed6a8dae38ff6ad7c4c951ce839,,Vindby vinkel,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_gust_strength,671baed6a8dae38ff6ad7c4c951ce839,,Vindbya styrka,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_reachability,671baed6a8dae38ff6ad7c4c951ce839,,Nåbarhet,netatmo
+sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_radio,671baed6a8dae38ff6ad7c4c951ce839,,RF-styrka,netatmo
+device_tracker.panel,269b2401de6663070e5bf00ff429ae6e,,,mobile_app
+sensor.panel_detected_activity,269b2401de6663070e5bf00ff429ae6e,,Detected Activity,mobile_app
+sensor.panel_sleep_confidence,269b2401de6663070e5bf00ff429ae6e,,Sleep Confidence,mobile_app
+sensor.panel_sleep_segment,269b2401de6663070e5bf00ff429ae6e,,Sleep Segment,mobile_app
+sensor.panel_current_version,269b2401de6663070e5bf00ff429ae6e,,Current Version,mobile_app
+sensor.panel_app_rx_gb,269b2401de6663070e5bf00ff429ae6e,,App Rx GB,mobile_app
+sensor.panel_app_tx_gb,269b2401de6663070e5bf00ff429ae6e,,App Tx GB,mobile_app
+sensor.panel_app_memory,269b2401de6663070e5bf00ff429ae6e,,App Memory,mobile_app
+binary_sensor.panel_app_inactive,269b2401de6663070e5bf00ff429ae6e,,App Inactive,mobile_app
+sensor.panel_app_importance,269b2401de6663070e5bf00ff429ae6e,,App Importance,mobile_app
+sensor.panel_ringer_mode,269b2401de6663070e5bf00ff429ae6e,,Ringer Mode,mobile_app
+sensor.panel_audio_mode,269b2401de6663070e5bf00ff429ae6e,,Audio Mode,mobile_app
+binary_sensor.panel_headphones,269b2401de6663070e5bf00ff429ae6e,,Headphones,mobile_app
+binary_sensor.panel_mic_muted,269b2401de6663070e5bf00ff429ae6e,,Mic Muted,mobile_app
+binary_sensor.panel_speakerphone,269b2401de6663070e5bf00ff429ae6e,,Speakerphone,mobile_app
+binary_sensor.panel_music_active,269b2401de6663070e5bf00ff429ae6e,,Music Active,mobile_app
+sensor.panel_volume_level_alarm,269b2401de6663070e5bf00ff429ae6e,,Volume Level Alarm,mobile_app
+sensor.panel_volume_level_call,269b2401de6663070e5bf00ff429ae6e,,Volume Level Call,mobile_app
+sensor.panel_volume_level_music,269b2401de6663070e5bf00ff429ae6e,,Volume Level Music,mobile_app
+sensor.panel_volume_level_ringer,269b2401de6663070e5bf00ff429ae6e,,Volume Level Ringer,mobile_app
+sensor.panel_volume_level_notification,269b2401de6663070e5bf00ff429ae6e,,Volume Level Notification,mobile_app
+sensor.panel_volume_level_system,269b2401de6663070e5bf00ff429ae6e,,Volume Level System,mobile_app
+sensor.panel_volume_level_dtmf,269b2401de6663070e5bf00ff429ae6e,,Volume Level DTMF,mobile_app
+sensor.panel_volume_level_accessibility,269b2401de6663070e5bf00ff429ae6e,,Volume Level Accessibility,mobile_app
+sensor.panel_battery_level,269b2401de6663070e5bf00ff429ae6e,,Battery Level,mobile_app
+sensor.panel_battery_state,269b2401de6663070e5bf00ff429ae6e,,Battery State,mobile_app
+binary_sensor.panel_is_charging,269b2401de6663070e5bf00ff429ae6e,,Is Charging,mobile_app
+sensor.panel_charger_type,269b2401de6663070e5bf00ff429ae6e,,Charger Type,mobile_app
+sensor.panel_battery_health,269b2401de6663070e5bf00ff429ae6e,,Battery Health,mobile_app
+sensor.panel_battery_temperature,269b2401de6663070e5bf00ff429ae6e,,Battery Temperature,mobile_app
+sensor.panel_bluetooth_connection,269b2401de6663070e5bf00ff429ae6e,,Bluetooth Connection,mobile_app
+binary_sensor.panel_bluetooth_state,269b2401de6663070e5bf00ff429ae6e,,Bluetooth State,mobile_app
+sensor.panel_ble_transmitter,269b2401de6663070e5bf00ff429ae6e,,BLE Transmitter,mobile_app
+sensor.panel_do_not_disturb_sensor,269b2401de6663070e5bf00ff429ae6e,,Do Not Disturb Sensor,mobile_app
+binary_sensor.panel_work_profile,269b2401de6663070e5bf00ff429ae6e,,Work Profile,mobile_app
+sensor.panel_geocoded_location,269b2401de6663070e5bf00ff429ae6e,,Geocoded Location,mobile_app
+binary_sensor.panel_device_locked,269b2401de6663070e5bf00ff429ae6e,,Device Locked,mobile_app
+binary_sensor.panel_device_secure,269b2401de6663070e5bf00ff429ae6e,,Device Secure,mobile_app
+binary_sensor.panel_keyguard_locked,269b2401de6663070e5bf00ff429ae6e,,Keyguard Locked,mobile_app
+binary_sensor.panel_keyguard_secure,269b2401de6663070e5bf00ff429ae6e,,Keyguard Secure,mobile_app
+sensor.panel_last_used_app,269b2401de6663070e5bf00ff429ae6e,,Last Used App,mobile_app
+sensor.panel_last_reboot,269b2401de6663070e5bf00ff429ae6e,,Last Reboot,mobile_app
+sensor.panel_last_update_trigger,269b2401de6663070e5bf00ff429ae6e,,Last Update Trigger,mobile_app
+binary_sensor.panel_high_accuracy_mode,269b2401de6663070e5bf00ff429ae6e,,High Accuracy Mode,mobile_app
+sensor.panel_high_accuracy_update_interval,269b2401de6663070e5bf00ff429ae6e,,High Accuracy Update Interval,mobile_app
+sensor.panel_wifi_connection,269b2401de6663070e5bf00ff429ae6e,,WiFi Connection,mobile_app
+sensor.panel_wifi_bssid,269b2401de6663070e5bf00ff429ae6e,,WiFi BSSID,mobile_app
+sensor.panel_wifi_ip_address,269b2401de6663070e5bf00ff429ae6e,,WiFi IP Address,mobile_app
+sensor.panel_wifi_link_speed,269b2401de6663070e5bf00ff429ae6e,,WiFi Link Speed,mobile_app
+binary_sensor.panel_wifi_state,269b2401de6663070e5bf00ff429ae6e,,WiFi State,mobile_app
+sensor.panel_wifi_frequency,269b2401de6663070e5bf00ff429ae6e,,WiFi Frequency,mobile_app
+sensor.panel_wifi_signal_strength,269b2401de6663070e5bf00ff429ae6e,,WiFi Signal Strength,mobile_app
+sensor.panel_public_ip_address,269b2401de6663070e5bf00ff429ae6e,,Public IP Address,mobile_app
+sensor.panel_network_type,269b2401de6663070e5bf00ff429ae6e,,Network Type,mobile_app
+sensor.panel_next_alarm,269b2401de6663070e5bf00ff429ae6e,,Next Alarm,mobile_app
+sensor.panel_last_notification,269b2401de6663070e5bf00ff429ae6e,,Last Notification,mobile_app
+sensor.panel_last_removed_notification,269b2401de6663070e5bf00ff429ae6e,,Last Removed Notification,mobile_app
+sensor.panel_active_notification_count,269b2401de6663070e5bf00ff429ae6e,,Active Notification Count,mobile_app
+sensor.panel_media_session,269b2401de6663070e5bf00ff429ae6e,,Media Session,mobile_app
+binary_sensor.panel_interactive,269b2401de6663070e5bf00ff429ae6e,,Interactive,mobile_app
+binary_sensor.panel_doze_mode,269b2401de6663070e5bf00ff429ae6e,,Doze Mode,mobile_app
+binary_sensor.panel_power_save,269b2401de6663070e5bf00ff429ae6e,,Power Save,mobile_app
+sensor.panel_internal_storage,269b2401de6663070e5bf00ff429ae6e,,Internal Storage,mobile_app
+sensor.panel_external_storage,269b2401de6663070e5bf00ff429ae6e,,External Storage,mobile_app
+sensor.panel_current_time_zone,269b2401de6663070e5bf00ff429ae6e,,Current Time Zone,mobile_app
+sensor.panel_total_rx_gb,269b2401de6663070e5bf00ff429ae6e,,Total Rx GB,mobile_app
+sensor.panel_total_tx_gb,269b2401de6663070e5bf00ff429ae6e,,Total Tx GB,mobile_app
+person.dashboard,,,Dashboard,person
+binary_sensor.terminal_ssh_kor,2d151814c0d9d36aa5b5d37f5551f938,,Kör,hassio
+sensor.terminal_ssh_version,2d151814c0d9d36aa5b5d37f5551f938,,Version,hassio
+sensor.terminal_ssh_nyaste_versionen,2d151814c0d9d36aa5b5d37f5551f938,,Nyaste versionen,hassio
+sensor.terminal_ssh_cpu_procent,2d151814c0d9d36aa5b5d37f5551f938,,Processoranvändning,hassio
+sensor.terminal_ssh_minnesprocent,2d151814c0d9d36aa5b5d37f5551f938,,Minnesanvändning,hassio
+update.terminal_ssh_update,2d151814c0d9d36aa5b5d37f5551f938,,Uppdatering,hassio
+update.hacs_update,298c2970fe0d2fee62b96974fb5d56b0,,Update,hacs
+update.kiosk_mode_update,36a7889ddad289bb56b0ac39f43ef9b6,,Update,hacs
+binary_sensor.file_editor_kor,44e99633d4f022620b5cf845d5666c22,,Kör,hassio
+sensor.file_editor_version,44e99633d4f022620b5cf845d5666c22,,Version,hassio
+sensor.file_editor_nyaste_versionen,44e99633d4f022620b5cf845d5666c22,,Nyaste versionen,hassio
+sensor.file_editor_cpu_procent,44e99633d4f022620b5cf845d5666c22,,Processoranvändning,hassio
+sensor.file_editor_minnesprocent,44e99633d4f022620b5cf845d5666c22,,Minnesanvändning,hassio
+update.file_editor_update,44e99633d4f022620b5cf845d5666c22,,Uppdatering,hassio
+sensor.netatamo_indoor_co2,b379c937bfbefdac70538f474ff04e66,,Koldioxid,netatmo
+sensor.netatamo_indoor_humidity,b379c937bfbefdac70538f474ff04e66,,Luftfuktighet,netatmo
+sensor.netatamo_indoor_noise,b379c937bfbefdac70538f474ff04e66,,Buller,netatmo
+sensor.netatamo_indoor_pressure,b379c937bfbefdac70538f474ff04e66,,Lufttryck,netatmo
+sensor.netatamo_indoor_temperature,b379c937bfbefdac70538f474ff04e66,,Temperatur,netatmo
+sensor.netatamo_indoor_pressure_trend,b379c937bfbefdac70538f474ff04e66,,Lufttryck trend,netatmo
+sensor.netatamo_indoor_reachability,b379c937bfbefdac70538f474ff04e66,,Nåbarhet,netatmo
+sensor.netatamo_indoor_temperature_trend,b379c937bfbefdac70538f474ff04e66,,Temperaturtrend,netatmo
+sensor.netatamo_indoor_wifi,b379c937bfbefdac70538f474ff04e66,,Wi-Fi-styrka,netatmo
+update.ha_floorplan_update,1b5f86b6261e4e42f0aab2a6651c9ad0,,Update,hacs
+device_tracker.ipad_dmpf10mlntgr,e9761b5d1a40f81050bd78aaed89426e,,,mobile_app
+binary_sensor.mosquitto_broker_kor,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,Kör,hassio
+sensor.mosquitto_broker_version,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,Version,hassio
+sensor.mosquitto_broker_nyaste_versionen,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,Nyaste versionen,hassio
+sensor.mosquitto_broker_cpu_procent,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,Processoranvändning,hassio
+sensor.mosquitto_broker_minnesprocent,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,Minnesanvändning,hassio
+update.mosquitto_broker_update,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,Uppdatering,hassio
+person.mosquitto,,,Mosquitto,person
+sensor.sonos_favorites_2,,,Sonos favorites,sonos
+stt.home_assistant_cloud,,,Home Assistant Cloud,cloud
+tts.home_assistant_cloud,,,Home Assistant Cloud,cloud
+media_player.kontoret,0548e24eaea0601169464b9d0e8d61b9,,,cast
+media_player.nestmini0328,888e5653734bf410db68c3052ca96c3b,,,cast
+binary_sensor.netatamo_indoor_uppkoppling,b379c937bfbefdac70538f474ff04e66,,Anslutning,netatmo
+binary_sensor.unknown_70_ee_50_74_46_84_regnmatare_uppkoppling,8155aa47a76cb7f987f0b519a9dc7fec,,Anslutning,netatmo
+binary_sensor.unknown_70_ee_50_74_46_84_vindmatare_uppkoppling,671baed6a8dae38ff6ad7c4c951ce839,,Anslutning,netatmo
+sensor.ipad_dmpf10mlntgr_battery_level,e9761b5d1a40f81050bd78aaed89426e,,Battery Level,mobile_app
+sensor.ipad_dmpf10mlntgr_sim_1,e9761b5d1a40f81050bd78aaed89426e,,SIM 1,mobile_app
+sensor.ipad_dmpf10mlntgr_geocoded_location,e9761b5d1a40f81050bd78aaed89426e,,Geocoded Location,mobile_app
+binary_sensor.ipad_dmpf10mlntgr_focus,e9761b5d1a40f81050bd78aaed89426e,,Focus,mobile_app
+sensor.ipad_dmpf10mlntgr_last_update_trigger,e9761b5d1a40f81050bd78aaed89426e,,Last Update Trigger,mobile_app
+sensor.ipad_dmpf10mlntgr_battery_state,e9761b5d1a40f81050bd78aaed89426e,,Battery State,mobile_app
+sensor.ipad_dmpf10mlntgr_storage,e9761b5d1a40f81050bd78aaed89426e,,Storage,mobile_app
+sensor.ipad_dmpf10mlntgr_connection_type,e9761b5d1a40f81050bd78aaed89426e,,Connection Type,mobile_app
+sensor.ipad_dmpf10mlntgr_ssid,e9761b5d1a40f81050bd78aaed89426e,,SSID,mobile_app
+sensor.ipad_dmpf10mlntgr_bssid,e9761b5d1a40f81050bd78aaed89426e,,BSSID,mobile_app
+binary_sensor.katthub,c30b1f66226ccb1cc72387533b15a414,,Katthub,surepetcare
+binary_sensor.kattlucka_connectivity,d3de70fa20cbc066cfe5045237a736ba,,Kattlucka  Connectivity,surepetcare
+binary_sensor.zelda,3d8db654ff9ff97c5618491242e6465a,,,surepetcare
+binary_sensor.shiraz,a85bd682b861897fac5b6980ba714ab0,,,surepetcare
+binary_sensor.semilon,c3db8051159416c7ac77f0d70d6924db,,,surepetcare
+binary_sensor.chanti,4bf827df0a4f241c585491e8eb2c5776,,,surepetcare
+lock.kattlucka_locked_in,d3de70fa20cbc066cfe5045237a736ba,,Kattlucka  locked in,surepetcare
+lock.kattlucka_locked_out,d3de70fa20cbc066cfe5045237a736ba,,Kattlucka  locked out,surepetcare
+lock.kattlucka_locked_all,d3de70fa20cbc066cfe5045237a736ba,,Kattlucka  locked all,surepetcare
+sensor.kattlucka_battery_level,d3de70fa20cbc066cfe5045237a736ba,,Kattlucka  Battery Level,surepetcare
+alarm_control_panel.verisure_alarm,4d5c35d2a4467fcc55c27de1974360c1,,,verisure
+binary_sensor.verisure_alarm_ethernet_tillstand,4d5c35d2a4467fcc55c27de1974360c1,,Ethernet tillstånd,verisure
+binary_sensor.entre_oppning,31a877528a69f01719a9ed54f4a12426,,Öppning,verisure
+binary_sensor.altandorr_tv_rum_oppning,12e9a8b988c399d8936ad38af6851cfc,,Öppning,verisure
+binary_sensor.dorr_mediaskap_oppning,ac4fc4c62d690e2388237d55a662ae60,,Öppning,verisure
+binary_sensor.altandorr_vardagsrum_oppning,0cd0abbf67096882328c178166bbab88,,Öppning,verisure
+binary_sensor.finentre_oppning,be4d9e51a476241f35529ee4b9f482fd,,Öppning,verisure
+camera.hall_kallare,c55241c09e2b2f9af27eb12c7abfade5,,,verisure
+camera.tv_rum,4eadf2c8fda0b39fba265365e9ee7d20,,,verisure
+camera.vardagsrum,52212e99e1bdf148e84550fb53812466,,,verisure
+sensor.tv_rum_temperatur,4a361ab9e4dad8720f851d8f1ff41bc2,,Temperatur,verisure
+sensor.tvattstuga_temperatur_2,d8821cdcf2d46bdf60a1e459ec3c9f39,,Temperatur,verisure
+sensor.hall_temperatur,92ed4f9fa0d9598a52387d6a73ff3125,,Temperatur,verisure
+sensor.tv_rum_luftfuktighet,4a361ab9e4dad8720f851d8f1ff41bc2,,Luftfuktighet,verisure
+sensor.tvattstuga_luftfuktighet_2,d8821cdcf2d46bdf60a1e459ec3c9f39,,Luftfuktighet,verisure
+sensor.rickard_detected_activity,48df2ffd85ef9a9490139fd22cc34a0f,,Detected activity,mobile_app
+sensor.rickard_sleep_confidence,48df2ffd85ef9a9490139fd22cc34a0f,,Sleep confidence,mobile_app
+sensor.rickard_sleep_segment,48df2ffd85ef9a9490139fd22cc34a0f,,Sleep segment,mobile_app
+binary_sensor.rickard_android_auto,48df2ffd85ef9a9490139fd22cc34a0f,,Android Auto,mobile_app
+sensor.rickard_os_version,48df2ffd85ef9a9490139fd22cc34a0f,,OS version,mobile_app
+sensor.rickard_security_patch,48df2ffd85ef9a9490139fd22cc34a0f,,Security patch,mobile_app
+sensor.rickard_current_version,48df2ffd85ef9a9490139fd22cc34a0f,,Current version,mobile_app
+sensor.rickard_app_rx_gb,48df2ffd85ef9a9490139fd22cc34a0f,,App Rx GB,mobile_app
+sensor.rickard_app_tx_gb,48df2ffd85ef9a9490139fd22cc34a0f,,App Tx GB,mobile_app
+sensor.rickard_app_memory,48df2ffd85ef9a9490139fd22cc34a0f,,App memory,mobile_app
+binary_sensor.rickard_app_inactive,48df2ffd85ef9a9490139fd22cc34a0f,,App inactive,mobile_app
+sensor.rickard_app_standby_bucket,48df2ffd85ef9a9490139fd22cc34a0f,,App standby bucket,mobile_app
+sensor.rickard_app_importance,48df2ffd85ef9a9490139fd22cc34a0f,,App importance,mobile_app
+sensor.rickard_ringer_mode,48df2ffd85ef9a9490139fd22cc34a0f,,Ringer mode,mobile_app
+sensor.rickard_audio_mode,48df2ffd85ef9a9490139fd22cc34a0f,,Audio mode,mobile_app
+binary_sensor.rickard_headphones,48df2ffd85ef9a9490139fd22cc34a0f,,Headphones,mobile_app
+binary_sensor.rickard_mic_muted,48df2ffd85ef9a9490139fd22cc34a0f,,Mic muted,mobile_app
+binary_sensor.rickard_speakerphone,48df2ffd85ef9a9490139fd22cc34a0f,,Speakerphone,mobile_app
+binary_sensor.rickard_music_active,48df2ffd85ef9a9490139fd22cc34a0f,,Music active,mobile_app
+sensor.rickard_volume_level_alarm,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level alarm,mobile_app
+sensor.rickard_volume_level_call,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level call,mobile_app
+sensor.rickard_volume_level_music,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level music,mobile_app
+sensor.rickard_volume_level_ringer,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level ringer,mobile_app
+sensor.rickard_volume_level_notification,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level notification,mobile_app
+sensor.rickard_volume_level_system,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level system,mobile_app
+sensor.rickard_volume_level_dtmf,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level DTMF,mobile_app
+sensor.rickard_volume_level_accessibility,48df2ffd85ef9a9490139fd22cc34a0f,,Volume level accessibility,mobile_app
+sensor.rickard_battery_level,48df2ffd85ef9a9490139fd22cc34a0f,,Battery level,mobile_app
+sensor.rickard_battery_state,48df2ffd85ef9a9490139fd22cc34a0f,,Battery state,mobile_app
+binary_sensor.rickard_is_charging,48df2ffd85ef9a9490139fd22cc34a0f,,Is charging,mobile_app
+sensor.rickard_charger_type,48df2ffd85ef9a9490139fd22cc34a0f,,Charger type,mobile_app
+sensor.rickard_battery_health,48df2ffd85ef9a9490139fd22cc34a0f,,Battery health,mobile_app
+sensor.rickard_battery_temperature,48df2ffd85ef9a9490139fd22cc34a0f,,Battery temperature,mobile_app
+sensor.rickard_battery_power,48df2ffd85ef9a9490139fd22cc34a0f,,Battery power,mobile_app
+sensor.rickard_remaining_charge_time,48df2ffd85ef9a9490139fd22cc34a0f,,Remaining charge time,mobile_app
+sensor.rickard_bluetooth_connection,48df2ffd85ef9a9490139fd22cc34a0f,,Bluetooth connection,mobile_app
+binary_sensor.rickard_bluetooth_state,48df2ffd85ef9a9490139fd22cc34a0f,,Bluetooth state,mobile_app
+sensor.rickard_ble_transmitter,48df2ffd85ef9a9490139fd22cc34a0f,,BLE transmitter,mobile_app
+sensor.rickard_beacon_monitor,48df2ffd85ef9a9490139fd22cc34a0f,,Beacon monitor,mobile_app
+sensor.rickard_car_battery,48df2ffd85ef9a9490139fd22cc34a0f,,Car battery,mobile_app
+sensor.rickard_car_name,48df2ffd85ef9a9490139fd22cc34a0f,,Car name,mobile_app
+sensor.rickard_car_charging_status,48df2ffd85ef9a9490139fd22cc34a0f,,Car charging status,mobile_app
+sensor.rickard_car_ev_connector_type,48df2ffd85ef9a9490139fd22cc34a0f,,Car EV connector type,mobile_app
+sensor.rickard_car_fuel,48df2ffd85ef9a9490139fd22cc34a0f,,Car fuel,mobile_app
+sensor.rickard_car_fuel_type,48df2ffd85ef9a9490139fd22cc34a0f,,Car fuel type,mobile_app
+sensor.rickard_car_odometer,48df2ffd85ef9a9490139fd22cc34a0f,,Car odometer,mobile_app
+sensor.rickard_screen_brightness,48df2ffd85ef9a9490139fd22cc34a0f,,Screen brightness,mobile_app
+sensor.rickard_screen_off_timeout,48df2ffd85ef9a9490139fd22cc34a0f,,Screen off timeout,mobile_app
+sensor.rickard_do_not_disturb_sensor,48df2ffd85ef9a9490139fd22cc34a0f,,Do Not Disturb sensor,mobile_app
+sensor.rickard_accent_color,48df2ffd85ef9a9490139fd22cc34a0f,,Accent color,mobile_app
+binary_sensor.rickard_work_profile,48df2ffd85ef9a9490139fd22cc34a0f,,Work profile,mobile_app
+sensor.rickard_geocoded_location,48df2ffd85ef9a9490139fd22cc34a0f,,Geocoded location,mobile_app
+binary_sensor.rickard_device_locked,48df2ffd85ef9a9490139fd22cc34a0f,,Device locked,mobile_app
+binary_sensor.rickard_device_secure,48df2ffd85ef9a9490139fd22cc34a0f,,Device secure,mobile_app
+binary_sensor.rickard_keyguard_locked,48df2ffd85ef9a9490139fd22cc34a0f,,Keyguard locked,mobile_app
+binary_sensor.rickard_keyguard_secure,48df2ffd85ef9a9490139fd22cc34a0f,,Keyguard secure,mobile_app
+sensor.rickard_last_used_app,48df2ffd85ef9a9490139fd22cc34a0f,,Last used app,mobile_app
+sensor.rickard_last_reboot,48df2ffd85ef9a9490139fd22cc34a0f,,Last reboot,mobile_app
+sensor.rickard_last_update_trigger,48df2ffd85ef9a9490139fd22cc34a0f,,Last update trigger,mobile_app
+sensor.rickard_light_sensor,48df2ffd85ef9a9490139fd22cc34a0f,,Light sensor,mobile_app
+binary_sensor.rickard_high_accuracy_mode,48df2ffd85ef9a9490139fd22cc34a0f,,High accuracy mode,mobile_app
+sensor.rickard_high_accuracy_update_interval,48df2ffd85ef9a9490139fd22cc34a0f,,High accuracy update interval,mobile_app
+binary_sensor.rickard_mobile_data,48df2ffd85ef9a9490139fd22cc34a0f,,Mobile data,mobile_app
+binary_sensor.rickard_mobile_data_roaming,48df2ffd85ef9a9490139fd22cc34a0f,,Mobile data roaming,mobile_app
+sensor.rickard_wifi_connection,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi connection,mobile_app
+sensor.rickard_wifi_bssid,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi BSSID,mobile_app
+sensor.rickard_wifi_ip_address,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi IP address,mobile_app
+sensor.rickard_wifi_link_speed,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi link speed,mobile_app
+binary_sensor.rickard_wifi_state,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi state,mobile_app
+sensor.rickard_wifi_frequency,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi frequency,mobile_app
+sensor.rickard_wifi_signal_strength,48df2ffd85ef9a9490139fd22cc34a0f,,WiFi signal strength,mobile_app
+sensor.rickard_public_ip_address,48df2ffd85ef9a9490139fd22cc34a0f,,Public IP address,mobile_app
+binary_sensor.rickard_hotspot_state,48df2ffd85ef9a9490139fd22cc34a0f,,Hotspot state,mobile_app
+sensor.rickard_network_type,48df2ffd85ef9a9490139fd22cc34a0f,,Network type,mobile_app
+sensor.rickard_ipv6_addresses,48df2ffd85ef9a9490139fd22cc34a0f,,IPv6 addresses,mobile_app
+binary_sensor.rickard_nfc_state,48df2ffd85ef9a9490139fd22cc34a0f,,NFC state,mobile_app
+sensor.rickard_next_alarm,48df2ffd85ef9a9490139fd22cc34a0f,,Next alarm,mobile_app
+sensor.rickard_last_notification,48df2ffd85ef9a9490139fd22cc34a0f,,Last notification,mobile_app
+sensor.rickard_last_removed_notification,48df2ffd85ef9a9490139fd22cc34a0f,,Last removed notification,mobile_app
+sensor.rickard_active_notification_count,48df2ffd85ef9a9490139fd22cc34a0f,,Active notification count,mobile_app
+sensor.rickard_media_session,48df2ffd85ef9a9490139fd22cc34a0f,,Media session,mobile_app
+sensor.rickard_phone_state,48df2ffd85ef9a9490139fd22cc34a0f,,Phone state,mobile_app
+sensor.rickard_sim_1,48df2ffd85ef9a9490139fd22cc34a0f,,SIM 1,mobile_app
+sensor.rickard_sim_2,48df2ffd85ef9a9490139fd22cc34a0f,,SIM 2,mobile_app
+binary_sensor.rickard_interactive,48df2ffd85ef9a9490139fd22cc34a0f,,Interactive,mobile_app
+binary_sensor.rickard_doze_mode,48df2ffd85ef9a9490139fd22cc34a0f,,Doze mode,mobile_app
+binary_sensor.rickard_power_save,48df2ffd85ef9a9490139fd22cc34a0f,,Power save,mobile_app
+sensor.rickard_pressure_sensor,48df2ffd85ef9a9490139fd22cc34a0f,,Pressure sensor,mobile_app
+sensor.rickard_proximity_sensor,48df2ffd85ef9a9490139fd22cc34a0f,,Proximity sensor,mobile_app
+sensor.rickard_steps_sensor,48df2ffd85ef9a9490139fd22cc34a0f,,Steps sensor,mobile_app
+sensor.rickard_internal_storage,48df2ffd85ef9a9490139fd22cc34a0f,,Internal storage,mobile_app
+sensor.rickard_external_storage,48df2ffd85ef9a9490139fd22cc34a0f,,External storage,mobile_app
+sensor.rickard_current_time_zone,48df2ffd85ef9a9490139fd22cc34a0f,,Current time zone,mobile_app
+sensor.rickard_mobile_rx_gb,48df2ffd85ef9a9490139fd22cc34a0f,,Mobile Rx GB,mobile_app
+sensor.rickard_mobile_tx_gb,48df2ffd85ef9a9490139fd22cc34a0f,,Mobile Tx GB,mobile_app
+sensor.rickard_total_rx_gb,48df2ffd85ef9a9490139fd22cc34a0f,,Total Rx GB,mobile_app
+sensor.rickard_total_tx_gb,48df2ffd85ef9a9490139fd22cc34a0f,,Total Tx GB,mobile_app
+update.midea_smart_ac_update,e0e5058373fd83b54bb2b909e071c9fa,,Update,hacs
+media_player.nestmini8159,83809284c22bbcba09f0a1fa5b721412,,,cast
+media_player.lg_webos_tv_oled55g36la,a9dab37e71da1a2f5468b7cc32332ae4,,,webostv
+media_player.nestmini3910,16afaef531c9841443438ef917fd4dbc,,,cast
+media_player.nestmini9941,227a344bedafc0c956730a6f2cdc917a,,,cast
+binary_sensor.unknown_70_ee_50_74_46_84_utetemp_uppkoppling,3d0b9319d588f2caf02697bd86aebda4,,Anslutning,netatmo
+sensor.unknown_70_ee_50_74_46_84_utetemp_batteri,3d0b9319d588f2caf02697bd86aebda4,,Batteri,netatmo
+sensor.ipad_dmpf10mlntgr_location_permission,e9761b5d1a40f81050bd78aaed89426e,,Location permission,mobile_app
+sensor.ipad_dmpf10mlntgr_app_version,e9761b5d1a40f81050bd78aaed89426e,,App Version,mobile_app
+switch.ha_floorplan_your_imagination_just_became_the_new_limit_pre_release,1b5f86b6261e4e42f0aab2a6651c9ad0,,Pre-release,hacs
+switch.kiosk_mode_pre_release,36a7889ddad289bb56b0ac39f43ef9b6,,Pre-release,hacs
+switch.hacs_pre_release,298c2970fe0d2fee62b96974fb5d56b0,,Pre-release,hacs
+switch.midea_smart_ac_pre_release,e0e5058373fd83b54bb2b909e071c9fa,,Pre-release,hacs
+automation.tand_led_vid_rorelse_i_matkallaren,,,Tänd LED vid rörelse i matkällaren,automation
+automation.turn_led_strip_off_if_no_motion_for_1_minut,,,Släck LED om ingen rörelse i en minut i matkällaren,automation
+switch.matkallare,0fc1548d9a156875fef4d08d3bc30ea2,,,verisure
+binary_sensor.groventre_dorr,13413a4a944e37fd1cd11e0d33277c18,,Dörr,yale
+binary_sensor.groventre_dorrklockan_ringer,13413a4a944e37fd1cd11e0d33277c18,,Dörrklockan ringer,yale
+button.groventre_vack,13413a4a944e37fd1cd11e0d33277c18,,Väck,yale
+event.groventre_dorrklocka,13413a4a944e37fd1cd11e0d33277c18,,Dörrklocka,yale
+lock.groventre,13413a4a944e37fd1cd11e0d33277c18,,,yale
+sensor.groventre_operator,13413a4a944e37fd1cd11e0d33277c18,,Operatör,yale
+sensor.groventre_batteri,13413a4a944e37fd1cd11e0d33277c18,,Batteri,yale
+sensor.rickard_signal_strength_sim_1,48df2ffd85ef9a9490139fd22cc34a0f,,Signal strength (SIM 1),mobile_app
+sensor.rickard_signal_strength_sim_2,48df2ffd85ef9a9490139fd22cc34a0f,,Signal strength (SIM 2),mobile_app
+sensor.rickard_data_network_type_sim_1,48df2ffd85ef9a9490139fd22cc34a0f,,Data network type (SIM 1),mobile_app
+sensor.rickard_data_network_type_sim_2,48df2ffd85ef9a9490139fd22cc34a0f,,Data network type (SIM 2),mobile_app
+sensor.rickard_screen_orientation,48df2ffd85ef9a9490139fd22cc34a0f,,Screen orientation,mobile_app
+sensor.rickard_screen_rotation,48df2ffd85ef9a9490139fd22cc34a0f,,Screen rotation,mobile_app
+media_player.lg_webos_tv_oled55g36la_2,2a8625abfdaa9522a58cba2c3236149a,,,cast
+switch.altanen,d7faaa4fe78349adfffc84012bb0baa2,,,verisure
+device_tracker.rickard,e2c5fd1d69003d579fe7a3d9f108bf11,,,mobile_app
+sensor.rickard_detected_activity_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Detected activity,mobile_app
+sensor.rickard_sleep_confidence_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Sleep confidence,mobile_app
+sensor.rickard_sleep_segment_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Sleep segment,mobile_app
+binary_sensor.rickard_android_auto_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Android Auto,mobile_app
+sensor.rickard_os_version_2,e2c5fd1d69003d579fe7a3d9f108bf11,,OS version,mobile_app
+sensor.rickard_security_patch_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Security patch,mobile_app
+sensor.rickard_current_version_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Current version,mobile_app
+sensor.rickard_app_rx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,App Rx GB,mobile_app
+sensor.rickard_app_tx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,App Tx GB,mobile_app
+sensor.rickard_app_memory_2,e2c5fd1d69003d579fe7a3d9f108bf11,,App memory,mobile_app
+binary_sensor.rickard_app_inactive_2,e2c5fd1d69003d579fe7a3d9f108bf11,,App inactive,mobile_app
+sensor.rickard_app_standby_bucket_2,e2c5fd1d69003d579fe7a3d9f108bf11,,App standby bucket,mobile_app
+sensor.rickard_app_importance_2,e2c5fd1d69003d579fe7a3d9f108bf11,,App importance,mobile_app
+sensor.rickard_ringer_mode_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Ringer mode,mobile_app
+sensor.rickard_audio_mode_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Audio mode,mobile_app
+binary_sensor.rickard_headphones_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Headphones,mobile_app
+binary_sensor.rickard_mic_muted_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Mic muted,mobile_app
+binary_sensor.rickard_speakerphone_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Speakerphone,mobile_app
+binary_sensor.rickard_music_active_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Music active,mobile_app
+sensor.rickard_volume_level_alarm_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level alarm,mobile_app
+sensor.rickard_volume_level_call_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level call,mobile_app
+sensor.rickard_volume_level_music_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level music,mobile_app
+sensor.rickard_volume_level_ringer_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level ringer,mobile_app
+sensor.rickard_volume_level_notification_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level notification,mobile_app
+sensor.rickard_volume_level_system_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level system,mobile_app
+sensor.rickard_volume_level_dtmf_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level DTMF,mobile_app
+sensor.rickard_volume_level_accessibility_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Volume level accessibility,mobile_app
+sensor.rickard_battery_level_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Battery level,mobile_app
+sensor.rickard_battery_state_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Battery state,mobile_app
+binary_sensor.rickard_is_charging_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Is charging,mobile_app
+sensor.rickard_charger_type_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Charger type,mobile_app
+sensor.rickard_battery_health_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Battery health,mobile_app
+sensor.rickard_battery_temperature_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Battery temperature,mobile_app
+sensor.rickard_battery_power_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Battery power,mobile_app
+sensor.rickard_remaining_charge_time_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Remaining charge time,mobile_app
+sensor.rickard_bluetooth_connection_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Bluetooth connection,mobile_app
+binary_sensor.rickard_bluetooth_state_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Bluetooth state,mobile_app
+sensor.rickard_ble_transmitter_2,e2c5fd1d69003d579fe7a3d9f108bf11,,BLE transmitter,mobile_app
+sensor.rickard_beacon_monitor_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Beacon monitor,mobile_app
+sensor.rickard_car_battery_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car battery,mobile_app
+sensor.rickard_car_name_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car name,mobile_app
+sensor.rickard_car_charging_status_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car charging status,mobile_app
+sensor.rickard_car_ev_connector_type_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car EV connector type,mobile_app
+sensor.rickard_car_fuel_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car fuel,mobile_app
+sensor.rickard_car_fuel_type_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car fuel type,mobile_app
+sensor.rickard_car_odometer_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car odometer,mobile_app
+sensor.rickard_screen_brightness_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Screen brightness,mobile_app
+sensor.rickard_screen_off_timeout_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Screen off timeout,mobile_app
+sensor.rickard_screen_orientation_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Screen orientation,mobile_app
+sensor.rickard_screen_rotation_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Screen rotation,mobile_app
+sensor.rickard_do_not_disturb_sensor_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Do Not Disturb sensor,mobile_app
+sensor.rickard_accent_color_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Accent color,mobile_app
+binary_sensor.rickard_work_profile_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Work profile,mobile_app
+sensor.rickard_geocoded_location_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Geocoded location,mobile_app
+binary_sensor.rickard_device_locked_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Device locked,mobile_app
+binary_sensor.rickard_device_secure_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Device secure,mobile_app
+binary_sensor.rickard_keyguard_locked_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Keyguard locked,mobile_app
+binary_sensor.rickard_keyguard_secure_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Keyguard secure,mobile_app
+sensor.rickard_last_used_app_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Last used app,mobile_app
+sensor.rickard_last_reboot_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Last reboot,mobile_app
+sensor.rickard_last_update_trigger_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Last update trigger,mobile_app
+sensor.rickard_light_sensor_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Light sensor,mobile_app
+binary_sensor.rickard_high_accuracy_mode_2,e2c5fd1d69003d579fe7a3d9f108bf11,,High accuracy mode,mobile_app
+sensor.rickard_high_accuracy_update_interval_2,e2c5fd1d69003d579fe7a3d9f108bf11,,High accuracy update interval,mobile_app
+binary_sensor.rickard_mobile_data_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Mobile data,mobile_app
+binary_sensor.rickard_mobile_data_roaming_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Mobile data roaming,mobile_app
+sensor.rickard_wifi_connection_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi connection,mobile_app
+sensor.rickard_wifi_bssid_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi BSSID,mobile_app
+sensor.rickard_wifi_ip_address_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi IP address,mobile_app
+sensor.rickard_wifi_link_speed_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi link speed,mobile_app
+binary_sensor.rickard_wifi_state_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi state,mobile_app
+sensor.rickard_wifi_frequency_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi frequency,mobile_app
+sensor.rickard_wifi_signal_strength_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Wi-Fi signal strength,mobile_app
+sensor.rickard_public_ip_address_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Public IP address,mobile_app
+binary_sensor.rickard_hotspot_state_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Hotspot state,mobile_app
+sensor.rickard_network_type_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Network type,mobile_app
+sensor.rickard_ipv6_addresses_2,e2c5fd1d69003d579fe7a3d9f108bf11,,IPv6 addresses,mobile_app
+binary_sensor.rickard_nfc_state_2,e2c5fd1d69003d579fe7a3d9f108bf11,,NFC state,mobile_app
+sensor.rickard_next_alarm_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Next alarm,mobile_app
+sensor.rickard_last_notification_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Last notification,mobile_app
+sensor.rickard_last_removed_notification_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Last removed notification,mobile_app
+sensor.rickard_active_notification_count_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Active notification count,mobile_app
+sensor.rickard_media_session_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Media session,mobile_app
+sensor.rickard_phone_state_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Phone state,mobile_app
+sensor.rickard_sim_1_2,e2c5fd1d69003d579fe7a3d9f108bf11,,SIM 1,mobile_app
+sensor.rickard_sim_2_2,e2c5fd1d69003d579fe7a3d9f108bf11,,SIM 2,mobile_app
+sensor.rickard_signal_strength_sim_1_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Signal strength (SIM 1),mobile_app
+sensor.rickard_signal_strength_sim_2_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Signal strength (SIM 2),mobile_app
+sensor.rickard_data_network_type_sim_1_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Data network type (SIM 1),mobile_app
+sensor.rickard_data_network_type_sim_2_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Data network type (SIM 2),mobile_app
+binary_sensor.rickard_interactive_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Interactive,mobile_app
+binary_sensor.rickard_doze_mode_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Doze mode,mobile_app
+binary_sensor.rickard_power_save_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Power save,mobile_app
+sensor.rickard_pressure_sensor_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Pressure sensor,mobile_app
+sensor.rickard_proximity_sensor_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Proximity sensor,mobile_app
+sensor.rickard_steps_sensor_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Steps sensor,mobile_app
+sensor.rickard_internal_storage_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Internal storage,mobile_app
+sensor.rickard_external_storage_2,e2c5fd1d69003d579fe7a3d9f108bf11,,External storage,mobile_app
+sensor.rickard_current_time_zone_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Current time zone,mobile_app
+sensor.rickard_mobile_rx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Mobile Rx GB,mobile_app
+sensor.rickard_mobile_tx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Mobile Tx GB,mobile_app
+sensor.rickard_total_rx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Total Rx GB,mobile_app
+sensor.rickard_total_tx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Total Tx GB,mobile_app
+scene.julbelysning,,utomhus,Tänd skymningsbelysning,homeassistant
+automation.vardag_morgon,,,Vardag morgon,automation
+automation.soluppgang,,,Soluppgång,automation
+automation.solnedgang,,,Solnedgång,automation
+automation.vardag_natt,,,Vardag natt,automation
+media_player.nestaudio8737,382ac60ce473035a8ce7c5dde24ba58e,,,cast
+automation.helg_morgon,,,Helg morgon,automation
+automation.helg_natt,,,Helg natt,automation
+media_player.chromecast,d86a2aff814dc40b81e60c0c3415844a,,,cast
+switch.granen,27f5a517f7e21b6655071589c7c61972,,,verisure
+scene.slack_julbelysning_duplicera,,,Släck skymningsbelysning,homeassistant
+sensor.rickard_car_speed,48df2ffd85ef9a9490139fd22cc34a0f,,Car speed,mobile_app
+sensor.rickard_car_range_remaining,48df2ffd85ef9a9490139fd22cc34a0f,,Car range remaining,mobile_app
+sensor.rickard_car_speed_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car speed,mobile_app
+sensor.rickard_car_range_remaining_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Car range remaining,mobile_app
+sensor.ipad_dmpf10mlntgr_audio_output,e9761b5d1a40f81050bd78aaed89426e,,Audio Output,mobile_app
+update.midea_air_appliances_lan_update,58d0881ffc86af4e284412281d4da98f,,Update,hacs
+switch.midea_air_appliances_lan_pre_release,58d0881ffc86af4e284412281d4da98f,,Pre-release,hacs
+update.plejd_update,fcf2970ab523d53efb8f98683a0ad61b,,Update,hacs
+switch.plejd_pre_release,fcf2970ab523d53efb8f98683a0ad61b,,Pre-release,hacs
+event.hue_dimmer_switch_1_knapp_3,1103c2ae3c1bd95e56b7c9f56abc1150,,Knapp 3,hue
+event.hue_dimmer_switch_1_knapp_1,1103c2ae3c1bd95e56b7c9f56abc1150,,Knapp 1,hue
+event.hue_dimmer_switch_1_knapp_2,1103c2ae3c1bd95e56b7c9f56abc1150,,Knapp 2,hue
+event.hue_dimmer_switch_1_knapp_4,1103c2ae3c1bd95e56b7c9f56abc1150,,Knapp 4,hue
+light.hue_ambiance_lamp_2,80984bd02edf0a397100926bf232fc71,,,hue
+light.hue_ambiance_lamp_1,45b4c0ef258411a280d36ba8d67075e6,,,hue
+light.hallampa,a0123e7f51e0b8c9033cac43a4ceead1,,,hue
+light.kontorslampa,1fcc19fe03994295de94d3982c7de372,,,hue
+light.hall,d99d073e2a10408d1b6ebc8cb2f10b18,,,hue
+light.ute,c33ab582b0c992fbbc09e6b650a2e7d4,,,hue
+light.kontor,4e5b2698fff0fb59132d99f986775738,,,hue
+scene.kontor_gnistrande_sno,4e5b2698fff0fb59132d99f986775738,,Gnistrande snö,hue
+scene.kontor_glowing_grins,4e5b2698fff0fb59132d99f986775738,,Glowing grins,hue
+sensor.hue_dimmer_switch_1_batteri,1103c2ae3c1bd95e56b7c9f56abc1150,,Batteri,hue
+sensor.hue_dimmer_switch_1_zigbee_anslutning,1103c2ae3c1bd95e56b7c9f56abc1150,,Zigbee-anslutning,hue
+sensor.hallampa_zigbee_anslutning,a0123e7f51e0b8c9033cac43a4ceead1,,Zigbee-anslutning,hue
+sensor.kontorslampa_zigbee_anslutning,1fcc19fe03994295de94d3982c7de372,,Zigbee-anslutning,hue
+sensor.hue_ambiance_lamp_2_zigbee_anslutning,80984bd02edf0a397100926bf232fc71,,Zigbee-anslutning,hue
+sensor.hue_ambiance_lamp_1_zigbee_anslutning,45b4c0ef258411a280d36ba8d67075e6,,Zigbee-anslutning,hue
+sensor.hue_bridge_zigbee_anslutning,69ddcb383086c09c60cbc5f9066e068c,,Zigbee-anslutning,hue
+sensor.rickard_active_calories_burned,e2c5fd1d69003d579fe7a3d9f108bf11,,Active calories burned,mobile_app
+sensor.rickard_daily_distance,e2c5fd1d69003d579fe7a3d9f108bf11,,Daily distance,mobile_app
+sensor.rickard_daily_elevation_gained,e2c5fd1d69003d579fe7a3d9f108bf11,,Daily elevation gained,mobile_app
+sensor.rickard_daily_floors,e2c5fd1d69003d579fe7a3d9f108bf11,,Daily floors,mobile_app
+sensor.rickard_daily_steps,e2c5fd1d69003d579fe7a3d9f108bf11,,Daily steps,mobile_app
+sensor.rickard_total_calories_burned,e2c5fd1d69003d579fe7a3d9f108bf11,,Total calories burned,mobile_app
+sensor.rickard_vo2_max,e2c5fd1d69003d579fe7a3d9f108bf11,,VO2 max,mobile_app
+update.gardena_smart_system_update,00112bc1319ceeeb3f972149e466d13b,,Update,hacs
+switch.gardena_smart_system_pre_release,00112bc1319ceeeb3f972149e466d13b,,Pre-release,hacs
+sensor.backup_tillstand_for_sakerhetskopieringshanterare,fc551fb7805173270d825bfcd1372990,,Tillstånd för säkerhetskopieringshanterare,backup
+sensor.backup_nasta_schemalagda_automatiska_sakerhetskopiering,fc551fb7805173270d825bfcd1372990,,Nästa schemalagda automatiska säkerhetskopiering,backup
+sensor.backup_senaste_lyckade_automatiska_sakerhetskopiering,fc551fb7805173270d825bfcd1372990,,Senaste lyckade automatiska säkerhetskopiering,backup
+lawn_mower.faret_shaun,35e5a43dd2b50bb1c1b5a6560042c65c,,Fåret Shaun,gardena_smart_system
+sensor.faret_shaun_battery_level,35e5a43dd2b50bb1c1b5a6560042c65c,,Fåret Shaun battery level,gardena_smart_system
+binary_sensor.gardena_smart_system_connection,,,Gardena Smart System connection,gardena_smart_system
+automation.starta_fontanen,,,Starta fontänen,automation
+automation.stang_av_fontanen,,,Stäng av fontänen,automation
+binary_sensor.mo_mopp_monterad,39596380b0a23a5e2d580011667b0545,,Mopp monterad,roborock
+binary_sensor.mo_vattenbehallare_monterad,39596380b0a23a5e2d580011667b0545,,Vattenbehållare monterad,roborock
+binary_sensor.mo_vattenbrist,39596380b0a23a5e2d580011667b0545,,Vattenbrist,roborock
+binary_sensor.mo_stadar,39596380b0a23a5e2d580011667b0545,,Städar,roborock
+binary_sensor.mo_laddning,39596380b0a23a5e2d580011667b0545,,Laddning,roborock
+image.mo_entreplan,39596380b0a23a5e2d580011667b0545,,Entreplan,roborock
+image.mo_badrum_kallaren,39596380b0a23a5e2d580011667b0545,,Badrum källaren,roborock
+select.mo_moppintensitet,39596380b0a23a5e2d580011667b0545,,Moppintensitet,roborock
+select.mo_mopplage,39596380b0a23a5e2d580011667b0545,,Moppläge,roborock
+select.mo_vald_karta,39596380b0a23a5e2d580011667b0545,,Vald karta,roborock
+sensor.mo_huvudborste_tid_kvar,39596380b0a23a5e2d580011667b0545,,Huvudborste tid kvar,roborock
+sensor.mo_sidoborste_tid_kvar,39596380b0a23a5e2d580011667b0545,,Sidoborste tid kvar,roborock
+sensor.mo_filtertid_kvar,39596380b0a23a5e2d580011667b0545,,Filtertid kvar,roborock
+sensor.mo_sensortid_kvar,39596380b0a23a5e2d580011667b0545,,Sensortid kvar,roborock
+sensor.mo_stadtid,39596380b0a23a5e2d580011667b0545,,Städtid,roborock
+sensor.mo_total_stadtid,39596380b0a23a5e2d580011667b0545,,Total städtid,roborock
+sensor.mo_totalt_antal_stadningar,39596380b0a23a5e2d580011667b0545,,Totalt antal städningar,roborock
+sensor.mo_status,39596380b0a23a5e2d580011667b0545,,Status,roborock
+sensor.mo_stadad_area,39596380b0a23a5e2d580011667b0545,,Städad area,roborock
+sensor.mo_totalt_stadad_area,39596380b0a23a5e2d580011667b0545,,Totalt städad area,roborock
+sensor.mo_fel_pa_dammsugaren,39596380b0a23a5e2d580011667b0545,,Fel på dammsugaren,roborock
+sensor.mo_batteri,39596380b0a23a5e2d580011667b0545,,Batteri,roborock
+sensor.mo_starttid_for_senaste_stadningen,39596380b0a23a5e2d580011667b0545,,Starttid för senaste städningen,roborock
+sensor.mo_sluttid_for_senaste_stadningen,39596380b0a23a5e2d580011667b0545,,Sluttid för senaste städningen,roborock
+sensor.mo_stadning_status,39596380b0a23a5e2d580011667b0545,,Städning status,roborock
+sensor.mo_nuvarande_rum,39596380b0a23a5e2d580011667b0545,,Nuvarande rum,roborock
+vacuum.mo,39596380b0a23a5e2d580011667b0545,,,roborock
+button.mo_aterstall_forbrukning_for_sensor,39596380b0a23a5e2d580011667b0545,,Återställ förbrukning för sensor,roborock
+button.mo_aterstall_forbrukning_for_luftfilter,39596380b0a23a5e2d580011667b0545,,Återställ förbrukning för luftfilter,roborock
+button.mo_aterstall_forbrukning_for_sidoborste,39596380b0a23a5e2d580011667b0545,,Återställ förbrukning för sidoborste,roborock
+button.mo_aterstall_forbrukning_for_huvudborste,39596380b0a23a5e2d580011667b0545,,Återställ förbrukning för huvudborste,roborock
+number.mo_volym,39596380b0a23a5e2d580011667b0545,,Volym,roborock
+switch.mo_dock_barnlas,8d314fd87b1ddda771cd4ab80543aa3d,,Barnlås,roborock
+switch.mo_dock_indikatorlampa_for_status,8d314fd87b1ddda771cd4ab80543aa3d,,Indikatorlampa för status,roborock
+switch.mo_stor_inte,39596380b0a23a5e2d580011667b0545,,Stör inte,roborock
+switch.mo_off_peak_laddning,39596380b0a23a5e2d580011667b0545,,Off-peak laddning,roborock
+time.mo_starttid_stor_ej_lage,39596380b0a23a5e2d580011667b0545,,Starttid Stör ej-läge,roborock
+time.mo_sluttid_stor_ej_lage,39596380b0a23a5e2d580011667b0545,,Sluttid Stör ej-läge,roborock
+time.mo_off_peak_start,39596380b0a23a5e2d580011667b0545,,Off-peak start,roborock
+time.mo_off_peak_slut,39596380b0a23a5e2d580011667b0545,,Off-peak slut,roborock
+light.konorslampa2,8c1e72e48756798a89b76040ecd157dc,,,tuya
+media_player.nestmini2476,69d4a783f4393f8912dcb81f6fe51c65,,,cast
+media_player.nestmini7852,6e37365db06f46e2d680d6fee6acb1c1,,,cast
+image.mo_ovanvaning,39596380b0a23a5e2d580011667b0545,,Ovanvåning,roborock
+button.mo_full_cleaning,39596380b0a23a5e2d580011667b0545,,Full Cleaning,roborock
+sensor.rickard_battery_cycle_count,e2c5fd1d69003d579fe7a3d9f108bf11,,Battery cycle count,mobile_app
+sensor.rickard_blood_glucose,e2c5fd1d69003d579fe7a3d9f108bf11,,Blood glucose,mobile_app
+sensor.rickard_diastolic_blood_pressure,e2c5fd1d69003d579fe7a3d9f108bf11,,Diastolic blood pressure,mobile_app
+sensor.rickard_heart_rate,e2c5fd1d69003d579fe7a3d9f108bf11,,Heart rate,mobile_app
+sensor.rickard_systolic_blood_pressure,e2c5fd1d69003d579fe7a3d9f108bf11,,Systolic blood pressure,mobile_app
+sensor.rickard_weight,e2c5fd1d69003d579fe7a3d9f108bf11,,Weight,mobile_app
+media_player.spotify_rickard_nisses_gagner,2fd1a01d3c037f68ae3be8844d482653,,,spotify
+switch.irrigation_control_valve_1,98e8a287f54c852fa83a76d1741c0f3f,,Irrigation Control - Valve 1,gardena_smart_system
+switch.irrigation_control_valve_2,98e8a287f54c852fa83a76d1741c0f3f,,Irrigation Control - Valve 2,gardena_smart_system
+switch.irrigation_control_valve_3,98e8a287f54c852fa83a76d1741c0f3f,,Irrigation Control - Valve 3,gardena_smart_system
+switch.irrigation_control_valve_4,98e8a287f54c852fa83a76d1741c0f3f,,Irrigation Control - Valve 4,gardena_smart_system
+switch.irrigation_control_valve_5,98e8a287f54c852fa83a76d1741c0f3f,,Irrigation Control - Valve 5,gardena_smart_system
+switch.irrigation_control_valve_6,98e8a287f54c852fa83a76d1741c0f3f,,Irrigation Control - Valve 6,gardena_smart_system
+update.sigenergy_ess_update,8fb84ae433827071eea4c8c4f79acf96,,Update,hacs
+switch.sigenergy_ess_pre_release,8fb84ae433827071eea4c8c4f79acf96,,Pre-release,hacs
+sensor.rickard_body_fat,e2c5fd1d69003d579fe7a3d9f108bf11,,Body fat,mobile_app
+sensor.rickard_heart_rate_variability,e2c5fd1d69003d579fe7a3d9f108bf11,,Heart rate variability,mobile_app
+sensor.rickard_oxygen_saturation,e2c5fd1d69003d579fe7a3d9f108bf11,,Oxygen saturation,mobile_app
+sensor.rickard_respiratory_rate,e2c5fd1d69003d579fe7a3d9f108bf11,,Respiratory rate,mobile_app
+sensor.rickard_resting_heart_rate,e2c5fd1d69003d579fe7a3d9f108bf11,,Resting heart rate,mobile_app
+sensor.rickard_sleep_duration,e2c5fd1d69003d579fe7a3d9f108bf11,,Sleep duration,mobile_app
+button.faret_shaun_start_override,35e5a43dd2b50bb1c1b5a6560042c65c,,Fåret Shaun Start Override,gardena_smart_system
+button.faret_shaun_return_to_dock,35e5a43dd2b50bb1c1b5a6560042c65c,,Fåret Shaun Return to Dock,gardena_smart_system
+event.backup_automatisk_sakerhetskopiering,fc551fb7805173270d825bfcd1372990,,Automatisk säkerhetskopiering,backup
+sensor.backup_senaste_forsok_till_automatisk_sakerhetskopiering,fc551fb7805173270d825bfcd1372990,,Senaste försök till automatisk säkerhetskopiering,backup
+binary_sensor.sun_solar_rising,ff2fb24dbb10795d9891d24fae405c37,,Stigande sol,sun
+binary_sensor.matter_server_kor,152899b9ee49ba19cf84815acc2e97fa,,Kör,hassio
+sensor.matter_server_version,152899b9ee49ba19cf84815acc2e97fa,,Version,hassio
+sensor.matter_server_nyaste_versionen,152899b9ee49ba19cf84815acc2e97fa,,Nyaste versionen,hassio
+sensor.matter_server_processoranvandning,152899b9ee49ba19cf84815acc2e97fa,,Processoranvändning,hassio
+sensor.matter_server_minnesanvandning,152899b9ee49ba19cf84815acc2e97fa,,Minnesanvändning,hassio
+update.matter_server_uppdatering,152899b9ee49ba19cf84815acc2e97fa,,Uppdatering,hassio
+media_player.nestmini9141,01cfb9510678dd86df9825a1dc38cad2,,,cast
+switch.terminal_ssh,2d151814c0d9d36aa5b5d37f5551f938,,,hassio
+switch.file_editor,44e99633d4f022620b5cf845d5666c22,,,hassio
+switch.mosquitto_broker,a7cb57edb4d7ccf15753d7a6f7ec5ffe,,,hassio
+switch.matter_server,152899b9ee49ba19cf84815acc2e97fa,,,hassio
+sensor.mo_dock_underhallsborste_tid_kvar,8d314fd87b1ddda771cd4ab80543aa3d,,Underhållsborste tid kvar,roborock
+sensor.mo_dock_tid_kvar_for_silen,8d314fd87b1ddda771cd4ab80543aa3d,,Tid kvar för silen,roborock
+update.hub_smartthings_larm_firmware,6d44caf1100d24f84eba9ead37b20965,,Firmware,smartthings
+binary_sensor.sensor_sovrum_multisensor_rorelse,92a2624ee540dafc1b552b7943553225,,Rörelse,smartthings
+binary_sensor.sensor_sovrum_multisensor_sabotage,92a2624ee540dafc1b552b7943553225,,Sabotage,smartthings
+binary_sensor.sensor_matkallaren_multisensor_rorelse,e2846d4c3d7d3c63bb481316ee4439df,,Rörelse,smartthings
+binary_sensor.sensor_matkallaren_multisensor_sabotage,e2846d4c3d7d3c63bb481316ee4439df,,Sabotage,smartthings
+sensor.sensor_sovrum_multisensor_batteri,92a2624ee540dafc1b552b7943553225,,Batteri,smartthings
+sensor.sensor_sovrum_multisensor_belysningsstyrka,92a2624ee540dafc1b552b7943553225,,Belysningsstyrka,smartthings
+sensor.sensor_sovrum_multisensor_stromkalla,92a2624ee540dafc1b552b7943553225,,Strömkälla,smartthings
+sensor.sensor_sovrum_multisensor_luftfuktighet,92a2624ee540dafc1b552b7943553225,,Luftfuktighet,smartthings
+sensor.sensor_sovrum_multisensor_temperatur,92a2624ee540dafc1b552b7943553225,,Temperatur,smartthings
+sensor.sensor_sovrum_multisensor_uv_index,92a2624ee540dafc1b552b7943553225,,UV-index,smartthings
+sensor.sensor_matkallaren_multisensor_batteri,e2846d4c3d7d3c63bb481316ee4439df,,Batteri,smartthings
+sensor.sensor_matkallaren_multisensor_belysningsstyrka,e2846d4c3d7d3c63bb481316ee4439df,,Belysningsstyrka,smartthings
+sensor.sensor_matkallaren_multisensor_stromkalla,e2846d4c3d7d3c63bb481316ee4439df,,Strömkälla,smartthings
+sensor.sensor_matkallaren_multisensor_luftfuktighet,e2846d4c3d7d3c63bb481316ee4439df,,Luftfuktighet,smartthings
+sensor.sensor_matkallaren_multisensor_temperatur,e2846d4c3d7d3c63bb481316ee4439df,,Temperatur,smartthings
+sensor.sensor_matkallaren_multisensor_uv_index,e2846d4c3d7d3c63bb481316ee4439df,,UV-index,smartthings
+sensor.sensor_kallarhall_rokdetektor_batteri,478c4ddd25726ba256b6844c5385c29d,,Batteri,smartthings
+sensor.sensor_kallarhall_rokdetektor_rokdetektor,478c4ddd25726ba256b6844c5385c29d,,Rökdetektor,smartthings
+update.sensor_kallarhall_rokdetektor_firmware,478c4ddd25726ba256b6844c5385c29d,,Firmware,smartthings
+light.vagguttag_vardagsrum_inspelning,04033cd907d16b1ae2ddcbeb39ce4efe,,,smartthings
+sensor.sensor_kontor_luftkvalitet_luftfuktighet,12bb0e782212c8130498badd2542771f,,Luftfuktighet,smartthings
+sensor.sensor_kontor_luftkvalitet_temperatur,12bb0e782212c8130498badd2542771f,,Temperatur,smartthings
+sensor.vagguttag_vardagsrum_inspelning_energi,04033cd907d16b1ae2ddcbeb39ce4efe,,Energi,smartthings
+sensor.vagguttag_vardagsrum_inspelning_effekt,04033cd907d16b1ae2ddcbeb39ce4efe,,Effekt,smartthings
+update.vagguttag_kontor_tretakt_firmware,47d7f0482e58d1b6d5bd6edf1530218c,,Firmware,smartthings
+update.sensor_kontor_luftkvalitet_firmware,12bb0e782212c8130498badd2542771f,,Firmware,smartthings
+update.vagguttag_vardagsrum_inspelning_firmware,04033cd907d16b1ae2ddcbeb39ce4efe,,Firmware,smartthings
+light.taklampa_2,73192775411568542446392ff43adbcf,,,plejd
+light.kontor2,2b21993456a43c536baaf2a905ed5e9f,,,plejd
+event.taklampa_3,73192775411568542446392ff43adbcf,,1 pressed,plejd
+event.taklampa_4,73192775411568542446392ff43adbcf,,2 pressed,plejd
+event.kontor2,2b21993456a43c536baaf2a905ed5e9f,,1 pressed,plejd
+event.kontor2_2,2b21993456a43c536baaf2a905ed5e9f,,2 pressed,plejd
+media_player.tv,7597ebdad1d7cfd86cba027797b5c392,,,cast
+sensor.hp_color_laser_mfp_178nw_drifttid,dec4be677b02529af5e37923bd26ae45,,Drifttid,ipp
+sensor.hp_color_laser_mfp_178nw_black_toner_s_n_crum_190520a264b,dec4be677b02529af5e37923bd26ae45,,Black Toner_S/N_:CRUM-190520A264B,ipp
+sensor.hp_color_laser_mfp_178nw_cyan_toner_s_n_crum_250819a581c,dec4be677b02529af5e37923bd26ae45,,Cyan Toner_S/N_:CRUM-250819A581C,ipp
+sensor.hp_color_laser_mfp_178nw_magenta_toner_s_n_crum_250919a547c,dec4be677b02529af5e37923bd26ae45,,Magenta Toner_S/N_:CRUM-250919A547C,ipp
+sensor.hp_color_laser_mfp_178nw_yellow_toner_s_n_crum_241218a6b03,dec4be677b02529af5e37923bd26ae45,,Yellow Toner_S/N_:CRUM-241218A6B03,ipp
+sensor.hp_color_laser_mfp_178nw,dec4be677b02529af5e37923bd26ae45,,,ipp
+binary_sensor.volvo_c40_dorr_vanster_fram,7f298614e8ac9e5430b2d6c7ceff3169,,Dörr vänster fram,volvo
+binary_sensor.volvo_c40_dorr_hoger_fram,7f298614e8ac9e5430b2d6c7ceff3169,,Dörr höger fram,volvo
+binary_sensor.volvo_c40_dorr_vanster_bak,7f298614e8ac9e5430b2d6c7ceff3169,,Dörr vänster bak,volvo
+binary_sensor.volvo_c40_dorr_hoger_bak,7f298614e8ac9e5430b2d6c7ceff3169,,Dörr höger bak,volvo
+binary_sensor.volvo_c40_motorhuv,7f298614e8ac9e5430b2d6c7ceff3169,,Motorhuv,volvo
+binary_sensor.volvo_c40_taklucka,7f298614e8ac9e5430b2d6c7ceff3169,,Taklucka,volvo
+binary_sensor.volvo_c40_baklucka,7f298614e8ac9e5430b2d6c7ceff3169,,Baklucka,volvo
+binary_sensor.volvo_c40_tanklock,7f298614e8ac9e5430b2d6c7ceff3169,,Tanklock,volvo
+binary_sensor.volvo_c40_fonster_vanster_framdorr,7f298614e8ac9e5430b2d6c7ceff3169,,Fönster vänster framdörr,volvo
+binary_sensor.volvo_c40_fonster_hoger_framdorr,7f298614e8ac9e5430b2d6c7ceff3169,,Fönster höger framdörr,volvo
+binary_sensor.volvo_c40_fonster_vanster_bakdorr,7f298614e8ac9e5430b2d6c7ceff3169,,Fönster vänster bakdörr,volvo
+binary_sensor.volvo_c40_fonster_hoger_bakdorr,7f298614e8ac9e5430b2d6c7ceff3169,,Fönster höger bakdörr,volvo
+binary_sensor.volvo_c40_motorstatus,7f298614e8ac9e5430b2d6c7ceff3169,,Motorstatus,volvo
+binary_sensor.volvo_c40_bromsvatska,7f298614e8ac9e5430b2d6c7ceff3169,,Bromsvätska,volvo
+binary_sensor.volvo_c40_kylvatskeniva,7f298614e8ac9e5430b2d6c7ceff3169,,Kylvätskenivå,volvo
+binary_sensor.volvo_c40_oljeniva,7f298614e8ac9e5430b2d6c7ceff3169,,Oljenivå,volvo
+binary_sensor.volvo_c40_bromsljus_mitten,7f298614e8ac9e5430b2d6c7ceff3169,,Bromsljus mitten,volvo
+binary_sensor.volvo_c40_bromsljus_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Bromsljus vänster,volvo
+binary_sensor.volvo_c40_bromsljus_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Bromsljus höger,volvo
+binary_sensor.volvo_c40_varselljus_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Varselljus vänster,volvo
+binary_sensor.volvo_c40_varselljus_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Varselljus höger,volvo
+binary_sensor.volvo_c40_dimljus_fram,7f298614e8ac9e5430b2d6c7ceff3169,,Dimljus fram,volvo
+binary_sensor.volvo_c40_dimljus_bak,7f298614e8ac9e5430b2d6c7ceff3169,,Dimljus bak,volvo
+binary_sensor.volvo_c40_varningsblinkers,7f298614e8ac9e5430b2d6c7ceff3169,,Varningsblinkers,volvo
+binary_sensor.volvo_c40_helljus_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Helljus vänster,volvo
+binary_sensor.volvo_c40_helljus_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Helljus höger,volvo
+binary_sensor.volvo_c40_halvljus_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Halvljus vänster,volvo
+binary_sensor.volvo_c40_halvljus_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Halvljus höger,volvo
+binary_sensor.volvo_c40_positionsljus_fram_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Positionsljus fram vänster,volvo
+binary_sensor.volvo_c40_positionsljus_fram_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Positionsljus fram höger,volvo
+binary_sensor.volvo_c40_positionsljus_bak_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Positionsljus bak vänster,volvo
+binary_sensor.volvo_c40_positionsljus_bak_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Positionsljus bak höger,volvo
+binary_sensor.volvo_c40_belysning_for_registreringsskylt,7f298614e8ac9e5430b2d6c7ceff3169,,Belysning för registreringsskylt,volvo
+binary_sensor.volvo_c40_backljus,7f298614e8ac9e5430b2d6c7ceff3169,,Backljus,volvo
+binary_sensor.volvo_c40_sidomarkeringsljus,7f298614e8ac9e5430b2d6c7ceff3169,,Sidomarkeringsljus,volvo
+binary_sensor.volvo_c40_dack_vanster_fram,7f298614e8ac9e5430b2d6c7ceff3169,,Däck vänster fram,volvo
+binary_sensor.volvo_c40_dack_hoger_fram,7f298614e8ac9e5430b2d6c7ceff3169,,Däck höger fram,volvo
+binary_sensor.volvo_c40_dack_vanster_bak,7f298614e8ac9e5430b2d6c7ceff3169,,Däck vänster bak,volvo
+binary_sensor.volvo_c40_dack_hoger_bak,7f298614e8ac9e5430b2d6c7ceff3169,,Däck höger bak,volvo
+binary_sensor.volvo_c40_blinker_fram_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Blinker fram vänster,volvo
+binary_sensor.volvo_c40_blinker_fram_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Blinker fram höger,volvo
+binary_sensor.volvo_c40_blinker_bak_vanster,7f298614e8ac9e5430b2d6c7ceff3169,,Blinker bak vänster,volvo
+binary_sensor.volvo_c40_blinkers_bak_hoger,7f298614e8ac9e5430b2d6c7ceff3169,,Blinkers bak höger,volvo
+binary_sensor.volvo_c40_spolarvatska,7f298614e8ac9e5430b2d6c7ceff3169,,Spolarvätska,volvo
+button.volvo_c40_starta_klimatiseringen,7f298614e8ac9e5430b2d6c7ceff3169,,Starta klimatiseringen,volvo
+button.volvo_c40_stoppa_klimatiseringen,7f298614e8ac9e5430b2d6c7ceff3169,,Stoppa klimatiseringen,volvo
+button.volvo_c40_lock_reduced_guard,7f298614e8ac9e5430b2d6c7ceff3169,,Lock reduced guard,volvo
+device_tracker.volvo_c40_plats,7f298614e8ac9e5430b2d6c7ceff3169,,Plats,volvo
+lock.volvo_c40_las,7f298614e8ac9e5430b2d6c7ceff3169,,Lås,volvo
+sensor.volvo_c40_trip_manual_average_energy_consumption,7f298614e8ac9e5430b2d6c7ceff3169,,Trip manual average energy consumption,volvo
+sensor.volvo_c40_manuell_medelhastighet_for_resan,7f298614e8ac9e5430b2d6c7ceff3169,,Manuell - Medelhastighet för resan,volvo
+sensor.volvo_c40_automat_medelhastighet_for_resan,7f298614e8ac9e5430b2d6c7ceff3169,,Automat - Medelhastighet för resan,volvo
+sensor.volvo_c40_batteri,7f298614e8ac9e5430b2d6c7ceff3169,,Batteri,volvo
+sensor.volvo_c40_status_for_laddningsanslutning,7f298614e8ac9e5430b2d6c7ceff3169,,Status för laddningsanslutning,volvo
+sensor.volvo_c40_laddningsgrans,7f298614e8ac9e5430b2d6c7ceff3169,,Laddningsgräns,volvo
+sensor.volvo_c40_laddningseffekt,7f298614e8ac9e5430b2d6c7ceff3169,,Laddningseffekt,volvo
+sensor.volvo_c40_status_for_laddningseffekt,7f298614e8ac9e5430b2d6c7ceff3169,,Status för laddningseffekt,volvo
+sensor.volvo_c40_laddningsstatus,7f298614e8ac9e5430b2d6c7ceff3169,,Laddningsstatus,volvo
+sensor.volvo_c40_typ_av_laddning,7f298614e8ac9e5430b2d6c7ceff3169,,Typ av laddning,volvo
+sensor.volvo_c40_avstand_till_tomt_batteri,7f298614e8ac9e5430b2d6c7ceff3169,,Avstånd till tomt batteri,volvo
+sensor.volvo_c40_beraknad_laddningstid,7f298614e8ac9e5430b2d6c7ceff3169,,Beräknad laddningstid,volvo
+sensor.volvo_c40_malbatteriets_laddningsniva,7f298614e8ac9e5430b2d6c7ceff3169,,Målbatteriets laddningsnivå,volvo
+sensor.volvo_c40_automat_avstand,7f298614e8ac9e5430b2d6c7ceff3169,,Automat - Avstånd,volvo
+sensor.volvo_c40_manuell_avstand,7f298614e8ac9e5430b2d6c7ceff3169,,Manuell - Avstånd,volvo
+sensor.volvo_c40_riktning,7f298614e8ac9e5430b2d6c7ceff3169,,Riktning,volvo
+sensor.volvo_c40_matarstallning,7f298614e8ac9e5430b2d6c7ceff3169,,Mätarställning,volvo
+sensor.volvo_c40_bilanslutning,7f298614e8ac9e5430b2d6c7ceff3169,,Bilanslutning,volvo
+sensor.volvo_c40_batterikapacitet,7f298614e8ac9e5430b2d6c7ceff3169,,Batterikapacitet,volvo
+sensor.volvo_c40_avstand_till_service,7f298614e8ac9e5430b2d6c7ceff3169,,Avstånd till service,volvo
+sensor.volvo_c40_tid_till_motorservice,7f298614e8ac9e5430b2d6c7ceff3169,,Tid till motorservice,volvo
+sensor.volvo_c40_service,7f298614e8ac9e5430b2d6c7ceff3169,,Service,volvo
+sensor.volvo_c40_tid_till_service,7f298614e8ac9e5430b2d6c7ceff3169,,Tid till service,volvo
+switch.groventre,2a53504bdf80313ef44e6754e8ba9e12,,,verisure
+binary_sensor.kyl_dorr,fb963ea7b8615fe86c63c2b00d492027,,Dörr,smartthings
+binary_sensor.frys_dorr,81bed6809bbdc636e8833ca499a181bb,,Dörr,smartthings
+number.kyl_maltemperatur,fb963ea7b8615fe86c63c2b00d492027,,Måltemperatur,smartthings
+number.frys_maltemperatur,81bed6809bbdc636e8833ca499a181bb,,Måltemperatur,smartthings
+sensor.kyl_energi,fb963ea7b8615fe86c63c2b00d492027,,Energi,smartthings
+sensor.kyl_effekt,fb963ea7b8615fe86c63c2b00d492027,,Effekt,smartthings
+sensor.kyl_energiskillnad,fb963ea7b8615fe86c63c2b00d492027,,Energiskillnad,smartthings
+sensor.kyl_energi_2,fb963ea7b8615fe86c63c2b00d492027,,Energi,smartthings
+sensor.kyl_energi_sparad,fb963ea7b8615fe86c63c2b00d492027,,Energi sparad,smartthings
+sensor.kyl_temperatur,fb963ea7b8615fe86c63c2b00d492027,,Temperatur,smartthings
+sensor.frys_energi,81bed6809bbdc636e8833ca499a181bb,,Energi,smartthings
+sensor.frys_effekt,81bed6809bbdc636e8833ca499a181bb,,Effekt,smartthings
+sensor.frys_energiskillnad,81bed6809bbdc636e8833ca499a181bb,,Energiskillnad,smartthings
+sensor.frys_energi_2,81bed6809bbdc636e8833ca499a181bb,,Energi,smartthings
+sensor.frys_energi_sparad,81bed6809bbdc636e8833ca499a181bb,,Energi sparad,smartthings
+sensor.frys_temperatur,81bed6809bbdc636e8833ca499a181bb,,Temperatur,smartthings
+switch.kyl_snabbkylning,fb963ea7b8615fe86c63c2b00d492027,,Snabbkylning,smartthings
+switch.frys_snabbfrysning,81bed6809bbdc636e8833ca499a181bb,,Snabbfrysning,smartthings
+sensor.zelda_last_seen_flap_device_id,3d8db654ff9ff97c5618491242e6465a,,Last seen flap device id,surepetcare
+sensor.zelda_last_seen_user_id,3d8db654ff9ff97c5618491242e6465a,,Last seen user id,surepetcare
+sensor.shiraz_last_seen_flap_device_id,a85bd682b861897fac5b6980ba714ab0,,Last seen flap device id,surepetcare
+sensor.shiraz_last_seen_user_id,a85bd682b861897fac5b6980ba714ab0,,Last seen user id,surepetcare
+sensor.semilon_last_seen_flap_device_id,c3db8051159416c7ac77f0d70d6924db,,Last seen flap device id,surepetcare
+sensor.semilon_last_seen_user_id,c3db8051159416c7ac77f0d70d6924db,,Last seen user id,surepetcare
+sensor.chanti_last_seen_flap_device_id,4bf827df0a4f241c585491e8eb2c5776,,Last seen flap device id,surepetcare
+sensor.chanti_last_seen_user_id,4bf827df0a4f241c585491e8eb2c5776,,Last seen user id,surepetcare
+switch.kontorslampa_cleveriq01,0cbddff2e31da5b976afe10e6affd44e,,,tellduslive
+sensor.felix_temperatur,a70fe5a1d5af41a960c4b1493a55c486,,Temperatur,tellduslive
+sensor.felix_luftfuktighet,a70fe5a1d5af41a960c4b1493a55c486,,Luftfuktighet,tellduslive
+switch.matkallare_cleveriq02,e1dd40b32470a11f55f2d86fd32c5b87,,,tellduslive
+switch.cleveriq04,e193d862b24bbabdcc473d7a68cdfb80,,,tellduslive
+sensor.tvattstuga_temperatur,caf7b0fe0b2031f80ab63f7eabeebe98,,Temperatur,tellduslive
+sensor.tvattstuga_luftfuktighet,caf7b0fe0b2031f80ab63f7eabeebe98,,Luftfuktighet,tellduslive
+switch.cleveriq03,6e19bb312b4da6e625d9668463f3f5d6,,,tellduslive
+sensor.vind_temperatur,90684d696feabefa429d5f5be305055b,,Temperatur,tellduslive
+sensor.vind_luftfuktighet,90684d696feabefa429d5f5be305055b,,Luftfuktighet,tellduslive
+button.utomhus_car_volovc40_blinka,7f298614e8ac9e5430b2d6c7ceff3169,,Blinka,volvo
+button.utomhus_car_volovc40_tuta,7f298614e8ac9e5430b2d6c7ceff3169,,Tuta,volvo
+button.utomhus_car_volovc40_tuta_och_blixtra,7f298614e8ac9e5430b2d6c7ceff3169,,Tuta och blixtra,volvo
+sensor.felix_radiator_adax_temperatur,578b1e1ba66827682198f0b08345521d,,Temperatur,adax
+sensor.felix_radiator_adax_energi,578b1e1ba66827682198f0b08345521d,,Energi,adax
+climate.termostat,578b1e1ba66827682198f0b08345521d,,Felix radiator,adax
+automation.temperaturplan_felix_rum,,,Temperaturplan Felix rum,automation
+sensor.rickard_basal_body_temperature,e2c5fd1d69003d579fe7a3d9f108bf11,,Basal body temperature,mobile_app
+sensor.rickard_basal_metabolic_rate,e2c5fd1d69003d579fe7a3d9f108bf11,,Basal metabolic rate,mobile_app
+sensor.rickard_body_temperature,e2c5fd1d69003d579fe7a3d9f108bf11,,Body temperature,mobile_app
+sensor.rickard_body_water_mass,e2c5fd1d69003d579fe7a3d9f108bf11,,Body water mass,mobile_app
+sensor.rickard_bone_mass,e2c5fd1d69003d579fe7a3d9f108bf11,,Bone mass,mobile_app
+sensor.rickard_height,e2c5fd1d69003d579fe7a3d9f108bf11,,Height,mobile_app
+sensor.rickard_daily_hydration,e2c5fd1d69003d579fe7a3d9f108bf11,,Daily hydration,mobile_app
+sensor.rickard_lean_body_mass,e2c5fd1d69003d579fe7a3d9f108bf11,,Lean body mass,mobile_app
+notify.panel,269b2401de6663070e5bf00ff429ae6e,,,mobile_app
+notify.ipad_dmpf10mlntgr,e9761b5d1a40f81050bd78aaed89426e,,,mobile_app
+notify.rickard,48df2ffd85ef9a9490139fd22cc34a0f,,,mobile_app
+notify.rickard_2,e2c5fd1d69003d579fe7a3d9f108bf11,,,mobile_app
+switch.kok_mediaplayer_sonos_tv_autouppspelning,d8de3c30a32bb0fad62c4d73200c8a14,,TV-autouppspelning,sonos
+switch.kok_mediaplayer_sonos_avgruppera_vid_autouppspelning,d8de3c30a32bb0fad62c4d73200c8a14,,Avgruppera vid autouppspelning,sonos
+lawn_mower.faret_shaun_lawn_mower,1bbc7d661ba26c7648d0d4063dd1f65e,,Lawn Mower,gardena_smart_system
+number.irrigation_control_valve_1_watering_duration,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 1 Watering Duration,gardena_smart_system
+number.irrigation_control_valve_2_watering_duration,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 2 Watering Duration,gardena_smart_system
+number.irrigation_control_valve_3_watering_duration,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 3 Watering Duration,gardena_smart_system
+number.irrigation_control_valve_4_watering_duration,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 4 Watering Duration,gardena_smart_system
+number.irrigation_control_valve_5_watering_duration,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 5 Watering Duration,gardena_smart_system
+number.irrigation_control_valve_6_watering_duration,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 6 Watering Duration,gardena_smart_system
+sensor.faret_shaun_battery_level_2,1bbc7d661ba26c7648d0d4063dd1f65e,,Battery Level,gardena_smart_system
+sensor.faret_shaun_rf_link_quality,1bbc7d661ba26c7648d0d4063dd1f65e,,RF Link Quality,gardena_smart_system
+sensor.faret_shaun,1bbc7d661ba26c7648d0d4063dd1f65e,,,gardena_smart_system
+sensor.faret_shaun_operating_hours,1bbc7d661ba26c7648d0d4063dd1f65e,,Operating Hours,gardena_smart_system
+sensor.irrigation_control_rf_link_quality,4b780fd7dfd42da3f456a10a5eaeba93,,RF Link Quality,gardena_smart_system
+sensor.irrigation_control_valve_1_watering_end,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 1 Watering End,gardena_smart_system
+sensor.irrigation_control_valve_2_watering_end,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 2 Watering End,gardena_smart_system
+sensor.irrigation_control_valve_3_watering_end,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 3 Watering End,gardena_smart_system
+sensor.irrigation_control_valve_4_watering_end,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 4 Watering End,gardena_smart_system
+sensor.irrigation_control_valve_5_watering_end,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 5 Watering End,gardena_smart_system
+sensor.irrigation_control_valve_6_watering_end,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 6 Watering End,gardena_smart_system
+binary_sensor.faret_shaun_online,1bbc7d661ba26c7648d0d4063dd1f65e,,Online,gardena_smart_system
+binary_sensor.irrigation_control_online,4b780fd7dfd42da3f456a10a5eaeba93,,Online,gardena_smart_system
+binary_sensor.websocket_status_gardena_websocket_connected,8880feae73711308c654eaec69687464,,Gardena WebSocket Connected,gardena_smart_system
+valve.irrigation_control_valve_1,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 1,gardena_smart_system
+valve.irrigation_control_valve_2,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 2,gardena_smart_system
+valve.irrigation_control_valve_3,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 3,gardena_smart_system
+valve.irrigation_control_valve_4,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 4,gardena_smart_system
+valve.irrigation_control_valve_5,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 5,gardena_smart_system
+valve.irrigation_control_valve_6,4b780fd7dfd42da3f456a10a5eaeba93,,Valve 6,gardena_smart_system
+button.faret_shaun_start_mowing_now,1bbc7d661ba26c7648d0d4063dd1f65e,,Start Mowing Now,gardena_smart_system
+button.faret_shaun_return_to_dock_2,1bbc7d661ba26c7648d0d4063dd1f65e,,Return to Dock,gardena_smart_system
+light.vagguttag_kattrum_tretakt,47d7f0482e58d1b6d5bd6edf1530218c,,,smartthings
+sensor.utetemp_luftfuktighet,3d0b9319d588f2caf02697bd86aebda4,,Luftfuktighet,netatmo
+sensor.utetemp_temperatur,3d0b9319d588f2caf02697bd86aebda4,,Temperatur,netatmo
+sensor.absolut_fuktighet_ute,,utomhus,Absolut fuktighet ute,template
+sensor.absolut_fuktighet_tvattstuga,,tvattstuga,Absolut fuktighet tvättstuga,template
+binary_sensor.ventilation_gynnsam,,kattrum,Ventilation gynnsam,template
+automation.tvattstuga_ventilation_absolut_fuktighet,,,Tvättstuga ventilation absolut fuktighet,automation
