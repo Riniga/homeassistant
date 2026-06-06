@@ -1,0 +1,16 @@
+# Secrets
+secrets.yaml
+
+# Home Assistant intern data
+.storage/
+home-assistant_v2.db*
+*.log
+
+# Media och cache
+tts/
+media/
+www/community/
+
+# Backuper
+backups/
+backup/

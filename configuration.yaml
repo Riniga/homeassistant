@@ -1,0 +1,47 @@
+zone:
+  - name: Hem
+    latitude: 56.25192
+    longitude: 12.85315
+    radius: 100
+    icon: mdi:home
+
+homeassistant:
+  external_url: "https://home.mjukvaror.com"
+  allowlist_external_dirs:
+    - /config/www
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 192.168.20.64 # Add the IP address of the proxy server
+    
+# Loads default set of integrations. Do not remove.
+default_config:
+
+tts:
+  - platform: google_translate
+    language: 'sv'  # svenska
+    
+# Garage Camera 1
+camera:
+  - platform: ffmpeg
+    name: camera.garage
+    input: rtsp://admin:840486@192.168.10.186:554/stream1
+  - platform: ffmpeg
+    name: camera.garden
+    input: rtsp://admin:779822@192.168.10.24:554/onvif_camera/profile.0
+
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+template:
+- sensor:
+  - unit_of_measurement: m/s
+    default_entity_id: sensor.windspeed_meters_per_second
+    name: Wind Speed (m/s)
+    state: '{{ (states(''sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength'') | float / 3.6) | round(2) }}'

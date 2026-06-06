@@ -1,0 +1,121 @@
+- id: '1732953792429'
+  name: Tänd skymningsbelysning
+  entities:
+    switch.granen:
+      friendly_name: Tv-rum.Outlet.Myslampa.Verisure
+      state: 'on'
+    light.hall:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: color_temp
+      brightness: 138
+      color_temp_kelvin: 2518
+      color_temp: 397
+      hs_color:
+      - 28.827
+      - 71.874
+      rgb_color:
+      - 255
+      - 160
+      - 72
+      xy_color:
+      - 0.544
+      - 0.389
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - Hallampa
+      entity_id:
+      - light.hallampa
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Hall.Lamp.Byrålampa.Hue
+      supported_features: 40
+      state: 'on'
+    switch.altanen:
+      friendly_name: Utomhus.Outlet.Trädbelysning.Verisure
+      state: 'on'
+    light.vagguttag_vardagsrum_inspelning:
+      supported_color_modes:
+      - brightness
+      friendly_name: Vardagsrum.Outlet.Granen.SmartThings
+      supported_features: 32
+      color_mode: brightness
+      brightness: 255
+      state: 'on'
+    light.vagguttag_kontor_tretakt:
+      supported_color_modes:
+      - brightness
+      color_mode: brightness
+      brightness: 255
+      friendly_name: Kontor.Outlet.Fönsterlampa.SmartThings
+      supported_features: 32
+      state: 'on'
+    switch.groventre:
+      friendly_name: Groventre.Outlet.Fönsterlampa.Verisure
+      state: 'on'
+  icon: mdi:pine-tree-variant
+  metadata: {}
+- id: '1733730523168'
+  name: Släck skymningsbelysning
+  entities:
+    switch.granen:
+      friendly_name: Tv-rum.Outlet.Myslampa.Verisure
+      state: 'off'
+    light.hall:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - Hallampa
+      entity_id:
+      - light.hallampa
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Hall.Lamp.Byrålampa.Hue
+      supported_features: 40
+      state: 'off'
+    switch.altanen:
+      friendly_name: Utomhus.Outlet.Trädbelysning.Verisure
+      state: 'off'
+    light.vagguttag_kontor_tretakt:
+      supported_color_modes:
+      - brightness
+      color_mode:
+      brightness:
+      friendly_name: Kontor.Outlet.Fönsterlampa.SmartThings
+      supported_features: 32
+      state: 'off'
+    light.vagguttag_vardagsrum_inspelning:
+      supported_color_modes:
+      - brightness
+      friendly_name: Vardagsrum.Outlet.Granen.SmartThings
+      supported_features: 32
+      color_mode:
+      brightness:
+      state: 'off'
+    switch.groventre:
+      friendly_name: Groventre.Outlet.Fönsterlampa.Verisure
+      state: 'off'
+  icon: mdi:pine-tree-variant
+  metadata: {}

@@ -1,0 +1,265 @@
+- id: '1726205575795'
+  alias: Tänd LED vid rörelse i matkällaren
+  description: ''
+  triggers:
+  - alias: Motion detected in matkällaren
+    type: motion
+    device_id: e2846d4c3d7d3c63bb481316ee4439df
+    entity_id: df65a6175e5162e62048ecd41d2e20ac
+    domain: binary_sensor
+    trigger: device
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+  conditions: []
+  actions:
+  - alias: turn LED-strip ON in matkällaren
+    type: turn_on
+    device_id: 0fc1548d9a156875fef4d08d3bc30ea2
+    entity_id: bd93ef8c6bda4030167525303c6b6cca
+    domain: switch
+  mode: single
+- id: '1726205667055'
+  alias: Släck LED om ingen rörelse i en minut i matkällaren
+  description: 'Tänd LED vid rörelse i matkällaren
+
+    '
+  triggers:
+  - alias: No motion detected for 1 minut
+    type: no_motion
+    device_id: e2846d4c3d7d3c63bb481316ee4439df
+    entity_id: df65a6175e5162e62048ecd41d2e20ac
+    domain: binary_sensor
+    trigger: device
+    for:
+      hours: 0
+      minutes: 1
+      seconds: 0
+  conditions: []
+  actions:
+  - alias: Turn LED-strip OFF in matkällaren
+    type: turn_off
+    device_id: 0fc1548d9a156875fef4d08d3bc30ea2
+    entity_id: bd93ef8c6bda4030167525303c6b6cca
+    domain: switch
+  mode: single
+- id: '1732954083827'
+  alias: Vardag morgon
+  description: ''
+  triggers:
+  - trigger: time
+    at: 05:50:00
+  conditions:
+  - condition: time
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  - condition: sun
+    before: sunrise
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.julbelysning
+    data: {}
+  mode: single
+- id: '1732954161328'
+  alias: Soluppgång
+  description: ''
+  triggers:
+  - trigger: sun
+    event: sunrise
+    offset: 0
+  conditions: []
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.slack_julbelysning_duplicera
+  mode: single
+- id: '1732954859652'
+  alias: Solnedgång
+  description: ''
+  triggers:
+  - trigger: sun
+    event: sunset
+    offset: 0
+  conditions: []
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.julbelysning
+  mode: single
+- id: '1732954909760'
+  alias: Vardag natt
+  description: ''
+  triggers:
+  - trigger: time
+    at: '23:00:00'
+  conditions:
+  - condition: time
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - sun
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.slack_julbelysning_duplicera
+  mode: single
+- id: '1733032579153'
+  alias: Helg morgon
+  description: ''
+  triggers:
+  - trigger: time
+    at: 07:30:00
+  conditions:
+  - condition: time
+    weekday:
+    - sat
+    - sun
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.julbelysning
+  mode: single
+- id: '1733032698962'
+  alias: Helg natt
+  description: ''
+  triggers:
+  - trigger: time
+    at: '23:59:59'
+  conditions:
+  - condition: time
+    weekday:
+    - sat
+    - fri
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.slack_julbelysning_duplicera
+  mode: single
+- id: '1743841506348'
+  alias: Starta fontänen
+  description: ''
+  triggers:
+  - trigger: time
+    at: '10:00:00'
+  conditions: []
+  actions:
+  - type: turn_on
+    device_id: d7faaa4fe78349adfffc84012bb0baa2
+    entity_id: 912a9886378cea9fc712215e5281b038
+    domain: switch
+  mode: single
+- id: '1743841575952'
+  alias: Stäng av fontänen
+  description: ''
+  triggers:
+  - trigger: time
+    at: '16:00:00'
+  conditions: []
+  actions:
+  - type: turn_off
+    device_id: d7faaa4fe78349adfffc84012bb0baa2
+    entity_id: 912a9886378cea9fc712215e5281b038
+    domain: switch
+  mode: single
+- id: '1776943566117'
+  alias: Temperaturplan Felix rum
+  description: Styr radiator enligt schema
+  triggers:
+  - at: 06:00:00
+    id: morgon
+    trigger: time
+  - at: 07:00:00
+    id: dag
+    trigger: time
+  - at: '13:00:00'
+    id: eftermiddag
+    trigger: time
+  - at: '18:00:00'
+    id: kväll
+    trigger: time
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id: morgon
+      sequence:
+      - target:
+          entity_id: climate.termostat
+        data:
+          temperature: 24
+        action: climate.set_temperature
+    - conditions:
+      - condition: trigger
+        id: dag
+      sequence:
+      - target:
+          entity_id: climate.termostat
+        data:
+          temperature: 18
+        action: climate.set_temperature
+    - conditions:
+      - condition: trigger
+        id: eftermiddag
+      sequence:
+      - target:
+          entity_id: climate.termostat
+        data:
+          temperature: 20
+        action: climate.set_temperature
+    - conditions:
+      - condition: trigger
+        id: kväll
+      sequence:
+      - target:
+          entity_id: climate.termostat
+        data:
+          temperature: 18
+        action: climate.set_temperature
+  mode: single
+- id: '1780645892652'
+  alias: Tvättstuga ventilation absolut fuktighet
+  description: ''
+  triggers:
+  - id: starta
+    value_template: "{{ states('sensor.absolut_fuktighet_tvattstuga') | float(0) >\n
+      \  states('sensor.absolut_fuktighet_ute') | float(0) + 0.7 }}\n"
+    for:
+      minutes: 5
+    trigger: template
+  - id: stoppa
+    value_template: "{{ states('sensor.absolut_fuktighet_tvattstuga') | float(0) <\n
+      \  states('sensor.absolut_fuktighet_ute') | float(0) + 0.2 }}\n"
+    for:
+      minutes: 10
+    trigger: template
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id: starta
+      sequence:
+      - target:
+          entity_id: light.vagguttag_kattrum_tretakt
+        action: light.turn_on
+    - conditions:
+      - condition: trigger
+        id: stoppa
+      sequence:
+      - target:
+          entity_id: light.vagguttag_kattrum_tretakt
+        action: light.turn_off
+  mode: single
