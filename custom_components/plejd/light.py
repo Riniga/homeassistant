@@ -74,10 +74,15 @@ class PlejdLight(PlejdDeviceBaseEntity, LightEntity):
         return ColorMode.ONOFF
 
     async def async_turn_on(
-        self, brightness: int | None = None, color_temp: int | None = None, **_
+        self,
+        brightness: int | None = None,
+        color_temp: int | None = None,
+        color_temp_kelvin: int | None = None,
+        **_,
     ) -> None:
         """Turn the light on."""
-        await self.device.turn_on(brightness, color_temp)
+        ct = 1e6 / color_temp_kelvin if color_temp_kelvin else color_temp
+        await self.device.turn_on(brightness, ct)
 
     async def async_turn_off(self, **_) -> None:
         """Turn the light off."""
