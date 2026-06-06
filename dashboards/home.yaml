@@ -1,0 +1,163 @@
+title: Hemmet
+views:
+  - title: Hemmet
+    path: hemmet
+    icon: mdi:home
+    type: masonry
+    badges: []
+    cards:
+      - type: markdown
+        content: |
+          # 🏠 Hemmet
+          Snabb överblick över familj, klimat, säkerhet och viktiga funktioner.
+
+      - type: glance
+        title: Närvaro
+        show_name: true
+        show_state: true
+        entities:
+          - entity: person.rickard
+            name: Rickard
+          - entity: person.jenny
+            name: Jenny
+          - entity: person.leo
+            name: Leo
+          - entity: person.felix
+            name: Felix
+          - entity: binary_sensor.familjen_hemma
+            name: Någon hemma
+          - entity: binary_sensor.alla_hemma
+            name: Alla hemma
+
+      - type: entities
+        title: Klimat & ventilation
+        show_header_toggle: false
+        entities:
+          - entity: weather.forecast_hem
+            name: Väder
+          - type: divider
+          - entity: sensor.utetemp_temperatur
+            name: Utetemperatur
+          - entity: sensor.utetemp_luftfuktighet
+            name: Luftfuktighet ute
+          - entity: sensor.absolut_fuktighet_ute
+            name: Absolut fuktighet ute
+          - type: divider
+          - entity: sensor.tvattstuga_temperatur
+            name: Tvättstuga temperatur
+          - entity: sensor.tvattstuga_luftfuktighet
+            name: Tvättstuga luftfuktighet
+          - entity: sensor.absolut_fuktighet_tvattstuga
+            name: Absolut fuktighet tvättstuga
+          - type: divider
+          - entity: binary_sensor.ventilation_gynnsam
+            name: Ventilation gynnsam
+          - entity: light.vagguttag_kattrum_tretakt
+            name: Badrumsfläkt / kattrum
+
+      - type: entities
+        title: Säkerhet
+        show_header_toggle: false
+        entities:
+          - entity: alarm_control_panel.verisure_alarm
+            name: Verisure larm
+          - entity: lock.groventre
+            name: Groventré lås
+          - type: divider
+          - entity: binary_sensor.entre_oppning
+            name: Entré
+          - entity: binary_sensor.finentre_oppning
+            name: Finentré
+          - entity: binary_sensor.altandorr_tv_rum_oppning
+            name: Altandörr TV-rum
+          - entity: binary_sensor.altandorr_vardagsrum_oppning
+            name: Altandörr vardagsrum
+          - entity: binary_sensor.dorr_mediaskap_oppning
+            name: Mediaskåp
+
+      - type: entities
+        title: Lampor & snabbstyrning
+        show_header_toggle: false
+        entities:
+          - entity: light.hall
+            name: Hall
+          - entity: light.ute
+            name: Ute
+          - entity: light.kontor
+            name: Kontor
+          - entity: light.kontor2
+            name: Kontor tak
+          - entity: light.taklampa_2
+            name: TV-rum tak
+          - entity: light.vagguttag_vardagsrum_inspelning
+            name: Vardagsrum skänklampa
+
+      - type: entities
+        title: Städning
+        show_header_toggle: false
+        entities:
+          - entity: vacuum.mo
+            name: Damsugare
+          - entity: binary_sensor.familjen_hemma
+            name: Familjen hemma
+          - entity: switch.mo_stor_inte
+            name: Stör inte
+          - entity: switch.mo_dock_indikatorlampa_for_status
+            name: Dockindikator
+
+      - type: entities
+        title: Bil
+        show_header_toggle: false
+        entities:
+          - entity: lock.volvo_c40_las
+            name: Lås
+          - entity: sensor.volvo_c40_batteri
+            name: Batteri
+          - entity: sensor.volvo_c40_laddningsstatus
+            name: Laddningsstatus
+          - entity: sensor.volvo_c40_status_for_laddningsanslutning
+            name: Laddkabel
+          - entity: sensor.volvo_c40_avstand_till_tomt_batteri
+            name: Räckvidd
+
+      - type: entities
+        title: Kök
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.kyl_dorr
+            name: Kyl dörr
+          - entity: sensor.kyl_temperatur
+            name: Kyl temperatur
+          - entity: binary_sensor.frys_dorr
+            name: Frys dörr
+          - entity: sensor.frys_temperatur
+            name: Frys temperatur
+
+      - type: entities
+        title: Systemstatus
+        show_header_toggle: false
+        entities:
+          - entity: update.home_assistant_core_update
+            name: Home Assistant Core
+          - entity: update.home_assistant_supervisor_update
+            name: Supervisor
+          - entity: update.home_assistant_operating_system_update
+            name: OS
+          - entity: sensor.home_assistant_core_cpu_percent
+            name: Core CPU
+          - entity: sensor.home_assistant_core_memory_percent
+            name: Core minne
+
+      - type: history-graph
+        title: Klimat senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: sensor.utetemp_temperatur
+            name: Ute
+          - entity: sensor.tvattstuga_temperatur
+            name: Tvättstuga
+          - entity: sensor.absolut_fuktighet_ute
+            name: Abs fukt ute
+          - entity: sensor.absolut_fuktighet_tvattstuga
+            name: Abs fukt tvättstuga

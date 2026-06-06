@@ -45,3 +45,13 @@ template:
     default_entity_id: sensor.windspeed_meters_per_second
     name: Wind Speed (m/s)
     state: '{{ (states(''sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength'') | float / 3.6) | round(2) }}'
+
+lovelace:
+  mode: yaml
+  dashboards:
+    home:
+      mode: yaml
+      title: Hemmet
+      icon: mdi:home
+      show_in_sidebar: true
+      filename: dashboards/home.yaml
