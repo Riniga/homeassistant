@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 import logging
+from datetime import date, timedelta
 from typing import Any, Optional, cast
 from decimal import Decimal, InvalidOperation
 
@@ -18,6 +19,7 @@ from homeassistant.const import (
     STATE_UNKNOWN,
 )
 from homeassistant.core import HomeAssistant
+from homeassistant.util import dt as dt_util
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 
@@ -35,7 +37,7 @@ from .calculated_sensor import (
 )
 from .static_sensor import StaticSensors as SS
 from .static_sensor import COORDINATOR_DIAGNOSTIC_SENSORS # Import the new descriptions
-from .common import generate_sigen_entity, generate_device_id, SigenergySensorEntityDescription, SensorEntityDescription
+from .common import generate_sigen_entity, generate_device_id, SigenergySensorEntityDescription
 from .const import (
     DOMAIN,
     DEVICE_TYPE_PLANT,
@@ -48,6 +50,21 @@ from .const import (
 from .sigen_entity import SigenergyEntity
 
 _LOGGER = logging.getLogger(__name__)
+
+# Daily energy sensor keys where a transient zero during reconnection should be
+# suppressed (reported as unavailable) rather than accepted as valid data.
+# These sensors use TOTAL_INCREASING, so a false zero causes phantom energy spikes.
+_PROTECTED_DAILY_ENERGY_KEYS = frozenset({
+    "plant_daily_pv_energy",
+    "plant_daily_battery_charge_energy",
+    "plant_daily_battery_discharge_energy",
+    "inverter_daily_pv_energy",
+    "inverter_ess_daily_charge_energy",
+    "inverter_ess_daily_discharge_energy",
+})
+
+# Legitimate midnight resets are allowed within ±20 minutes of 00:00.
+_DAILY_RESET_WINDOW = timedelta(minutes=20)
 
 
 async def async_setup_entry(
@@ -201,6 +218,54 @@ class SigenergySensor(SigenergyEntity, SensorEntity):
             if isinstance(description, SigenergySensorEntityDescription)
             else None
         )
+        self._last_valid_daily_energy_value: Decimal | None = None
+        self._last_valid_daily_energy_date: date | None = None
+
+    def _is_near_daily_reset(self) -> bool:
+        """Return True if within ±20 minutes of midnight (legitimate daily reset window).
+
+        Uses dt_util.now() so the check respects HA's configured timezone, not the OS clock.
+        """
+        now = dt_util.now()
+        midnight = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        seconds_since_midnight = (now - midnight).total_seconds()
+        window = _DAILY_RESET_WINDOW.total_seconds()
+        return seconds_since_midnight <= window or seconds_since_midnight >= 86400 - window
+
+    def _apply_daily_energy_zero_guard(self, value: Any) -> Any:
+        """Suppress transient zero drops for daily energy sensors outside the midnight window.
+
+        When a Modbus reconnection causes the inverter to briefly report 0 for a daily
+        energy counter, this converts that 0 to None (unavailable) so HA's TOTAL_INCREASING
+        handling does not interpret the recovery as new phantom production.
+        """
+        if self.entity_description.key not in _PROTECTED_DAILY_ENERGY_KEYS:
+            return value
+        if value is None:
+            return value
+        try:
+            decimal_value = Decimal(str(value))
+        except (ValueError, TypeError, InvalidOperation):
+            return value
+        last = self._last_valid_daily_energy_value
+        today = dt_util.now().date()
+        last_date = self._last_valid_daily_energy_date
+        if decimal_value == 0:
+            if self._is_near_daily_reset() or (last_date is not None and last_date < today):
+                self._last_valid_daily_energy_value = decimal_value
+                self._last_valid_daily_energy_date = today
+                return value
+            if last is not None and last > 0:
+                _LOGGER.debug(
+                    "[%s] Suppressing transient zero (last valid: %s) outside midnight window",
+                    self.entity_id,
+                    last,
+                )
+                return None
+        if decimal_value > 0:
+            self._last_valid_daily_energy_value = decimal_value
+            self._last_valid_daily_energy_date = today
+        return value
 
     def _decode_alarm_bits(self, value: int, alarm_mapping: dict) -> str:
         """Decode alarm bits into human-readable text."""
@@ -241,7 +306,7 @@ class SigenergySensor(SigenergyEntity, SensorEntity):
             try:
                 # Call transformation function, trying 3,2,1 args for compatibility
                 fn = self.entity_description.value_fn
-                extra_params = getattr(self.entity_description, "extra_params", {}) or {}
+                extra_params = {**(getattr(self.entity_description, "extra_params", {}) or {}), "device_name": self._device_name}
                 transformed = None
                 for args in [(raw_value, data, extra_params), (raw_value, data), (raw_value,)]:
                     try:
@@ -252,8 +317,8 @@ class SigenergySensor(SigenergyEntity, SensorEntity):
 
                 # Round if needed
                 if transformed is not None and self._round_digits is not None:
-                    return round(Decimal(transformed), self._round_digits)
-                return transformed
+                    return self._apply_daily_energy_zero_guard(round(Decimal(transformed), self._round_digits))
+                return self._apply_daily_energy_zero_guard(transformed)
             except Exception as ex:
                 if raw_value is None:
                     _LOGGER.debug("Value function failed for %s because data is missing: %s", self.entity_id, ex)
@@ -313,11 +378,11 @@ class SigenergySensor(SigenergyEntity, SensorEntity):
 
         if self._round_digits is not None:
             try:
-                return round(Decimal(raw_value), self._round_digits)
+                return self._apply_daily_energy_zero_guard(round(Decimal(raw_value), self._round_digits))
             except (TypeError, ValueError, InvalidOperation):
                 _LOGGER.warning("Could not round direct value for %s: %s", self.entity_id, raw_value)
 
-        return raw_value
+        return self._apply_daily_energy_zero_guard(raw_value)
 
 
 class PVStringSensor(SigenergySensor):
