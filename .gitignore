@@ -5,6 +5,8 @@ secrets.yaml
 # Home Assistant intern data
 .storage/
 .cloud/
+.cache/
+
 home-assistant_v2.db*
 *.log
 

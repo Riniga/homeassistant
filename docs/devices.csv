@@ -80,8 +80,8 @@ fc551fb7805173270d825bfcd1372990,,Backup,,Home Assistant,Home Assistant Backup
 8fb84ae433827071eea4c8c4f79acf96,,Sigenergy ESS,,TypQxQ,integration
 152899b9ee49ba19cf84815acc2e97fa,,Matter Server,,Official apps,Home Assistant App
 01cfb9510678dd86df9825a1dc38cad2,,Kontor,,Google Inc.,Google Nest Mini
-0b77fff46b69617d597ccd0ed34e9a7a,Kontor.Hub.SmartThings-IoT,Hub - SmartThings - IoT,kontor,,V3_HUB
-6d44caf1100d24f84eba9ead37b20965,Kök.Hub.SmartThings-Security,Hub - SmartThings - Larm,kok,,V4_HUB
+0b77fff46b69617d597ccd0ed34e9a7a,Kontor.Hub.SmartThings-IoT,Hub - SmartThings - IoT,kontor,"SAMJIN Co., Ltd.",V3_HUB
+6d44caf1100d24f84eba9ead37b20965,Kök.Hub.SmartThings-Security,Hub - SmartThings - Larm,kok,"SAMJIN Co., Ltd.",V4_HUB
 92a2624ee540dafc1b552b7943553225,Sovrum.Sensor.Multisensor.SmartThings,Sensor - Sovrum - Multisensor,sovrum,,
 e2846d4c3d7d3c63bb481316ee4439df,Matkällaren.Sensor.Multisensor.SmartThings,Sensor - Matkällaren - Multisensor,matkallare,,
 478c4ddd25726ba256b6844c5385c29d,Källarhall.BinarySensor.Rök.SmartThings,Sensor  - Källarhall - Rökdetektor,kallarhall,,
@@ -109,3 +109,28 @@ caf7b0fe0b2031f80ab63f7eabeebe98,Tvättstuga.Sensor.Klimat.Telldus,Tvättstuga,t
 1bbc7d661ba26c7648d0d4063dd1f65e,,Fåret Shaun,,Gardena,GARDENA smart Mower
 4b780fd7dfd42da3f456a10a5eaeba93,,Irrigation Control,,Gardena,GARDENA smart Irrigation Control
 8880feae73711308c654eaec69687464,,WebSocket Status,,Gardena,Unknown Model
+67b7f4047f8a673e7f854df03fb191b9,,U6+ Tvrum,tv_rum,Ubiquiti Networks,UAPL6
+f57928653ece538818137ae247718503,,Cloud Gateway Ultra,kok,Ubiquiti Networks,UDRULT
+941445b51d98edfae421dd84f64051fe,,USW Flex Mini - Källaren,tvattstuga,Ubiquiti Networks,USMINI
+b24147334a2e163777bf7cdbd15bb40a,,AC Mesh,vind,Ubiquiti Networks,U7MSH
+eca6d9ae398ff81a50b39d6e4596a509,,USW-Lite-Kontoret,kontor,Ubiquiti Networks,USL8LPB
+5c6f82e4109c01370abfd90cb62eb65f,,USW Flex Mini - TV-rum,tv_rum,Ubiquiti Networks,USMINI
+67bd40fd55821cf97a2db3b2ab4dbea0,,U6+ Källaren,kallarhall,Ubiquiti Networks,UAPL6
+7db4cc6af47434514a28d97391e3613c,,U6 LR Kontoret,kontor,Ubiquiti Networks,UALR6v2
+9ebb4c36f908bf8f521a33b5f8482a24,,USW Ultra - Kontoret,kontor,Ubiquiti Networks,USM8P
+5d41a2eaf725104bf0d6a2bd88dfc10d,,USW Flex Mini - Skrivbord,kontor,Ubiquiti Networks,USMINI
+7f3d44477066270c1a188bb3f3e06b6d,,UniFi Network,,Ubiquiti Networks,UniFi Network Application
+93fbf4350a90891b75e663c1ea657c95,,LGwebOSTV,tv_rum,LG Electronics,
+c7a8fe6ee97dd53b5f269d103812b895,,Raspberry PI Lab,kontor,Raspberry Pi Trading Ltd,
+b4350a22a591e4e230f1acd07a8ff183,,Raspberry PI Homeassistant,kontor,Raspberry Pi Trading Ltd,
+fb227181896b4e03ea8a620c8be93457,,SEHP5CG2118GRZ,kontor,HP Inc.,
+82ecebcf0fa3effec81c62362e03e958,,Verisure gateway,kok,Securitas Direct AB,
+c1463cc8f51bce0d9256d5d8936a0c8c,,Buddha,kontor,,
+ae088213969447df3b47ac747d76a46c,,Samsung  SmartThings Hub,kontor,IEEE Registration Authority,
+6c669efc1c2d4988030ecaa9b4d23b39,,GARDENA-2e123e,utomhus,Husqvarna AB,
+a8931142e2c381d65596f2a6c1bf5fef,,HP7C4D8F707149,kontor,HP Inc.,
+3ef1c5fd1bd93bb3f107ca35554b0b1c,,TellStick  ZNet Lite v2,kontor,Telldus Technologies AB,
+452b2871dae5b06b7b57e53cba6535bd,,Aether,,Ubiquiti Networks,UniFi WLAN
+69960cc64f679dae1712025db336bc3b,,Aether_IoT,,Ubiquiti Networks,UniFi WLAN
+160168be1a325e5100110e9936a66326,,Aether_Lan,,Ubiquiti Networks,UniFi WLAN
+de1cb81566d6b412e202bd22a4fc3c70,,Aether_Security,,Ubiquiti Networks,UniFi WLAN

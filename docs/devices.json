@@ -318,21 +318,25 @@
     "area_id": "kok",
     "configuration_url": "http://192.168.10.112:1400/support/review",
     "config_entries": [
-      "1f2d6972fa333f9432211973fde11662"
+      "1f2d6972fa333f9432211973fde11662",
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
     ],
     "config_entries_subentries": {
       "1f2d6972fa333f9432211973fde11662": [
+        null
+      ],
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
         null
       ]
     },
     "connections": [
       [
-        "mac",
-        "54:2a:1b:5e:b4:3c"
-      ],
-      [
         "upnp",
         "uuid:RINCON_542A1B5EB43C01400"
+      ],
+      [
+        "mac",
+        "54:2a:1b:5e:b4:3c"
       ]
     ],
     "created_at": 0.0,
@@ -350,7 +354,7 @@
     "manufacturer": "Sonos",
     "model": "SYMFONISK Bookshelf",
     "model_id": "S33",
-    "modified_at": 1780133289.041052,
+    "modified_at": 1780742329.412734,
     "name_by_user": "Kök.MediaPlayer.Sonos",
     "name": "Kök",
     "primary_config_entry": "1f2d6972fa333f9432211973fde11662",
@@ -2122,21 +2126,25 @@
     "area_id": "kontor",
     "configuration_url": null,
     "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
       "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
     ],
     "config_entries_subentries": {
       "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
+        null
+      ],
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
         null
       ]
     },
     "connections": [
       [
         "mac",
-        "00:17:88:01:05:57:86:07"
+        "ec:b5:fa:97:86:07"
       ],
       [
         "mac",
-        "ec:b5:fa:97:86:07"
+        "00:17:88:01:05:57:86:07"
       ]
     ],
     "created_at": 1736262603.87738,
@@ -2147,18 +2155,18 @@
     "identifiers": [
       [
         "hue",
-        "ecb5fafffe978607"
+        "38aabed7-ec8f-4d02-ac6c-d83f6dbf10ac"
       ],
       [
         "hue",
-        "38aabed7-ec8f-4d02-ac6c-d83f6dbf10ac"
+        "ecb5fafffe978607"
       ]
     ],
     "labels": [],
     "manufacturer": "Signify Netherlands B.V.",
     "model": "Hue Bridge",
     "model_id": "BSB002",
-    "modified_at": 1778588135.927818,
+    "modified_at": 1780742329.468974,
     "name_by_user": null,
     "name": "Hue Bridge",
     "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
@@ -2540,10 +2548,14 @@
     "area_id": "hall",
     "configuration_url": null,
     "config_entries": [
-      "01JR2BVZEEZJV9SBV27K4ZY087"
+      "01JR2BVZEEZJV9SBV27K4ZY087",
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
     ],
     "config_entries_subentries": {
       "01JR2BVZEEZJV9SBV27K4ZY087": [
+        null
+      ],
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
         null
       ]
     },
@@ -2568,7 +2580,7 @@
     "manufacturer": "Roborock",
     "model": "roborock.vacuum.a27",
     "model_id": "roborock.vacuum.a27",
-    "modified_at": 1772355127.697311,
+    "modified_at": 1780742329.52206,
     "name_by_user": "Hall.Robot.Damsugaren.Roborock",
     "name": "Mo",
     "primary_config_entry": "01JR2BVZEEZJV9SBV27K4ZY087",
@@ -2638,7 +2650,7 @@
     "manufacturer": "Tuya",
     "model": "Cleverio RGB+CCT 9W E27",
     "model_id": "pzzkvsdiu8tpeqkh",
-    "modified_at": 1780722906.374387,
+    "modified_at": 1780746311.792596,
     "name_by_user": null,
     "name": "konorslampa2",
     "primary_config_entry": "01JR78ABH1A5V4SKYE0TH34W4Y",
@@ -2895,10 +2907,14 @@
     "area_id": "kontor",
     "configuration_url": "https://account.smartthings.com",
     "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
       "ecf14981bbdf7572bace3990a85373a7"
     ],
     "config_entries_subentries": {
       "ecf14981bbdf7572bace3990a85373a7": [
+        null
+      ],
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
         null
       ]
     },
@@ -2924,10 +2940,10 @@
       ]
     ],
     "labels": [],
-    "manufacturer": null,
+    "manufacturer": "SAMJIN Co., Ltd.",
     "model": "V3_HUB",
     "model_id": null,
-    "modified_at": 1776922542.110287,
+    "modified_at": 1780742329.652174,
     "name_by_user": "Kontor.Hub.SmartThings-IoT",
     "name": "Hub - SmartThings - IoT",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
@@ -2939,29 +2955,33 @@
     "area_id": "kok",
     "configuration_url": "https://account.smartthings.com",
     "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
       "ecf14981bbdf7572bace3990a85373a7"
     ],
     "config_entries_subentries": {
       "ecf14981bbdf7572bace3990a85373a7": [
         null
+      ],
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
       ]
     },
     "connections": [
-      [
-        "bluetooth",
-        "68:3a:48:50:14:87"
-      ],
       [
         "mac",
         "68:3a:48:50:14:86"
       ],
       [
-        "mac",
-        "68:3a:48:50:14:84"
+        "bluetooth",
+        "68:3a:48:50:14:87"
       ],
       [
         "zigbee",
         "d0:52:a8:fe:62:aa:00:01"
+      ],
+      [
+        "mac",
+        "68:3a:48:50:14:84"
       ]
     ],
     "created_at": 1764913944.608942,
@@ -2976,10 +2996,10 @@
       ]
     ],
     "labels": [],
-    "manufacturer": null,
+    "manufacturer": "SAMJIN Co., Ltd.",
     "model": "V4_HUB",
     "model_id": null,
-    "modified_at": 1776922542.111365,
+    "modified_at": 1780742329.64222,
     "name_by_user": "Kök.Hub.SmartThings-Security",
     "name": "Hub - SmartThings - Larm",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
@@ -3951,6 +3971,881 @@
     "name": "WebSocket Status",
     "primary_config_entry": "01JR28KHST02F6NKSEVTPKVHMJ",
     "serial_number": "websocket",
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "d8:b3:70:de:a0:34"
+      ]
+    ],
+    "created_at": 1780742329.294591,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "16",
+    "id": "67b7f4047f8a673e7f854df03fb191b9",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UAPL6",
+    "model_id": null,
+    "modified_at": 1780742518.765143,
+    "name_by_user": null,
+    "name": "U6+ Tvrum",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "6.7.41.15623",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "9c:05:d6:aa:be:f8"
+      ]
+    ],
+    "created_at": 1780742329.296328,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "21",
+    "id": "f57928653ece538818137ae247718503",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UDRULT",
+    "model_id": null,
+    "modified_at": 1780742518.767185,
+    "name_by_user": null,
+    "name": "Cloud Gateway Ultra",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "5.1.15.33416",
+    "via_device_id": null
+  },
+  {
+    "area_id": "tvattstuga",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "28:70:4e:25:00:69"
+      ]
+    ],
+    "created_at": 1780742329.297487,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "13",
+    "id": "941445b51d98edfae421dd84f64051fe",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "USMINI",
+    "model_id": null,
+    "modified_at": 1780742518.768777,
+    "name_by_user": null,
+    "name": "USW Flex Mini - Källaren",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "2.1.6.762",
+    "via_device_id": null
+  },
+  {
+    "area_id": "vind",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "1c:6a:1b:70:96:23"
+      ]
+    ],
+    "created_at": 1780742329.298573,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "12",
+    "id": "b24147334a2e163777bf7cdbd15bb40a",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "U7MSH",
+    "model_id": null,
+    "modified_at": 1780742518.770599,
+    "name_by_user": null,
+    "name": "AC Mesh",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "6.6.77.15402",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "6c:63:f8:48:58:d8"
+      ]
+    ],
+    "created_at": 1780742329.29955,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "47",
+    "id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "USL8LPB",
+    "model_id": null,
+    "modified_at": 1780742518.774426,
+    "name_by_user": null,
+    "name": "USW-Lite-Kontoret",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "7.4.1.16850",
+    "via_device_id": null
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "28:70:4e:32:3a:fb"
+      ]
+    ],
+    "created_at": 1780742329.300573,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "13",
+    "id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "USMINI",
+    "model_id": null,
+    "modified_at": 1780742518.776315,
+    "name_by_user": null,
+    "name": "USW Flex Mini - TV-rum",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "2.1.6.762",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kallarhall",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "f4:e2:c6:6e:2b:f4"
+      ]
+    ],
+    "created_at": 1780742329.303569,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "16",
+    "id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UAPL6",
+    "model_id": null,
+    "modified_at": 1780742518.777253,
+    "name_by_user": null,
+    "name": "U6+ Källaren",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "6.7.41.15623",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "0c:ea:14:cf:19:55"
+      ]
+    ],
+    "created_at": 1780742329.304893,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "32",
+    "id": "7db4cc6af47434514a28d97391e3613c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UALR6v2",
+    "model_id": null,
+    "modified_at": 1780742518.778021,
+    "name_by_user": null,
+    "name": "U6 LR Kontoret",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "6.7.41.15623",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "f4:e2:c6:ad:f8:f0"
+      ]
+    ],
+    "created_at": 1780742329.305842,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "13",
+    "id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "USM8P",
+    "model_id": null,
+    "modified_at": 1780742518.778897,
+    "name_by_user": null,
+    "name": "USW Ultra - Kontoret",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "2.1.8.971",
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "9c:05:d6:d8:fa:c5"
+      ]
+    ],
+    "created_at": 1780742329.306314,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": "13",
+    "id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "USMINI",
+    "model_id": null,
+    "modified_at": 1780742518.782945,
+    "name_by_user": null,
+    "name": "USW Flex Mini - Skrivbord",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "2.1.6.762",
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780742329.403942,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "7f3d44477066270c1a188bb3f3e06b6d",
+    "identifiers": [
+      [
+        "unifi",
+        "667fbd76e9360b078c4ff93d"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UniFi Network Application",
+    "model_id": null,
+    "modified_at": 1780742329.404048,
+    "name_by_user": null,
+    "name": "UniFi Network",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": "10.4.57",
+    "via_device_id": null
+  },
+  {
+    "area_id": "tv_rum",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "f8:01:b4:2f:8b:22"
+      ]
+    ],
+    "created_at": 1780742329.625547,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "93fbf4350a90891b75e663c1ea657c95",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "LG Electronics",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.784151,
+    "name_by_user": null,
+    "name": "LGwebOSTV",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "dc:a6:32:8d:5f:29"
+      ]
+    ],
+    "created_at": 1780742329.632217,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c7a8fe6ee97dd53b5f269d103812b895",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Raspberry Pi Trading Ltd",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.784972,
+    "name_by_user": null,
+    "name": "Raspberry PI Lab",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "dc:a6:32:40:31:35"
+      ]
+    ],
+    "created_at": 1780742329.636584,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "b4350a22a591e4e230f1acd07a8ff183",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Raspberry Pi Trading Ltd",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.801498,
+    "name_by_user": null,
+    "name": "Raspberry PI Homeassistant",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "a8:b1:3b:ec:0e:b3"
+      ]
+    ],
+    "created_at": 1780742329.64578,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "fb227181896b4e03ea8a620c8be93457",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "HP Inc.",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.802422,
+    "name_by_user": null,
+    "name": "SEHP5CG2118GRZ",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kok",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:23:c1:15:cb:84"
+      ]
+    ],
+    "created_at": 1780742329.658212,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "82ecebcf0fa3effec81c62362e03e958",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Securitas Direct AB",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.803283,
+    "name_by_user": null,
+    "name": "Verisure gateway",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "bc:fc:e7:08:22:d7"
+      ]
+    ],
+    "created_at": 1780742329.664311,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "c1463cc8f51bce0d9256d5d8936a0c8c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.804049,
+    "name_by_user": null,
+    "name": "Buddha",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "98:27:82:e0:32:7e"
+      ]
+    ],
+    "created_at": 1780742329.668444,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "ae088213969447df3b47ac747d76a46c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "IEEE Registration Authority",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.804668,
+    "name_by_user": null,
+    "name": "Samsung  SmartThings Hub",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "utomhus",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "94:bb:ae:2e:12:3e"
+      ]
+    ],
+    "created_at": 1780742329.674344,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "6c669efc1c2d4988030ecaa9b4d23b39",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Husqvarna AB",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.815887,
+    "name_by_user": null,
+    "name": "GARDENA-2e123e",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "7c:4d:8f:70:71:49"
+      ]
+    ],
+    "created_at": 1780742329.679789,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "a8931142e2c381d65596f2a6c1bf5fef",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "HP Inc.",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.816668,
+    "name_by_user": null,
+    "name": "HP7C4D8F707149",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": "kontor",
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "ac:ca:54:02:95:7b"
+      ]
+    ],
+    "created_at": 1780742329.684008,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "3ef1c5fd1bd93bb3f107ca35554b0b1c",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Telldus Technologies AB",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780742518.817301,
+    "name_by_user": null,
+    "name": "TellStick  ZNet Lite v2",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780742329.826612,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "452b2871dae5b06b7b57e53cba6535bd",
+    "identifiers": [
+      [
+        "unifi",
+        "667fc734046cde71b4276c18"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UniFi WLAN",
+    "model_id": null,
+    "modified_at": 1780742329.826725,
+    "name_by_user": null,
+    "name": "Aether",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780742329.831947,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "69960cc64f679dae1712025db336bc3b",
+    "identifiers": [
+      [
+        "unifi",
+        "6682e92e046cde71b4281184"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UniFi WLAN",
+    "model_id": null,
+    "modified_at": 1780742329.83206,
+    "name_by_user": null,
+    "name": "Aether_IoT",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780742329.83896,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "160168be1a325e5100110e9936a66326",
+    "identifiers": [
+      [
+        "unifi",
+        "6682e953046cde71b428118b"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UniFi WLAN",
+    "model_id": null,
+    "modified_at": 1780742329.839066,
+    "name_by_user": null,
+    "name": "Aether_Lan",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1780742329.843869,
+    "disabled_by": null,
+    "entry_type": "service",
+    "hw_version": null,
+    "id": "de1cb81566d6b412e202bd22a4fc3c70",
+    "identifiers": [
+      [
+        "unifi",
+        "668e8e95046cde71b42a8b31"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Ubiquiti Networks",
+    "model": "UniFi WLAN",
+    "model_id": null,
+    "modified_at": 1780742329.843975,
+    "name_by_user": null,
+    "name": "Aether_Security",
+    "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
     "sw_version": null,
     "via_device_id": null
   }

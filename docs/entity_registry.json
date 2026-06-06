@@ -767,7 +767,7 @@
     "icon": null,
     "id": "7198578cd63323057475bf3b232d5a7b",
     "labels": [],
-    "modified_at": 1780722937.183984,
+    "modified_at": 1780746342.859202,
     "name": null,
     "options": {
       "conversation": {
@@ -1076,17 +1076,17 @@
     "icon": null,
     "id": "776466acf255d84879f6d1de47e476e1",
     "labels": [],
-    "modified_at": 1732953325.780654,
+    "modified_at": 1780746399.867209,
     "name": null,
     "options": {
       "conversation": {
         "should_expose": false
       },
-      "collection": {
-        "hash": "0a6406bcdbabe28368017fef99bf71e2"
-      },
       "cloud.alexa": {
         "should_expose": false
+      },
+      "collection": {
+        "hash": "a6b54944522728ab8f9a769f6731b3a2"
       }
     },
     "original_name": "Rickard",
@@ -13814,7 +13814,7 @@
     "icon": null,
     "id": "848fdd8238f49d0a5e8e58fb49d58b61",
     "labels": [],
-    "modified_at": 1780722936.782242,
+    "modified_at": 1780746342.919107,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13913,7 +13913,7 @@
     "icon": null,
     "id": "a3842615f55e43e1f77e619b56a42f72",
     "labels": [],
-    "modified_at": 1780722937.06508,
+    "modified_at": 1780746342.570254,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -16840,7 +16840,7 @@
     "icon": null,
     "id": "0a5a66e91fbcc2b99bcbafc0f1a10fcb",
     "labels": [],
-    "modified_at": 1780722906.793874,
+    "modified_at": 1780746312.623883,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -17119,7 +17119,7 @@
     "icon": null,
     "id": "8579cefe3774a2e538ab3e90262b69fc",
     "labels": [],
-    "modified_at": 1780728120.183518,
+    "modified_at": 1780741207.128025,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -19260,7 +19260,7 @@
     "icon": null,
     "id": "1188835fbe61064a404bcb992e15000f",
     "labels": [],
-    "modified_at": 1780722936.67881,
+    "modified_at": 1780746342.562178,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -24917,5 +24917,5666 @@
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1780645892652"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.407498,
+    "device_id": "d8de3c30a32bb0fad62c4d73200c8a14",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.sonoszp",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "0f0451ab32532dcb2a79566929d27d72",
+    "labels": [],
+    "modified_at": 1780746314.307824,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "SonosZP",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-54:2a:1b:5e:b4:3c"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.415443,
+    "device_id": "93fbf4350a90891b75e663c1ea657c95",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.lgwebostv",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e3a9bef6d2c4469b97ad735ad3613c83",
+    "labels": [],
+    "modified_at": 1780746314.311282,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "LGwebOSTV",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-f8:01:b4:2f:8b:22"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.417851,
+    "device_id": "c7a8fe6ee97dd53b5f269d103812b895",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.raspberry_pi_lab",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c8c47282d8efa42077c9f809694ef125",
+    "labels": [],
+    "modified_at": 1780746314.31425,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Raspberry PI Lab",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-dc:a6:32:8d:5f:29"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.419973,
+    "device_id": "b4350a22a591e4e230f1acd07a8ff183",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.raspberry_pi_homeassistant",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1e3292addc5bb15d98371ce1b7e14406",
+    "labels": [],
+    "modified_at": 1780746314.317269,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Raspberry PI Homeassistant",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-dc:a6:32:40:31:35"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.424678,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.samsung_refrigerator",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ec3f2bb366e2fc40eae9426580b8f09d",
+    "labels": [],
+    "modified_at": 1780742329.426104,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Samsung-Refrigerator",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-34:55:e5:04:d2:d7"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.427024,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.google_nest_mini",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "34fb9140d2dcb15bb319aa855842626f",
+    "labels": [],
+    "modified_at": 1780742329.428497,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Google-Nest-Mini",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-d4:f5:47:35:7d:94"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.429358,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.hubv4_04022002128",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "a1289e9bf943ef4257d83d3493674a00",
+    "labels": [],
+    "modified_at": 1780742329.430776,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "hubv4-04022002128",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-68:3a:48:50:14:85"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.432078,
+    "device_id": "6d44caf1100d24f84eba9ead37b20965",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.hubv4_04022002128_2",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "a59d4daeceb2ba843e6ecb585d8f57d0",
+    "labels": [],
+    "modified_at": 1780746314.323305,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "hubv4-04022002128",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-68:3a:48:50:14:84"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.441852,
+    "device_id": "fb227181896b4e03ea8a620c8be93457",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.sehp5cg2118grz",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "eab8d71d472bb97cb37040fee486fc88",
+    "labels": [],
+    "modified_at": 1780746314.364561,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "SEHP5CG2118GRZ",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-a8:b1:3b:ec:0e:b3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.444708,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.netatmo",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "962c37915ff421911bd781eee333f5eb",
+    "labels": [],
+    "modified_at": 1780742329.446233,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Netatmo",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-70:ee:50:74:46:84"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.447469,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.sigenergy_sigenstor_ec_10_0_kw_tp",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "71b983790350e3eb78a6aba566de17b3",
+    "labels": [],
+    "modified_at": 1780742329.448872,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Sigenergy SigenStor EC 10.0 kW TP",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-9c:9e:6e:9a:dc:c8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.449851,
+    "device_id": "0b77fff46b69617d597ccd0ed34e9a7a",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.sureflap_hub",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6cf023e4f040bcca889412dae029ae91",
+    "labels": [],
+    "modified_at": 1780746314.330567,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "SureFlap Hub",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-28:6d:97:a0:e8:18"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.457381,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.jenny_ipad_air_4",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5a9250a1dfafc408ee7d6da160fa75a0",
+    "labels": [],
+    "modified_at": 1780742329.458843,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Jenny iPad Air 4",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-5a:b2:12:65:c3:1e"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.462469,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.yale_brygga",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e53496e9b1fb8eea0b11da88966b2962",
+    "labels": [],
+    "modified_at": 1780742329.463771,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Yale Brygga",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-78:9c:85:2a:5b:7f"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.466323,
+    "device_id": "69ddcb383086c09c60cbc5f9066e068c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.philips_hue_bridge",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "009bbb38d400614779b5736ec78f82e7",
+    "labels": [],
+    "modified_at": 1780746314.335641,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Philips Hue Bridge",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-ec:b5:fa:97:86:07"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.471601,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.sovrum",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "cab477204d602aa7ea19e8019bdc1cda",
+    "labels": [],
+    "modified_at": 1780742329.473083,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "sovrum",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-30:58:90:40:d8:59"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.474462,
+    "device_id": "82ecebcf0fa3effec81c62362e03e958",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.verisure_gateway",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "75a6d49046d7fde3d0cf7f811b166713",
+    "labels": [],
+    "modified_at": 1780746314.338644,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Verisure gateway",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-00:23:c1:15:cb:84"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.477012,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.heater",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2f5e8f2086ee17a524e00ef9f4fb1a08",
+    "labels": [],
+    "modified_at": 1780742329.478288,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "heater",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-80:64:6f:1c:59:cc"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.479171,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.samsung_refrigerator_2",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "11adc84056a2868a7d0fa8e47b3f25db",
+    "labels": [],
+    "modified_at": 1780742329.480379,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Samsung-Refrigerator",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-34:55:e5:05:ad:43"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.486493,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.dcs_8000lhv2",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "64e2c10a5e60b01f34dc8349c6eb4b51",
+    "labels": [],
+    "modified_at": 1780742329.487855,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "DCS-8000LHV2",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-b0:c5:54:5a:6b:54"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.489139,
+    "device_id": "c1463cc8f51bce0d9256d5d8936a0c8c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.buddha",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "218d70f09cf269a3177a2b6a5c088ba6",
+    "labels": [],
+    "modified_at": 1780746314.346164,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Buddha",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-bc:fc:e7:08:22:d7"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.491534,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.unifi_default_42_7e_82_ae_24_d4",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "3bb63840aec045d52fe7118575951c7f",
+    "labels": [],
+    "modified_at": 1780742329.495896,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-42:7e:82:ae:24:d4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.497509,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.nas",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6a333f0814d3cc6bc48ff243ca346d90",
+    "labels": [],
+    "modified_at": 1780742329.499572,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "nas",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-dc:a6:32:8d:5f:2a"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.501032,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.net_ac_c988",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5c59153902d1add3c232d17b6e4a3f1d",
+    "labels": [],
+    "modified_at": 1780742329.502685,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "net_ac_C988",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-04:d6:f4:cd:c9:88"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.503695,
+    "device_id": "ae088213969447df3b47ac747d76a46c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.samsung_smartthings_hub",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ee8858a4ac0603d8fc35bcb4e2f11fa2",
+    "labels": [],
+    "modified_at": 1780746314.349377,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Samsung  SmartThings Hub",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-98:27:82:e0:32:7e"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.51009,
+    "device_id": "6c669efc1c2d4988030ecaa9b4d23b39",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.gardena_2e123e",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5fe46cf4cdf35d676a4b783b19d3196d",
+    "labels": [],
+    "modified_at": 1780746314.351527,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "GARDENA-2e123e",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-94:bb:ae:2e:12:3e"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.512584,
+    "device_id": "a8931142e2c381d65596f2a6c1bf5fef",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.hp7c4d8f707149",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "630252d5a905b714b2bc7615ee9ce508",
+    "labels": [],
+    "modified_at": 1780746314.353774,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "HP7C4D8F707149",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-7c:4d:8f:70:71:49"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.514976,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.nest_audio",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "18e06d76e65eac71c6656defbece51df",
+    "labels": [],
+    "modified_at": 1780742329.516378,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Nest-Audio",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-dc:e5:5b:af:23:aa"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.517188,
+    "device_id": "39596380b0a23a5e2d580011667b0545",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.roborock_vacuum_a27",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "7adffff90acdee0fc2e23ba3b69231ee",
+    "labels": [],
+    "modified_at": 1780746314.357048,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "roborock-vacuum-a27",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-b0:4a:39:47:bd:3f"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.524878,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.unifi_default_a0_85_e3_25_2c_b8",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "42c06c68d6c05cab09137e8183dbfbd9",
+    "labels": [],
+    "modified_at": 1780742329.526481,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-a0:85:e3:25:2c:b8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.527347,
+    "device_id": "3ef1c5fd1bd93bb3f107ca35554b0b1c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.tellstick_znet_lite_v2",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "cab978047f7366e33d86450a59c8d316",
+    "labels": [],
+    "modified_at": 1780746314.360715,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "TellStick  ZNet Lite v2",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-ac:ca:54:02:95:7b"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.529863,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.rickard_ipad_pro_12_9_4th_gen",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2b8e35189071a16b3ce61ed3c436b59d",
+    "labels": [],
+    "modified_at": 1780742329.533145,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Rickard iPad Pro 12.9 (4th Gen)",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-be:86:85:d6:49:0c"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.534558,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.chromecast",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "853c0a4518393e2b2de0d60789fc0e22",
+    "labels": [],
+    "modified_at": 1780742329.536059,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Chromecast",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-dc:e5:5b:b5:7a:dd"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.538717,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.u6_tvrum",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1ff4d5d36a737484b92a4dcda2fee3b3",
+    "labels": [],
+    "modified_at": 1780746314.373571,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "U6+ Tvrum",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.547162,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.cloud_gateway_ultra",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6443de1f948f8e9f9a63e52b316eb6c3",
+    "labels": [],
+    "modified_at": 1780746314.378071,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Cloud Gateway Ultra",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.552668,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.usw_flex_mini_kallaren",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "bda7466b079ded5221757f2b8f0cbd5d",
+    "labels": [],
+    "modified_at": 1780746314.381041,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "USW Flex Mini - Källaren",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.56645,
+    "device_id": "b24147334a2e163777bf7cdbd15bb40a",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.ac_mesh",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "8541eba073fd1c7c63235da235aa0e32",
+    "labels": [],
+    "modified_at": 1780746314.383605,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "AC Mesh",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "1c:6a:1b:70:96:23"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.574342,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.usw_lite_kontoret",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "29b692045366db63cfa3304d47c2ce64",
+    "labels": [],
+    "modified_at": 1780746314.387368,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "USW-Lite-Kontoret",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.580012,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.usw_flex_mini_tv_rum",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2008905bf9394e21e04bebc109beb47e",
+    "labels": [],
+    "modified_at": 1780746314.390014,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "USW Flex Mini - TV-rum",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.58723,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.u6_kallaren",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b60002f8395878db47ef1cbec137b65a",
+    "labels": [],
+    "modified_at": 1780746314.392299,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "U6+ Källaren",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.591967,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.u6_lr_kontoret",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "f118b76b83cb40335a7ed79e6a159758",
+    "labels": [],
+    "modified_at": 1780746314.394789,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "U6 LR Kontoret",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.599093,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.usw_ultra_kontoret",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "0f361aec2997a7775f5a341eb2c1b2bd",
+    "labels": [],
+    "modified_at": 1780746314.396994,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "USW Ultra - Kontoret",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.603993,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.usw_flex_mini_skrivbord",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "f6277779b1b6dc175b12f2cc4ddcdb84",
+    "labels": [],
+    "modified_at": 1780746314.399314,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "USW Flex Mini - Skrivbord",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.62789,
+    "device_id": "93fbf4350a90891b75e663c1ea657c95",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.lgwebostv_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "f09a4db386f85fbe98f2a7f3dbffec4f",
+    "labels": [],
+    "modified_at": 1780742329.631261,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-f8:01:b4:2f:8b:22"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.634305,
+    "device_id": "c7a8fe6ee97dd53b5f269d103812b895",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.raspberry_pi_lab_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d334029c19a7d3bf70f242e49e8a12d6",
+    "labels": [],
+    "modified_at": 1780742329.635724,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-dc:a6:32:8d:5f:29"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.63826,
+    "device_id": "b4350a22a591e4e230f1acd07a8ff183",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.raspberry_pi_homeassistant_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "dbc767358d719cab4aef12a901529f05",
+    "labels": [],
+    "modified_at": 1780742329.639623,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-dc:a6:32:40:31:35"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.643187,
+    "device_id": "6d44caf1100d24f84eba9ead37b20965",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.kok_kok_hub_smartthings_security_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "36f73fc4f2fc547e0691577e765821be",
+    "labels": [],
+    "modified_at": 1780742329.644697,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-68:3a:48:50:14:84"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.649541,
+    "device_id": "fb227181896b4e03ea8a620c8be93457",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.sehp5cg2118grz_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6ad69debc8c9bd5e509f62e0a6216faa",
+    "labels": [],
+    "modified_at": 1780742329.651166,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-a8:b1:3b:ec:0e:b3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.653017,
+    "device_id": "0b77fff46b69617d597ccd0ed34e9a7a",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.kontor_kontor_hub_smartthings_iot_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2830a691f5c685adb0e6a07668e33656",
+    "labels": [],
+    "modified_at": 1780742329.654619,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-28:6d:97:a0:e8:18"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.655745,
+    "device_id": "69ddcb383086c09c60cbc5f9066e068c",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.kontor_hue_bridge_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1dd6368580f77ea0c7c94d6131672ade",
+    "labels": [],
+    "modified_at": 1780742329.657142,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-ec:b5:fa:97:86:07"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.661579,
+    "device_id": "82ecebcf0fa3effec81c62362e03e958",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.verisure_gateway_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6fe07269fbc323d8b26ab8d304fb6f58",
+    "labels": [],
+    "modified_at": 1780742329.663334,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-00:23:c1:15:cb:84"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.665782,
+    "device_id": "c1463cc8f51bce0d9256d5d8936a0c8c",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.buddha_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9a6f385fdafeea3fc77b9f28cbf6c658",
+    "labels": [],
+    "modified_at": 1780742329.667498,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-bc:fc:e7:08:22:d7"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.670074,
+    "device_id": "ae088213969447df3b47ac747d76a46c",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.samsung_smartthings_hub_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "085969806bddf4db688f2107e53faf73",
+    "labels": [],
+    "modified_at": 1780742329.673368,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-98:27:82:e0:32:7e"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.67574,
+    "device_id": "6c669efc1c2d4988030ecaa9b4d23b39",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.gardena_2e123e_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "7598a5160b95810bf4a960d40c31f3ef",
+    "labels": [],
+    "modified_at": 1780742329.677149,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-94:bb:ae:2e:12:3e"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.681411,
+    "device_id": "a8931142e2c381d65596f2a6c1bf5fef",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.hp7c4d8f707149_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "74bb647f323e31a39bf790240ceb3862",
+    "labels": [],
+    "modified_at": 1780742329.683074,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-7c:4d:8f:70:71:49"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.687601,
+    "device_id": "3ef1c5fd1bd93bb3f107ca35554b0b1c",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.tellstick_znet_lite_v2_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d17879bc3283fdc7be4f3e324e1286f1",
+    "labels": [],
+    "modified_at": 1780742329.689181,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-ac:ca:54:02:95:7b"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.693811,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_1_poe_power",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "73ddb7eea9dc5ae5d3694479804f7667",
+    "labels": [],
+    "modified_at": 1780742329.695527,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 1 PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-6c:63:f8:48:58:d8_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.696832,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_2_poe_power",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "54a26f8ee6667422d05a7febd4c810ae",
+    "labels": [],
+    "modified_at": 1780742329.698387,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 2 PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-6c:63:f8:48:58:d8_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.699596,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_3_poe_power",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "a35c5714c1c7794092830dec97459a9b",
+    "labels": [],
+    "modified_at": 1780742329.701032,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 3 PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-6c:63:f8:48:58:d8_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.702229,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_4_poe_power",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "570f6b7f7bac60e4a43a6277834c4462",
+    "labels": [],
+    "modified_at": 1780742329.705437,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 4 PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-6c:63:f8:48:58:d8_4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.707682,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "50c92229a7da5fdd7711b5f31df4eeaa",
+    "labels": [],
+    "modified_at": 1780742329.708994,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.710006,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power_2",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "fbb959ebb457e47fd85eec75d7952bb9",
+    "labels": [],
+    "modified_at": 1780742329.711493,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.712426,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power_3",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5c255a758354f4a34fa6f13346e61a91",
+    "labels": [],
+    "modified_at": 1780742329.713766,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.714831,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power_4",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "778378840397df21084fb0c4ad159ee3",
+    "labels": [],
+    "modified_at": 1780742329.718168,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.719228,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power_5",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1c80e71d038fb824a862a75db8b1829d",
+    "labels": [],
+    "modified_at": 1780742329.720623,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.721845,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power_6",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "845b4fc84c9db176b19c7c8698ede4d1",
+    "labels": [],
+    "modified_at": 1780742329.723412,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_6"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.72458,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_poe_power_7",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9dc272598e0b4d960e9c2bb9576ba439",
+    "labels": [],
+    "modified_at": 1780742329.72626,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data PoE power",
+    "platform": "unifi",
+    "translation_key": "port_poe_power",
+    "unique_id": "poe_power-f4:e2:c6:ad:f8:f0_7"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.730267,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_port_1_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "54cfb7bf1407bcf197cb21aee9d5d75f",
+    "labels": [],
+    "modified_at": 1780742329.73184,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 1 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:aa:be:f8_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.732955,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_port_2_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e7d003a7f012e2ce96f284f9707a6963",
+    "labels": [],
+    "modified_at": 1780742329.737982,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 2 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:aa:be:f8_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.739188,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_port_3_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e9bc8a56ad620b81ba1478ffced06d64",
+    "labels": [],
+    "modified_at": 1780742329.740786,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 3 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:aa:be:f8_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.741966,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_port_4_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b8b6713be7bafb19c19e6445271dd247",
+    "labels": [],
+    "modified_at": 1780742329.743529,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 4 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:aa:be:f8_4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.744603,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_port_5_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "64e93cb58852343c92f06abdc3f0476b",
+    "labels": [],
+    "modified_at": 1780742329.746332,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 5 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:aa:be:f8_5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.749975,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_port_1_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "8c8fdab788d24d046183ef38dc1f1670",
+    "labels": [],
+    "modified_at": 1780742329.751462,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 1 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-28:70:4e:25:00:69_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.752433,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_port_2_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "f66e87df9119a1c60872030aa50fa2d0",
+    "labels": [],
+    "modified_at": 1780742329.753811,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 2 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-28:70:4e:25:00:69_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.758309,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_1_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "35d556a1049b85313b7e482588accc61",
+    "labels": [],
+    "modified_at": 1780742329.759866,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 1 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.761082,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_2_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2de401b88fc1576030c30e76059294cd",
+    "labels": [],
+    "modified_at": 1780742329.762661,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 2 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.763828,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_3_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2b5876be06eefba54d875576cb95852f",
+    "labels": [],
+    "modified_at": 1780742329.765396,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 3 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.766703,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_4_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d3d8e85284c838b62f4767229e68ba28",
+    "labels": [],
+    "modified_at": 1780742329.769978,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 4 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.771036,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_5_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e197a41772cc132eb8e51df4a7556eab",
+    "labels": [],
+    "modified_at": 1780742329.772391,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 5 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.773495,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_7_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4a120946bebed3cbaca5b14fd5e08415",
+    "labels": [],
+    "modified_at": 1780742329.775117,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 7 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_7"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.776155,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_port_8_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "676c9c15db880298b574ca107d5e34c8",
+    "labels": [],
+    "modified_at": 1780742329.777519,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 8 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-6c:63:f8:48:58:d8_8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.781552,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_port_1_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c6c4d4eb012b3ecf82f8bf56660ddd9d",
+    "labels": [],
+    "modified_at": 1780742329.783073,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 1 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-28:70:4e:32:3a:fb_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.784137,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_port_2_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "faa338ea0c958a691331748944b7e982",
+    "labels": [],
+    "modified_at": 1780742329.787466,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 2 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-28:70:4e:32:3a:fb_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.788877,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_port_3_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "64fb8fe322c50443d80aed98282ace26",
+    "labels": [],
+    "modified_at": 1780742329.790548,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 3 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-28:70:4e:32:3a:fb_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.791701,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "be54a40c3ec9c68ea9a28969baa9957e",
+    "labels": [],
+    "modified_at": 1780742329.793492,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.794998,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_link_speed_2",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d83954a6362fb726ed88c40210a5605a",
+    "labels": [],
+    "modified_at": 1780742329.796674,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.800022,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_link_speed_3",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "840f0446f84804cfbb6e9062588e5fce",
+    "labels": [],
+    "modified_at": 1780742329.801578,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.802613,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_link_speed_4",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d8506a66c91ad3753cef23af3ab6909f",
+    "labels": [],
+    "modified_at": 1780742329.803907,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.807834,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_link_speed_5",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4a754f19cfd481b54eb0e5f7af3776e8",
+    "labels": [],
+    "modified_at": 1780742329.80995,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_6"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.811193,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_out_data_link_speed_6",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9044700b2359e69fbfc25d0a3feddf11",
+    "labels": [],
+    "modified_at": 1780742329.812751,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE Out + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_7"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.81407,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_poe_in_data_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "72843ae5dc1cb735926dc89b60f57801",
+    "labels": [],
+    "modified_at": 1780742329.815552,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "PoE In + Data link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-f4:e2:c6:ad:f8:f0_8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.819778,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_port_1_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b3763b2d458fdf1eed99e1d5d4ea8981",
+    "labels": [],
+    "modified_at": 1780742329.821369,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 1 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:d8:fa:c5_1"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.822522,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_port_2_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2ec9e7fe44d386055be85a61372452db",
+    "labels": [],
+    "modified_at": 1780742329.824056,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 2 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-9c:05:d6:d8:fa:c5_2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.827531,
+    "device_id": "452b2871dae5b06b7b57e53cba6535bd",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.aether_clients",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "957f22201cda2a0f20b3a020d3212146",
+    "labels": [],
+    "modified_at": 1780742329.830583,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Clients",
+    "platform": "unifi",
+    "translation_key": "wlan_clients",
+    "unique_id": "wlan_clients-667fc734046cde71b4276c18"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.832741,
+    "device_id": "69960cc64f679dae1712025db336bc3b",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.aether_iot_clients",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b78690f114eba99dfb6fe47c230e7b21",
+    "labels": [],
+    "modified_at": 1780742329.835906,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Clients",
+    "platform": "unifi",
+    "translation_key": "wlan_clients",
+    "unique_id": "wlan_clients-6682e92e046cde71b4281184"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.839828,
+    "device_id": "160168be1a325e5100110e9936a66326",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.aether_lan_clients",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "7232cd136775b72f07e290dde1e61a68",
+    "labels": [],
+    "modified_at": 1780742329.842473,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Clients",
+    "platform": "unifi",
+    "translation_key": "wlan_clients",
+    "unique_id": "wlan_clients-6682e953046cde71b428118b"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.844677,
+    "device_id": "de1cb81566d6b412e202bd22a4fc3c70",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.aether_security_clients",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "36af665c23ad4e60f173bc4b0a7273bc",
+    "labels": [],
+    "modified_at": 1780742329.847509,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Clients",
+    "platform": "unifi",
+    "translation_key": "wlan_clients",
+    "unique_id": "wlan_clients-668e8e95046cde71b42a8b31"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.851931,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_tvrum_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e5e817bdd0b54a426d371f78f1233233",
+    "labels": [],
+    "modified_at": 1780742329.853477,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.854591,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4a2033e0db3687c9a67a1358d1be7622",
+    "labels": [],
+    "modified_at": 1780742329.856018,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.85707,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "77a6436d63cd16fd7f4f7b2b4f7dbe7d",
+    "labels": [],
+    "modified_at": 1780742329.858652,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.860562,
+    "device_id": "b24147334a2e163777bf7cdbd15bb40a",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.ac_mesh_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "585ad6ff717142a07a36d0098c7e225d",
+    "labels": [],
+    "modified_at": 1780742329.864993,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-1c:6a:1b:70:96:23"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.865987,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ea0586ec97988486a2da522ab8bd1b0e",
+    "labels": [],
+    "modified_at": 1780742329.867303,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.868294,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ee76683787d2663f361c157db4266f07",
+    "labels": [],
+    "modified_at": 1780742329.869567,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.87165,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_kallaren_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1d67f0f4f20b14732e173d7bfacb94bd",
+    "labels": [],
+    "modified_at": 1780742329.873332,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.877919,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_lr_kontoret_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c89b39fa1d592988ab7040c6622bccd9",
+    "labels": [],
+    "modified_at": 1780742329.879484,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.880648,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9fbbb20084f7005fcf190ab30cd95857",
+    "labels": [],
+    "modified_at": 1780742329.882138,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.883333,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_klienter",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "0d3d8f7416fe23fdec2b1c2ecf3c93e4",
+    "labels": [],
+    "modified_at": 1780742329.884757,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Klienter",
+    "platform": "unifi",
+    "translation_key": "device_clients",
+    "unique_id": "device_clients-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.885846,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_tvrum_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "fb869b838a1e03403e3b645fe70d0cba",
+    "labels": [],
+    "modified_at": 1780742329.890362,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.891705,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "20ca974fafb58ec6f49b41062bfd58e5",
+    "labels": [],
+    "modified_at": 1780742329.894517,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.895804,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ec506ef36346c1289b20315ac43f13a9",
+    "labels": [],
+    "modified_at": 1780742329.900321,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.902098,
+    "device_id": "b24147334a2e163777bf7cdbd15bb40a",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.ac_mesh_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "02a3b3f1f7b070e9e07deffea638e0c0",
+    "labels": [],
+    "modified_at": 1780742329.904603,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-1c:6a:1b:70:96:23"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.907622,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "7433d1c65dc7b2ecb3b9c9433155944c",
+    "labels": [],
+    "modified_at": 1780742329.910543,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.914155,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "3f69ee4866343d2ae77f1fe78ac15893",
+    "labels": [],
+    "modified_at": 1780742329.917443,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.920722,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_kallaren_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5e135740c9a772a5c25c126b8c4548d9",
+    "labels": [],
+    "modified_at": 1780742329.923934,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.925361,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_lr_kontoret_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "dbae298ffe0f99d94020a85435392e9f",
+    "labels": [],
+    "modified_at": 1780742329.928479,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.929898,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5da758b066c1911f20a3531e9f11b688",
+    "labels": [],
+    "modified_at": 1780742329.934632,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.936279,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_uptime",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "3929c3c6d141dc899e18fcfc5ea320b3",
+    "labels": [],
+    "modified_at": 1780742329.939168,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Uptime",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_uptime-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.940587,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_tvrum_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6c2aaf5f9670799770ceed77dc4daaac",
+    "labels": [],
+    "modified_at": 1780742329.945224,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.946716,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "017df76e97ca5f3bfff0dbf9f0293255",
+    "labels": [],
+    "modified_at": 1780742329.949074,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.953759,
+    "device_id": "b24147334a2e163777bf7cdbd15bb40a",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.ac_mesh_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "0bb1744edeae890ad5cba49c3a18c4c6",
+    "labels": [],
+    "modified_at": 1780742329.958291,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-1c:6a:1b:70:96:23"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.959901,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6a622fc79a72b2d199e8c1a241ce64c0",
+    "labels": [],
+    "modified_at": 1780742329.964814,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.966453,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "fd79f1cdb14ae3f1029596952f11e950",
+    "labels": [],
+    "modified_at": 1780742329.96905,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.970723,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_kallaren_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b5ed20084e241c93470fdc63db192716",
+    "labels": [],
+    "modified_at": 1780742329.973482,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.976756,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_lr_kontoret_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "6cedfae68cb1b7cf46952948f04c7f5c",
+    "labels": [],
+    "modified_at": 1780742329.979699,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.981249,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1138856083e183108234ebfd2467338f",
+    "labels": [],
+    "modified_at": 1780742329.983997,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.985524,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_upplank_mac",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "cce1e19590b43e6e8a8ab4ab810aa500",
+    "labels": [],
+    "modified_at": 1780742329.990306,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Upplänk MAC",
+    "platform": "unifi",
+    "translation_key": "device_uplink_mac",
+    "unique_id": "device_uplink_mac-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.991602,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_tvrum_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "28252209d644707fa51afc04061bea6f",
+    "labels": [],
+    "modified_at": 1780742329.997082,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.998922,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "88003e8c5ff1ce96ce4e7675a2e7dbad",
+    "labels": [],
+    "modified_at": 1780742330.001909,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.003589,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1d7a4afe09bbb543208ea5f18f1f0b92",
+    "labels": [],
+    "modified_at": 1780742330.0067,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.010177,
+    "device_id": "b24147334a2e163777bf7cdbd15bb40a",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.ac_mesh_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ca02a5d4418e17f6fb84cd9159de0861",
+    "labels": [],
+    "modified_at": 1780742330.012678,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-1c:6a:1b:70:96:23"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.014206,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5e267f405c302df5a0fee62fa6a5c2a9",
+    "labels": [],
+    "modified_at": 1780742330.017031,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.018492,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1a7fb7955826436ab40f72d039633b9a",
+    "labels": [],
+    "modified_at": 1780742330.023303,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.024897,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_kallaren_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9b3c4e66a840ccc3738b1a912cef6cc7",
+    "labels": [],
+    "modified_at": 1780742330.027605,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.029014,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_lr_kontoret_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c78dcd1758e6e3746d743d12ce5095b1",
+    "labels": [],
+    "modified_at": 1780742330.033862,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.035434,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "4c651d4ffea99886ec6943171beae94a",
+    "labels": [],
+    "modified_at": 1780742330.042274,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.04426,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_tillstand",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "32d5ee72c5bc0a6d2e6d17120119cadf",
+    "labels": [],
+    "modified_at": 1780742330.047231,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Tillstånd",
+    "platform": "unifi",
+    "translation_key": "device_state",
+    "unique_id": "device_state-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.052271,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_tvrum_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2857631313df4f20e5f46029ed9f0c08",
+    "labels": [],
+    "modified_at": 1780742330.057795,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.059786,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "04a10d0f9daf7d3ebd44f7cbd0e43d28",
+    "labels": [],
+    "modified_at": 1780742330.063188,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.06498,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2fdcf9d95dcdc38635c7419d2cee4e56",
+    "labels": [],
+    "modified_at": 1780742330.070131,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.071538,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "3e193efe1ab3ee2d467386c2155d9034",
+    "labels": [],
+    "modified_at": 1780742330.074374,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.075704,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "a64e1112078a6c2527e60da5f4a4a206",
+    "labels": [],
+    "modified_at": 1780742330.078551,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.081653,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_kallaren_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "69bde2bebe8cb42994797382445a4055",
+    "labels": [],
+    "modified_at": 1780742330.084745,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.088937,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_lr_kontoret_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b5f551775bcdbb39ddda34f20ded0af5",
+    "labels": [],
+    "modified_at": 1780742330.091854,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.093554,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "90e2fc1a23b2d931edc948a5cfc57b87",
+    "labels": [],
+    "modified_at": 1780742330.09635,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.097963,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_cpu_anvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9cc87fdf6b437d378372e05dca9241b8",
+    "labels": [],
+    "modified_at": 1780742330.102862,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU-användning",
+    "platform": "unifi",
+    "translation_key": "device_cpu_utilization",
+    "unique_id": "cpu_utilization-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.104355,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_tvrum_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2068b012ec5b04e5c1ac9cacf6835793",
+    "labels": [],
+    "modified_at": 1780742330.107132,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.10864,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "7a12a793c3bb46fdbc2fd0996d561114",
+    "labels": [],
+    "modified_at": 1780742330.113515,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.114933,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_kallaren_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e3ed82994181b53ba7bedd0b1ac30954",
+    "labels": [],
+    "modified_at": 1780742330.117483,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.118973,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_lite_kontoret_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2574f5ec890bdbb1b32d5b6701f03974",
+    "labels": [],
+    "modified_at": 1780742330.121551,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.125111,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_tv_rum_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "13426c5d7adcae2a55876eb940786df4",
+    "labels": [],
+    "modified_at": 1780742330.128035,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.129456,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_kallaren_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "06beec3309a2c51d32ff483d3c44ef03",
+    "labels": [],
+    "modified_at": 1780742330.132773,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.13708,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.u6_lr_kontoret_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d2f9a7f7feeb13005009ce1dd1cda0e9",
+    "labels": [],
+    "modified_at": 1780742330.140051,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.141495,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_ultra_kontoret_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1682f32c5d434fc92ad10622effecd8b",
+    "labels": [],
+    "modified_at": 1780742330.144466,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.145925,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.usw_flex_mini_skrivbord_minnesanvandning",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "ce3f52c1824834645fa18b7d0b247280",
+    "labels": [],
+    "modified_at": 1780742330.150671,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Minnesanvändning",
+    "platform": "unifi",
+    "translation_key": "device_memory_utilization",
+    "unique_id": "memory_utilization-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.152153,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_microsoft_wan_latency",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1bd0dc3be9692a4fc4ddbb128c1b0f5c",
+    "labels": [],
+    "modified_at": 1780742330.153568,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Microsoft WAN latency",
+    "platform": "unifi",
+    "translation_key": "wan_latency",
+    "unique_id": "microsoft_wan_latency-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.154677,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_google_wan_latency",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "a31f647ade155bab15e07ad662eaf43d",
+    "labels": [],
+    "modified_at": 1780742330.15606,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Google WAN latency",
+    "platform": "unifi",
+    "translation_key": "wan_latency",
+    "unique_id": "google_wan_latency-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.157212,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_cloudflare_wan_latency",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "d887a741f2cd01b1e31277f50a128eff",
+    "labels": [],
+    "modified_at": 1780742330.1606,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Cloudflare WAN latency",
+    "platform": "unifi",
+    "translation_key": "wan_latency",
+    "unique_id": "cloudflare_wan_latency-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.162426,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.cloud_gateway_ultra_cpu_temperatur",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "86921fd77580307c14edb86c1e28d51e",
+    "labels": [],
+    "modified_at": 1780742330.163994,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "CPU temperatur",
+    "platform": "unifi",
+    "translation_key": "device_sub_temperature",
+    "unique_id": "temperature-cpu-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.166845,
+    "device_id": "67b7f4047f8a673e7f854df03fb191b9",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.u6_tvrum_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "dda178a508f034a334bd6789a61dd5f2",
+    "labels": [],
+    "modified_at": 1780742330.169529,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-d8:b3:70:de:a0:34"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.173041,
+    "device_id": "f57928653ece538818137ae247718503",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.cloud_gateway_ultra_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "05ce49b733c2918fcc6b75c0b752a73d",
+    "labels": [],
+    "modified_at": 1780742330.175599,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-9c:05:d6:aa:be:f8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.177011,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.usw_flex_mini_kallaren_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "17a4740fc62194ae6779e5d629175770",
+    "labels": [],
+    "modified_at": 1780742330.179438,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-28:70:4e:25:00:69"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.180654,
+    "device_id": "b24147334a2e163777bf7cdbd15bb40a",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.ac_mesh_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "75ce21407914750064b7f0b9ae791b3b",
+    "labels": [],
+    "modified_at": 1780742330.185007,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-1c:6a:1b:70:96:23"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.186594,
+    "device_id": "eca6d9ae398ff81a50b39d6e4596a509",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.usw_lite_kontoret_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "97b241ca3b94f6cb187905f37184ca07",
+    "labels": [],
+    "modified_at": 1780742330.189013,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-6c:63:f8:48:58:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.190926,
+    "device_id": "5c6f82e4109c01370abfd90cb62eb65f",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.usw_flex_mini_tv_rum_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "7718627148478c3c3802f3792057bf0f",
+    "labels": [],
+    "modified_at": 1780742330.193532,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-28:70:4e:32:3a:fb"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.197276,
+    "device_id": "67bd40fd55821cf97a2db3b2ab4dbea0",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.u6_kallaren_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "adaebfbf08b181c5100f61e2a5c4fb10",
+    "labels": [],
+    "modified_at": 1780742330.200608,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-f4:e2:c6:6e:2b:f4"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.203749,
+    "device_id": "7db4cc6af47434514a28d97391e3613c",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.u6_lr_kontoret_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b4950cc5dfbf0045e339e7df75574c4e",
+    "labels": [],
+    "modified_at": 1780742330.206851,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-0c:ea:14:cf:19:55"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.208241,
+    "device_id": "9ebb4c36f908bf8f521a33b5f8482a24",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.usw_ultra_kontoret_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "60d8effde5451cb55c741b81d536af43",
+    "labels": [],
+    "modified_at": 1780742330.212821,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-f4:e2:c6:ad:f8:f0"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742330.214211,
+    "device_id": "5d41a2eaf725104bf0d6a2bd88dfc10d",
+    "disabled_by": null,
+    "entity_category": "config",
+    "entity_id": "update.usw_flex_mini_skrivbord_firmware",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "3fdf2430b8cd14e5251002c5727fa723",
+    "labels": [],
+    "modified_at": 1780742330.222456,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Firmware",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "device_update-9c:05:d6:d8:fa:c5"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.459797,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.leos_telefon",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "3a7a719cc3479eedc8918898f3a99bb2",
+    "labels": [],
+    "modified_at": 1780743785.360737,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Leos telefon",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-6a:be:08:78:45:0b"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780743570.878995,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.jennys_telefon",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "b9f248a3fce348b6ff70c87d366327cb",
+    "labels": [],
+    "modified_at": 1780746084.338168,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "iPhone",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-ba:4f:97:b0:3f:09"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780743475.857543,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.felix_telefon",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "68c790a865b2411d4dc80c3a0ec2b0a7",
+    "labels": [],
+    "modified_at": 1780743823.532112,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Felix telefon",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-c2:76:8a:bd:f6:5a"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": null,
+    "config_subentry_id": null,
+    "created_at": 1780743948.945504,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "person.leo",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c29ccf5c31ba8cc1e85b74ec8f20c8c6",
+    "labels": [],
+    "modified_at": 1780743948.9488,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Leo",
+    "platform": "person",
+    "translation_key": null,
+    "unique_id": "leo"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": null,
+    "config_subentry_id": null,
+    "created_at": 1780743966.926581,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "person.jenny",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "2f4f149e7324ac89c2a252684b6ada7c",
+    "labels": [],
+    "modified_at": 1780746178.882364,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      },
+      "collection": {
+        "hash": "b3bac84be4280fc089a6765153fc0bc9"
+      }
+    },
+    "original_name": "Jenny",
+    "platform": "person",
+    "translation_key": null,
+    "unique_id": "jenny"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": null,
+    "config_subentry_id": null,
+    "created_at": 1780743980.270506,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "person.felix",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1b19590de652fe98967bd8c3b49b9b3e",
+    "labels": [],
+    "modified_at": 1780743980.276674,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Felix",
+    "platform": "person",
+    "translation_key": null,
+    "unique_id": "felix"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTEA4BJJ4SH24QKE9YF9SJ4G",
+    "config_subentry_id": null,
+    "created_at": 1780744334.934086,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "binary_sensor.familjen_hemma",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "324131ef1b99ec35fddae508e7d6a8c2",
+    "labels": [],
+    "modified_at": 1780744334.939724,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Familjen hemma",
+    "platform": "template",
+    "translation_key": null,
+    "unique_id": "01KTEA4BJJ4SH24QKE9YF9SJ4G"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTEA59153B917N1E2VW02VPZ",
+    "config_subentry_id": null,
+    "created_at": 1780744365.096686,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "binary_sensor.alla_hemma",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "c605f777e1d9a42360bbd4051efcadef",
+    "labels": [],
+    "modified_at": 1780744365.104033,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Alla hemma",
+    "platform": "template",
+    "translation_key": null,
+    "unique_id": "01KTEA59153B917N1E2VW02VPZ"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780745019.473359,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.jenny_iphone_13_mini",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9c5e3b81c8f83ef9eec80c218a711a0c",
+    "labels": [],
+    "modified_at": 1780746166.331649,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Jennys telefon",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-92:62:a9:54:4a:e2"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780742329.483042,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.rickards_telefon",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "0942ac469ada955723be9479daa5b83f",
+    "labels": [],
+    "modified_at": 1780746020.130828,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Rickards telefon",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-d2:12:67:7c:f8:c6"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01JR28KHST02F6NKSEVTPKVHMJ",
+    "config_subentry_id": null,
+    "created_at": 1780746312.660292,
+    "device_id": "8880feae73711308c654eaec69687464",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.websocket_status_api_requests_week",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "58a9e3672b885545ebc852543d6569cd",
+    "labels": [],
+    "modified_at": 1780746316.524609,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "API Requests (Week)",
+    "platform": "gardena_smart_system",
+    "translation_key": "api_requests_week",
+    "unique_id": "gardena_api_usage_01JR28KHST02F6NKSEVTPKVHMJ"
   }
 ]
