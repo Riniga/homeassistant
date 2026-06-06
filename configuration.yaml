@@ -47,7 +47,6 @@ template:
     state: '{{ (states(''sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength'') | float / 3.6) | round(2) }}'
 
 lovelace:
-  mode: yaml
   dashboards:
     home:
       mode: yaml
