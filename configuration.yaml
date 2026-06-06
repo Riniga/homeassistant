@@ -48,7 +48,7 @@ template:
 
 lovelace:
   dashboards:
-    home:
+     home-dashboard:
       mode: yaml
       title: Hemmet
       icon: mdi:home
