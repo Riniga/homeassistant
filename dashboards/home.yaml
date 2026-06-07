@@ -30,7 +30,7 @@ views:
             name: Alla hemma
 
       - type: entities
-        title: Klimat & ventilation
+        title: Klimat
         show_header_toggle: false
         entities:
           - entity: weather.forecast_hem
@@ -39,21 +39,12 @@ views:
           - entity: sensor.utetemp_temperatur
             name: Utetemperatur
           - entity: sensor.utetemp_luftfuktighet
-            name: Luftfuktighet ute
-          - entity: sensor.absolut_fuktighet_ute
-            name: Absolut fuktighet ute
+            name: Luftfuktighet ute        
           - type: divider
           - entity: sensor.tvattstuga_temperatur
-            name: Tvättstuga temperatur
+            name: Temperatur innomhus
           - entity: sensor.tvattstuga_luftfuktighet
-            name: Tvättstuga luftfuktighet
-          - entity: sensor.absolut_fuktighet_tvattstuga
-            name: Absolut fuktighet tvättstuga
-          - type: divider
-          - entity: binary_sensor.ventilation_gynnsam
-            name: Ventilation gynnsam
-          - entity: light.vagguttag_kattrum_tretakt
-            name: Badrumsfläkt / kattrum
+            name: Luftfuktighet innomhus
 
       - type: entities
         title: Säkerhet
@@ -85,10 +76,6 @@ views:
             name: Ute
           - entity: light.kontor
             name: Kontor
-          - entity: light.kontor2
-            name: Kontor tak
-          - entity: light.taklampa_2
-            name: TV-rum tak
           - entity: light.vagguttag_vardagsrum_inspelning
             name: Vardagsrum skänklampa
 
@@ -161,3 +148,11 @@ views:
             name: Abs fukt ute
           - entity: sensor.absolut_fuktighet_tvattstuga
             name: Abs fukt tvättstuga
+      - type: entities
+        title: Ventilation
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.ventilation_gynnsam
+            name: Ventilation gynnsam
+          - entity: light.vagguttag_kattrum_tretakt
+            name: Badrumsfläkt / kattrum
