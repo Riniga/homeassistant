@@ -15,6 +15,10 @@ Starta terminalen under: Settings -> Apps -> Terminal
 7. Verifiera: git remote -v
 
 ### Hantering
+Från HA gör push och pull så att den är uppdaterad
+Vid pull kan omstart behövas
+- Kontroll: ha core check
+- Omstart: ha core restart
 
 ##
 
