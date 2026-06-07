@@ -29,53 +29,6 @@ En dashboard ska svara på en fråga.
 Vi skall använda: Home Assistant Minimalist
 
 
-### Dashboard 1 - Hemmet
-- Målgrupp: Alla
-- Fråga: Hur mår huset just nu?
-
-Visar:
-Familj
-Rickard   🏠
-Jenny     🏠
-Leo       🚗
-Felix     🏠
-
-Familjen hemma
-Klimat
-Ute: 18°
-Inne: 22°
-
-Ventilation:
-🟢 Gynnsam
-Säkerhet
-Dörrar låsta
-Garage stängt
-Larm frånkopplat
-Energi
-Elpris
-Förbrukning idag
-Åtgärder
-⚠ Låg batterinivå
-⚠ Enhet offline
-
-## Dashboard 2 - Klimat
-Fråga: Behöver jag göra något åt klimatet?
-Visar:
-Utomhus
-Temperatur
-RH
-Absolut fuktighet
-Inomhus
-Temperatur
-RH
-Absolut fuktighet
-Ventilation
-Fläktstatus
-Ventilation gynnsam
-Historik
-
-Här hamnar dina fuktsensorer.
-
 ## Dashboard 3 - Energi
 Fråga: Vad kostar huset att driva?
 Visar:

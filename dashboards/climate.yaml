@@ -36,6 +36,8 @@ views:
             name: Väder
           - entity: sensor.utetemp_temperatur
             name: Temperatur
+          - entity: sensor.vindhastighet_i_m_s
+            name: Vindhastighet
           - entity: sensor.utetemp_luftfuktighet
             name: Luftfuktighet
           - entity: sensor.absolut_fuktighet_ute

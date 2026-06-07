@@ -39,13 +39,6 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
 
-template:
-- sensor:
-  - unit_of_measurement: m/s
-    default_entity_id: sensor.windspeed_meters_per_second
-    name: Wind Speed (m/s)
-    state: '{{ (states(''sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength'') | float / 3.6) | round(2) }}'
-
 lovelace:
   dashboards:
      home-dashboard:

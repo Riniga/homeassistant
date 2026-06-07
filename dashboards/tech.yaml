@@ -2,21 +2,229 @@ title: Teknik
 views:
   - title: Teknik
     path: tech
-    icon: mdi:home
+    icon: mdi:server-network
     type: masonry
     badges: []
     cards:
+      - type: markdown
+        content: |
+          # 🖥️ Teknik
+          Driftstatus, uppdateringar, nätverk och diagnostik för Home Assistant.
+
       - type: entities
-        title: Systemstatus
+        title: Home Assistant
         show_header_toggle: false
         entities:
           - entity: update.home_assistant_core_update
-            name: Home Assistant Core
+            name: Core uppdatering
           - entity: update.home_assistant_supervisor_update
-            name: Supervisor
+            name: Supervisor uppdatering
           - entity: update.home_assistant_operating_system_update
-            name: OS
+            name: OS uppdatering
+          - type: divider
           - entity: sensor.home_assistant_core_cpu_percent
             name: Core CPU
           - entity: sensor.home_assistant_core_memory_percent
-            name: Core minne    
+            name: Core minne
+          - entity: sensor.home_assistant_supervisor_cpu_percent
+            name: Supervisor CPU
+          - entity: sensor.home_assistant_supervisor_memory_percent
+            name: Supervisor minne
+
+      - type: entities
+        title: Lagring & versioner
+        show_header_toggle: false
+        entities:
+          - entity: sensor.home_assistant_host_disk_total
+            name: Disk totalt
+          - entity: sensor.home_assistant_host_disk_used
+            name: Disk använd
+          - entity: sensor.home_assistant_host_disk_free
+            name: Disk ledig
+          - type: divider
+          - entity: sensor.home_assistant_operating_system_version
+            name: OS version
+          - entity: sensor.home_assistant_operating_system_newest_version
+            name: Senaste OS-version
+          - entity: sensor.home_assistant_host_os_agent_version
+            name: OS Agent
+          - entity: sensor.home_assistant_host_apparmor_version
+            name: AppArmor
+
+      - type: entities
+        title: Backuper
+        show_header_toggle: false
+        entities:
+          - entity: sensor.backup_tillstand_for_sakerhetskopieringshanterare
+            name: Backupstatus
+          - entity: sensor.backup_senaste_lyckade_automatiska_sakerhetskopiering
+            name: Senaste lyckade backup
+          - entity: sensor.backup_senaste_forsok_till_automatisk_sakerhetskopiering
+            name: Senaste backupförsök
+          - entity: sensor.backup_nasta_schemalagda_automatiska_sakerhetskopiering
+            name: Nästa schemalagda backup
+
+      - type: entities
+        title: Add-ons & HACS
+        show_header_toggle: false
+        entities:
+          - entity: update.terminal_ssh_update
+            name: Terminal & SSH
+          - entity: update.file_editor_update
+            name: File Editor
+          - entity: update.mosquitto_broker_update
+            name: Mosquitto broker
+          - type: divider
+          - entity: update.hacs_update
+            name: HACS
+          - entity: update.kiosk_mode_update
+            name: Kiosk Mode
+          - entity: update.ha_floorplan_update
+            name: HA Floorplan
+          - entity: switch.hacs_pre_release
+            name: HACS pre-release
+
+      - type: entities
+        title: Add-on belastning
+        show_header_toggle: false
+        entities:
+          - entity: sensor.terminal_ssh_cpu_procent
+            name: Terminal & SSH CPU
+          - entity: sensor.file_editor_cpu_procent
+            name: File Editor CPU
+          - entity: sensor.mosquitto_broker_cpu_procent
+            name: Mosquitto CPU
+
+      - type: entities
+        title: UniFi - Gateway
+        show_header_toggle: false
+        entities:
+          - entity: update.cloud_gateway_ultra_firmware
+            name: Firmware
+          - entity: sensor.cloud_gateway_ultra_cpu_anvandning
+            name: CPU
+          - entity: sensor.cloud_gateway_ultra_cpu_temperatur
+            name: CPU temperatur
+          - entity: sensor.cloud_gateway_ultra_uptime
+            name: Uptime
+
+      - type: entities
+        title: UniFi - Accesspunkter
+        show_header_toggle: false
+        entities:
+          - entity: update.u6_tvrum_firmware
+            name: U6 TV-rum firmware
+          - entity: sensor.u6_tvrum_cpu_anvandning
+            name: U6 TV-rum CPU
+          - entity: sensor.u6_tvrum_uptime
+            name: U6 TV-rum uptime
+          - type: divider
+          - entity: sensor.u6_kallaren_cpu_anvandning
+            name: U6 källaren CPU
+          - entity: sensor.u6_kallaren_uptime
+            name: U6 källaren uptime
+          - type: divider
+          - entity: sensor.u6_lr_kontoret_cpu_anvandning
+            name: U6 LR kontoret CPU
+          - entity: sensor.u6_lr_kontoret_uptime
+            name: U6 LR kontoret uptime
+
+      - type: entities
+        title: UniFi - Switchar
+        show_header_toggle: false
+        entities:
+          - entity: update.usw_flex_mini_kallaren_firmware
+            name: Flex Mini källaren firmware
+          - entity: sensor.usw_flex_mini_kallaren_cpu_anvandning
+            name: Flex Mini källaren CPU
+          - entity: sensor.usw_flex_mini_kallaren_uptime
+            name: Flex Mini källaren uptime
+          - type: divider
+          - entity: sensor.usw_lite_kontoret_cpu_anvandning
+            name: USW Lite kontoret CPU
+          - entity: sensor.usw_lite_kontoret_uptime
+            name: USW Lite kontoret uptime
+          - type: divider
+          - entity: sensor.usw_ultra_kontoret_cpu_anvandning
+            name: USW Ultra kontoret CPU
+          - entity: sensor.usw_ultra_kontoret_uptime
+            name: USW Ultra kontoret uptime
+
+      - type: entities
+        title: Zigbee / Hue
+        show_header_toggle: false
+        entities:
+          - entity: sensor.hue_bridge_zigbee_anslutning
+            name: Hue Bridge
+          - entity: sensor.hue_dimmer_switch_1_zigbee_anslutning
+            name: Hue Dimmer
+          - entity: sensor.hallampa_zigbee_anslutning
+            name: Hallampa
+          - entity: sensor.kontorslampa_zigbee_anslutning
+            name: Kontorslampa
+          - entity: sensor.hue_ambiance_lamp_1_zigbee_anslutning
+            name: Hue ambiance 1
+          - entity: sensor.hue_ambiance_lamp_2_zigbee_anslutning
+            name: Hue ambiance 2
+
+      - type: entities
+        title: Batterier
+        show_header_toggle: false
+        entities:
+          - entity: sensor.groventre_batteri
+            name: Groventré lås
+          - entity: sensor.hue_dimmer_switch_1_batteri
+            name: Hue dimmer
+          - entity: sensor.mo_batteri
+            name: Dammsugare
+          - entity: sensor.kattlucka_battery_level
+            name: Kattlucka
+          - entity: sensor.sensor_sovrum_multisensor_batteri
+            name: Sovrum multisensor
+          - entity: sensor.sensor_matkallaren_multisensor_batteri
+            name: Matkällare multisensor
+          - entity: sensor.sensor_kallarhall_rokdetektor_batteri
+            name: Källarhall rökdetektor
+
+      - type: entities
+        title: Firmware / enhetsuppdateringar
+        show_header_toggle: false
+        entities:
+          - entity: update.hub_smartthings_larm_firmware
+            name: SmartThings hubb
+          - entity: update.sensor_kallarhall_rokdetektor_firmware
+            name: Rökdetektor källarhall
+          - entity: update.vagguttag_kontor_tretakt_firmware
+            name: Vägguttag kontor
+          - entity: update.sensor_kontor_luftkvalitet_firmware
+            name: Luftkvalitet kontor
+          - entity: update.vagguttag_vardagsrum_inspelning_firmware
+            name: Vägguttag vardagsrum
+
+      - type: history-graph
+        title: HA belastning senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: sensor.home_assistant_core_cpu_percent
+            name: Core CPU
+          - entity: sensor.home_assistant_core_memory_percent
+            name: Core minne
+          - entity: sensor.home_assistant_supervisor_cpu_percent
+            name: Supervisor CPU
+          - entity: sensor.home_assistant_supervisor_memory_percent
+            name: Supervisor minne
+
+      - type: history-graph
+        title: UniFi CPU senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: sensor.cloud_gateway_ultra_cpu_anvandning
+            name: Gateway
+          - entity: sensor.u6_tvrum_cpu_anvandning
+            name: U6 TV-rum
+          - entity: sensor.u6_kallaren_cpu_anvandning
+            name: U6 källaren
+          - entity: sensor.u6_lr_kontoret_cpu_anvandning
+            name: U6 LR kontoret

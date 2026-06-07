@@ -40,6 +40,8 @@ views:
             name: Utetemperatur
           - entity: sensor.utetemp_luftfuktighet
             name: Luftfuktighet ute        
+          - entity: sensor.vindhastighet_i_m_s
+            name: Vindhastighet ute
           - type: divider
           - entity: sensor.tvattstuga_temperatur
             name: Temperatur innomhus
