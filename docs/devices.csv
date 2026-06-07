@@ -85,7 +85,7 @@ fc551fb7805173270d825bfcd1372990,,Backup,,Home Assistant,Home Assistant Backup
 92a2624ee540dafc1b552b7943553225,Sovrum.Sensor.Multisensor.SmartThings,Sensor - Sovrum - Multisensor,sovrum,,
 e2846d4c3d7d3c63bb481316ee4439df,Matkällaren.Sensor.Multisensor.SmartThings,Sensor - Matkällaren - Multisensor,matkallare,,
 478c4ddd25726ba256b6844c5385c29d,Källarhall.BinarySensor.Rök.SmartThings,Sensor  - Källarhall - Rökdetektor,kallarhall,,
-47d7f0482e58d1b6d5bd6edf1530218c,Kattrum.Outlet.Badrumsfläkt.SmartThings,Vägguttag - Kontor - Tretakt,kattrum,,
+47d7f0482e58d1b6d5bd6edf1530218c,Kattrum.Outlet.Badrumsfläkt.SmartThings,Vägguttag - Kattrummet - Tretakt,kattrum,,
 12bb0e782212c8130498badd2542771f,Vardagsrum.Sensor.Klimat.Smarthings,Sensor - Kontor - Luftkvalitet,vardagsrum,,
 04033cd907d16b1ae2ddcbeb39ce4efe,Vardagsrum.Outlet.Skänklampa.SmartThings,Vägguttag - Vardagsrum - Inspelning,vardagsrum,,
 73192775411568542446392ff43adbcf,,Dimmer - Tvrum - Taklampa,tv_rum,Plejd,DIM-01
@@ -134,3 +134,4 @@ a8931142e2c381d65596f2a6c1bf5fef,,HP7C4D8F707149,kontor,HP Inc.,
 69960cc64f679dae1712025db336bc3b,,Aether_IoT,,Ubiquiti Networks,UniFi WLAN
 160168be1a325e5100110e9936a66326,,Aether_Lan,,Ubiquiti Networks,UniFi WLAN
 de1cb81566d6b412e202bd22a4fc3c70,,Aether_Security,,Ubiquiti Networks,UniFi WLAN
+76f82a63e37fbee66fd3703599dc2d2b,,FelixPC,,"Micro-Star INTL CO., LTD.",

@@ -87,7 +87,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "a9c0618f053fc25a2603ff7124ac3f5f",
-    "disabled_by": "integration",
+    "disabled_by": null,
     "entity_category": null,
     "entity_id": "sensor.home_assistant_core_cpu_percent",
     "has_entity_name": true,
@@ -95,7 +95,7 @@
     "icon": null,
     "id": "b2997ab73ee4c58aea54fe6842976970",
     "labels": [],
-    "modified_at": 1752560192.647975,
+    "modified_at": 1780818188.694205,
     "name": null,
     "options": {
       "conversation": {
@@ -117,7 +117,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "a9c0618f053fc25a2603ff7124ac3f5f",
-    "disabled_by": "integration",
+    "disabled_by": null,
     "entity_category": null,
     "entity_id": "sensor.home_assistant_core_memory_percent",
     "has_entity_name": true,
@@ -125,7 +125,7 @@
     "icon": null,
     "id": "84a98756705c81458a03c59dcf82403c",
     "labels": [],
-    "modified_at": 1752560192.648309,
+    "modified_at": 1780818179.785211,
     "name": null,
     "options": {
       "conversation": {
@@ -767,7 +767,7 @@
     "icon": null,
     "id": "7198578cd63323057475bf3b232d5a7b",
     "labels": [],
-    "modified_at": 1780746342.859202,
+    "modified_at": 1780824371.88576,
     "name": null,
     "options": {
       "conversation": {
@@ -1284,7 +1284,7 @@
     "config_subentry_id": null,
     "created_at": 0.0,
     "device_id": "3d0b9319d588f2caf02697bd86aebda4",
-    "disabled_by": "integration",
+    "disabled_by": null,
     "entity_category": null,
     "entity_id": "sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_outdoor_temperature_trend",
     "has_entity_name": true,
@@ -1292,7 +1292,7 @@
     "icon": null,
     "id": "401d0b9004ea08b286e4ee8cadd7f39e",
     "labels": [],
-    "modified_at": 0.0,
+    "modified_at": 1780822477.657707,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -1678,42 +1678,6 @@
     "platform": "netatmo",
     "translation_key": "wind_angle",
     "unique_id": "06:00:00:05:71:26-windangle_value"
-  },
-  {
-    "area_id": null,
-    "categories": {},
-    "config_entry_id": "cacebd0434067cbfffadb169d107a73e",
-    "config_subentry_id": null,
-    "created_at": 0.0,
-    "device_id": "671baed6a8dae38ff6ad7c4c951ce839",
-    "disabled_by": null,
-    "entity_category": null,
-    "entity_id": "sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength",
-    "has_entity_name": true,
-    "hidden_by": null,
-    "icon": null,
-    "id": "1898834fc1bc378ceece581a6ad24ccd",
-    "labels": [],
-    "modified_at": 1752560234.430445,
-    "name": null,
-    "options": {
-      "cloud.alexa": {
-        "should_expose": false
-      },
-      "cloud.google_assistant": {
-        "should_expose": false
-      },
-      "conversation": {
-        "should_expose": false
-      },
-      "sensor": {
-        "suggested_display_precision": 2
-      }
-    },
-    "original_name": "Vindhastighet",
-    "platform": "netatmo",
-    "translation_key": "wind_strength",
-    "unique_id": "06:00:00:05:71:26-windstrength"
   },
   {
     "area_id": null,
@@ -9941,7 +9905,7 @@
     "icon": null,
     "id": "55845c4329a59450f2a660e4f7f57df3",
     "labels": [],
-    "modified_at": 1726205593.271829,
+    "modified_at": 1780818723.155286,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -9954,7 +9918,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Tänd LED vid rörelse i matkällaren",
+    "original_name": "Trigger Rörelse i matkällaren",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1726205575795"
@@ -9974,7 +9938,7 @@
     "icon": null,
     "id": "99d3c3b54796bfd0d86d594991ea6d3c",
     "labels": [],
-    "modified_at": 1726205771.653524,
+    "modified_at": 1780818564.658752,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -9987,7 +9951,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Släck LED om ingen rörelse i en minut i matkällaren",
+    "original_name": "Trigger Ingen Rörelse i matkällaren",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1726205667055"
@@ -13682,7 +13646,7 @@
     "icon": null,
     "id": "dfee86097da9a732e4631c2c87eb82ab",
     "labels": [],
-    "modified_at": 1732954097.513169,
+    "modified_at": 1780818744.061248,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13695,7 +13659,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Vardag morgon",
+    "original_name": "Timer Vardag morgon",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1732954083827"
@@ -13715,7 +13679,7 @@
     "icon": null,
     "id": "af9451bb778a322ffb99a56f6dad9345",
     "labels": [],
-    "modified_at": 1732954838.375108,
+    "modified_at": 1780818603.914903,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13728,7 +13692,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Soluppgång",
+    "original_name": "Timer Soluppgång",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1732954161328"
@@ -13748,7 +13712,7 @@
     "icon": null,
     "id": "8feed218b37470c97c36483a62bc4a9e",
     "labels": [],
-    "modified_at": 1732954868.038413,
+    "modified_at": 1780818580.644048,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13761,7 +13725,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Solnedgång",
+    "original_name": "Timer Solnedgång",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1732954859652"
@@ -13781,7 +13745,7 @@
     "icon": null,
     "id": "0ca05f1d44fb563bb854a50aa42dad1d",
     "labels": [],
-    "modified_at": 1732954922.364789,
+    "modified_at": 1780818752.710673,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13794,7 +13758,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Vardag natt",
+    "original_name": "Timer Vardag natt",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1732954909760"
@@ -13814,7 +13778,7 @@
     "icon": null,
     "id": "848fdd8238f49d0a5e8e58fb49d58b61",
     "labels": [],
-    "modified_at": 1780746342.919107,
+    "modified_at": 1780824371.819486,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13880,7 +13844,7 @@
     "icon": null,
     "id": "9364264c2963535a85aa68f6a87425b6",
     "labels": [],
-    "modified_at": 1733032704.260826,
+    "modified_at": 1780818500.213885,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -13893,7 +13857,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Helg natt",
+    "original_name": "Timer Helg natt",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1733032698962"
@@ -13913,7 +13877,7 @@
     "icon": null,
     "id": "a3842615f55e43e1f77e619b56a42f72",
     "labels": [],
-    "modified_at": 1780746342.570254,
+    "modified_at": 1780824371.775838,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -15391,7 +15355,7 @@
     "icon": null,
     "id": "442ee9ef3a1fdbd2dc6b5bada4316233",
     "labels": [],
-    "modified_at": 1743841633.459575,
+    "modified_at": 1780818623.397526,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -15404,7 +15368,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Starta fontänen",
+    "original_name": "Timer Starta fontänen",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1743841506348"
@@ -15424,7 +15388,7 @@
     "icon": null,
     "id": "c1d086fa1bb3bf3da01a44c8bad4e994",
     "labels": [],
-    "modified_at": 1743841577.819236,
+    "modified_at": 1780818635.307557,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -15437,7 +15401,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Stäng av fontänen",
+    "original_name": "Timer Stäng av fontänen",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1743841575952"
@@ -16300,7 +16264,7 @@
     "icon": null,
     "id": "15dee0c4e77501dd85ffc739e11a7752",
     "labels": [],
-    "modified_at": 1780561429.890817,
+    "modified_at": 1780763130.383523,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -16333,7 +16297,7 @@
     "icon": null,
     "id": "e1f1cf9645ac05b9266dffa2a42fd737",
     "labels": [],
-    "modified_at": 1776922539.129816,
+    "modified_at": 1780817603.54075,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -16344,6 +16308,68 @@
       },
       "conversation": {
         "should_expose": true
+      },
+      "vacuum": {
+        "area_mapping": {
+          "kontor": [
+            "2_16"
+          ],
+          "hall": [
+            "2_17"
+          ],
+          "vardagsrum": [
+            "2_18"
+          ],
+          "groventre": [
+            "2_19"
+          ],
+          "kok": [
+            "2_20"
+          ],
+          "tv_rum": [
+            "2_21"
+          ],
+          "sovrum": [
+            "2_22"
+          ]
+        },
+        "last_seen_segments": [
+          {
+            "id": "2_16",
+            "name": "Kontor",
+            "group": "Ovanvåning"
+          },
+          {
+            "id": "2_17",
+            "name": "Finentré",
+            "group": "Ovanvåning"
+          },
+          {
+            "id": "2_18",
+            "name": "Vardagsrum",
+            "group": "Ovanvåning"
+          },
+          {
+            "id": "2_19",
+            "name": "Hall",
+            "group": "Ovanvåning"
+          },
+          {
+            "id": "2_20",
+            "name": "Kök",
+            "group": "Ovanvåning"
+          },
+          {
+            "id": "2_21",
+            "name": "Tvrum",
+            "group": "Ovanvåning"
+          },
+          {
+            "id": "2_22",
+            "name": "Sovrum",
+            "group": "Ovanvåning"
+          }
+        ]
       }
     },
     "original_name": null,
@@ -16840,7 +16866,7 @@
     "icon": null,
     "id": "0a5a66e91fbcc2b99bcbafc0f1a10fcb",
     "labels": [],
-    "modified_at": 1780746312.623883,
+    "modified_at": 1780824340.805671,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -17119,7 +17145,7 @@
     "icon": null,
     "id": "8579cefe3774a2e538ab3e90262b69fc",
     "labels": [],
-    "modified_at": 1780741207.128025,
+    "modified_at": 1780775330.015363,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -19260,7 +19286,7 @@
     "icon": null,
     "id": "1188835fbe61064a404bcb992e15000f",
     "labels": [],
-    "modified_at": 1780746342.562178,
+    "modified_at": 1780824371.700598,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -23340,7 +23366,7 @@
     "icon": null,
     "id": "315a0d89ceceeaaf077c729da2496ee9",
     "labels": [],
-    "modified_at": 1776943568.989523,
+    "modified_at": 1780818647.633162,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -23353,7 +23379,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Temperaturplan Felix rum",
+    "original_name": "Timer Temperaturplan Felix rum",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1776943566117"
@@ -24900,7 +24926,7 @@
     "icon": null,
     "id": "27735cd6ab162795fcf35757aab28276",
     "labels": [],
-    "modified_at": 1780645899.26746,
+    "modified_at": 1780818678.898729,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -24913,7 +24939,7 @@
         "should_expose": false
       }
     },
-    "original_name": "Tvättstuga ventilation absolut fuktighet",
+    "original_name": "Trigger Tvättstuga ventilation absolut fuktighet",
     "platform": "automation",
     "translation_key": null,
     "unique_id": "1780645892652"
@@ -24933,7 +24959,7 @@
     "icon": null,
     "id": "0f0451ab32532dcb2a79566929d27d72",
     "labels": [],
-    "modified_at": 1780746314.307824,
+    "modified_at": 1780824342.682582,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -24966,7 +24992,7 @@
     "icon": null,
     "id": "e3a9bef6d2c4469b97ad735ad3613c83",
     "labels": [],
-    "modified_at": 1780746314.311282,
+    "modified_at": 1780824342.685295,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -24999,7 +25025,7 @@
     "icon": null,
     "id": "c8c47282d8efa42077c9f809694ef125",
     "labels": [],
-    "modified_at": 1780746314.31425,
+    "modified_at": 1780824342.688671,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25032,7 +25058,7 @@
     "icon": null,
     "id": "1e3292addc5bb15d98371ce1b7e14406",
     "labels": [],
-    "modified_at": 1780746314.317269,
+    "modified_at": 1780824342.691814,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25155,7 +25181,7 @@
     "icon": null,
     "id": "a59d4daeceb2ba843e6ecb585d8f57d0",
     "labels": [],
-    "modified_at": 1780746314.323305,
+    "modified_at": 1780824342.696729,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25188,7 +25214,7 @@
     "icon": null,
     "id": "eab8d71d472bb97cb37040fee486fc88",
     "labels": [],
-    "modified_at": 1780746314.364561,
+    "modified_at": 1780824342.768203,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25281,7 +25307,7 @@
     "icon": null,
     "id": "6cf023e4f040bcca889412dae029ae91",
     "labels": [],
-    "modified_at": 1780746314.330567,
+    "modified_at": 1780824342.700838,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25374,7 +25400,7 @@
     "icon": null,
     "id": "009bbb38d400614779b5736ec78f82e7",
     "labels": [],
-    "modified_at": 1780746314.335641,
+    "modified_at": 1780824342.710976,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25437,7 +25463,7 @@
     "icon": null,
     "id": "75a6d49046d7fde3d0cf7f811b166713",
     "labels": [],
-    "modified_at": 1780746314.338644,
+    "modified_at": 1780824342.713954,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25560,7 +25586,7 @@
     "icon": null,
     "id": "218d70f09cf269a3177a2b6a5c088ba6",
     "labels": [],
-    "modified_at": 1780746314.346164,
+    "modified_at": 1780824342.730993,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25683,7 +25709,7 @@
     "icon": null,
     "id": "ee8858a4ac0603d8fc35bcb4e2f11fa2",
     "labels": [],
-    "modified_at": 1780746314.349377,
+    "modified_at": 1780824342.743553,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25716,7 +25742,7 @@
     "icon": null,
     "id": "5fe46cf4cdf35d676a4b783b19d3196d",
     "labels": [],
-    "modified_at": 1780746314.351527,
+    "modified_at": 1780824342.750727,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25749,7 +25775,7 @@
     "icon": null,
     "id": "630252d5a905b714b2bc7615ee9ce508",
     "labels": [],
-    "modified_at": 1780746314.353774,
+    "modified_at": 1780824342.753499,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25812,7 +25838,7 @@
     "icon": null,
     "id": "7adffff90acdee0fc2e23ba3b69231ee",
     "labels": [],
-    "modified_at": 1780746314.357048,
+    "modified_at": 1780824342.757341,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25875,7 +25901,7 @@
     "icon": null,
     "id": "cab978047f7366e33d86450a59c8d316",
     "labels": [],
-    "modified_at": 1780746314.360715,
+    "modified_at": 1780824342.762405,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -25968,7 +25994,7 @@
     "icon": null,
     "id": "1ff4d5d36a737484b92a4dcda2fee3b3",
     "labels": [],
-    "modified_at": 1780746314.373571,
+    "modified_at": 1780824342.77397,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26001,7 +26027,7 @@
     "icon": null,
     "id": "6443de1f948f8e9f9a63e52b316eb6c3",
     "labels": [],
-    "modified_at": 1780746314.378071,
+    "modified_at": 1780824342.776462,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26034,7 +26060,7 @@
     "icon": null,
     "id": "bda7466b079ded5221757f2b8f0cbd5d",
     "labels": [],
-    "modified_at": 1780746314.381041,
+    "modified_at": 1780824342.778991,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26067,7 +26093,7 @@
     "icon": null,
     "id": "8541eba073fd1c7c63235da235aa0e32",
     "labels": [],
-    "modified_at": 1780746314.383605,
+    "modified_at": 1780824342.781206,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26100,7 +26126,7 @@
     "icon": null,
     "id": "29b692045366db63cfa3304d47c2ce64",
     "labels": [],
-    "modified_at": 1780746314.387368,
+    "modified_at": 1780824342.783984,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26133,7 +26159,7 @@
     "icon": null,
     "id": "2008905bf9394e21e04bebc109beb47e",
     "labels": [],
-    "modified_at": 1780746314.390014,
+    "modified_at": 1780824342.791734,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26166,7 +26192,7 @@
     "icon": null,
     "id": "b60002f8395878db47ef1cbec137b65a",
     "labels": [],
-    "modified_at": 1780746314.392299,
+    "modified_at": 1780824342.795005,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26199,7 +26225,7 @@
     "icon": null,
     "id": "f118b76b83cb40335a7ed79e6a159758",
     "labels": [],
-    "modified_at": 1780746314.394789,
+    "modified_at": 1780824342.799095,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26232,7 +26258,7 @@
     "icon": null,
     "id": "0f361aec2997a7775f5a341eb2c1b2bd",
     "labels": [],
-    "modified_at": 1780746314.396994,
+    "modified_at": 1780824342.801944,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -26265,7 +26291,7 @@
     "icon": null,
     "id": "f6277779b1b6dc175b12f2cc4ddcdb84",
     "labels": [],
-    "modified_at": 1780746314.399314,
+    "modified_at": 1780824342.804752,
     "name": null,
     "options": {
       "cloud.alexa": {
@@ -30578,5 +30604,227 @@
     "platform": "gardena_smart_system",
     "translation_key": "api_requests_week",
     "unique_id": "gardena_api_usage_01JR28KHST02F6NKSEVTPKVHMJ"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780774423.076425,
+    "device_id": "76f82a63e37fbee66fd3703599dc2d2b",
+    "disabled_by": null,
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.felixpc",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "fd5a37b5776b1e92b6b7b2637665a8b6",
+    "labels": [],
+    "modified_at": 1780824342.771332,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "FelixPC",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-00:d8:61:d7:7f:51"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780774423.085978,
+    "device_id": "76f82a63e37fbee66fd3703599dc2d2b",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.felixpc_lankhastighet",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "e7820edf1fa2d50c9d139e564ee80781",
+    "labels": [],
+    "modified_at": 1780774423.088014,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Länkhastighet",
+    "platform": "unifi",
+    "translation_key": "wired_client_link_speed",
+    "unique_id": "wired_speed-00:d8:61:d7:7f:51"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780774454.331939,
+    "device_id": "941445b51d98edfae421dd84f64051fe",
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "sensor.tvattstuga_usw_flex_mini_kallaren_port_3_link_speed",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "836995a46f0566cc48ce4c39d9b173b4",
+    "labels": [],
+    "modified_at": 1780774454.3387,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Port 3 link speed",
+    "platform": "unifi",
+    "translation_key": "port_link_speed",
+    "unique_id": "port_link_speed-28:70:4e:25:00:69_3"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780806394.956443,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.unifi_default_00_24_e4_cb_02_d8",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "9cd397f84da44acb60fa43f8ea515e54",
+    "labels": [],
+    "modified_at": 1780806394.959549,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-00:24:e4:cb:02:d8"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "config_subentry_id": null,
+    "created_at": 1780815812.184531,
+    "device_id": null,
+    "disabled_by": "integration",
+    "entity_category": "diagnostic",
+    "entity_id": "device_tracker.ete_1h86023t1b",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "55c338895a3460acbc5b92f557f52932",
+    "labels": [],
+    "modified_at": 1780815812.187201,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      }
+    },
+    "original_name": "ETE-1H86023T1B",
+    "platform": "unifi",
+    "translation_key": null,
+    "unique_id": "default-04:f0:ee:7f:fc:6f"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "cacebd0434067cbfffadb169d107a73e",
+    "config_subentry_id": null,
+    "created_at": 0.0,
+    "device_id": "671baed6a8dae38ff6ad7c4c951ce839",
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.vindmatare_wind_strength",
+    "has_entity_name": true,
+    "hidden_by": null,
+    "icon": null,
+    "id": "1898834fc1bc378ceece581a6ad24ccd",
+    "labels": [],
+    "modified_at": 1780823871.404791,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      },
+      "sensor": {
+        "suggested_display_precision": 2
+      }
+    },
+    "original_name": "Vindhastighet",
+    "platform": "netatmo",
+    "translation_key": "wind_strength",
+    "unique_id": "06:00:00:05:71:26-windstrength"
+  },
+  {
+    "area_id": null,
+    "categories": {},
+    "config_entry_id": "01KTGP5MR0R885R2KDT40FDEHR",
+    "config_subentry_id": null,
+    "created_at": 1780824068.86767,
+    "device_id": null,
+    "disabled_by": null,
+    "entity_category": null,
+    "entity_id": "sensor.vindhastighet_i_m_s",
+    "has_entity_name": false,
+    "hidden_by": null,
+    "icon": null,
+    "id": "5d9ce7d833ed539e0976622e871a708d",
+    "labels": [],
+    "modified_at": 1780824068.873151,
+    "name": null,
+    "options": {
+      "cloud.alexa": {
+        "should_expose": false
+      },
+      "cloud.google_assistant": {
+        "should_expose": false
+      },
+      "conversation": {
+        "should_expose": false
+      }
+    },
+    "original_name": "Vindhastighet i m/s",
+    "platform": "template",
+    "translation_key": null,
+    "unique_id": "01KTGP5MR0R885R2KDT40FDEHR"
   }
 ]

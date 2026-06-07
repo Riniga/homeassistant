@@ -26,12 +26,12 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Core",
     "model_id": null,
-    "modified_at": 1780722861.15856,
+    "modified_at": 1780817881.589049,
     "name_by_user": null,
     "name": "Home Assistant Core",
     "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
     "serial_number": null,
-    "sw_version": "2026.6.0",
+    "sw_version": "2026.6.1",
     "via_device_id": null
   },
   {
@@ -331,12 +331,12 @@
     },
     "connections": [
       [
-        "upnp",
-        "uuid:RINCON_542A1B5EB43C01400"
-      ],
-      [
         "mac",
         "54:2a:1b:5e:b4:3c"
+      ],
+      [
+        "upnp",
+        "uuid:RINCON_542A1B5EB43C01400"
       ]
     ],
     "created_at": 0.0,
@@ -2126,8 +2126,8 @@
     "area_id": "kontor",
     "configuration_url": null,
     "config_entries": [
-      "01KTE873W3ABE6ZA8Z2C3V6DR1",
-      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
     ],
     "config_entries_subentries": {
       "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
@@ -2501,12 +2501,12 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Backup",
     "model_id": null,
-    "modified_at": 1780722866.419477,
+    "modified_at": 1780817883.134881,
     "name_by_user": null,
     "name": "Backup",
     "primary_config_entry": "01JR28JQ63M5RPEGQEHSRGXD2F",
     "serial_number": null,
-    "sw_version": "2026.6.0",
+    "sw_version": "2026.6.1",
     "via_device_id": null
   },
   {
@@ -2650,7 +2650,7 @@
     "manufacturer": "Tuya",
     "model": "Cleverio RGB+CCT 9W E27",
     "model_id": "pzzkvsdiu8tpeqkh",
-    "modified_at": 1780746311.792596,
+    "modified_at": 1780824339.949032,
     "name_by_user": null,
     "name": "konorslampa2",
     "primary_config_entry": "01JR78ABH1A5V4SKYE0TH34W4Y",
@@ -2907,8 +2907,8 @@
     "area_id": "kontor",
     "configuration_url": "https://account.smartthings.com",
     "config_entries": [
-      "01KTE873W3ABE6ZA8Z2C3V6DR1",
-      "ecf14981bbdf7572bace3990a85373a7"
+      "ecf14981bbdf7572bace3990a85373a7",
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
     ],
     "config_entries_subentries": {
       "ecf14981bbdf7572bace3990a85373a7": [
@@ -2920,12 +2920,12 @@
     },
     "connections": [
       [
-        "zigbee",
-        "d0:52:a8:bc:7a:a6:00:01"
-      ],
-      [
         "mac",
         "28:6d:97:a0:e8:18"
+      ],
+      [
+        "zigbee",
+        "d0:52:a8:bc:7a:a6:00:01"
       ]
     ],
     "created_at": 1743832829.666822,
@@ -2955,8 +2955,8 @@
     "area_id": "kok",
     "configuration_url": "https://account.smartthings.com",
     "config_entries": [
-      "01KTE873W3ABE6ZA8Z2C3V6DR1",
-      "ecf14981bbdf7572bace3990a85373a7"
+      "ecf14981bbdf7572bace3990a85373a7",
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
     ],
     "config_entries_subentries": {
       "ecf14981bbdf7572bace3990a85373a7": [
@@ -2972,16 +2972,16 @@
         "68:3a:48:50:14:86"
       ],
       [
-        "bluetooth",
-        "68:3a:48:50:14:87"
-      ],
-      [
         "zigbee",
         "d0:52:a8:fe:62:aa:00:01"
       ],
       [
         "mac",
         "68:3a:48:50:14:84"
+      ],
+      [
+        "bluetooth",
+        "68:3a:48:50:14:87"
       ]
     ],
     "created_at": 1764913944.608942,
@@ -3149,9 +3149,9 @@
     "manufacturer": null,
     "model": null,
     "model_id": null,
-    "modified_at": 1780638707.061337,
+    "modified_at": 1780821996.188101,
     "name_by_user": "Kattrum.Outlet.Badrumsfläkt.SmartThings",
-    "name": "Vägguttag - Kontor - Tretakt",
+    "name": "Vägguttag - Kattrummet - Tretakt",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
     "serial_number": null,
     "sw_version": null,
@@ -4845,6 +4845,41 @@
     "name_by_user": null,
     "name": "Aether_Security",
     "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "00:d8:61:d7:7f:51"
+      ]
+    ],
+    "created_at": 1780774423.081371,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "76f82a63e37fbee66fd3703599dc2d2b",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Micro-Star INTL CO., LTD.",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780774423.081569,
+    "name_by_user": null,
+    "name": "FelixPC",
+    "primary_config_entry": null,
     "serial_number": null,
     "sw_version": null,
     "via_device_id": null

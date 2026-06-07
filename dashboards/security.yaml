@@ -1,0 +1,180 @@
+title: Säkerhet
+views:
+  - title: Säkerhet
+    path: security
+    icon: mdi:shield-home
+    type: masonry
+    badges: []
+    cards:
+      - type: markdown
+        content: |
+          # 🛡️ Säkerhet
+          Överblick över larm, lås, dörrar, kameror och viktiga säkerhetssensorer.
+
+      - type: entities
+        title: Larm & närvaro
+        show_header_toggle: false
+        entities:
+          - entity: alarm_control_panel.verisure_alarm
+            name: Verisure larm
+          - entity: binary_sensor.verisure_alarm_ethernet_tillstand
+            name: Verisure nätverk
+          - type: divider
+          - entity: binary_sensor.familjen_hemma
+            name: Familjen hemma
+          - entity: binary_sensor.alla_hemma
+            name: Alla hemma
+          - entity: person.rickard
+            name: Rickard
+          - entity: person.jenny
+            name: Jenny
+          - entity: person.leo
+            name: Leo
+          - entity: person.felix
+            name: Felix
+
+      - type: entities
+        title: Lås
+        show_header_toggle: false
+        entities:
+          - entity: lock.groventre
+            name: Groventré
+          - entity: binary_sensor.groventre_dorr
+            name: Groventré dörr
+          - entity: binary_sensor.groventre_dorrklockan_ringer
+            name: Groventré dörrklocka
+          - type: divider
+          - entity: lock.kattlucka_locked_all
+            name: Kattlucka låst
+          - entity: lock.kattlucka_locked_in
+            name: Kattlucka låst in
+          - entity: lock.kattlucka_locked_out
+            name: Kattlucka låst ut
+
+      - type: entities
+        title: Dörrar & öppningar
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.entre_oppning
+            name: Entré
+          - entity: binary_sensor.finentre_oppning
+            name: Finentré
+          - entity: binary_sensor.altandorr_tv_rum_oppning
+            name: Altandörr TV-rum
+          - entity: binary_sensor.altandorr_vardagsrum_oppning
+            name: Altandörr vardagsrum
+          - entity: binary_sensor.dorr_mediaskap_oppning
+            name: Mediaskåp
+
+      - type: picture-entity
+        title: Hall källare
+        entity: camera.hall_kallare
+        camera_view: auto
+        show_state: false
+        show_name: true
+
+      - type: picture-entity
+        title: TV-rum
+        entity: camera.tv_rum
+        camera_view: auto
+        show_state: false
+        show_name: true
+
+      - type: picture-entity
+        title: Vardagsrum
+        entity: camera.vardagsrum
+        camera_view: auto
+        show_state: false
+        show_name: true
+
+      - type: entities
+        title: Rörelse & sabotage
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.sensor_sovrum_multisensor_rorelse
+            name: Sovrum rörelse
+          - entity: binary_sensor.sensor_sovrum_multisensor_sabotage
+            name: Sovrum sabotage
+          - type: divider
+          - entity: binary_sensor.sensor_matkallaren_multisensor_rorelse
+            name: Matkällare rörelse
+          - entity: binary_sensor.sensor_matkallaren_multisensor_sabotage
+            name: Matkällare sabotage
+
+      - type: entities
+        title: Brand & risk
+        show_header_toggle: false
+        entities:
+          - entity: sensor.sensor_kallarhall_rokdetektor_rokdetektor
+            name: Rökdetektor källarhall
+          - entity: sensor.sensor_kallarhall_rokdetektor_batteri
+            name: Batteri rökdetektor
+          - type: divider
+          - entity: binary_sensor.mo_vattenbrist
+            name: Dammsugare vattenbrist
+          - entity: binary_sensor.mo_vattenbehallare_monterad
+            name: Vattenbehållare monterad
+
+      - type: entities
+        title: Bil - lås och öppningar
+        show_header_toggle: false
+        entities:
+          - entity: lock.volvo_c40_las
+            name: Volvo lås
+          - type: divider
+          - entity: binary_sensor.volvo_c40_dorr_vanster_fram
+            name: Dörr vänster fram
+          - entity: binary_sensor.volvo_c40_dorr_hoger_fram
+            name: Dörr höger fram
+          - entity: binary_sensor.volvo_c40_dorr_vanster_bak
+            name: Dörr vänster bak
+          - entity: binary_sensor.volvo_c40_dorr_hoger_bak
+            name: Dörr höger bak
+          - entity: binary_sensor.volvo_c40_baklucka
+            name: Baklucka
+          - entity: binary_sensor.volvo_c40_motorhuv
+            name: Motorhuv
+          - entity: binary_sensor.volvo_c40_tanklock
+            name: Tanklock
+
+      - type: entities
+        title: Bil - fönster
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.volvo_c40_fonster_vanster_framdorr
+            name: Fönster vänster fram
+          - entity: binary_sensor.volvo_c40_fonster_hoger_framdorr
+            name: Fönster höger fram
+          - entity: binary_sensor.volvo_c40_fonster_vanster_bakdorr
+            name: Fönster vänster bak
+          - entity: binary_sensor.volvo_c40_fonster_hoger_bakdorr
+            name: Fönster höger bak
+          - entity: binary_sensor.volvo_c40_taklucka
+            name: Taklucka
+
+      - type: entities
+        title: Kyl & frys
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.kyl_dorr
+            name: Kyl dörr
+          - entity: binary_sensor.frys_dorr
+            name: Frys dörr
+
+      - type: history-graph
+        title: Säkerhetshändelser senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: binary_sensor.entre_oppning
+            name: Entré
+          - entity: binary_sensor.finentre_oppning
+            name: Finentré
+          - entity: binary_sensor.altandorr_tv_rum_oppning
+            name: Altandörr TV-rum
+          - entity: binary_sensor.altandorr_vardagsrum_oppning
+            name: Altandörr vardagsrum
+          - entity: binary_sensor.groventre_dorr
+            name: Groventré
+          - entity: binary_sensor.sensor_matkallaren_multisensor_rorelse
+            name: Matkällare rörelse

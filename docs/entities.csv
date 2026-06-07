@@ -20,7 +20,7 @@ sensor.sun_next_noon,ff2fb24dbb10795d9891d24fae405c37,,Nästa middag,sun
 sensor.sun_next_rising,ff2fb24dbb10795d9891d24fae405c37,,Nästa soluppgång,sun
 sensor.sun_next_setting,ff2fb24dbb10795d9891d24fae405c37,,Nästa solnedgång,sun
 sensor.sun_solar_elevation,ff2fb24dbb10795d9891d24fae405c37,,Solhöjd,sun
-sensor.sun_solar_azimuth,ff2fb24dbb10795d9891d24fae405c37,,Solens azimut,sunvagguttag_kattrum_tretakt
+sensor.sun_solar_azimuth,ff2fb24dbb10795d9891d24fae405c37,,Solens azimut,sun
 binary_sensor.rpi_power_status,,,RPi Power status,rpi_power
 media_player.badrum,fe1a84dfddd8cda98c6ec58e06916ef9,,,cast
 media_player.familjerum,a0a98c6429333934833c06830a42d8a8,,,cast
@@ -53,7 +53,6 @@ sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_4
 sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_battery_percent,671baed6a8dae38ff6ad7c4c951ce839,,Batteri,netatmo
 sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_direction,671baed6a8dae38ff6ad7c4c951ce839,,Vindriktning,netatmo
 sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_angle,671baed6a8dae38ff6ad7c4c951ce839,,Vindvinkel,netatmo
-sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_wind_strength,671baed6a8dae38ff6ad7c4c951ce839,,Vindhastighet,netatmo
 sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_gust_direction,671baed6a8dae38ff6ad7c4c951ce839,,Riktning vindbyar,netatmo
 sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_gust_angle,671baed6a8dae38ff6ad7c4c951ce839,,Vindby vinkel,netatmo
 sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_vindmatare_gust_strength,671baed6a8dae38ff6ad7c4c951ce839,,Vindbya styrka,netatmo
@@ -312,8 +311,8 @@ switch.ha_floorplan_your_imagination_just_became_the_new_limit_pre_release,1b5f8
 switch.kiosk_mode_pre_release,36a7889ddad289bb56b0ac39f43ef9b6,,Pre-release,hacs
 switch.hacs_pre_release,298c2970fe0d2fee62b96974fb5d56b0,,Pre-release,hacs
 switch.midea_smart_ac_pre_release,e0e5058373fd83b54bb2b909e071c9fa,,Pre-release,hacs
-automation.tand_led_vid_rorelse_i_matkallaren,,,Tänd LED vid rörelse i matkällaren,automation
-automation.turn_led_strip_off_if_no_motion_for_1_minut,,,Släck LED om ingen rörelse i en minut i matkällaren,automation
+automation.tand_led_vid_rorelse_i_matkallaren,,,Trigger Rörelse i matkällaren,automation
+automation.turn_led_strip_off_if_no_motion_for_1_minut,,,Trigger Ingen Rörelse i matkällaren,automation
 switch.matkallare,0fc1548d9a156875fef4d08d3bc30ea2,,,verisure
 binary_sensor.groventre_dorr,13413a4a944e37fd1cd11e0d33277c18,,Dörr,yale
 binary_sensor.groventre_dorrklockan_ringer,13413a4a944e37fd1cd11e0d33277c18,,Dörrklockan ringer,yale
@@ -435,13 +434,13 @@ sensor.rickard_mobile_tx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Mobile Tx GB,mob
 sensor.rickard_total_rx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Total Rx GB,mobile_app
 sensor.rickard_total_tx_gb_2,e2c5fd1d69003d579fe7a3d9f108bf11,,Total Tx GB,mobile_app
 scene.julbelysning,,utomhus,Tänd skymningsbelysning,homeassistant
-automation.vardag_morgon,,,Vardag morgon,automation
-automation.soluppgang,,,Soluppgång,automation
-automation.solnedgang,,,Solnedgång,automation
-automation.vardag_natt,,,Vardag natt,automation
+automation.vardag_morgon,,,Timer Vardag morgon,automation
+automation.soluppgang,,,Timer Soluppgång,automation
+automation.solnedgang,,,Timer Solnedgång,automation
+automation.vardag_natt,,,Timer Vardag natt,automation
 media_player.nestaudio8737,382ac60ce473035a8ce7c5dde24ba58e,,,cast
 automation.helg_morgon,,,Helg morgon,automation
-automation.helg_natt,,,Helg natt,automation
+automation.helg_natt,,,Timer Helg natt,automation
 media_player.chromecast,d86a2aff814dc40b81e60c0c3415844a,,,cast
 switch.granen,27f5a517f7e21b6655071589c7c61972,,,verisure
 scene.slack_julbelysning_duplicera,,,Släck skymningsbelysning,homeassistant
@@ -489,8 +488,8 @@ sensor.backup_senaste_lyckade_automatiska_sakerhetskopiering,fc551fb7805173270d8
 lawn_mower.faret_shaun,35e5a43dd2b50bb1c1b5a6560042c65c,,Fåret Shaun,gardena_smart_system
 sensor.faret_shaun_battery_level,35e5a43dd2b50bb1c1b5a6560042c65c,,Fåret Shaun battery level,gardena_smart_system
 binary_sensor.gardena_smart_system_connection,,,Gardena Smart System connection,gardena_smart_system
-automation.starta_fontanen,,,Starta fontänen,automation
-automation.stang_av_fontanen,,,Stäng av fontänen,automation
+automation.starta_fontanen,,,Timer Starta fontänen,automation
+automation.stang_av_fontanen,,,Timer Stäng av fontänen,automation
 binary_sensor.mo_mopp_monterad,39596380b0a23a5e2d580011667b0545,,Mopp monterad,roborock
 binary_sensor.mo_vattenbehallare_monterad,39596380b0a23a5e2d580011667b0545,,Vattenbehållare monterad,roborock
 binary_sensor.mo_vattenbrist,39596380b0a23a5e2d580011667b0545,,Vattenbrist,roborock
@@ -731,7 +730,7 @@ button.utomhus_car_volovc40_tuta_och_blixtra,7f298614e8ac9e5430b2d6c7ceff3169,,T
 sensor.felix_radiator_adax_temperatur,578b1e1ba66827682198f0b08345521d,,Temperatur,adax
 sensor.felix_radiator_adax_energi,578b1e1ba66827682198f0b08345521d,,Energi,adax
 climate.termostat,578b1e1ba66827682198f0b08345521d,,Felix radiator,adax
-automation.temperaturplan_felix_rum,,,Temperaturplan Felix rum,automation
+automation.temperaturplan_felix_rum,,,Timer Temperaturplan Felix rum,automation
 sensor.rickard_basal_body_temperature,e2c5fd1d69003d579fe7a3d9f108bf11,,Basal body temperature,mobile_app
 sensor.rickard_basal_metabolic_rate,e2c5fd1d69003d579fe7a3d9f108bf11,,Basal metabolic rate,mobile_app
 sensor.rickard_body_temperature,e2c5fd1d69003d579fe7a3d9f108bf11,,Body temperature,mobile_app
@@ -781,7 +780,7 @@ sensor.utetemp_temperatur,3d0b9319d588f2caf02697bd86aebda4,,Temperatur,netatmo
 sensor.absolut_fuktighet_ute,,utomhus,Absolut fuktighet ute,template
 sensor.absolut_fuktighet_tvattstuga,,tvattstuga,Absolut fuktighet tvättstuga,template
 binary_sensor.ventilation_gynnsam,,kattrum,Ventilation gynnsam,template
-automation.tvattstuga_ventilation_absolut_fuktighet,,,Tvättstuga ventilation absolut fuktighet,automation
+automation.tvattstuga_ventilation_absolut_fuktighet,,,Trigger Tvättstuga ventilation absolut fuktighet,automation
 device_tracker.sonoszp,d8de3c30a32bb0fad62c4d73200c8a14,,SonosZP,unifi
 device_tracker.lgwebostv,93fbf4350a90891b75e663c1ea657c95,,LGwebOSTV,unifi
 device_tracker.raspberry_pi_lab,c7a8fe6ee97dd53b5f269d103812b895,,Raspberry PI Lab,unifi
@@ -961,3 +960,10 @@ binary_sensor.alla_hemma,,,Alla hemma,template
 device_tracker.jenny_iphone_13_mini,,,Jennys telefon,unifi
 device_tracker.rickards_telefon,,,Rickards telefon,unifi
 sensor.websocket_status_api_requests_week,8880feae73711308c654eaec69687464,,API Requests (Week),gardena_smart_system
+device_tracker.felixpc,76f82a63e37fbee66fd3703599dc2d2b,,FelixPC,unifi
+sensor.felixpc_lankhastighet,76f82a63e37fbee66fd3703599dc2d2b,,Länkhastighet,unifi
+sensor.tvattstuga_usw_flex_mini_kallaren_port_3_link_speed,941445b51d98edfae421dd84f64051fe,,Port 3 link speed,unifi
+device_tracker.unifi_default_00_24_e4_cb_02_d8,,,,unifi
+device_tracker.ete_1h86023t1b,,,ETE-1H86023T1B,unifi
+sensor.vindmatare_wind_strength,671baed6a8dae38ff6ad7c4c951ce839,,Vindhastighet,netatmo
+sensor.vindhastighet_i_m_s,,,Vindhastighet i m/s,template

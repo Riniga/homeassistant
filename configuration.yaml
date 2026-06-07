@@ -59,3 +59,9 @@ lovelace:
       icon: mdi:cog
       show_in_sidebar: true
       filename: dashboards/tech.yaml
+     security-dashboard:
+      mode: yaml
+      title: Säkerhet
+      icon: mdi:shield-home
+      show_in_sidebar: true
+      filename: dashboards/security.yaml
