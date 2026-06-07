@@ -148,11 +148,3 @@ views:
             name: Abs fukt ute
           - entity: sensor.absolut_fuktighet_tvattstuga
             name: Abs fukt tvättstuga
-      - type: entities
-        title: Ventilation
-        show_header_toggle: false
-        entities:
-          - entity: binary_sensor.ventilation_gynnsam
-            name: Ventilation gynnsam
-          - entity: light.vagguttag_kattrum_tretakt
-            name: Badrumsfläkt / kattrum
