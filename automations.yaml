@@ -1,6 +1,6 @@
 - id: '1726205575795'
-  alias: Tänd LED vid rörelse i matkällaren
-  description: ''
+  alias: Trigger Rörelse i matkällaren
+  description: Tänd LED vid rörelse
   triggers:
   - alias: Motion detected in matkällaren
     type: motion
@@ -21,8 +21,8 @@
     domain: switch
   mode: single
 - id: '1726205667055'
-  alias: Släck LED om ingen rörelse i en minut i matkällaren
-  description: 'Tänd LED vid rörelse i matkällaren
+  alias: Trigger Ingen Rörelse i matkällaren
+  description: 'Släck LED vid om ingen rörelse under en minut
 
     '
   triggers:
@@ -45,7 +45,7 @@
     domain: switch
   mode: single
 - id: '1732954083827'
-  alias: Vardag morgon
+  alias: Timer Vardag morgon
   description: ''
   triggers:
   - trigger: time
@@ -68,7 +68,7 @@
     data: {}
   mode: single
 - id: '1732954161328'
-  alias: Soluppgång
+  alias: Timer Soluppgång
   description: ''
   triggers:
   - trigger: sun
@@ -82,7 +82,7 @@
       entity_id: scene.slack_julbelysning_duplicera
   mode: single
 - id: '1732954859652'
-  alias: Solnedgång
+  alias: Timer Solnedgång
   description: ''
   triggers:
   - trigger: sun
@@ -96,7 +96,7 @@
       entity_id: scene.julbelysning
   mode: single
 - id: '1732954909760'
-  alias: Vardag natt
+  alias: Timer Vardag natt
   description: ''
   triggers:
   - trigger: time
@@ -133,7 +133,7 @@
       entity_id: scene.julbelysning
   mode: single
 - id: '1733032698962'
-  alias: Helg natt
+  alias: Timer Helg natt
   description: ''
   triggers:
   - trigger: time
@@ -150,7 +150,7 @@
       entity_id: scene.slack_julbelysning_duplicera
   mode: single
 - id: '1743841506348'
-  alias: Starta fontänen
+  alias: Timer Starta fontänen
   description: ''
   triggers:
   - trigger: time
@@ -163,7 +163,7 @@
     domain: switch
   mode: single
 - id: '1743841575952'
-  alias: Stäng av fontänen
+  alias: Timer Stäng av fontänen
   description: ''
   triggers:
   - trigger: time
@@ -176,7 +176,7 @@
     domain: switch
   mode: single
 - id: '1776943566117'
-  alias: Temperaturplan Felix rum
+  alias: Timer Temperaturplan Felix rum
   description: Styr radiator enligt schema
   triggers:
   - at: 06:00:00
@@ -231,7 +231,7 @@
         action: climate.set_temperature
   mode: single
 - id: '1780645892652'
-  alias: Tvättstuga ventilation absolut fuktighet
+  alias: Trigger Tvättstuga ventilation absolut fuktighet
   description: ''
   triggers:
   - id: starta
