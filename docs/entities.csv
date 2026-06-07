@@ -20,7 +20,7 @@ sensor.sun_next_noon,ff2fb24dbb10795d9891d24fae405c37,,Nästa middag,sun
 sensor.sun_next_rising,ff2fb24dbb10795d9891d24fae405c37,,Nästa soluppgång,sun
 sensor.sun_next_setting,ff2fb24dbb10795d9891d24fae405c37,,Nästa solnedgång,sun
 sensor.sun_solar_elevation,ff2fb24dbb10795d9891d24fae405c37,,Solhöjd,sun
-sensor.sun_solar_azimuth,ff2fb24dbb10795d9891d24fae405c37,,Solens azimut,sun
+sensor.sun_solar_azimuth,ff2fb24dbb10795d9891d24fae405c37,,Solens azimut,sunvagguttag_kattrum_tretakt
 binary_sensor.rpi_power_status,,,RPi Power status,rpi_power
 media_player.badrum,fe1a84dfddd8cda98c6ec58e06916ef9,,,cast
 media_player.familjerum,a0a98c6429333934833c06830a42d8a8,,,cast

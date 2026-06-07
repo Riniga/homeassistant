@@ -1,0 +1,170 @@
+title: Klimat
+views:
+  - title: Klimat
+    path: klimat
+    icon: mdi:thermometer-water
+    type: masonry
+    badges: []
+    cards:
+      - type: markdown
+        content: |
+          # 🌡️ Klimat
+          Överblick över temperatur, luftfuktighet och ventilation i huset.
+
+      - type: entities
+        title: Beslutsstöd ventilation
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.ventilation_gynnsam
+            name: Ventilation gynnsam
+          - entity: light.vagguttag_kattrum_tretakt
+            name: Badrumsfläkt / kattrum
+          - type: divider
+          - entity: sensor.absolut_fuktighet_ute
+            name: Absolut fuktighet ute
+          - entity: sensor.absolut_fuktighet_tvattstuga
+            name: Absolut fuktighet tvättstuga
+          - type: divider
+          - entity: automation.tvattstuga_ventilation_absolut_fuktighet
+            name: Automation ventilation
+
+      - type: entities
+        title: Utomhus
+        show_header_toggle: false
+        entities:
+          - entity: weather.forecast_hem
+            name: Väder
+          - entity: sensor.utetemp_temperatur
+            name: Temperatur
+          - entity: sensor.utetemp_luftfuktighet
+            name: Luftfuktighet
+          - entity: sensor.absolut_fuktighet_ute
+            name: Absolut fuktighet
+          - entity: sensor.unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_unknown_70_ee_50_74_46_84_outdoor_temperature_trend
+            name: Temperaturtrend
+
+      - type: entities
+        title: Tvättstuga
+        show_header_toggle: false
+        entities:
+          - entity: sensor.tvattstuga_temperatur
+            name: Temperatur
+          - entity: sensor.tvattstuga_luftfuktighet
+            name: Luftfuktighet
+          - entity: sensor.absolut_fuktighet_tvattstuga
+            name: Absolut fuktighet
+          - entity: sensor.tvattstuga_temperatur_2
+            name: Temperatur Verisure
+          - entity: sensor.tvattstuga_luftfuktighet_2
+            name: Luftfuktighet Verisure
+
+      - type: entities
+        title: Rum
+        show_header_toggle: false
+        entities:
+          - entity: sensor.hall_temperatur
+            name: Hall temperatur
+          - type: divider
+          - entity: sensor.netatamo_indoor_temperature
+            name: TV-rum temperatur Netatmo
+          - entity: sensor.tv_rum_temperatur
+            name: TV-rum temperatur Verisure
+          - entity: sensor.tv_rum_luftfuktighet
+            name: TV-rum luftfuktighet
+          - type: divider
+          - entity: sensor.sensor_sovrum_multisensor_temperatur
+            name: Sovrum temperatur
+          - entity: sensor.sensor_sovrum_multisensor_luftfuktighet
+            name: Sovrum luftfuktighet
+          - type: divider
+          - entity: sensor.felix_temperatur
+            name: Felix temperatur
+          - entity: sensor.felix_luftfuktighet
+            name: Felix luftfuktighet
+          - entity: sensor.felix_radiator_adax_temperatur
+            name: Felix radiator temperatur
+
+      - type: thermostat
+        entity: climate.termostat
+        name: Felix radiator
+
+      - type: entities
+        title: Källare / förråd / vind
+        show_header_toggle: false
+        entities:
+          - entity: sensor.sensor_matkallaren_multisensor_temperatur
+            name: Matkällare temperatur
+          - entity: sensor.sensor_matkallaren_multisensor_luftfuktighet
+            name: Matkällare luftfuktighet
+          - type: divider
+          - entity: sensor.vind_temperatur
+            name: Vind temperatur
+          - entity: sensor.vind_luftfuktighet
+            name: Vind luftfuktighet
+
+      - type: entities
+        title: Luftkvalitet / vardagsrum
+        show_header_toggle: false
+        entities:
+          - entity: sensor.sensor_kontor_luftkvalitet_temperatur
+            name: Temperatur
+          - entity: sensor.sensor_kontor_luftkvalitet_luftfuktighet
+            name: Luftfuktighet
+
+      - type: entities
+        title: Vitvaror
+        show_header_toggle: false
+        entities:
+          - entity: sensor.kyl_temperatur
+            name: Kyl temperatur
+          - entity: number.kyl_maltemperatur
+            name: Kyl måltemperatur
+          - type: divider
+          - entity: sensor.frys_temperatur
+            name: Frys temperatur
+          - entity: number.frys_maltemperatur
+            name: Frys måltemperatur
+
+      - type: history-graph
+        title: Fuktbalans senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: sensor.absolut_fuktighet_ute
+            name: Ute
+          - entity: sensor.absolut_fuktighet_tvattstuga
+            name: Tvättstuga
+          - entity: binary_sensor.ventilation_gynnsam
+            name: Ventilation gynnsam
+
+      - type: history-graph
+        title: Temperaturer senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: sensor.utetemp_temperatur
+            name: Ute
+          - entity: sensor.tvattstuga_temperatur
+            name: Tvättstuga
+          - entity: sensor.hall_temperatur
+            name: Hall
+          - entity: sensor.felix_temperatur
+            name: Felix
+          - entity: sensor.vind_temperatur
+            name: Vind
+
+      - type: history-graph
+        title: Luftfuktighet senaste 24h
+        hours_to_show: 24
+        refresh_interval: 60
+        entities:
+          - entity: sensor.utetemp_luftfuktighet
+            name: Ute
+          - entity: sensor.tvattstuga_luftfuktighet
+            name: Tvättstuga
+          - entity: sensor.felix_luftfuktighet
+            name: Felix
+          - entity: sensor.vind_luftfuktighet
+            name: Vind
+          - entity: sensor.sensor_matkallaren_multisensor_luftfuktighet
+            name: Matkällare

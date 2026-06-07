@@ -120,21 +120,6 @@ views:
           - entity: sensor.frys_temperatur
             name: Frys temperatur
 
-      - type: entities
-        title: Systemstatus
-        show_header_toggle: false
-        entities:
-          - entity: update.home_assistant_core_update
-            name: Home Assistant Core
-          - entity: update.home_assistant_supervisor_update
-            name: Supervisor
-          - entity: update.home_assistant_operating_system_update
-            name: OS
-          - entity: sensor.home_assistant_core_cpu_percent
-            name: Core CPU
-          - entity: sensor.home_assistant_core_memory_percent
-            name: Core minne
-
       - type: history-graph
         title: Klimat senaste 24h
         hours_to_show: 24

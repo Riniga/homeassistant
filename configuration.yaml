@@ -54,3 +54,15 @@ lovelace:
       icon: mdi:home
       show_in_sidebar: true
       filename: dashboards/home.yaml
+    climate-dashboard:
+      mode: yaml
+      title: Klimat
+      icon: mdi:thermometer-water
+      show_in_sidebar: true
+      filename: dashboards/climate.yaml
+    tech-dashboard:
+      mode: yaml
+      title: Teknik
+      icon: mdi:cog
+      show_in_sidebar: true
+      filename: dashboards/tech.yaml
