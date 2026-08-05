@@ -74,6 +74,8 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 **Verify:** open/close at least one real door or window covered by a sensor (or toggle the sensor's state from Developer Tools → States if physically opening it isn't practical) and confirm the icon updates.
 
+**Status: implemented, not yet validated.** All 6 door/window binary sensors from the Assumptions table (Groventre, Hall x2, Kök, TV-Rum, Vardagsrum) placed as `state-icon` elements, offset a few percent from the existing light icons in the same room so the two layers don't overlap. `binary_sensor.dorr_mediaskap_oppning` is commented in the YAML as a cabinet door, not a room entry door. Desktop-level YAML validation passed (16 elements total). Still needs: sync to the Pi, `ha core check`, and a live open/close (or Developer Tools state toggle) test.
+
 **Suggested commit:** `Add door and window sensors to floorplan dashboard`
 
 ### Phase 4 — Temperature/humidity badges
