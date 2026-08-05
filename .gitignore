@@ -6,9 +6,12 @@ secrets.yaml
 .storage/
 .cloud/
 .cache/
+.ha_run.lock
 
 home-assistant_v2.db*
+zigbee.db
 *.log
+*.log.fault
 
 # Media och cache
 tts/
