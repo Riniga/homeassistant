@@ -89,6 +89,8 @@ Recovered by: `git reflog` → `git reset --hard <pre-pull commit>` on the HA ma
 
 **Suggested commit message:** `Add architecture decision record scaffold`
 
+**Status: done.** Created `docs/architecture/decisions/README.md` with format, numbering, and when-to-use guidance. Decided **not** to add an ADR for the `docs` → `data` rename: applying the scaffold's own criteria, it's a routine, self-explanatory rename (`data/` holds exported inventory data, not documentation) already fully explained in `docs/architecture/overview.md`'s Major Components table — exactly the kind of change the scaffold says does *not* need one. No ADRs exist yet; the first real one will be added when an actual architectural fork-in-the-road comes up. Not yet committed.
+
 ### Phase 4 — Roadmap and first MVP
 
 1. Replace placeholder content in `docs/roadmap.md` with a real first-pass roadmap (near-term: this foundation work; mid-term: completing the dashboards described in `docs/dashboards.md`; further out: explicitly marked unknown rather than invented).

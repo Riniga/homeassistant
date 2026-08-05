@@ -131,6 +131,5 @@ Beyond these signals, specific future applications, shared packages, or structur
 * The relationship between the README's direct-push workflow and `docs/standards/git.md`'s branch/PR-based workflow has not been reconciled — it is unclear which applies when, or whether the README is expected to be updated to match the newer standard.
 * Whether a missing `themes/` directory causes a Home Assistant startup error is unverified.
 * Whether `dashboards/energy.yaml` (currently empty, 0 lines) but referenced conceptually in `docs/dashboards.md` as "Dashboard 3 – Energi" is planned, in-progress, or abandoned is unknown — it is not currently registered under `lovelace.dashboards` in `configuration.yaml` at all.
-* No dependency manifest exists for `scripts/export_inventory.py`; the exact required versions of `websockets` and `python-dotenv` are unknown.
 * No testing strategy, CI pipeline, or linting configuration currently exists for either the Python script or the YAML configuration, beyond the manual validation steps described in `docs/standards/testing.md`.
 * Camera credentials in `configuration.yaml` should likely move to `secrets.yaml`, but this is a configuration change and is intentionally **not** performed as part of this documentation-only task.
