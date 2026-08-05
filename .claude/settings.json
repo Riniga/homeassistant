@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Write",
+      "Edit",
+      "Bash(mkdir *)",
+      "PowerShell(New-Item *)",
+      "Bash(git status*)",
+      "Bash(git branch*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)",
+      "Bash(git remote*)",
+      "PowerShell(git status*)",
+      "PowerShell(git branch*)",
+      "PowerShell(git log*)",
+      "PowerShell(git diff*)",
+      "PowerShell(git show*)",
+      "PowerShell(git remote*)"
+    ],
+    "ask": [
+      "Bash(rm *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "PowerShell(git commit*)",
+      "PowerShell(git push*)"
+    ]
+  }
+}
