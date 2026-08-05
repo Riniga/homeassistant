@@ -54,6 +54,8 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 **Suggested commit:** `Add floorplan dashboard skeleton`
 
+**Status: implemented, not yet validated.** `dashboards/floorplan.yaml` created (masonry view, single `picture-elements` card, no elements) and `floorplan-dashboard` registered in `configuration.yaml`, matching the existing dashboards' structure and indentation. Desktop-level check done: both files parse as valid YAML (`configuration.yaml` checked with `!include`/`!secret` tags stubbed out, since plain YAML parsing can't resolve them). `ha core check` and the sidebar/rendering check still need to run on the live Pi — not yet committed or synced.
+
 ### Phase 2 — Lights layer
 
 1. For each light entity in the table above, add a `state-icon` element positioned over its room, placement agreed live with Rickard.

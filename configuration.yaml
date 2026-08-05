@@ -65,3 +65,9 @@ lovelace:
       icon: mdi:shield-home
       show_in_sidebar: true
       filename: dashboards/security.yaml
+     floorplan-dashboard:
+      mode: yaml
+      title: Planritning
+      icon: mdi:floor-plan
+      show_in_sidebar: true
+      filename: dashboards/floorplan.yaml

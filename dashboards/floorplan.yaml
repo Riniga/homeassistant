@@ -1,0 +1,11 @@
+title: Planritning
+views:
+  - title: Markplan
+    path: markplan
+    icon: mdi:floor-plan
+    type: masonry
+    badges: []
+    cards:
+      - type: picture-elements
+        image: /local/floorplan-ground.png
+        elements: []
