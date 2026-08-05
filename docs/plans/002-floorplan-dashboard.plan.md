@@ -29,11 +29,11 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 ## Proposed File Changes
 
-**New**
+### New
 
 * `dashboards/floorplan.yaml` — the picture-elements dashboard.
 
-**Modified**
+### Modified
 
 * `configuration.yaml` — register a `floorplan-dashboard` entry under `lovelace.dashboards`.
 * `docs/dashboards.md` — add an entry for the new dashboard, matching the existing "Dashboard N - Name / Fråga / Visar" format.
@@ -54,7 +54,7 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 **Suggested commit:** `Add floorplan dashboard skeleton`
 
-**Status: implemented, not yet validated.** `dashboards/floorplan.yaml` created (masonry view, single `picture-elements` card, no elements) and `floorplan-dashboard` registered in `configuration.yaml`, matching the existing dashboards' structure and indentation. Desktop-level check done: both files parse as valid YAML (`configuration.yaml` checked with `!include`/`!secret` tags stubbed out, since plain YAML parsing can't resolve them). `ha core check` and the sidebar/rendering check still need to run on the live Pi — not yet committed or synced.
+**Status: implemented and validated.** `dashboards/floorplan.yaml` created and `floorplan-dashboard` registered in `configuration.yaml`, matching the existing dashboards' indentation. `ha core check` passed on the Pi; a full `ha core restart` was required for the new sidebar entry to appear (registering a *new* dashboard, unlike editing an already-registered one, isn't picked up by a reload). Initial `masonry` view made the floorplan image too small to be usable — switched to `panel`, which is Home Assistant's native full-bleed single-card view, still no new dependency. Re-verification of the `panel` view on the live Pi is the one remaining check for this phase.
 
 ### Phase 2 — Lights layer
 

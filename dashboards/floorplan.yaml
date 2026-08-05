@@ -3,8 +3,7 @@ views:
   - title: Markplan
     path: markplan
     icon: mdi:floor-plan
-    type: masonry
-    badges: []
+    type: panel
     cards:
       - type: picture-elements
         image: /local/floorplan-ground.png
