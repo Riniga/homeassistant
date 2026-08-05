@@ -98,6 +98,8 @@ Recovered by: `git reflog` → `git reset --hard <pre-pull commit>` on the HA ma
 
 **Suggested commit message:** `Add initial roadmap and MVP 1 definition`
 
+**Status: done.** `docs/roadmap.md` now has real content (Now/Next/Later/Beyond, tied to the actual dashboard state — Energy dashboard empty and unregistered, Cleaning & Automation dashboard not started). `docs/mvp/mvp-001-project-foundation.md` created, with acceptance criteria as a checklist mirroring phases 1–6 (phases 1–4 checked, 5–6 pending) and an explicit out-of-scope list. Not yet committed.
+
 ### Phase 5 — README, CLAUDE.md, and git standard alignment
 
 1. Rewrite `README.md` in English: project purpose, pointer to `CLAUDE.md`, pointer to `docs/architecture/overview.md`, pointer to `docs/development/setup.md` for environment/sync instructions.
