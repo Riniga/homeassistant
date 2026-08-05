@@ -72,7 +72,6 @@ fc551fb7805173270d825bfcd1372990,,Backup,,Home Assistant,Home Assistant Backup
 35e5a43dd2b50bb1c1b5a6560042c65c,Utomhus.Robot.Gräsklippare.Gardena,Fåret Shaun,utomhus,Gardena,GARDENA smart Mower
 39596380b0a23a5e2d580011667b0545,Hall.Robot.Damsugaren.Roborock,Mo,hall,Roborock,roborock.vacuum.a27
 8d314fd87b1ddda771cd4ab80543aa3d,Hall.Dockingstation.Damsugaren.Roborock,Mo Dock,hall,Roborock,roborock.vacuum.a27 Dock
-8c1e72e48756798a89b76040ecd157dc,,konorslampa2,kontor,Tuya,Cleverio RGB+CCT 9W E27
 69d4a783f4393f8912dcb81f6fe51c65,,Växthuset,,Google Inc.,Google Nest Mini
 6e37365db06f46e2d680d6fee6acb1c1,,Bastun,,Google Inc.,Google Nest Mini
 2fd1a01d3c037f68ae3be8844d482653,Cloud.MediaPlayer.Spotify,Spotify Rickard Nisses-Gagnér,cloud,Spotify AB,Spotify premium
@@ -135,3 +134,8 @@ a8931142e2c381d65596f2a6c1bf5fef,,HP7C4D8F707149,kontor,HP Inc.,
 160168be1a325e5100110e9936a66326,,Aether_Lan,,Ubiquiti Networks,UniFi WLAN
 de1cb81566d6b412e202bd22a4fc3c70,,Aether_Security,,Ubiquiti Networks,UniFi WLAN
 76f82a63e37fbee66fd3703599dc2d2b,,FelixPC,,"Micro-Star INTL CO., LTD.",
+77e781d980fa1c590e956cef361e36e3,,,,,
+f100f94163f9d73fa30869e011cc402d,,,,,
+8bce6db4be1b2f2a2db35001f4a109b4,,DESKTOP-TRDBQ3I,,Intel Corporate,
+0c6fb127e0f8c7ccca4953f953c767d8,,Raspberry Pi,,Raspberry Pi,
+772736571d26ddcc58c746614d228d5a,,Raspberry Pi 4,,Raspberry Pi,4

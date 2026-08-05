@@ -26,12 +26,12 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Core",
     "model_id": null,
-    "modified_at": 1780817881.589049,
+    "modified_at": 1785842616.783307,
     "name_by_user": null,
     "name": "Home Assistant Core",
     "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
     "serial_number": null,
-    "sw_version": "2026.6.1",
+    "sw_version": "2026.7.4",
     "via_device_id": null
   },
   {
@@ -61,12 +61,12 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Supervisor",
     "model_id": null,
-    "modified_at": 1780133239.390532,
+    "modified_at": 1785833683.001972,
     "name_by_user": null,
     "name": "Home Assistant Supervisor",
     "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
     "serial_number": null,
-    "sw_version": "2026.05.1",
+    "sw_version": "2026.07.5",
     "via_device_id": null
   },
   {
@@ -131,12 +131,12 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Operating System",
     "model_id": null,
-    "modified_at": 1780237749.685203,
+    "modified_at": 1785842373.682771,
     "name_by_user": null,
     "name": "Home Assistant Operating System",
     "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
     "serial_number": null,
-    "sw_version": "17.3",
+    "sw_version": "18.2",
     "via_device_id": null
   },
   {
@@ -306,20 +306,20 @@
     "manufacturer": "Raspberry Pi Trading Ltd",
     "model": "bcm43438-bt",
     "model_id": null,
-    "modified_at": 1780722866.358885,
+    "modified_at": 1784197404.327557,
     "name_by_user": null,
     "name": "hci0 (DC:A6:32:40:31:3A)",
     "primary_config_entry": "b5a7a5c342779b43aff4ed06aab2b362",
     "serial_number": null,
-    "sw_version": "6.12.75-haos-raspi",
+    "sw_version": "6.18.34-haos-raspi",
     "via_device_id": null
   },
   {
     "area_id": "kok",
     "configuration_url": "http://192.168.10.112:1400/support/review",
     "config_entries": [
-      "1f2d6972fa333f9432211973fde11662",
-      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
+      "1f2d6972fa333f9432211973fde11662"
     ],
     "config_entries_subentries": {
       "1f2d6972fa333f9432211973fde11662": [
@@ -331,12 +331,12 @@
     },
     "connections": [
       [
-        "mac",
-        "54:2a:1b:5e:b4:3c"
-      ],
-      [
         "upnp",
         "uuid:RINCON_542A1B5EB43C01400"
+      ],
+      [
+        "mac",
+        "54:2a:1b:5e:b4:3c"
       ]
     ],
     "created_at": 0.0,
@@ -354,12 +354,12 @@
     "manufacturer": "Sonos",
     "model": "SYMFONISK Bookshelf",
     "model_id": "S33",
-    "modified_at": 1780742329.412734,
+    "modified_at": 1785828547.598431,
     "name_by_user": "Kök.MediaPlayer.Sonos",
     "name": "Kök",
     "primary_config_entry": "1f2d6972fa333f9432211973fde11662",
     "serial_number": null,
-    "sw_version": "18.4",
+    "sw_version": "18.6",
     "via_device_id": null
   },
   {
@@ -634,12 +634,12 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1780722861.198552,
+    "modified_at": 1781328088.706778,
     "name_by_user": null,
     "name": "Terminal & SSH",
     "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
     "serial_number": null,
-    "sw_version": "10.2.0",
+    "sw_version": "10.3.0",
     "via_device_id": null
   },
   {
@@ -809,12 +809,12 @@
     "manufacturer": "Apple",
     "model": "iPad8,12",
     "model_id": null,
-    "modified_at": 1779110769.781738,
+    "modified_at": 1783344364.62476,
     "name_by_user": null,
     "name": "iPad-DMPF10MLNTGR",
     "primary_config_entry": "01J2HP6R4S8V3TMDZHN29D3X5D",
     "serial_number": null,
-    "sw_version": "26.5",
+    "sw_version": "26.5.2",
     "via_device_id": null
   },
   {
@@ -2126,8 +2126,8 @@
     "area_id": "kontor",
     "configuration_url": null,
     "config_entries": [
-      "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
-      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
+      "01JH0N1MT8NGX6M6S1VFG2Q5ZC"
     ],
     "config_entries_subentries": {
       "01JH0N1MT8NGX6M6S1VFG2Q5ZC": [
@@ -2155,23 +2155,23 @@
     "identifiers": [
       [
         "hue",
-        "38aabed7-ec8f-4d02-ac6c-d83f6dbf10ac"
+        "ecb5fafffe978607"
       ],
       [
         "hue",
-        "ecb5fafffe978607"
+        "38aabed7-ec8f-4d02-ac6c-d83f6dbf10ac"
       ]
     ],
     "labels": [],
     "manufacturer": "Signify Netherlands B.V.",
     "model": "Hue Bridge",
     "model_id": "BSB002",
-    "modified_at": 1780742329.468974,
+    "modified_at": 1783426622.640007,
     "name_by_user": null,
     "name": "Hue Bridge",
     "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
     "serial_number": null,
-    "sw_version": "1.77.1977090000",
+    "sw_version": "1.78.1978074000",
     "via_device_id": null
   },
   {
@@ -2286,12 +2286,12 @@
     "manufacturer": "Signify Netherlands B.V.",
     "model": "Hue color lamp",
     "model_id": "LCA006",
-    "modified_at": 1772378026.095142,
+    "modified_at": 1783869657.607497,
     "name_by_user": null,
     "name": "Kontorslampa",
     "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
     "serial_number": null,
-    "sw_version": "1.145.1",
+    "sw_version": "1.163.1",
     "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
   },
   {
@@ -2326,12 +2326,12 @@
     "manufacturer": "Signify Netherlands B.V.",
     "model": "Hue color lamp",
     "model_id": "LCA006",
-    "modified_at": 1772365754.431464,
+    "modified_at": 1783771951.256331,
     "name_by_user": "Hall.Light.Byrolampa.Hue",
     "name": "Hallampa",
     "primary_config_entry": "01JH0N1MT8NGX6M6S1VFG2Q5ZC",
     "serial_number": null,
-    "sw_version": "1.145.1",
+    "sw_version": "1.163.1",
     "via_device_id": "69ddcb383086c09c60cbc5f9066e068c"
   },
   {
@@ -2501,12 +2501,12 @@
     "manufacturer": "Home Assistant",
     "model": "Home Assistant Backup",
     "model_id": null,
-    "modified_at": 1780817883.134881,
+    "modified_at": 1785842625.614426,
     "name_by_user": null,
     "name": "Backup",
     "primary_config_entry": "01JR28JQ63M5RPEGQEHSRGXD2F",
     "serial_number": null,
-    "sw_version": "2026.6.1",
+    "sw_version": "2026.7.4",
     "via_device_id": null
   },
   {
@@ -2548,8 +2548,8 @@
     "area_id": "hall",
     "configuration_url": null,
     "config_entries": [
-      "01JR2BVZEEZJV9SBV27K4ZY087",
-      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
+      "01JR2BVZEEZJV9SBV27K4ZY087"
     ],
     "config_entries_subentries": {
       "01JR2BVZEEZJV9SBV27K4ZY087": [
@@ -2621,41 +2621,6 @@
     "primary_config_entry": "01JR2BVZEEZJV9SBV27K4ZY087",
     "serial_number": null,
     "sw_version": "02.58.40",
-    "via_device_id": null
-  },
-  {
-    "area_id": "kontor",
-    "configuration_url": null,
-    "config_entries": [
-      "01JR78ABH1A5V4SKYE0TH34W4Y"
-    ],
-    "config_entries_subentries": {
-      "01JR78ABH1A5V4SKYE0TH34W4Y": [
-        null
-      ]
-    },
-    "connections": [],
-    "created_at": 1744000331.622601,
-    "disabled_by": null,
-    "entry_type": null,
-    "hw_version": null,
-    "id": "8c1e72e48756798a89b76040ecd157dc",
-    "identifiers": [
-      [
-        "tuya",
-        "15682055d8f15bbd4fbe"
-      ]
-    ],
-    "labels": [],
-    "manufacturer": "Tuya",
-    "model": "Cleverio RGB+CCT 9W E27",
-    "model_id": "pzzkvsdiu8tpeqkh",
-    "modified_at": 1780824339.949032,
-    "name_by_user": null,
-    "name": "konorslampa2",
-    "primary_config_entry": "01JR78ABH1A5V4SKYE0TH34W4Y",
-    "serial_number": null,
-    "sw_version": null,
     "via_device_id": null
   },
   {
@@ -2860,12 +2825,12 @@
     "manufacturer": "Official apps",
     "model": "Home Assistant App",
     "model_id": null,
-    "modified_at": 1780238823.546768,
+    "modified_at": 1783204934.708096,
     "name_by_user": null,
     "name": "Matter Server",
     "primary_config_entry": "366ce4a3e803ba540765edfeae350526",
     "serial_number": null,
-    "sw_version": "8.5.0",
+    "sw_version": "9.0.3",
     "via_device_id": null
   },
   {
@@ -2907,8 +2872,8 @@
     "area_id": "kontor",
     "configuration_url": "https://account.smartthings.com",
     "config_entries": [
-      "ecf14981bbdf7572bace3990a85373a7",
-      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
+      "ecf14981bbdf7572bace3990a85373a7"
     ],
     "config_entries_subentries": {
       "ecf14981bbdf7572bace3990a85373a7": [
@@ -2920,12 +2885,12 @@
     },
     "connections": [
       [
-        "mac",
-        "28:6d:97:a0:e8:18"
-      ],
-      [
         "zigbee",
         "d0:52:a8:bc:7a:a6:00:01"
+      ],
+      [
+        "mac",
+        "28:6d:97:a0:e8:18"
       ]
     ],
     "created_at": 1743832829.666822,
@@ -2943,20 +2908,20 @@
     "manufacturer": "SAMJIN Co., Ltd.",
     "model": "V3_HUB",
     "model_id": null,
-    "modified_at": 1780742329.652174,
+    "modified_at": 1782239965.477247,
     "name_by_user": "Kontor.Hub.SmartThings-IoT",
     "name": "Hub - SmartThings - IoT",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
     "serial_number": null,
-    "sw_version": "000.060.00012",
+    "sw_version": "000.061.00006",
     "via_device_id": null
   },
   {
     "area_id": "kok",
     "configuration_url": "https://account.smartthings.com",
     "config_entries": [
-      "ecf14981bbdf7572bace3990a85373a7",
-      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+      "01KTE873W3ABE6ZA8Z2C3V6DR1",
+      "ecf14981bbdf7572bace3990a85373a7"
     ],
     "config_entries_subentries": {
       "ecf14981bbdf7572bace3990a85373a7": [
@@ -2968,20 +2933,20 @@
     },
     "connections": [
       [
-        "mac",
-        "68:3a:48:50:14:86"
+        "bluetooth",
+        "68:3a:48:50:14:87"
       ],
       [
-        "zigbee",
-        "d0:52:a8:fe:62:aa:00:01"
+        "mac",
+        "68:3a:48:50:14:86"
       ],
       [
         "mac",
         "68:3a:48:50:14:84"
       ],
       [
-        "bluetooth",
-        "68:3a:48:50:14:87"
+        "zigbee",
+        "d0:52:a8:fe:62:aa:00:01"
       ]
     ],
     "created_at": 1764913944.608942,
@@ -2999,12 +2964,12 @@
     "manufacturer": "SAMJIN Co., Ltd.",
     "model": "V4_HUB",
     "model_id": null,
-    "modified_at": 1780742329.64222,
+    "modified_at": 1782239965.477928,
     "name_by_user": "Kök.Hub.SmartThings-Security",
     "name": "Hub - SmartThings - Larm",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
     "serial_number": null,
-    "sw_version": "000.060.00012",
+    "sw_version": "000.061.00006",
     "via_device_id": null
   },
   {
@@ -3476,12 +3441,12 @@
     "manufacturer": "Samsung Electronics",
     "model": "TP1X_REF_21K",
     "model_id": "RR39C7BG6S9/EF",
-    "modified_at": 1773147556.42346,
+    "modified_at": 1784196458.339539,
     "name_by_user": "Kök.Vitvara.Kyl.SmartThings",
     "name": "Kyl",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
     "serial_number": null,
-    "sw_version": "A-RFWW-TP1-24-T4-COM_20250706",
+    "sw_version": "A-RFWW-TP1-24-T4-COM_20260617",
     "via_device_id": null
   },
   {
@@ -3511,12 +3476,12 @@
     "manufacturer": "Samsung Electronics",
     "model": "TP1X_REF_21K",
     "model_id": "RZ32C7BH6S9/EF",
-    "modified_at": 1773147556.42431,
+    "modified_at": 1784196458.340214,
     "name_by_user": "Kök.Vitvara.Frys.SmartThings",
     "name": "Frys",
     "primary_config_entry": "ecf14981bbdf7572bace3990a85373a7",
     "serial_number": null,
-    "sw_version": "A-RFWW-TP1-24-T4-COM_20250706",
+    "sw_version": "A-RFWW-TP1-24-T4-COM_20260617",
     "via_device_id": null
   },
   {
@@ -4001,12 +3966,12 @@
     "manufacturer": "Ubiquiti Networks",
     "model": "UAPL6",
     "model_id": null,
-    "modified_at": 1780742518.765143,
+    "modified_at": 1783204969.146367,
     "name_by_user": null,
     "name": "U6+ Tvrum",
     "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
     "serial_number": null,
-    "sw_version": "6.7.41.15623",
+    "sw_version": "6.7.54.15663",
     "via_device_id": null
   },
   {
@@ -4036,12 +4001,12 @@
     "manufacturer": "Ubiquiti Networks",
     "model": "UDRULT",
     "model_id": null,
-    "modified_at": 1780742518.767185,
+    "modified_at": 1782239966.150174,
     "name_by_user": null,
     "name": "Cloud Gateway Ultra",
     "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
     "serial_number": null,
-    "sw_version": "5.1.15.33416",
+    "sw_version": "5.1.19.33549",
     "via_device_id": null
   },
   {
@@ -4211,12 +4176,12 @@
     "manufacturer": "Ubiquiti Networks",
     "model": "UAPL6",
     "model_id": null,
-    "modified_at": 1780742518.777253,
+    "modified_at": 1783204969.151186,
     "name_by_user": null,
     "name": "U6+ Källaren",
     "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
     "serial_number": null,
-    "sw_version": "6.7.41.15623",
+    "sw_version": "6.7.54.15663",
     "via_device_id": null
   },
   {
@@ -4246,12 +4211,12 @@
     "manufacturer": "Ubiquiti Networks",
     "model": "UALR6v2",
     "model_id": null,
-    "modified_at": 1780742518.778021,
+    "modified_at": 1783204969.152135,
     "name_by_user": null,
     "name": "U6 LR Kontoret",
     "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
     "serial_number": null,
-    "sw_version": "6.7.41.15623",
+    "sw_version": "6.7.54.15663",
     "via_device_id": null
   },
   {
@@ -4351,12 +4316,12 @@
     "manufacturer": "Ubiquiti Networks",
     "model": "UniFi Network Application",
     "model_id": null,
-    "modified_at": 1780742329.404048,
+    "modified_at": 1785828543.337434,
     "name_by_user": null,
     "name": "UniFi Network",
     "primary_config_entry": "01KTE873W3ABE6ZA8Z2C3V6DR1",
     "serial_number": null,
-    "sw_version": "10.4.57",
+    "sw_version": "10.5.67",
     "via_device_id": null
   },
   {
@@ -4880,6 +4845,181 @@
     "name_by_user": null,
     "name": "FelixPC",
     "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "f2:6a:ca:a3:a0:f1"
+      ]
+    ],
+    "created_at": 1780949325.329983,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "77e781d980fa1c590e956cef361e36e3",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1780949325.330097,
+    "name_by_user": null,
+    "name": "",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "38:8d:3d:90:ee:a0"
+      ]
+    ],
+    "created_at": 1781508944.212865,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "f100f94163f9d73fa30869e011cc402d",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1781508944.21298,
+    "name_by_user": null,
+    "name": "",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "01KTE873W3ABE6ZA8Z2C3V6DR1"
+    ],
+    "config_entries_subentries": {
+      "01KTE873W3ABE6ZA8Z2C3V6DR1": [
+        null
+      ]
+    },
+    "connections": [
+      [
+        "mac",
+        "80:19:34:32:5e:97"
+      ]
+    ],
+    "created_at": 1781594890.266342,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "8bce6db4be1b2f2a2db35001f4a109b4",
+    "identifiers": [],
+    "labels": [],
+    "manufacturer": "Intel Corporate",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1781594890.266485,
+    "name_by_user": null,
+    "name": "DESKTOP-TRDBQ3I",
+    "primary_config_entry": null,
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "7f453ecc81f74b4ce2aed498d92e0390"
+    ],
+    "config_entries_subentries": {
+      "7f453ecc81f74b4ce2aed498d92e0390": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1784196454.814294,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "0c6fb127e0f8c7ccca4953f953c767d8",
+    "identifiers": [
+      [
+        "rpi_power",
+        "rpi_power"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Raspberry Pi",
+    "model": null,
+    "model_id": null,
+    "modified_at": 1784196454.814443,
+    "name_by_user": null,
+    "name": "Raspberry Pi",
+    "primary_config_entry": "7f453ecc81f74b4ce2aed498d92e0390",
+    "serial_number": null,
+    "sw_version": null,
+    "via_device_id": null
+  },
+  {
+    "area_id": null,
+    "configuration_url": null,
+    "config_entries": [
+      "f13d0a259482f268467a14490b56fa63"
+    ],
+    "config_entries_subentries": {
+      "f13d0a259482f268467a14490b56fa63": [
+        null
+      ]
+    },
+    "connections": [],
+    "created_at": 1784196459.561772,
+    "disabled_by": null,
+    "entry_type": null,
+    "hw_version": null,
+    "id": "772736571d26ddcc58c746614d228d5a",
+    "identifiers": [
+      [
+        "raspberry_pi",
+        "rpi4-64"
+      ]
+    ],
+    "labels": [],
+    "manufacturer": "Raspberry Pi",
+    "model": "4",
+    "model_id": null,
+    "modified_at": 1784196459.5619,
+    "name_by_user": null,
+    "name": "Raspberry Pi 4",
+    "primary_config_entry": "f13d0a259482f268467a14490b56fa63",
     "serial_number": null,
     "sw_version": null,
     "via_device_id": null
