@@ -109,3 +109,60 @@ views:
             style:
               top: 49%
               left: 75%
+
+          # Temperature / humidity badges
+
+          # Hall (temperature only, no humidity sensor)
+          - type: state-badge
+            entity: sensor.hall_temperatur
+            style:
+              top: 77%
+              left: 62%
+
+          # Sovrum
+          - type: state-badge
+            entity: sensor.sensor_sovrum_multisensor_temperatur
+            style:
+              top: 18%
+              left: 11%
+          - type: state-badge
+            entity: sensor.sensor_sovrum_multisensor_luftfuktighet
+            style:
+              top: 18%
+              left: 15%
+
+          # TV-Rum
+          - type: state-badge
+            entity: sensor.tv_rum_temperatur
+            style:
+              top: 21%
+              left: 28%
+          - type: state-badge
+            entity: sensor.tv_rum_luftfuktighet
+            style:
+              top: 21%
+              left: 32%
+
+          # Utomhus
+          - type: state-badge
+            entity: sensor.utetemp_temperatur
+            style:
+              top: 14%
+              left: 73%
+          - type: state-badge
+            entity: sensor.utetemp_luftfuktighet
+            style:
+              top: 14%
+              left: 77%
+
+          # Vardagsrum
+          - type: state-badge
+            entity: sensor.sensor_kontor_luftkvalitet_temperatur
+            style:
+              top: 53%
+              left: 73%
+          - type: state-badge
+            entity: sensor.sensor_kontor_luftkvalitet_luftfuktighet
+            style:
+              top: 53%
+              left: 77%

@@ -87,6 +87,8 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 **Suggested commit:** `Add temperature and humidity badges to floorplan dashboard`
 
+**Status: implemented, not yet validated.** All 9 sensors from the Assumptions table (Hall temp-only, Sovrum, TV-Rum, Utomhus, Vardagsrum) placed as `state-badge` elements, each offset from that room's existing light/door icons. Förrådet, Groventre, Kontor, and Kök have no badge, as planned — no ambient sensor exists for them. Desktop-level YAML validation passed (25 elements total). Still needs: sync to the Pi, `ha core check`, and comparing badge values against Developer Tools → States.
+
 ### Phase 5 — Visual design pass
 
 1. Review icon sizing, spacing, and color choices for legibility against the background image.
