@@ -1,36 +1,18 @@
 # Git Workflow
 
-The goal is to keep every change small, traceable, reviewable, and safe to deploy.
+The goal is to keep every change small, traceable, and safe to deploy.
 
-## Branches
+## Working on `main`
 
-* Always work on a branch. Never work directly on `main`.
-* `main` always represents the latest stable Home Assistant configuration.
-* Use short, descriptive branch names based on the work being performed.
+This is a solo project (you + Claude Code, no other collaborators) — commit and push directly to `main`. There is no mandatory feature-branch or pull-request process.
 
-Recommended prefixes:
-
-```text
-feature/<short-name>
-fix/<short-name>
-docs/<short-name>
-refactor/<short-name>
-chore/<short-name>
-```
-
-Examples:
-
-```text
-feature/energy-dashboard
-feature/presence-detection
-fix/ventilation-automation
-docs/update-coding-standard
-chore/update-hacs-integration
-```
+* `main` always represents the current Home Assistant configuration, on both the desktop and the live Raspberry Pi.
+* Keep each change focused on one purpose, even without a branch to enforce it.
+* See `docs/development/setup.md` for how changes actually move between the desktop and the Home Assistant Pi.
 
 ## Commits
 
-* Commit after each completed and verified task.
+* Commit after each completed and verified task, or plan phase.
 * Keep commits focused on a single logical change.
 * Do not commit unfinished or unverified configuration.
 * Validate the affected configuration before committing.
@@ -66,19 +48,17 @@ misc
 wip
 ```
 
-## Pull Requests
+## Push Rules
 
-* Create pull requests against `main`.
-* Keep pull requests focused on a single purpose.
-* Describe what changed and why.
-* Include documentation updates when the change affects behaviour, configuration, or workflow.
-* Verify that the configuration has been validated before merging.
+* Do not commit or push without explicit approval when working with an AI assistant.
+* Never force-push without explicit agreement.
 
-## Push and Merge Rules
+## Removing a File From Version Control
 
-* Do not push or merge without explicit approval when working with an AI assistant.
-* Never force-push shared branches unless explicitly agreed.
-* Prefer many small pull requests over large mixed changes.
+Untracking a file (`git rm --cached`) only affects the desktop's index — the working copy stays in place there. On any other machine, pulling that same commit deletes the file from disk for real.
+
+* For generated/regenerable files (cache, lock, log files) this is harmless.
+* For a live, non-regenerable file (a database, credential file, or similar), follow the backup-first rollout in `docs/development/setup.md` before pushing the change: back up the file independently, pull, then restore it from the backup. This is not optional — see the `zigbee.db` incident logged in `docs/plans/001-project-foundation.plan.md` for what happens if it's skipped.
 
 ## Validation Before Commit
 
@@ -113,16 +93,14 @@ The assistant must:
 * Complete one task at a time.
 * Keep changes as small as practical.
 * Explain significant refactoring before performing it.
-* Never commit, push, merge, or delete branches without explicit approval.
+* Never commit or push without explicit approval.
 * Preserve existing behaviour unless the task explicitly requires a change.
 
-## Recommended Daily Workflow
+## Daily Workflow
 
 ```bash
 git status
-git switch main
-git pull
-git switch -c feature/<short-name>
+git pull origin main
 ```
 
 Implement and validate a small, complete change.
@@ -130,10 +108,8 @@ Implement and validate a small, complete change.
 ```bash
 git add <files>
 git commit -m "Add descriptive commit message"
-git push -u origin feature/<short-name>
+git push origin main
 ```
-
-Create a pull request against `main` when the change is complete and verified.
 
 ## Scope of Changes
 

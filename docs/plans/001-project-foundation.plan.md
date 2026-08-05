@@ -108,6 +108,8 @@ Recovered by: `git reflog` → `git reset --hard <pre-pull commit>` on the HA ma
 
 **Suggested commit message:** `Align README, CLAUDE.md, and git standard with the direct-to-main workflow`
 
+**Status: done.** `README.md` rewritten in English — purpose, pointers to `CLAUDE.md`/`docs/architecture/overview.md`/`docs/development/setup.md`/`docs/roadmap.md`, and a status note pointing at this plan and MVP. `CLAUDE.md`'s repository-structure table now lists `docs/development/`, `docs/mvp/`, and `data/`; its Git Workflow summary now reflects direct-to-`main` and references the backup-first rollout rule. `docs/standards/git.md` rewritten: branch/PR sections removed, direct-to-`main` daily workflow, commit-message conventions kept as-is, and a new "Removing a File From Version Control" section pointing at the `zigbee.db` incident. Not yet committed.
+
 ### Phase 6 — Final review
 
 1. Re-read `docs/architecture/overview.md` and update anything phases 1–5 changed (removed files, new doc tree, resolved open questions).

@@ -1,33 +1,20 @@
 # Home Assistant
-Detta projekt/repo  för att kofigurera och programmera min homeassistant.
-sker via repo i github, utveckling och hantering av filer kan ske i vs code på min arbetsstation
-synkning sker via pull och push av filer via github
 
+Configuration and supporting files for a production Home Assistant installation, managed through this Git repository.
 
+## Overview
 
+* Development happens on a desktop workstation in VS Code.
+* The configuration runs live on a Raspberry Pi.
+* The two are kept in sync through GitHub using a simple, direct-to-`main` workflow — see `docs/standards/git.md`.
 
-## Hantering i HomeAssitants terminal
-Vi använder "Terminal & SSH" som installers via??
-1. Starta terminalen under: Settings -> Apps -> Terminal & SSH
-2. Öppna webbgränssnittet
+## Where to Start
 
+* `CLAUDE.md` — rules for AI-assisted work on this repository.
+* `docs/architecture/overview.md` — current architecture, repository structure, and dependencies.
+* `docs/development/setup.md` — one-time setup and the day-to-day sync workflow between the desktop and the Home Assistant Pi.
+* `docs/roadmap.md` — current direction of the project.
 
-### Inital konfiguration 
-1. Skapa ssh-nyckelar: ssh-keygen -t ed25519
-2. Lägg till public key i github under: Github -> Profile -> Settings -> SSH and GPG keys -> New SSH key
-5. Testa från terminalen: ssh -T git@github.com 
-6. Gå till katalogen /homeassistant
-7. Anslut katalog till remote: git remote set-url origin git@github.com:Riniga/homeassistant.git
-8. Verifiera: git remote -v
+## Status
 
-### Rutin för HA
-Vid daglig drift, uppdateirngar etc så uppdateras data i homeassistant, denn adata kan behöva synkas över till github.
-Kontroll om något uppdateras: git status -s
-Add and commit: git add . && git commit -m "message" && git push origin master
-
-Om data i github uppdaterats behöver kod hämtas
-Hämta nytt från github: git pull origin master
-
-Omstart kan behövas: 
-- Kontroll att allt bör fungera: ha core check
-- Starta om HA: ha core restart
+This project is in its initial foundation phase: cleaning up repository hygiene and filling in the documentation the AI-assisted workflow depends on, before further feature work begins. See `docs/plans/001-project-foundation.plan.md` and `docs/mvp/mvp-001-project-foundation.md`.

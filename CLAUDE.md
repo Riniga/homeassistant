@@ -45,8 +45,11 @@ Use the actual repository structure as the source of truth. Common areas may inc
 | Custom integrations    | `custom_components/`                  |
 | Documentation          | `docs/`                               |
 | Architecture decisions | `docs/architecture/decisions/`        |
+| Development workflow   | `docs/development/`                   |
 | Implementation plans   | `docs/plans/`                         |
+| MVP definitions        | `docs/mvp/`                           |
 | Standards              | `docs/standards/`                     |
+| Registry data exports  | `data/`                               |
 
 Do not reorganize files or introduce new folders unless the requested change requires it and the change is documented.
 
@@ -239,13 +242,14 @@ Follow `docs/standards/git.md`.
 
 Summary:
 
-* Work on a branch, never directly on `main`.
+* Work directly on `main` — this is a solo project, no mandatory branches or pull requests.
 * Keep each change focused on one purpose.
-* Use clear branch and commit names.
+* Use clear, descriptive commit messages.
 * Review the diff before suggesting a commit.
 * Commit only completed and appropriately validated work.
 * Never commit secrets, generated runtime files, databases, logs, or backups.
-* Never commit, push, merge, rebase, force-push, or delete branches without explicit approval.
+* Never commit, push, rebase, or force-push without explicit approval.
+* When a change stops tracking a live, non-regenerable file, follow the backup-first rollout in `docs/development/setup.md` before pushing.
 * Do not discard or overwrite existing user changes.
 * Do not use destructive Git commands without explicit approval.
 
