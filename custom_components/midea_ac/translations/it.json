@@ -56,6 +56,7 @@
     },
     "abort": {
       "already_configured": "Il dispositivo è già stato configurato.",
+      "already_configured_devices_found": "Nessun nuovo dispositivo trovato nella rete.\n\nGià configurato su questa rete:\n{devices}",
       "cannot_connect": "Connessione non riuscita.",
       "cloud_connection_failed": "Cloud connection could not be made.",
       "no_devices_found": "Nessun dispositivo supportato è stato trovato nella rete.",
@@ -159,7 +160,7 @@
           },
           "preset_mode": {
             "state": {
-              "ieco": "iECO"
+              "ieco": "iECO / ECOMaster"
             }
           },
           "swing_mode": {
@@ -288,8 +289,8 @@
       "display": {
         "name": "Schermo"
       },
-      "flash_cool": {
-        "name": "Flash cool"
+      "flash": {
+        "name": "Flash"
       },
       "purifier": {
         "name": "Depuratore"

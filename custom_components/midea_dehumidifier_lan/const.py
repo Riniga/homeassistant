@@ -1,17 +1,17 @@
 """Constants for Midea Air Appliance custom component"""
+
 from __future__ import annotations
 
 from typing import Final
 
 from homeassistant.const import Platform
-
 from midea_beautiful.midea import (
     APPLIANCE_TYPE_AIRCON,
     APPLIANCE_TYPE_DEHUMIDIFIER,
     DEFAULT_APP as DEFAULT_APP_FROM_LIB,
 )
 
-__version__ = "0.9.6"
+__version__ = "0.9.7"
 
 # Base component constants
 NAME: Final = "Midea Air Appliance (LAN)"

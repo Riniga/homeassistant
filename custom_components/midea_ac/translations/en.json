@@ -57,6 +57,7 @@
     },
     "abort": {
       "already_configured": "The device has already been configured.",
+      "already_configured_devices_found": "No new devices found on the network.\n\nAlready configured on this network:\n{devices}",
       "cannot_connect": "Device connection could not be made.",
       "cloud_connection_failed": "Cloud connection could not be made.",
       "no_devices_found": "No supported devices found on the network.",
@@ -173,7 +174,7 @@
           },
           "preset_mode": {
             "state": {
-              "ieco": "iECO",
+              "ieco": "iECO / ECOMaster",
               "silent": "Silent"
             }
           },
@@ -202,6 +203,11 @@
     "button": {
       "self_clean": {
         "name": "Start self clean"
+      }
+    },
+    "fan": {
+      "fresh_air": {
+        "name": "Fresh air"
       }
     },
     "number": {
@@ -325,8 +331,8 @@
       "display": {
         "name": "Display"
       },
-      "flash_cool": {
-        "name": "Flash cool"
+      "flash": {
+        "name": "Flash"
       },
       "out_silent": {
         "name": "Outdoor silent mode"

@@ -9,7 +9,7 @@ from itertools import chain, cycle
 import logging
 from typing import Any, Iterator, cast
 
-from homeassistant.core import CALLBACK_TYPE
+from homeassistant.components import persistent_notification
 from homeassistant.components.network import async_get_ipv4_broadcast_addresses
 from homeassistant.const import (
     CONF_API_VERSION,
@@ -24,6 +24,7 @@ from homeassistant.const import (
     CONF_TYPE,
     CONF_UNIQUE_ID,
 )
+from homeassistant.core import CALLBACK_TYPE
 from homeassistant.helpers.event import async_track_time_interval
 from midea_beautiful.lan import LanDevice
 
@@ -124,7 +125,8 @@ class ApplianceDiscoveryHelper:  # pylint: disable=too-many-instance-attributes
             f"Found previously unknown device {name} found on {new.address}."
             f" [Check it out.](/config/integrations)"
         )
-        self.hass.components.persistent_notification.async_create(
+        persistent_notification.async_create(
+            self.hass,
             title=NAME,
             message=msg,
             notification_id=f"midea_unknown_{new.serial_number}",
@@ -161,7 +163,8 @@ class ApplianceDiscoveryHelper:  # pylint: disable=too-many-instance-attributes
                     "name": known[CONF_NAME],
                     "address": new.address,
                 }
-                self.hass.components.persistent_notification.async_create(
+                persistent_notification.async_create(
+                    self.hass,
                     title=NAME,
                     message=msg,
                     notification_id=f"midea_wait_discovery_{new.serial_number}",
@@ -201,7 +204,8 @@ class ApplianceDiscoveryHelper:  # pylint: disable=too-many-instance-attributes
                 "address": address,
             }
 
-            self.hass.components.persistent_notification.async_create(
+            persistent_notification.async_create(
+                self.hass,
                 title=NAME,
                 message=msg,
                 notification_id=f"midea_non_lan_discovery_{device.serial_number}",

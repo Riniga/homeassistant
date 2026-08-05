@@ -1,0 +1,51 @@
+checks:
+- enabled: true
+  slug: systemd_unit_failure
+- enabled: true
+  slug: deprecated_addon
+- enabled: true
+  slug: disabled_data_disk
+- enabled: true
+  slug: detached_addon_removed
+- enabled: true
+  slug: dns_server_ipv6
+- enabled: true
+  slug: network_interface_ipv4
+- enabled: true
+  slug: deprecated_arch_addon
+- enabled: true
+  slug: app_port_conflict
+- enabled: true
+  slug: detached_addon_missing
+- enabled: true
+  slug: backups
+- enabled: true
+  slug: multiple_data_disks
+- enabled: true
+  slug: addon_pwned
+- enabled: true
+  slug: free_space
+- enabled: true
+  slug: dns_server
+- enabled: true
+  slug: duplicate_os_installation
+- enabled: true
+  slug: docker_config
+- enabled: true
+  slug: disk_lifetime
+issues:
+- context: system
+  reference: null
+  reference_extra: null
+  type: no_current_backup
+  uuid: 60513c65259d4c72bd390e8bedbe1552
+suggestions:
+- auto: false
+  context: system
+  reference: null
+  reference_extra: null
+  type: create_full_backup
+  uuid: 15b1d0dd6a0542439be86a638f03e6e6
+unhealthy:
+- os_filesystem_check_error
+unsupported: []

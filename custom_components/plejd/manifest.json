@@ -22,8 +22,8 @@
     "pyplejd"
   ],
   "requirements": [
-    "pyplejd==0.21.2",
+    "pyplejd==0.21.3",
     "pydantic"
   ],
-  "version": "0.21.2"
+  "version": "0.21.3"
 }
