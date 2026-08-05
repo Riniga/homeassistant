@@ -18,14 +18,19 @@ They sync through GitHub using the direct-to-`main` workflow described in `docs/
 
 ### Home Assistant (Raspberry Pi)
 
+Terminal access is via a real SSH client (PuTTY), not the add-on's in-browser terminal — the web terminal proved unreliable, so direct SSH was configured instead.
+
 1. Install the **Terminal & SSH** add-on if not already installed: Settings → Add-ons → Terminal & SSH.
-2. Open the terminal.
-3. Generate an SSH key: `ssh-keygen -t ed25519`
-4. Add the public key to GitHub: GitHub → Profile → Settings → SSH and GPG keys → New SSH key.
-5. Test the connection: `ssh -T git@github.com`
-6. Go to the config directory: `cd /homeassistant`
-7. Point the local repo at the SSH remote: `git remote set-url origin git@github.com:Riniga/homeassistant.git`
-8. Verify: `git remote -v`
+2. In the add-on's configuration, note the SSH port (`22222`) and the `root` login password it's configured with.
+3. Connect with PuTTY: host = the Home Assistant Pi, port `22222`, login as `root` with the password from step 2. Never write that password into this repository or any documentation — see `docs/standards/git.md`.
+4. Over that SSH session, generate an SSH key: `ssh-keygen -t ed25519`
+5. Add the public key to GitHub: GitHub → Profile → Settings → SSH and GPG keys → New SSH key.
+6. Test the connection: `ssh -T git@github.com`
+7. Go to the config directory: `cd /homeassistant`
+8. Point the local repo at the SSH remote: `git remote set-url origin git@github.com:Riniga/homeassistant.git`
+9. Verify: `git remote -v`
+
+Day-to-day terminal access (for the sync steps below) is the same: open PuTTY, connect to port `22222`, log in as `root`.
 
 ### Python Environment (desktop)
 
