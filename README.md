@@ -1,68 +1,33 @@
 # Home Assistant
-Detta projekt använder jag för att kofigurera och programmera min homeassistant.
+Detta projekt/repo  för att kofigurera och programmera min homeassistant.
+sker via repo i github, utveckling och hantering av filer kan ske i vs code på min arbetsstation
+synkning sker via pull och push av filer via github
 
 
-## Terminal och hämta i Home Assistant
-Starta terminalen under: Settings -> Apps -> Terminal
-
-### SSH-Key för access till github
-1. kör ssh-keygen -t ed25519
-2. Öppna: Github -> Profile -> Settings -> SSH and GPG keys -> New SSH key
-3. Lägg till namn och public key från homeassistant.
-4. Testa från terminalen: ssh -T git@github.com 
-5. Gå till katalogen /homeassistant
-6. Kör: git remote set-url origin git@github.com:Riniga/homeassistant.git
-7. Verifiera: git remote -v
-
-### Hantering
-Från HA gör push och pull så att den är uppdaterad
-Vid pull kan omstart behövas
-- Kontroll: ha core check
-- Omstart: ha core restart
-
-##
 
 
-## Dashboards
-En dashboard ska svara på en fråga.
+## Hantering i HomeAssitants terminal
+Vi använder "Terminal & SSH" som installers via??
+1. Starta terminalen under: Settings -> Apps -> Terminal & SSH
+2. Öppna webbgränssnittet
 
-Vi skall använda: Home Assistant Minimalist
 
+### Inital konfiguration 
+1. Skapa ssh-nyckelar: ssh-keygen -t ed25519
+2. Lägg till public key i github under: Github -> Profile -> Settings -> SSH and GPG keys -> New SSH key
+5. Testa från terminalen: ssh -T git@github.com 
+6. Gå till katalogen /homeassistant
+7. Anslut katalog till remote: git remote set-url origin git@github.com:Riniga/homeassistant.git
+8. Verifiera: git remote -v
 
-## Dashboard 3 - Energi
-Fråga: Vad kostar huset att driva?
-Visar:
-Elpris nu
-Kostnad idag
-Kostnad månad
-Förbrukning
-Historik
+### Rutin för HA
+Vid daglig drift, uppdateirngar etc så uppdateras data i homeassistant, denn adata kan behöva synkas över till github.
+Kontroll om något uppdateras: git status -s
+Add and commit: git add . && git commit -m "message" && git push origin master
 
-## Dashboard 4 - Säkerhet
-Fråga: Är huset säkert?
-Visar:
-Dörrar
-Fönster
-Kameror
-Larm
+Om data i github uppdaterats behöver kod hämtas
+Hämta nytt från github: git pull origin master
 
-## Dashboard 5 - Teknik
-Målgrupp: Rickard
-Visar:
-MQTT
-ESPHome
-UniFi
-Zigbee
-Matter
-Batterier
-Offline-enheter
-
-Ingen annan behöver se den.
-
-## Dashboard 6 - Städning & Automation
-Framtida dashboard.
-Visar:
-Familjen hemma
-Dammsugare
-Scheman
-Automationer
+Omstart kan behövas: 
+- Kontroll att allt bör fungera: ha core check
+- Starta om HA: ha core restart

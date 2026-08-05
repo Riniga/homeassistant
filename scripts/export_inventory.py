@@ -15,8 +15,8 @@ HA_TOKEN = os.getenv("HA_TOKEN")
 WS_URL = HA_URL.replace("http://", "ws://").replace("https://", "wss://")
 WS_URL += "/api/websocket"
 
-DOCS = Path("docs")
-DOCS.mkdir(exist_ok=True)
+DATA = Path("data")
+DATA.mkdir(exist_ok=True)
 
 async def ws_call(ws, msg_id, msg_type):
     await ws.send(json.dumps({
@@ -46,16 +46,16 @@ async def export():
         devices = await ws_call(ws, 2, "config/device_registry/list")
         entities = await ws_call(ws, 3, "config/entity_registry/list")
 
-        with open(DOCS / "areas.json", "w", encoding="utf-8") as f:
+        with open(DATA / "areas.json", "w", encoding="utf-8") as f:
             json.dump(areas, f, indent=2, ensure_ascii=False)
 
-        with open(DOCS / "devices.json", "w", encoding="utf-8") as f:
+        with open(DATA / "devices.json", "w", encoding="utf-8") as f:
             json.dump(devices, f, indent=2, ensure_ascii=False)
 
-        with open(DOCS / "entity_registry.json", "w", encoding="utf-8") as f:
+        with open(DATA / "entity_registry.json", "w", encoding="utf-8") as f:
             json.dump(entities, f, indent=2, ensure_ascii=False)
 
-        with open(DOCS / "areas.csv", "w", newline="", encoding="utf-8") as f:
+        with open(DATA / "areas.csv", "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(
                 f,
                 fieldnames=[
@@ -71,7 +71,7 @@ async def export():
             writer.writeheader()
             writer.writerows(areas)
 
-        with open(DOCS / "devices.csv", "w", newline="", encoding="utf-8") as f:
+        with open(DATA / "devices.csv", "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(
                 f,
                 fieldnames=[
@@ -87,7 +87,7 @@ async def export():
             writer.writeheader()
             writer.writerows(devices)
 
-        with open(DOCS / "entities.csv", "w", newline="", encoding="utf-8") as f:
+        with open(DATA / "entities.csv", "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(
                 f,
                 fieldnames=[
