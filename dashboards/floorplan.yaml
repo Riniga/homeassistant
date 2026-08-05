@@ -7,4 +7,63 @@ views:
     cards:
       - type: picture-elements
         image: /local/floorplan-ground.png
-        elements: []
+        elements:
+          # Hall
+          - type: state-icon
+            entity: light.hall
+            style:
+              top: 69%
+              left: 60%
+          - type: state-icon
+            entity: light.hallampa
+            style:
+              top: 69%
+              left: 64%
+
+          # Kontor
+          - type: state-icon
+            entity: light.kontor
+            style:
+              top: 68%
+              left: 39%
+          - type: state-icon
+            entity: light.kontor2
+            style:
+              top: 68%
+              left: 43%
+          - type: state-icon
+            entity: light.kontorslampa
+            style:
+              top: 68%
+              left: 47%
+
+          # TV-Rum
+          - type: state-icon
+            entity: light.taklampa_2
+            style:
+              top: 13%
+              left: 30%
+
+          # Utomhus
+          - type: state-icon
+            entity: light.ute
+            style:
+              top: 10%
+              left: 71%
+          - type: state-icon
+            entity: light.hue_ambiance_lamp_1
+            style:
+              top: 10%
+              left: 75%
+          - type: state-icon
+            entity: light.hue_ambiance_lamp_2
+            style:
+              top: 10%
+              left: 79%
+
+          # Vardagsrum
+          - type: state-icon
+            entity: light.vagguttag_vardagsrum_inspelning
+            style:
+              top: 45%
+              left: 75%

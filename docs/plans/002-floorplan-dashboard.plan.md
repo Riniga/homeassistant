@@ -65,6 +65,8 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 **Suggested commit:** `Add lights to floorplan dashboard`
 
+**Status: implemented, not yet validated.** All 10 light entities from the Assumptions table (Hall, Kontor, TV-Rum, Utomhus, Vardagsrum) placed as `state-icon` elements, positioned using room coordinates Rickard supplied against the gridded reference image (saved as `www/floorplan-ground-rooms.txt`). Multiple lights in the same room are spread a few percent apart so icons don't overlap. Using the `light` domain's default state coloring (no custom styling) — kept simple per the coding standard; revisit in Phase 5 if it doesn't read clearly enough. Desktop-level YAML validation passed. Still needs: sync to the Pi, `ha core check`, and a live toggle test.
+
 ### Phase 3 — Doors/windows layer
 
 1. For each binary sensor in the table above, add a `state-icon` element positioned over its door/opening.
