@@ -7,3 +7,5 @@ dependencies:
   - pip
   - pip:
       - pytest>=8,<9
+      - websockets>=17,<18
+      - python-dotenv>=1,<2

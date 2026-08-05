@@ -81,7 +81,7 @@ Directories referenced by `configuration.yaml` but **not present** in the reposi
 | `plejd` | (see manifest) | Depends on HA's `bluetooth_adapters`; uses Bluetooth service UUID matching |
 | `sigen` | (see manifest) | Depends on HA's `modbus`, `integration`, `recorder`; DHCP-based discovery |
 
-**Standalone tooling:** `scripts/export_inventory.py` depends on `websockets` and `python-dotenv` (`load_dotenv`), reading `HA_URL` and `HA_TOKEN` from a local `.env` file (present but git-ignored). There is no `requirements.txt` or `pyproject.toml` pinning these dependencies — they are currently assumed to be installed ad hoc in the developer's environment. **This is a gap**: the exact required package versions for this script are currently unknown/undeclared.
+**Standalone tooling:** `scripts/export_inventory.py` depends on `websockets` and `python-dotenv` (`load_dotenv`), reading `HA_URL` and `HA_TOKEN` from a local `.env` file (present but git-ignored). These are now pinned in `environment.yml` (`websockets>=17,<18`, `python-dotenv>=1,<2`, alongside `pytest>=8,<9`) rather than installed ad hoc.
 
 ## Build and Development Process
 
