@@ -15,6 +15,7 @@ Before creating the plan, read:
 * `docs/standards/coding.md`
 * `docs/standards/testing.md`
 * `docs/standards/git.md`
+* `docs/standards/documentation.md`
 
 ### Requirements
 
@@ -32,8 +33,10 @@ Before creating the plan, read:
 Save the plan as:
 
 ```text
-docs/plans/mvp-003-visuell-design.plan.md
+docs/plans/003-visuell-design.plan.md
 ```
+
+(the plan number matches the MVP's number — `docs/mvp/mvp-003-visuell-design.md` → `docs/plans/003-visuell-design.plan.md` — per `docs/development/methodology.md`)
 
 Use this structure:
 
@@ -45,13 +48,12 @@ Use this structure:
 
 ---
 
-# Workflow
+## Workflow
 
 1. Create or select an MVP.
 2. Create the implementation plan.
 3. Review and adjust the plan.
-4. Create a feature branch.
-5. Implement one phase at a time.
-6. Commit after each completed phase.
-7. Run tests and update documentation.
-8. Create a Pull Request.
+4. Implement one phase at a time.
+5. Commit after each completed phase, directly to `main` (see `docs/standards/git.md` — no feature branches or pull requests).
+6. Run tests and update documentation.
+7. Once all phases are done, use `docs/claude-prompts/3-complete-mvp.md` to prepare the final commit.
