@@ -37,7 +37,7 @@ The project is in its initial foundation phase (see `docs/roadmap.md`). `docs/cl
 ├── docs/                        # Project documentation (this document lives here)
 │   ├── architecture/
 │   │   ├── overview.md              # This document
-│   │   └── decisions/                # ADR scaffold (format/numbering guidance; no ADRs yet)
+│   │   └── decisions/                # ADR scaffold + 0001 (direct-to-main git workflow)
 │   ├── development/               # Setup, tools, and methodology docs
 │   ├── plans/                      # Implementation plans (docs/plans/NNN-slug.plan.md)
 │   ├── mvp/                         # MVP definitions (docs/mvp/mvp-NNN-slug.md)
@@ -122,14 +122,9 @@ There is no CI/CD pipeline, linter configuration, or automated formatting tool p
 
 ## Planned Evolution of the Workspace
 
-Per the instruction under which this document was created, this is stated to be "the initial version of the project," with additional applications and shared packages expected to be added over time. `docs/roadmap.md` now has real first-pass content:
+Per the instruction under which this document was created, this is stated to be "the initial version of the project," with additional applications and shared packages expected to be added over time. See `docs/roadmap.md` for the current Now/Next/Later direction — not repeated here to avoid two documents drifting out of sync (per `docs/standards/documentation.md`'s single-source-of-truth rule).
 
-* **Now:** this repository-foundation work (`docs/plans/001-project-foundation.plan.md` / MVP 1).
-* **Next:** complete and register `dashboards/energy.yaml` (currently empty, described in `docs/dashboards.md` but not built).
-* **Later:** a sixth, not-yet-started dashboard covering family presence, vacuum, schedules, and automations (`docs/dashboards.md` calls this out explicitly as future work).
-* **Beyond that:** explicitly unknown — not to be assumed or invented.
-
-Future work is now organized around `docs/mvp/*.md` MVP definitions and `docs/plans/*.plan.md` implementation plans, following the `docs/claude-prompts/` workflow (`1-initialize-the-project.md` → `2-create-plan-prompt.md` → `3-complete-mvp.md`).
+Future work is organized around `docs/mvp/*.md` MVP definitions and `docs/plans/*.plan.md` implementation plans, following the `docs/claude-prompts/` workflow (`1-initialize-the-project.md` → `2-create-plan-prompt.md` → `3-complete-mvp.md`).
 
 ## Open Questions or Areas Not Yet Implemented
 

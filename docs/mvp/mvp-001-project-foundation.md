@@ -22,8 +22,12 @@ No Home Assistant configuration, automation, entity, or physical-device behaviou
 - [x] Phase 2 — `docs/development/setup.md`, `tools.md`, and `methodology.md` exist with real content.
 - [x] Phase 3 — `docs/architecture/decisions/` exists with format, numbering, and when-to-use guidance.
 - [x] Phase 4 — `docs/roadmap.md` has real first-pass content; this MVP document exists.
-- [ ] Phase 5 — `README.md` is rewritten in English with sync steps moved to `docs/development/setup.md`; `CLAUDE.md` and `docs/standards/git.md` reflect the current documentation tree and the direct-to-`main` workflow.
-- [ ] Phase 6 — `docs/architecture/overview.md` is re-reviewed and updated to reflect everything above; nothing in the finished documentation set contradicts anything else.
+- [x] Phase 5 — `README.md` is rewritten in English with sync steps moved to `docs/development/setup.md`; `CLAUDE.md` and `docs/standards/git.md` reflect the current documentation tree and the direct-to-`main` workflow.
+- [x] Phase 6 — `docs/architecture/overview.md` is re-reviewed and updated to reflect everything above; nothing in the finished documentation set contradicts anything else.
+
+## Status
+
+Complete. All phases implemented, validated, and committed — see `docs/plans/001-project-foundation.plan.md` for the phase-by-phase record.
 
 ## Out of Scope
 
