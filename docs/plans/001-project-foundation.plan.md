@@ -118,6 +118,12 @@ Recovered by: `git reflog` → `git reset --hard <pre-pull commit>` on the HA ma
 
 **Suggested commit message:** `Update architecture overview after repository foundation work`
 
+**Status: done.** `docs/architecture/overview.md` fully reconciled: workspace tree updated (new `docs/` subtree, `zigbee.db`/`.ha_run.lock` split by tracked-status, `.claude/settings.json` added), Build/Development section now describes the direct-to-`main` workflow and the backup-first rollout rule instead of the old two-workflow question, the "governance docs don't exist yet" observation flipped to "fully scaffolded," Planned Evolution now mirrors the real `docs/roadmap.md` content, and five of the eight original Open Questions were resolved and removed (only `themes/`, missing tests/CI, and the camera-credentials item remain — all explicitly out of scope for this plan). Confirmed via `git diff --name-only` across every commit in this plan that no operational file (`configuration.yaml`, `automations.yaml`, `scenes.yaml`, `scripts.yaml`, `dashboards/*`, `blueprints/*`, `custom_components/*`) was ever touched. Not yet committed.
+
+## MVP 1 Status
+
+All phases complete, pending final commit and your review.
+
 ## Decisions Made
 
 * **`zigbee.db`** — confirmed: not needed for this project, safe to untrack (Phase 1).

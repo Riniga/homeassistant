@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository holds the configuration for a production Home Assistant installation (version `2026.7.4`) running on a Raspberry Pi. Development happens on a desktop workstation in VS Code; changes are synchronized to the running instance through Git (`git pull` / `git push`), as described in [README.md](../../README.md).
+This repository holds the configuration for a production Home Assistant installation (version `2026.7.4`) running on a Raspberry Pi. Development happens on a desktop workstation in VS Code; changes are synchronized to the running instance through Git, using a direct-to-`main` workflow described in `docs/development/setup.md` and `docs/standards/git.md`.
 
-The project is in its initial state. `docs/claude-prompts/` contains a small workflow (initialize → plan → complete MVP) intended to bootstrap AI-assisted, documentation-driven development on top of this configuration. No application code beyond the Home Assistant configuration and a small number of custom integrations/scripts exists yet.
+The project is in its initial foundation phase (see `docs/roadmap.md`). `docs/claude-prompts/` contains a small workflow (initialize → plan → complete MVP) used to bootstrap AI-assisted, documentation-driven development on top of this configuration — this document, `docs/plans/001-project-foundation.plan.md`, and `docs/mvp/mvp-001-project-foundation.md` are its first output. No application code beyond the Home Assistant configuration and a small number of custom integrations/scripts exists yet.
 
 ## Current Workspace Structure
 
@@ -36,17 +36,24 @@ The project is in its initial state. `docs/claude-prompts/` contains a small wor
 │   └── homeassistant_inventory.md
 ├── docs/                        # Project documentation (this document lives here)
 │   ├── architecture/
-│   ├── claude-prompts/           # Prompts for driving AI-assisted work in stages
-│   ├── standards/                 # Coding, documentation, git, and testing standards
-│   ├── dashboards.md               # Product-level intent for each dashboard
-│   └── roadmap.md                   # Placeholder, not yet filled in
+│   │   ├── overview.md              # This document
+│   │   └── decisions/                # ADR scaffold (format/numbering guidance; no ADRs yet)
+│   ├── development/               # Setup, tools, and methodology docs
+│   ├── plans/                      # Implementation plans (docs/plans/NNN-slug.plan.md)
+│   ├── mvp/                         # MVP definitions (docs/mvp/mvp-NNN-slug.md)
+│   ├── claude-prompts/               # Prompts for driving AI-assisted work in stages
+│   ├── standards/                     # Coding, documentation, git, and testing standards
+│   ├── dashboards.md                   # Product-level intent for each dashboard
+│   └── roadmap.md                       # Now/Next/Later direction of the project
 ├── scripts/
 │   └── export_inventory.py        # Python script that populates data/
 ├── www/                            # Static assets served by HA (images, floorplan SVG/CSS)
-├── zigbee.db                        # Zigbee2MQTT/ZHA runtime database
-├── .HA_VERSION / .ha_run.lock        # Runtime state files written by Home Assistant
+├── zigbee.db                        # Zigbee2MQTT/ZHA runtime database (gitignored; live, not regenerable — see docs/development/setup.md)
+├── .HA_VERSION                       # Tracked; low-churn HA version marker
+├── .ha_run.lock                       # Gitignored; runtime PID/timestamp, rewritten every start
+├── .claude/settings.json              # Committed Claude Code permissions for this repo
 ├── CLAUDE.md                          # Governance rules for AI-assisted changes to this repo
-└── README.md                           # Repository purpose and sync/operational workflow
+└── README.md                           # Repository purpose and pointers
 ```
 
 Directories referenced by `configuration.yaml` but **not present** in the repository: `themes/` (see [Open Questions](#open-questions-or-areas-not-yet-implemented)).
@@ -64,7 +71,7 @@ Directories referenced by `configuration.yaml` but **not present** in the reposi
 | Dashboards | `dashboards/` + `lovelace.dashboards` in `configuration.yaml` | Four active YAML-mode dashboards (Home, Climate, Tech, Security) plus one empty placeholder (Energy) |
 | Inventory export tool | `scripts/export_inventory.py` | Standalone Python script (outside the HA process) that connects to HA's websocket API and exports the area/device/entity registries into `data/` |
 | Static assets | `www/` | Floorplan SVG/CSS and photos used by dashboards |
-| AI governance | `CLAUDE.md`, `docs/standards/*.md`, `docs/claude-prompts/*.md` | Rules and prompts constraining how AI-assisted changes are planned, implemented, and validated |
+| AI governance | `CLAUDE.md`, `.claude/settings.json`, `docs/standards/*.md`, `docs/development/*.md`, `docs/architecture/decisions/`, `docs/plans/*.md`, `docs/mvp/*.md`, `docs/claude-prompts/*.md` | Rules, tool permissions, and prompts constraining how AI-assisted changes are planned, implemented, and validated |
 
 ## Existing Dependencies
 
@@ -87,15 +94,16 @@ Directories referenced by `configuration.yaml` but **not present** in the reposi
 
 There is no build step — Home Assistant consumes the YAML/Python files directly.
 
-Documented workflow (from `README.md`, in Swedish):
+Documented workflow (`docs/development/setup.md`, `docs/standards/git.md`):
 
 1. Edit configuration on the desktop via VS Code; the repo is cloned locally.
 2. Home Assistant's own working copy on the Raspberry Pi is kept in sync with GitHub via `git pull` / `git push` from HA's own "Terminal & SSH" add-on.
-3. Day-to-day HA-side changes (made through the UI, e.g. new automations/scenes) are committed and pushed from the HA terminal: `git add . && git commit -m "message" && git push origin master`.
-4. Changes made on the desktop are pulled onto HA with `git pull origin master`.
+3. Day-to-day HA-side changes (made through the UI, e.g. new automations/scenes) are committed and pushed directly to `main` from the HA terminal.
+4. Changes made on the desktop are pulled onto HA the same way.
 5. After configuration changes, `ha core check` is used to validate, followed by `ha core restart` if needed.
+6. For a commit that stops tracking a live, non-regenerable file (not a cache/log/lock file), a backup-first rollout is required — see `docs/development/setup.md`. This was learned the hard way: rolling out the Phase 1 cleanup in `docs/plans/001-project-foundation.plan.md` deleted `zigbee.db` from the live Pi before this procedure existed.
 
-`docs/standards/git.md` additionally defines a branch-based workflow (feature branches, PRs against `main`) for AI-assisted changes, which is stricter than the direct-to-`master`/`main` push flow described in the README. **These two workflows are not yet reconciled** — see Open Questions.
+This repository uses a single, direct-to-`main` workflow — no feature branches or pull requests (a deliberate simplification for a solo project, decided during `docs/plans/001-project-foundation.plan.md`).
 
 `scripts/export_inventory.py` is run manually (not on a schedule or via CI) to regenerate the `data/` exports from the live HA websocket API.
 
@@ -109,27 +117,22 @@ There is no CI/CD pipeline, linter configuration, or automated formatting tool p
 * **`themes:` include with no `themes/` directory.** `configuration.yaml` includes `!include_dir_merge_named themes`, but no `themes/` directory exists in the repository. Home Assistant may tolerate a missing directory here, but this is currently unverified.
 * **Dual sync workflow.** Configuration can be changed from two directions — the HA UI (synced back to Git from the device itself) and the desktop repository (synced to HA via Git) — which means conflicting edits are possible if both sides are used without careful ordering.
 * **`custom_components/hacs` is vendored into version control**, including its full compiled frontend bundle (`hacs_frontend/`), rather than being installed/managed purely at runtime. This substantially increases repository size and is unusual compared to a typical HACS-managed setup where HACS installs itself once and updates itself outside of Git.
-* **AI-assisted development governance is already defined** (`CLAUDE.md`, `docs/standards/*`) even though the supporting documents it references (`docs/development/setup.md`, `docs/development/tools.md`, `docs/development/methodology.md`, `docs/mvp/`, `docs/plans/`) do not exist yet. This document (`docs/architecture/overview.md`) is the first of those referenced documents to be created.
+* **AI-assisted development governance is fully scaffolded.** `CLAUDE.md` and `docs/standards/*` reference `docs/development/setup.md`, `docs/development/tools.md`, `docs/development/methodology.md`, `docs/architecture/decisions/`, `docs/plans/`, and `docs/mvp/` — all of these now exist with real content (created via `docs/plans/001-project-foundation.plan.md`), so `CLAUDE.md`'s "Read Before Planning" list now fully resolves.
 * **No automated tests exist** for the one piece of custom Python (`scripts/export_inventory.py`), despite `docs/standards/testing.md` recommending `pytest` for custom Python code.
 
 ## Planned Evolution of the Workspace
 
-Per the instruction under which this document was created, this is stated to be "the initial version of the project," with additional applications and shared packages expected to be added over time. Beyond that, concrete planned evolution is currently only partially documented:
+Per the instruction under which this document was created, this is stated to be "the initial version of the project," with additional applications and shared packages expected to be added over time. `docs/roadmap.md` now has real first-pass content:
 
-* `docs/roadmap.md` exists but is a placeholder (contains only section headings, no content).
-* `docs/dashboards.md` describes the intended purpose of each dashboard, including one not yet built: **Dashboard 6 – Cleaning & Automation** (family presence, vacuum, schedules, automations), described as a "future dashboard."
-* The `docs/claude-prompts/` workflow (`1-initialize-the-project.md` → `2-create-plan-prompt.md` → `3-complete-mvp.md`) implies future work will be organized around `docs/mvp/*.md` MVP definitions and `docs/plans/*.plan.md` implementation plans, neither of which exist yet.
+* **Now:** this repository-foundation work (`docs/plans/001-project-foundation.plan.md` / MVP 1).
+* **Next:** complete and register `dashboards/energy.yaml` (currently empty, described in `docs/dashboards.md` but not built).
+* **Later:** a sixth, not-yet-started dashboard covering family presence, vacuum, schedules, and automations (`docs/dashboards.md` calls this out explicitly as future work).
+* **Beyond that:** explicitly unknown — not to be assumed or invented.
 
-Beyond these signals, specific future applications, shared packages, or structural changes are **currently unknown** and should not be assumed.
+Future work is now organized around `docs/mvp/*.md` MVP definitions and `docs/plans/*.plan.md` implementation plans, following the `docs/claude-prompts/` workflow (`1-initialize-the-project.md` → `2-create-plan-prompt.md` → `3-complete-mvp.md`).
 
 ## Open Questions or Areas Not Yet Implemented
 
-* `docs/development/setup.md`, `docs/development/tools.md`, and `docs/development/methodology.md` are referenced by `CLAUDE.md` and `docs/claude-prompts/2-create-plan-prompt.md` but do not exist.
-* `docs/architecture/decisions/` (ADR directory) is referenced by `CLAUDE.md` but does not exist.
-* `docs/plans/` and `docs/mvp/` are referenced by the Claude prompt workflow but do not exist.
-* `docs/roadmap.md` has no actual content yet ("Övergripande mål" section is a placeholder).
-* The relationship between the README's direct-push workflow and `docs/standards/git.md`'s branch/PR-based workflow has not been reconciled — it is unclear which applies when, or whether the README is expected to be updated to match the newer standard.
 * Whether a missing `themes/` directory causes a Home Assistant startup error is unverified.
-* Whether `dashboards/energy.yaml` (currently empty, 0 lines) but referenced conceptually in `docs/dashboards.md` as "Dashboard 3 – Energi" is planned, in-progress, or abandoned is unknown — it is not currently registered under `lovelace.dashboards` in `configuration.yaml` at all.
 * No testing strategy, CI pipeline, or linting configuration currently exists for either the Python script or the YAML configuration, beyond the manual validation steps described in `docs/standards/testing.md`.
 * Camera credentials in `configuration.yaml` should likely move to `secrets.yaml`, but this is a configuration change and is intentionally **not** performed as part of this documentation-only task.
