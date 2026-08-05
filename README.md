@@ -17,4 +17,4 @@ Configuration and supporting files for a production Home Assistant installation,
 
 ## Status
 
-This project is in its initial foundation phase: cleaning up repository hygiene and filling in the documentation the AI-assisted workflow depends on, before further feature work begins. See `docs/plans/001-project-foundation.plan.md` and `docs/mvp/mvp-001-project-foundation.md`.
+This project is in its initial foundation phase: cleaning up repository hygiene and filling in the documentation the AI-assisted workflow depends on, before further feature work begins. See `docs/plans/001-project-foundation.plan.md` and `docs/mvp/001-project-foundation.md`.

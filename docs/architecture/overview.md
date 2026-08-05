@@ -4,7 +4,7 @@
 
 This repository holds the configuration for a production Home Assistant installation (version `2026.7.4`) running on a Raspberry Pi. Development happens on a desktop workstation in VS Code; changes are synchronized to the running instance through Git, using a direct-to-`main` workflow described in `docs/development/setup.md` and `docs/standards/git.md`.
 
-The project is in its initial foundation phase (see `docs/roadmap.md`). `docs/claude-prompts/` contains a small workflow (initialize → plan → complete MVP) used to bootstrap AI-assisted, documentation-driven development on top of this configuration — this document, `docs/plans/001-project-foundation.plan.md`, and `docs/mvp/mvp-001-project-foundation.md` are its first output. No application code beyond the Home Assistant configuration and a small number of custom integrations/scripts exists yet.
+The project is in its initial foundation phase (see `docs/roadmap.md`). `docs/claude-prompts/` contains a small workflow (initialize → plan → complete MVP) used to bootstrap AI-assisted, documentation-driven development on top of this configuration — this document, `docs/plans/001-project-foundation.plan.md`, and `docs/mvp/001-project-foundation.md` are its first output. No application code beyond the Home Assistant configuration and a small number of custom integrations/scripts exists yet.
 
 ## Current Workspace Structure
 
@@ -40,7 +40,7 @@ The project is in its initial foundation phase (see `docs/roadmap.md`). `docs/cl
 │   │   └── decisions/                # ADR scaffold + 0001 (direct-to-main git workflow)
 │   ├── development/               # Setup, tools, and methodology docs
 │   ├── plans/                      # Implementation plans (docs/plans/NNN-slug.plan.md)
-│   ├── mvp/                         # MVP definitions (docs/mvp/mvp-NNN-slug.md)
+│   ├── mvp/                         # MVP definitions (docs/mvp/NNN-slug.md)
 │   ├── claude-prompts/               # Prompts for driving AI-assisted work in stages
 │   ├── standards/                     # Coding, documentation, git, and testing standards
 │   ├── dashboards.md                   # Product-level intent for each dashboard

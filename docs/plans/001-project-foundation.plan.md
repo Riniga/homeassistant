@@ -43,7 +43,7 @@ This plan is documentation and repository-hygiene work. No Home Assistant config
 * `docs/development/tools.md` — required tools: VS Code, Git, SSH, Home Assistant CLI (`ha core check`, `ha core restart`), conda/pytest.
 * `docs/development/methodology.md` — the `Requirement → Plan → Implementation → Validation → Review → Commit` flow from `CLAUDE.md`, linking to `docs/claude-prompts/`.
 * `docs/architecture/decisions/` — short `README.md` explaining ADR numbering/format; add a first ADR only if a real decision is identified during implementation (candidate: the `docs` → `data` rename).
-* `docs/mvp/mvp-001-project-foundation.md` — first MVP definition, scoping this cleanup/documentation effort with acceptance criteria matching the phases below.
+* `docs/mvp/001-project-foundation.md` — first MVP definition, scoping this cleanup/documentation effort with acceptance criteria matching the phases below.
 
 ### Update (existing files)
 
@@ -96,11 +96,11 @@ Recovered by: `git reflog` → `git reset --hard <pre-pull commit>` on the HA ma
 ### Phase 4 — Roadmap and first MVP
 
 1. Replace placeholder content in `docs/roadmap.md` with a real first-pass roadmap (near-term: this foundation work; mid-term: completing the dashboards described in `docs/dashboards.md`; further out: explicitly marked unknown rather than invented).
-2. Create `docs/mvp/mvp-001-project-foundation.md`, scoping this plan's work as MVP 1 with acceptance criteria mirroring phases 1–5.
+2. Create `docs/mvp/001-project-foundation.md`, scoping this plan's work as MVP 1 with acceptance criteria mirroring phases 1–5.
 
 **Suggested commit message:** `Add initial roadmap and MVP 1 definition`
 
-**Status: done.** `docs/roadmap.md` now has real content (Now/Next/Later/Beyond, tied to the actual dashboard state — Energy dashboard empty and unregistered, Cleaning & Automation dashboard not started). `docs/mvp/mvp-001-project-foundation.md` created, with acceptance criteria as a checklist mirroring phases 1–6 (phases 1–4 checked, 5–6 pending) and an explicit out-of-scope list. Not yet committed.
+**Status: done.** `docs/roadmap.md` now has real content (Now/Next/Later/Beyond, tied to the actual dashboard state — Energy dashboard empty and unregistered, Cleaning & Automation dashboard not started). `docs/mvp/001-project-foundation.md` created, with acceptance criteria as a checklist mirroring phases 1–6 (phases 1–4 checked, 5–6 pending) and an explicit out-of-scope list. Not yet committed.
 
 ### Phase 5 — README, CLAUDE.md, and git standard alignment
 

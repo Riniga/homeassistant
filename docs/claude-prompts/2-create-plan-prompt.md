@@ -5,7 +5,7 @@
 Create an implementation plan for:
 
 ```text
-docs/mvp/mvp-003-visuell-design.md
+docs/mvp/002-floorplan-dashboard.md
 ```
 
 Before creating the plan, read:
@@ -33,10 +33,10 @@ Before creating the plan, read:
 Save the plan as:
 
 ```text
-docs/plans/003-visuell-design.plan.md
+docs/plans/002-floorplan-dashboard.plan.md
 ```
 
-(the plan number matches the MVP's number — `docs/mvp/mvp-003-visuell-design.md` → `docs/plans/003-visuell-design.plan.md` — per `docs/development/methodology.md`)
+(the plan number matches the MVP's number — see `docs/development/methodology.md`)
 
 Use this structure:
 

@@ -6,7 +6,7 @@ This roadmap tracks the direction of ongoing work on this Home Assistant configu
 
 Establishing a clean, consistent, documented starting point before further feature work begins: stop tracking generated/runtime files, add the documentation `CLAUDE.md` already assumes exists, and align `README.md`/`CLAUDE.md`/`docs/standards/git.md` with how the project actually works today.
 
-Scoped in `docs/plans/001-project-foundation.plan.md` and `docs/mvp/mvp-001-project-foundation.md`.
+Scoped in `docs/plans/001-project-foundation.plan.md` and `docs/mvp/001-project-foundation.md`.
 
 ## Next — Complete the Energy Dashboard
 
