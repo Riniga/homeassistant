@@ -397,7 +397,7 @@ class MideaClimateACDevice(MideaClimateDevice[AC]):
         MideaClimateDevice.__init__(self, hass, coordinator, config)
 
         # Apply misc options
-        self._device.beep = options.get(CONF_BEEP, False)
+        self._sound = options.get(CONF_BEEP, False)
 
         self._use_fan_only_workaround = workarounds.get(
             CONF_USE_FAN_ONLY_WORKAROUND, False)
@@ -426,6 +426,10 @@ class MideaClimateACDevice(MideaClimateDevice[AC]):
         # Display on the AC should use the same unit as HA
         self._device.fahrenheit = (
             self.hass.config.units.temperature_unit == UnitOfTemperature.FAHRENHEIT)
+
+        # Ensure device sound matches configured sound
+        if self._device.sound != self._sound:
+            self._device.sound = self._sound
 
         await super()._apply()
 
@@ -544,13 +548,13 @@ class MideaClimateACDevice(MideaClimateDevice[AC]):
     @property
     def preset_mode(self) -> str:
         """Get the current preset mode."""
-        if self._device.eco:
+        if self._device.eco and self._device.supports_eco:
             return PRESET_ECO
-        elif self._device.ieco:
+        elif self._device.ieco and self._device.supports_ieco:
             return PRESET_IECO
-        elif self._device.turbo:
+        elif self._device.turbo and self._device.supports_turbo:
             return PRESET_BOOST
-        elif self._device.freeze_protection:
+        elif self._device.freeze_protection and self._device.supports_freeze_protection:
             return PRESET_AWAY
         elif self._device.sleep:
             return PRESET_SLEEP
@@ -635,11 +639,11 @@ class MideaClimateCCDevice(MideaClimateDevice[CC]):
     @property
     def preset_mode(self) -> str:
         """Get the current preset mode."""
-        if self._device.eco:
+        if self._device.eco and self._device.supports_eco:
             return PRESET_ECO
-        elif self._device.silent:
+        elif self._device.silent and self._device.supports_silent:
             return PRESET_SILENT
-        elif self._device.sleep:
+        elif self._device.sleep and self._device.supports_sleep:
             return PRESET_SLEEP
         else:
             return PRESET_NONE

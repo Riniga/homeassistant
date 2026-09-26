@@ -23,7 +23,9 @@ from .const import (
     CONF_INVERTER_HAS_DCCHARGER,
 )
 from .coordinator import SigenergyDataUpdateCoordinator # Import coordinator
+from .device_registry_compat import parent_device_info
 from .sigen_entity import SigenergyEntity # Import the new base class
+from .modbusregisterdefinitions import DCChargerRunningState
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -41,11 +43,38 @@ class SigenergySwitchEntityDescription(SwitchEntityDescription):
     turn_off_fn: Callable[[SigenergyDataUpdateCoordinator, Optional[Any]], Coroutine[Any, Any, None]] = lambda coordinator, identifier: asyncio.sleep(0) # Placeholder async lambda
     available_fn: Callable[[Dict[str, Any], Optional[Any]], bool] = lambda data, _: True
     entity_registry_enabled_default: bool = True
+    register_support_keys: Optional[tuple[str, ...]] = None
 
 
 def _deprecated_ac_charger_switch_available(data: Dict[str, Any], identifier: Optional[Any]) -> bool:
     """Preserve legacy switch availability when charger state is missing."""
     return data.get("ac_chargers", {}).get(identifier, {}).get("ac_charger_system_state") not in (0, 1)
+
+
+def _deprecated_dc_charger_switch_available(data: Dict[str, Any], identifier: Optional[Any]) -> bool:
+    """Preserve the deprecated switch's off state when the charger is idle."""
+    charger_data = data.get("dc_chargers", {}).get(identifier)
+    if not isinstance(charger_data, dict):
+        return False
+
+    state = charger_data.get("dc_charger_running_state")
+    if state is None:
+        return any(value is not None for value in charger_data.values())
+    return state != DCChargerRunningState.UNAVAILABLE
+
+
+def _deprecated_dc_charger_switch_is_on(data: Dict[str, Any], identifier: Optional[Any]) -> bool:
+    """Return the DC charging state with a legacy telemetry fallback."""
+    charger_data = data.get("dc_chargers", {}).get(identifier, {})
+    state = charger_data.get("dc_charger_running_state")
+    if state is not None:
+        return state in (
+            DCChargerRunningState.CHARGING,
+            DCChargerRunningState.DISCHARGING,
+        )
+
+    output_power = charger_data.get("dc_charger_output_power")
+    return output_power is not None and output_power != 0
 
 
 PLANT_SWITCHES: list[SigenergySwitchEntityDescription] = [
@@ -121,6 +150,7 @@ AC_CHARGER_SWITCHES: list[SigenergySwitchEntityDescription] = [
         available_fn=_deprecated_ac_charger_switch_available,
         turn_on_fn=lambda coordinator, identifier: coordinator.async_write_parameter("ac_charger", identifier, "ac_charger_start_stop", 0),
         turn_off_fn=lambda coordinator, identifier: coordinator.async_write_parameter("ac_charger", identifier, "ac_charger_start_stop", 1),
+        register_support_keys=("ac_charger_system_state",),
         entity_registry_enabled_default=False,
     ),
 ]
@@ -128,12 +158,22 @@ AC_CHARGER_SWITCHES: list[SigenergySwitchEntityDescription] = [
 DC_CHARGER_SWITCHES: list[SigenergySwitchEntityDescription] = [
     SigenergySwitchEntityDescription(
         key="dc_charging",
-        name="DC Charging",
+        name="DC Charging (Deprecated)",
         icon="mdi:ev-station",
-        # CHANGED: is_on_fn now checks != 0 to reflect both charging (positive) and discharging (negative) states
-        is_on_fn=lambda data, identifier: (data.get("dc_chargers", {}).get(identifier, {}).get("dc_charger_output_power", 0) or 0) != 0,
+        # is_on reflects the reported running state (CHARGING or DISCHARGING), not
+        # instantaneous output power. During a genuine session the output power
+        # momentarily reads exactly 0.0 kW at taper/handshake/cycle boundaries, which
+        # made an `output_power != 0` test flap the switch off/on every poll (and, via
+        # plug-in negotiation, a brief on/off on every connect). running_state is the
+        # stable signal and still covers both charging and discharging (like the AC charger).
+        is_on_fn=_deprecated_dc_charger_switch_is_on,
+        available_fn=_deprecated_dc_charger_switch_available,
         turn_on_fn=lambda coordinator, identifier: coordinator.async_write_parameter("dc_charger", identifier, "dc_charger_start_stop", 0),
         turn_off_fn=lambda coordinator, identifier: coordinator.async_write_parameter("dc_charger", identifier, "dc_charger_start_stop", 1),
+        # This legacy control can still issue its write-only command without the
+        # optional running-state register and then falls back to output power.
+        register_support_keys=(),
+        entity_registry_enabled_default=False,
     ),
 ]
 
@@ -181,7 +221,11 @@ async def async_setup_entry(
                 name=dc_name,
                 manufacturer="Sigenergy",
                 model="DC Charger",
-                via_device=(DOMAIN, parent_inverter_id),
+                **parent_device_info(
+                    hass,
+                    config_entry.entry_id,
+                    (DOMAIN, parent_inverter_id),
+                ),
             )
             add_entities_for_device(device_name, device_conn, DC_CHARGER_SWITCHES, DEVICE_TYPE_DC_CHARGER, device_info=dc_device_info)
 

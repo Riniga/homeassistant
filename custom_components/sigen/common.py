@@ -4,9 +4,13 @@ from __future__ import annotations
 import logging
 from datetime import timedelta
 from decimal import Decimal, InvalidOperation
-from typing import Any, Optional, Callable, Dict
+from typing import Any, Optional, Callable, Dict, Literal
 from dataclasses import dataclass
-from homeassistant.helpers.entity_registry import async_get as async_get_entity_registry
+from homeassistant.helpers.entity_registry import (
+    RegistryEntryHider,
+    async_entries_for_config_entry,
+    async_get as async_get_entity_registry,
+)
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.components.sensor import (
@@ -14,6 +18,7 @@ from homeassistant.components.sensor import (
 )
 
 from .const import (DOMAIN, DEVICE_TYPE_INVERTER, DEVICE_TYPE_DC_CHARGER)
+from .modbusregisterdefinitions import DCChargerRunningState
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -24,9 +29,163 @@ def ac_charger_command_available(data: Dict[str, Any], identifier: Optional[Any]
     return state is not None and state not in (0, 1)
 
 
+def dc_charger_command_available(data: Dict[str, Any], identifier: Optional[Any]) -> bool:
+    """Return if DC charger start/stop commands should be exposed."""
+    charger_data = data.get("dc_chargers", {}).get(identifier)
+    if not isinstance(charger_data, dict):
+        return False
+
+    state = charger_data.get("dc_charger_running_state")
+    if state is None:
+        # The command register is write-only and some chargers do not expose the
+        # optional running-state register. Keep the commands usable when other DC
+        # charger telemetry confirms that the configured charger is responding.
+        return any(value is not None for value in charger_data.values())
+
+    return state is not None and state not in (
+        DCChargerRunningState.IDLE,
+        DCChargerRunningState.UNAVAILABLE,
+    )
+
+
 def get_suffix_if_not_one(name: str) -> str:
     """Get the last part of the name if it is a number other than 1."""
     return name.split()[-1].strip() + " " if len(name.split()) > 1 and name.split()[-1].isdigit() and name.split()[-1] != "1" else ""
+
+
+def resolve_register_support_key(
+    register_name: str, pv_string_idx: Optional[int] = None
+) -> str:
+    """Resolve an entity description key to its Modbus register name."""
+    if pv_string_idx is not None and register_name in {"voltage", "current"}:
+        return f"inverter_pv{pv_string_idx}_{register_name}"
+    return register_name
+
+
+def resolve_register_support_keys(
+    description: Any, pv_string_idx: Optional[int] = None
+) -> tuple[str, ...]:
+    """Resolve all Modbus registers required by an entity description."""
+    explicit_keys = getattr(description, "register_support_keys", None)
+    if explicit_keys is not None:
+        # An explicit empty tuple opts a non-readable entity, such as a command
+        # backed by a write-only register, out of inferred support filtering.
+        register_names = (
+            (explicit_keys,) if isinstance(explicit_keys, str) else tuple(explicit_keys)
+        )
+    else:
+        extra_params = getattr(description, "extra_params", None) or {}
+        register_name = extra_params.get("register_name")
+        source_key = getattr(description, "source_key", None)
+
+        if register_name:
+            register_names = (register_name,)
+        elif source_key == "pv_string_power" and pv_string_idx is not None:
+            register_names = ("voltage", "current")
+        elif source_key:
+            register_names = (source_key,)
+        else:
+            register_names = (description.key,)
+
+    return tuple(
+        resolve_register_support_key(register_name, pv_string_idx)
+        for register_name in register_names
+    )
+
+
+def get_entity_register_support(
+    hub,
+    device_type: str,
+    device_name: Optional[str],
+    description: Any,
+    pv_string_idx: Optional[int] = None,
+) -> tuple[Optional[bool], tuple[str, ...]]:
+    """Return aggregate support and backing register keys for an entity."""
+    if getattr(description, "register_support_scope", "entity") == "inverters":
+        support_targets = tuple(
+            (DEVICE_TYPE_INVERTER, inverter_name)
+            for inverter_name in hub.inverter_connections
+        )
+    else:
+        support_targets = ((device_type, device_name),)
+
+    register_support_alternatives = getattr(
+        description, "register_support_alternatives", None
+    )
+    if register_support_alternatives:
+        resolved_alternatives = tuple(
+            tuple(
+                resolve_register_support_key(register_name, pv_string_idx)
+                for register_name in alternative
+            )
+            for alternative in register_support_alternatives
+        )
+        register_support_keys = tuple(
+            dict.fromkeys(
+                register_name
+                for alternative in resolved_alternatives
+                for register_name in alternative
+            )
+        )
+        alternative_states = []
+        for alternative in resolved_alternatives:
+            states = tuple(
+                hub.get_register_support(
+                    support_device_type, support_device_name, register_name
+                )
+                for support_device_type, support_device_name in support_targets
+                for register_name in alternative
+            )
+            if not states:
+                alternative_states.append(None)
+            elif any(state is False for state in states):
+                alternative_states.append(False)
+            elif all(state is True for state in states):
+                alternative_states.append(True)
+            else:
+                alternative_states.append(None)
+
+        if any(state is True for state in alternative_states):
+            return True, register_support_keys
+        if alternative_states and all(
+            state is False for state in alternative_states
+        ):
+            return False, register_support_keys
+        return None, register_support_keys
+
+    register_support_keys = resolve_register_support_keys(
+        description, pv_string_idx
+    )
+    if not register_support_keys:
+        # Explicitly dependency-free entities are structurally supported. This
+        # also restores registry entries hidden by an earlier dependency rule;
+        # their runtime availability is still decided by the entity itself.
+        return True, register_support_keys
+
+    support_states = tuple(
+        hub.get_register_support(
+            support_device_type, support_device_name, register_name
+        )
+        for support_device_type, support_device_name in support_targets
+        for register_name in register_support_keys
+    )
+
+    if not support_states:
+        return None, register_support_keys
+
+    if getattr(description, "register_support_mode", "all") == "any":
+        if any(state is True for state in support_states):
+            return True, register_support_keys
+        if all(state is False for state in support_states):
+            return False, register_support_keys
+        return None, register_support_keys
+
+    if any(state is False for state in support_states):
+        return False, register_support_keys
+    if all(state is True for state in support_states):
+        return True, register_support_keys
+    return None, register_support_keys
+
 
 def generate_device_name(plant_name: str, device_name: str) -> str:
     """Generate a device name based on plant name and device name."""
@@ -61,10 +220,71 @@ def generate_sigen_entity(
         list: A list of instantiated entities for the device
     """
     device_name = device_name if device_name else plant_name
+    entity_registry = async_get_entity_registry(coordinator.hass)
+    registry_entries_by_unique_id = {}
+    for registry_entry in async_entries_for_config_entry(
+        entity_registry, coordinator.hub.config_entry.entry_id
+    ):
+        registry_entries_by_unique_id.setdefault(
+            registry_entry.unique_id, []
+        ).append(registry_entry)
 
     entities = []
     for description in entity_description:
         # _LOGGER.debug("Generating entity for description: %s", description.name)
+
+        register_support, register_support_keys = get_entity_register_support(
+            coordinator.hub,
+            device_type,
+            device_name,
+            description,
+            pv_string_idx,
+        )
+        if register_support is False:
+            unique_id = generate_unique_entity_id(
+                device_type,
+                device_name,
+                coordinator,
+                description.key,
+                pv_string_idx,
+            )
+            for registry_entry in registry_entries_by_unique_id.get(unique_id, []):
+                if registry_entry.hidden_by is None:
+                    entity_registry.async_update_entity(
+                        registry_entry.entity_id,
+                        hidden_by=RegistryEntryHider.INTEGRATION,
+                    )
+                    _LOGGER.info(
+                        "Hid unsupported entity %s while preserving its registry entry",
+                        registry_entry.entity_id,
+                    )
+            _LOGGER.debug(
+                "Skipping entity '%s' because backing register(s) '%s' are "
+                "unsupported by %s",
+                description.name,
+                ", ".join(register_support_keys),
+                device_name,
+            )
+            continue
+
+        if register_support is True:
+            unique_id = generate_unique_entity_id(
+                device_type,
+                device_name,
+                coordinator,
+                description.key,
+                pv_string_idx,
+            )
+            for registry_entry in registry_entries_by_unique_id.get(unique_id, []):
+                if registry_entry.hidden_by is RegistryEntryHider.INTEGRATION:
+                    entity_registry.async_update_entity(
+                        registry_entry.entity_id,
+                        hidden_by=None,
+                    )
+                    _LOGGER.info(
+                        "Unhid supported entity %s",
+                        registry_entry.entity_id,
+                    )
 
         # Generate PV specific entity names and IDs if applicable
         if pv_string_idx is not None:
@@ -210,6 +430,10 @@ class SigenergySensorEntityDescription(SensorEntityDescription):
     value_fn: Optional[Callable[[Any, Optional[Dict[str, Any]], Optional[Dict[str, Any]]], Any]] = None
     extra_fn_data: Optional[bool] = False  # Flag to indicate if value_fn needs coordinator data
     extra_params: Optional[Dict[str, Any]] = None  # Additional parameters for value_fn
+    register_support_keys: Optional[tuple[str, ...]] = None
+    register_support_alternatives: Optional[tuple[tuple[str, ...], ...]] = None
+    register_support_scope: Literal["entity", "inverters"] = "entity"
+    register_support_mode: Literal["all", "any"] = "all"
     source_entity_id: Optional[str] = None
     source_key: Optional[str] = None  # Key of the source entity to use for integration
     max_sub_interval: Optional[timedelta] = None
@@ -234,6 +458,10 @@ class SigenergySensorEntityDescription(SensorEntityDescription):
 				value_fn=value_fn or description.value_fn,
 				extra_fn_data=extra_fn_data if extra_fn_data is not None else description.extra_fn_data,
 				extra_params=extra_params or description.extra_params,
+				register_support_keys=description.register_support_keys,
+				register_support_alternatives=description.register_support_alternatives,
+				register_support_scope=description.register_support_scope,
+				register_support_mode=description.register_support_mode,
 				source_entity_id=description.source_entity_id,
 				source_key=description.source_key,
 				max_sub_interval=description.max_sub_interval,
@@ -251,6 +479,14 @@ class SigenergySensorEntityDescription(SensorEntityDescription):
             value_fn=value_fn,
             extra_fn_data=extra_fn_data,
             extra_params=extra_params,
+            register_support_keys=getattr(description, "register_support_keys", None),
+            register_support_alternatives=getattr(
+                description, "register_support_alternatives", None
+            ),
+            register_support_scope=getattr(
+                description, "register_support_scope", "entity"
+            ),
+            register_support_mode=getattr(description, "register_support_mode", "all"),
         )
 
 def safe_float(value: Any, precision: int = 6) -> Optional[float]:
