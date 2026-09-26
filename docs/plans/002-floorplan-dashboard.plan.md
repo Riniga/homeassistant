@@ -100,6 +100,8 @@ Implement MVP 2 (`docs/mvp/002-floorplan-dashboard.md`): a native `picture-eleme
 
 **Suggested commit:** `Polish floorplan dashboard visual design`
 
+**Status: first pass implemented, not yet validated.** Functionally confirmed working on the Pi (Phases 2–4). First round of feedback: icons/badges too big and overlapping. Fixed by adding `transform: translate(-50%, -50%) scale(0.6)` to every element's `style` — the `translate` has to be repeated explicitly because supplying any `transform` replaces Home Assistant's own default centering transform rather than adding to it. Also widened the most crowded cluster (Utomhus: 3 lights + 2 badges) from 4%/5% spacing to 5%/8%, and gave Kontor's 3 lights slightly more room. Desktop-level YAML validation passed (25 elements, all with `transform` set). Still needs: live re-check on the Pi, phone-width readability check, and Rickard's sign-off — likely another visual iteration or two before this phase is done.
+
 ### Phase 6 — Documentation updates
 
 1. Add the new dashboard to `docs/dashboards.md`, following the existing format.

@@ -62,7 +62,8 @@ Directories referenced by `configuration.yaml` but **not present** in the reposi
 
 | Component | Location | Purpose |
 | --- | --- | --- |
-| Core configuration | `configuration.yaml` | Zone/location, HTTP/proxy settings, TTS, camera, frontend themes include, automation/script/scene includes, Lovelace dashboard registration |
+| Core configuration | `configuration.yaml` | Zone/location, TTS, camera, frontend themes include, automation/script/scene includes, Lovelace dashboard registration |
+| HTTP/reverse-proxy settings | HA UI: Settings > System > Network (stored in `.storage/`) | `use_x_forwarded_for` and `trusted_proxies` for the reverse proxy behind `external_url`; YAML `http:` is deprecated (removed in HA 2027.2) |
 | Automations | `automations.yaml` | Home Assistant UI-managed automation definitions (flat list, HA-generated IDs) |
 | Scenes | `scenes.yaml` | HA UI-managed scene definitions |
 | Scripts | `scripts.yaml` | Currently empty; no scripts defined through HA's native script domain |

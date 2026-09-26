@@ -14,28 +14,33 @@ views:
             style:
               top: 69%
               left: 60%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-icon
             entity: light.hallampa
             style:
               top: 69%
               left: 64%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Kontor
           - type: state-icon
             entity: light.kontor
             style:
               top: 68%
-              left: 39%
+              left: 38%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-icon
             entity: light.kontor2
             style:
               top: 68%
               left: 43%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-icon
             entity: light.kontorslampa
             style:
               top: 68%
-              left: 47%
+              left: 48%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # TV-Rum
           - type: state-icon
@@ -43,23 +48,27 @@ views:
             style:
               top: 13%
               left: 30%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Utomhus
           - type: state-icon
             entity: light.ute
             style:
               top: 10%
-              left: 71%
+              left: 70%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-icon
             entity: light.hue_ambiance_lamp_1
             style:
               top: 10%
               left: 75%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-icon
             entity: light.hue_ambiance_lamp_2
             style:
               top: 10%
-              left: 79%
+              left: 80%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Vardagsrum
           - type: state-icon
@@ -67,6 +76,7 @@ views:
             style:
               top: 45%
               left: 75%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Doors / windows
 
@@ -76,6 +86,7 @@ views:
             style:
               top: 70%
               left: 27%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Hall (offset below the light icons to avoid overlap)
           - type: state-icon
@@ -83,11 +94,13 @@ views:
             style:
               top: 73%
               left: 60%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-icon
             entity: binary_sensor.finentre_oppning
             style:
               top: 73%
               left: 64%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Kok - cabinet door, not a room entry door
           - type: state-icon
@@ -95,6 +108,7 @@ views:
             style:
               top: 45%
               left: 42%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # TV-Rum (offset below the light icon)
           - type: state-icon
@@ -102,6 +116,7 @@ views:
             style:
               top: 17%
               left: 30%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Vardagsrum (offset below the light icon)
           - type: state-icon
@@ -109,6 +124,7 @@ views:
             style:
               top: 49%
               left: 75%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Temperature / humidity badges
 
@@ -118,6 +134,7 @@ views:
             style:
               top: 77%
               left: 62%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Sovrum
           - type: state-badge
@@ -125,11 +142,13 @@ views:
             style:
               top: 18%
               left: 11%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-badge
             entity: sensor.sensor_sovrum_multisensor_luftfuktighet
             style:
               top: 18%
               left: 15%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # TV-Rum
           - type: state-badge
@@ -137,23 +156,27 @@ views:
             style:
               top: 21%
               left: 28%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-badge
             entity: sensor.tv_rum_luftfuktighet
             style:
               top: 21%
               left: 32%
+              transform: translate(-50%, -50%) scale(0.6)
 
-          # Utomhus
+          # Utomhus (widened and dropped further below the light row)
           - type: state-badge
             entity: sensor.utetemp_temperatur
             style:
-              top: 14%
-              left: 73%
+              top: 18%
+              left: 71%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-badge
             entity: sensor.utetemp_luftfuktighet
             style:
-              top: 14%
-              left: 77%
+              top: 18%
+              left: 79%
+              transform: translate(-50%, -50%) scale(0.6)
 
           # Vardagsrum
           - type: state-badge
@@ -161,8 +184,10 @@ views:
             style:
               top: 53%
               left: 73%
+              transform: translate(-50%, -50%) scale(0.6)
           - type: state-badge
             entity: sensor.sensor_kontor_luftkvalitet_luftfuktighet
             style:
               top: 53%
               left: 77%
+              transform: translate(-50%, -50%) scale(0.6)

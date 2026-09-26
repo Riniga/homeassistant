@@ -9,11 +9,7 @@ homeassistant:
   external_url: "https://home.mjukvaror.com"
   allowlist_external_dirs:
     - /config/www
-http:
-  use_x_forwarded_for: true
-  trusted_proxies:
-    - 192.168.20.64 # Add the IP address of the proxy server
-    
+
 # Loads default set of integrations. Do not remove.
 default_config:
 
