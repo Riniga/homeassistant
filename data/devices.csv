@@ -8,7 +8,8 @@ fe1a84dfddd8cda98c6ec58e06916ef9,,Badrum,,Google Inc.,Google Nest Mini
 a0a98c6429333934833c06830a42d8a8,,Familjerum,,Google Inc.,Chromecast
 5ddaa2806853b0ab93fc1990927d410b,,Sovrum,,Unknown manufacturer,Marshall Acton II
 a4a41b9167e7c11c6bf1ebf4c319a362,,hci0 (DC:A6:32:40:31:3A),,Raspberry Pi Trading Ltd,bcm43438-bt
-d8de3c30a32bb0fad62c4d73200c8a14,Kök.MediaPlayer.Sonos,Kök,kok,Sonos,SYMFONISK Bookshelf
+548c96c88f896ff262a9a85e7066aa1a,Kök.MediaPlayer.Sonos,Kök,kok,Sonos,SYMFONISK Bookshelf
+734b99cc33580588c00bec39eb1146ce,Kök.MediaPlayer.Sonos,SonosZP,kok,Sonos,SYMFONISK Bookshelf
 48df2ffd85ef9a9490139fd22cc34a0f,,Rickard,,samsung,SM-G991B
 6b542e6a649e9679e9555d4652535565,Utomhus.Sensor.Forcast,Forecast,utomhus,Met.no,Forecast
 b379c937bfbefdac70538f474ff04e66,Tv-rum.Sensor.Klimat.Netatmo,Unknown 70:ee:50:74:46:84,tv_rum,Netatmo,Smart Home Weather station
@@ -59,7 +60,8 @@ d86a2aff814dc40b81e60c0c3415844a,,Chromecast,,Google Inc.,Chromecast
 58d0881ffc86af4e284412281d4da98f,,Midea Air Appliances (LAN),,nbogojevic,integration
 fcf2970ab523d53efb8f98683a0ad61b,,Plejd,,thomasloven,integration
 1103c2ae3c1bd95e56b7c9f56abc1150,,Hue dimmer switch 1,,Signify Netherlands B.V.,Hue dimmer switch
-69ddcb383086c09c60cbc5f9066e068c,,Hue Bridge,kontor,Signify Netherlands B.V.,Hue Bridge
+528e83200628bfe0f0dc6b7eec76542f,,Hue Bridge,kontor,Signify Netherlands B.V.,Hue Bridge
+1b8269cc556a5fa4c70e8633b4a13c8b,,Philips Hue Bridge,kontor,Philips Lighting BV,Hue Bridge
 45b4c0ef258411a280d36ba8d67075e6,,Hue ambiance lamp 1,utomhus,Signify Netherlands B.V.,Hue ambiance lamp
 80984bd02edf0a397100926bf232fc71,,Hue ambiance lamp 2,utomhus,Signify Netherlands B.V.,Hue ambiance lamp
 1fcc19fe03994295de94d3982c7de372,,Kontorslampa,kontor,Signify Netherlands B.V.,Hue color lamp
@@ -70,7 +72,8 @@ d99d073e2a10408d1b6ebc8cb2f10b18,Hall.Lamp.Byrålampa.Hue,Hall,hall,Signify Neth
 00112bc1319ceeeb3f972149e466d13b,,Gardena Smart System,,py-smart-gardena,integration
 fc551fb7805173270d825bfcd1372990,,Backup,,Home Assistant,Home Assistant Backup
 35e5a43dd2b50bb1c1b5a6560042c65c,Utomhus.Robot.Gräsklippare.Gardena,Fåret Shaun,utomhus,Gardena,GARDENA smart Mower
-39596380b0a23a5e2d580011667b0545,Hall.Robot.Damsugaren.Roborock,Mo,hall,Roborock,roborock.vacuum.a27
+ae42af60d277d2c5476b08074b39c54d,Hall.Robot.Damsugaren.Roborock,Mo,hall,Roborock,roborock.vacuum.a27
+e715b6f8ac84bd3139281ea598576272,Hall.Robot.Damsugaren.Roborock,roborock-vacuum-a27,hall,Roborock,roborock.vacuum.a27
 8d314fd87b1ddda771cd4ab80543aa3d,Hall.Dockingstation.Damsugaren.Roborock,Mo Dock,hall,Roborock,roborock.vacuum.a27 Dock
 69d4a783f4393f8912dcb81f6fe51c65,,Växthuset,,Google Inc.,Google Nest Mini
 6e37365db06f46e2d680d6fee6acb1c1,,Bastun,,Google Inc.,Google Nest Mini
@@ -79,8 +82,10 @@ fc551fb7805173270d825bfcd1372990,,Backup,,Home Assistant,Home Assistant Backup
 8fb84ae433827071eea4c8c4f79acf96,,Sigenergy ESS,,TypQxQ,integration
 152899b9ee49ba19cf84815acc2e97fa,,Matter Server,,Official apps,Home Assistant App
 01cfb9510678dd86df9825a1dc38cad2,,Kontor,,Google Inc.,Google Nest Mini
-0b77fff46b69617d597ccd0ed34e9a7a,Kontor.Hub.SmartThings-IoT,Hub - SmartThings - IoT,kontor,"SAMJIN Co., Ltd.",V3_HUB
-6d44caf1100d24f84eba9ead37b20965,Kök.Hub.SmartThings-Security,Hub - SmartThings - Larm,kok,"SAMJIN Co., Ltd.",V4_HUB
+05d041a8d1fbaff7693ea7a634280474,Kontor.Hub.SmartThings-IoT,Hub - SmartThings - IoT,kontor,"SAMJIN Co., Ltd.",V3_HUB
+8ece2dc73876c1f63df9ae0dac358bf2,Kontor.Hub.SmartThings-IoT,SureFlap Hub,kontor,"SAMJIN Co., Ltd.",V3_HUB
+505b3e1585526fb837ec369df6f80889,Kök.Hub.SmartThings-Security,Hub - SmartThings - Larm,kok,"SAMJIN Co., Ltd.",V4_HUB
+203d88e24421351a558b5703f707518d,Kök.Hub.SmartThings-Security,hubv4-04022002128,kok,"SAMJIN Co., Ltd.",V4_HUB
 92a2624ee540dafc1b552b7943553225,Sovrum.Sensor.Multisensor.SmartThings,Sensor - Sovrum - Multisensor,sovrum,,
 e2846d4c3d7d3c63bb481316ee4439df,Matkällaren.Sensor.Multisensor.SmartThings,Sensor - Matkällaren - Multisensor,matkallare,,
 478c4ddd25726ba256b6844c5385c29d,Källarhall.BinarySensor.Rök.SmartThings,Sensor  - Källarhall - Rökdetektor,kallarhall,,
@@ -122,7 +127,6 @@ eca6d9ae398ff81a50b39d6e4596a509,,USW-Lite-Kontoret,kontor,Ubiquiti Networks,USL
 93fbf4350a90891b75e663c1ea657c95,,LGwebOSTV,tv_rum,LG Electronics,
 c7a8fe6ee97dd53b5f269d103812b895,,Raspberry PI Lab,kontor,Raspberry Pi Trading Ltd,
 b4350a22a591e4e230f1acd07a8ff183,,Raspberry PI Homeassistant,kontor,Raspberry Pi Trading Ltd,
-fb227181896b4e03ea8a620c8be93457,,SEHP5CG2118GRZ,kontor,HP Inc.,
 82ecebcf0fa3effec81c62362e03e958,,Verisure gateway,kok,Securitas Direct AB,
 c1463cc8f51bce0d9256d5d8936a0c8c,,Buddha,kontor,,
 ae088213969447df3b47ac747d76a46c,,Samsung  SmartThings Hub,kontor,IEEE Registration Authority,
@@ -134,8 +138,23 @@ a8931142e2c381d65596f2a6c1bf5fef,,HP7C4D8F707149,kontor,HP Inc.,
 160168be1a325e5100110e9936a66326,,Aether_Lan,,Ubiquiti Networks,UniFi WLAN
 de1cb81566d6b412e202bd22a4fc3c70,,Aether_Security,,Ubiquiti Networks,UniFi WLAN
 76f82a63e37fbee66fd3703599dc2d2b,,FelixPC,,"Micro-Star INTL CO., LTD.",
-77e781d980fa1c590e956cef361e36e3,,,,,
-f100f94163f9d73fa30869e011cc402d,,,,,
-8bce6db4be1b2f2a2db35001f4a109b4,,DESKTOP-TRDBQ3I,,Intel Corporate,
+77e781d980fa1c590e956cef361e36e3,,iPhone,,,
 0c6fb127e0f8c7ccca4953f953c767d8,,Raspberry Pi,,Raspberry Pi,
 772736571d26ddcc58c746614d228d5a,,Raspberry Pi 4,,Raspberry Pi,4
+c90f9f707d4d64564e94dfe1381f0760,,SEHP5CG62719NX,,,
+8c977655148aed64758ae4c81ef20385,,sensehat,,Raspberry Pi Foundation,
+94aae1cad477793024c4b9c96bfd8b8a,,sensehat,,Raspberry Pi Foundation,
+489809360c37ab4326cf525bba3341fc,,Hemma,,Netatmo,Home
+d9ba39079429e0074c0c44f1a561f48c,,Music Assistant,,Music Assistant,Home Assistant App
+abd9a42ae900c5e8cf9eef6ae80299d0,,Plejd-Gateway,,IEEE Registration Authority,
+4913ae795f92875e45508bb020edb322,,Vardagsrum,vardagsrum,Google Inc.,Nest Audio
+3d42e57abd1395ae6c2982d39ad21523,,Bastun,kallare,Google Inc.,Google Nest Mini
+271595be24bd32070db4f5aa873ce6ce,,Chromecast,felix_rum,Google Inc.,Chromecast
+447b85c9d881a86cd6d09662fc33a65c,,Kök,kok,SONOS,Bookshelf
+46162568d0ad994c680575bc41f64b01,,MacBook Pro som tillhör Leo,,Apple,"MacBook Pro (MacBookPro18,1)"
+12181ff10f185244e1e6176d9b58002b,,[LG] webOS TV OLED55G36LA,tv_rum,LG,OLED55G36LA
+c5a70408c6906e2c83f719e09cc22d8a,,Sovrum,kallare,Unknown manufacturer,Marshall Acton II
+5e819c146b77f21ed384e7d34e557b03,,Plejd Gateway EEC25BDEC78B,kontor,Plejd,GWY-01
+cdb0258b32d049c8d778fbd10c2b8582,,Dimmer - Tvrum - Taklampa - Tvrum,tv_rum,Plejd,DIM-01
+a358b2d236e392d88c16f9089f301e68,,Dimmer - Kontor - Taklampa - Tvättstuga,tvattstuga,Plejd,DIM-01
+5812ced5d0bc5f09095d69e62e1713bc,,Skenbelysning - Kök,kok,Plejd,DIM-01
